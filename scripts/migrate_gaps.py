@@ -1,0 +1,434 @@
+#!/usr/bin/env python3
+"""
+migrate_gaps.py - Parse APPENDIX_GAPS.md and extract to YAML.
+One-time migration script.
+"""
+import re
+import yaml
+from pathlib import Path
+
+SRC = Path("/mnt/project/APPENDIX_GAPS.md")
+OUT = Path("/home/claude/itp-db/data/gaps.yaml")
+
+# Manually curated gap entries from the source file
+# This is necessary because APP-G has highly irregular table structures
+
+gaps = []
+
+# === SESSION LOG ENTRIES (status tracking) ===
+# These are tracked separately as session_logs in the metadata
+
+# === PRIORITY 1: CRITICAL REMAINING GAPS ===
+priority_1 = [
+    {
+        "id": "gap-artesh-loyalty",
+        "description": "Artesh unit-level loyalty signals during Jan 8-9 massacre",
+        "priority": 1,
+        "status": "OPEN",
+        "modules": ["ITB-B"],
+        "why_critical": "Unverifiable under blackout. Core to Trap 2 resolution.",
+        "blocking_for": ["ISA-TRAPS Trap 2"],
+        "session_identified": 8,
+        "cross_refs": ["ISA-TRAPS Trap 2", "ISA-CORE"],
+    },
+    {
+        "id": "gap-irgc-command-cohort",
+        "description": "IRGC new command cohort verified factional alignments",
+        "priority": 1,
+        "status": "ELEVATED",
+        "modules": ["ITB-B", "ISA-CORE"],
+        "why_critical": "Post-decapitation reconstitution creates succession vulnerability. Need to know who controls what. Four-layer succession plan makes alignments now determine wartime governance.",
+        "blocking_for": ["ISA-SCENARIOS succession analysis"],
+        "session_identified": 8,
+        "cross_refs": [],
+    },
+    {
+        "id": "gap-heyat-armed",
+        "description": "Heyat network armed capability (quantitative)",
+        "priority": 1,
+        "status": "OPEN",
+        "modules": ["ITB-A10"],
+        "why_critical": "Eschatological faction sabotage capacity. No weapons/manpower data.",
+        "blocking_for": ["ISA-TRAPS Trap 8"],
+        "session_identified": 4,
+        "cross_refs": ["ITB-A10"],
+    },
+    {
+        "id": "gap-round2-geneva",
+        "description": "Round 2 Geneva outcome (Feb 17)",
+        "priority": 1,
+        "status": "FILLED",
+        "modules": ["ITB-F", "ITB-A11", "ISA-SCENARIOS"],
+        "why_critical": "Documented in ITB-A11 sources + ISA-SCENARIOS. No breakthrough but framework continues.",
+        "session_filled": 9,
+        "fill_note": "Reclassified from Priority 1. Two clocks / velocity gap analysis derived from outcome.",
+        "cross_refs": ["Obs 010"],
+    },
+    {
+        "id": "gap-basij-active-nominal",
+        "description": "Basij active vs. nominal membership",
+        "priority": 1,
+        "status": "ELEVATED",
+        "modules": ["ITB-A9"],
+        "why_critical": "Strike triggers domestic unrest; deployment capacity critical.",
+        "session_identified": 8,
+        "cross_refs": ["ITB-A9"],
+    },
+    {
+        "id": "gap-underground-capacity",
+        "description": "Underground organizational capacity inside Iran",
+        "priority": 1,
+        "status": "ELEVATED",
+        "modules": ["ITB-D", "ITB-G"],
+        "why_critical": "Strike power vacuum; who fills it?",
+        "session_identified": 8,
+        "cross_refs": [],
+    },
+    {
+        "id": "gap-syria-veterans-domestic",
+        "description": "Syria veteran count in domestic security",
+        "priority": 1,
+        "status": "ELEVATED",
+        "modules": ["ITB-A9"],
+        "why_critical": "IRGC-Hezbollah activation means Syria commanders redeployed.",
+        "session_identified": 8,
+        "cross_refs": ["ITB-A9"],
+    },
+    {
+        "id": "gap-regime-strain-assessment",
+        "description": "Regime internal assessment of US strain",
+        "priority": 1,
+        "status": "OPEN",
+        "modules": ["ITB-A12"],
+        "why_critical": "Determines regime Phase 3 transition timing. No direct access under blackout.",
+        "session_identified": 15,
+        "cross_refs": ["ITB-A12 A12.9"],
+    },
+    {
+        "id": "gap-backchannel-substance",
+        "description": "Backchannel substance (not atmospherics)",
+        "priority": 1,
+        "status": "OPEN",
+        "modules": ["ITB-A12"],
+        "why_critical": "Determines whether diplomatic track has real content.",
+        "session_identified": 15,
+        "cross_refs": ["ITB-A12 A12.9"],
+    },
+]
+
+# === G14 GAPS ===
+g14_gaps = [
+    {
+        "id": "G14-01",
+        "description": "Larijani factional positioning vs. Mirbagheri/Paydari",
+        "priority": 1,
+        "status": "FILLED",
+        "modules": ["ISA-SCENARIOS", "ITB-A"],
+        "why_critical": "Larijani and Paydari documented opponents since 2011 split.",
+        "session_identified": 14,
+        "session_filled": 14,
+        "fill_note": "Integrated into Brief #5 v3.0, Obs 016.",
+        "cross_refs": ["Obs 016", "Brief 5"],
+    },
+    {
+        "id": "G14-02",
+        "description": "Defense Council composition and Shamkhani authority",
+        "priority": 1,
+        "status": "OPEN",
+        "modules": ["ITB-A", "ITB-B"],
+        "why_critical": "May become post-strike power center. Composition unknown.",
+        "session_identified": 14,
+        "cross_refs": [],
+    },
+    {
+        "id": "G14-03",
+        "description": "IRGC retaliation capacity post-June 2025",
+        "priority": 1,
+        "status": "OPEN",
+        "modules": ["ITB-B"],
+        "why_critical": "Determines regime response options if strikes occur.",
+        "session_identified": 14,
+        "cross_refs": [],
+    },
+    {
+        "id": "G14-04",
+        "description": "Artesh unit-level loyalty (upgraded from existing)",
+        "priority": 1,
+        "status": "OPEN",
+        "modules": ["ITB-B"],
+        "why_critical": "Now blocking under strike scenario.",
+        "session_identified": 14,
+        "upgrades": "gap-artesh-loyalty",
+        "cross_refs": ["gap-artesh-loyalty"],
+    },
+    {
+        "id": "G14-05",
+        "description": "IRGC African operations (Sudan, Horn, Sahel)",
+        "priority": 2,
+        "status": "OPEN",
+        "modules": ["ITB-B", "ITB-F"],
+        "why_critical": "Unmapped theater of operations.",
+        "session_identified": 14,
+        "cross_refs": [],
+    },
+    {
+        "id": "G14-06",
+        "description": "Larijani succession planning -- four layers detail",
+        "priority": 2,
+        "status": "OPEN",
+        "modules": ["ITB-A", "ISA-SCENARIOS"],
+        "why_critical": "Four-layer succession directive scope and content unknown.",
+        "session_identified": 14,
+        "cross_refs": [],
+    },
+    {
+        "id": "G14-07",
+        "description": "Iran fortified nuclear sites hardening status",
+        "priority": 2,
+        "status": "OPEN",
+        "modules": ["ITB-B"],
+        "why_critical": "Determines strike campaign requirements.",
+        "session_identified": 14,
+        "cross_refs": [],
+    },
+    {
+        "id": "G14-08",
+        "description": "Hezbollah reconstituted missile inventory post-Nov 2024 ceasefire",
+        "priority": 2,
+        "status": "OPEN",
+        "modules": ["ITB-B", "ITB-F"],
+        "why_critical": "Determines multi-front escalation risk.",
+        "session_identified": 14,
+        "cross_refs": [],
+    },
+    {
+        "id": "G14-09",
+        "description": "Intra-student factional dynamics (monarchist/republican/feminist)",
+        "priority": 3,
+        "status": "OPEN",
+        "modules": ["ITB-D", "ITB-G"],
+        "why_critical": "Affects post-transition political landscape.",
+        "session_identified": 14,
+        "cross_refs": [],
+    },
+    {
+        "id": "G14-10",
+        "description": "Araghchi actual authority scope -- does he negotiate or transmit?",
+        "priority": 3,
+        "status": "OPEN",
+        "modules": ["ITB-A", "ITB-F"],
+        "why_critical": "Larijani authorization chain means Araghchi may have zero independent negotiating authority.",
+        "session_identified": 14,
+        "cross_refs": [],
+    },
+]
+
+# === G12 GAPS (F11/F12 Normalization Quality) ===
+g12_gaps = [
+    {
+        "id": "G12-01",
+        "description": "Current NIOC board composition -- IRGC vs. civilian leadership",
+        "priority": 1,
+        "status": "OPEN",
+        "modules": ["ITB-F12", "ISA-SCENARIOS"],
+        "why_critical": "Determines baseline for NIOC de-designation conditionality design.",
+        "blocking_for": ["ITB-F12 B1", "ISA-SCENARIOS Scenario 5"],
+        "session_identified": 12,
+        "cross_refs": ["NQ-01"],
+    },
+    {
+        "id": "G12-02",
+        "description": "Khatam al-Anbiya current contract pipeline (2025-2026)",
+        "priority": 1,
+        "status": "OPEN",
+        "modules": ["ITB-F12", "ISA-TRAPS"],
+        "why_critical": "Maps specific economic assets requiring divestiture in any deal conditionality architecture.",
+        "blocking_for": ["ITB-F12 4.2", "ISA-TRAPS Trap 10"],
+        "session_identified": 12,
+        "cross_refs": [],
+    },
+    {
+        "id": "G12-03",
+        "description": "IRGC bank ownership structure (current, post-2024)",
+        "priority": 1,
+        "status": "OPEN",
+        "modules": ["ITB-F12", "ISA-TRAPS"],
+        "why_critical": "Correspondent banking restoration conditionality design requires knowing current penetration depth.",
+        "blocking_for": ["ITB-F12 B2", "ISA-TRAPS Trap 10"],
+        "session_identified": 12,
+        "cross_refs": ["NQ-05"],
+    },
+    {
+        "id": "G12-04",
+        "description": "Iranian private sector capital flight estimate (2022-2026)",
+        "priority": 2,
+        "status": "OPEN",
+        "modules": ["ITB-C", "ITB-F12"],
+        "why_critical": "Quantifies reconstruction financing gap.",
+        "session_identified": 12,
+        "cross_refs": [],
+    },
+    {
+        "id": "G12-05",
+        "description": "Qatar's specific lobbying activity in US re: Iran deal conditionality",
+        "priority": 2,
+        "status": "OPEN",
+        "modules": ["ITB-F12", "ISA-TRAPS"],
+        "why_critical": "Documents whether Qatar is actively opposing Type B conditionality in Washington.",
+        "session_identified": 12,
+        "cross_refs": ["ISA-TRAPS Trap 10"],
+    },
+    {
+        "id": "G12-06",
+        "description": "Chinese oil company IPC contract pipeline in South Pars (current)",
+        "priority": 2,
+        "status": "OPEN",
+        "modules": ["ITB-F12"],
+        "why_critical": "Quantifies China vacuum timeline if hollow deal proceeds.",
+        "session_identified": 12,
+        "cross_refs": ["NQ-07"],
+    },
+    {
+        "id": "G12-07",
+        "description": "Pakistan informal petroleum trade with Iran (Balochistan)",
+        "priority": 2,
+        "status": "OPEN",
+        "modules": ["ITB-F11"],
+        "why_critical": "Quantifies actual Type A trade benefit for Pakistan.",
+        "session_identified": 12,
+        "cross_refs": [],
+    },
+    {
+        "id": "G12-08",
+        "description": "Oman re-export mapping -- which goods, which Iranian counterparties",
+        "priority": 2,
+        "status": "OPEN",
+        "modules": ["ITB-F11"],
+        "why_critical": "Transport equipment and electrical machinery categories raise sanctions compliance questions.",
+        "session_identified": 12,
+        "cross_refs": ["NQ-10"],
+    },
+    {
+        "id": "G12-09",
+        "description": "Armenia June 2026 elections -- pro-Western consolidation vs. reversal",
+        "priority": 2,
+        "status": "OPEN",
+        "modules": ["ITB-F11"],
+        "why_critical": "TRIPP corridor durability depends on Armenian parliamentary outcome.",
+        "session_identified": 12,
+        "cross_refs": [],
+    },
+    {
+        "id": "G12-10",
+        "description": "Diaspora capital estimation -- rigorous methodology",
+        "priority": 2,
+        "status": "OPEN",
+        "modules": ["ITB-G", "ITB-F12"],
+        "why_critical": "Current $1-3T estimate is rough; needs rigorous methodology.",
+        "session_identified": 12,
+        "cross_refs": [],
+    },
+]
+
+# === G13 GAPS ===
+g13_gaps = [
+    {
+        "id": "G13-01",
+        "description": "Florida Group composition",
+        "priority": 2,
+        "status": "DEPRIORITIZED",
+        "modules": ["ITB-G"],
+        "why_critical": "Strike scenario makes Track B less immediately relevant.",
+        "session_identified": 13,
+        "cross_refs": [],
+    },
+    {
+        "id": "G13-02",
+        "description": "Graham-Qatar financial relationship",
+        "priority": 2,
+        "status": "DEPRIORITIZED",
+        "modules": ["ISA-TRAPS"],
+        "why_critical": "Congressional kill switch matters less if strike preempts deal.",
+        "session_identified": 13,
+        "cross_refs": ["ISA-TRAPS Trap 11"],
+    },
+]
+
+# === G16 GAPS ===
+g16_gaps = [
+    {
+        "id": "G16-03",
+        "description": "Student protest organizational infrastructure",
+        "priority": 2,
+        "status": "OPEN",
+        "modules": ["ITB-D", "ITB-G"],
+        "why_critical": "12+ universities in 4 days suggests coordination capacity beyond spontaneous action. Nature and resilience of organizing networks determines whether internal resistance clock sustains or collapses.",
+        "session_identified": 16,
+        "upgrades": "G14-09",
+        "cross_refs": ["ITB-A12 A12.3.6"],
+    },
+    {
+        "id": "G16-04",
+        "description": "University online-class policy as regime strategy",
+        "priority": 2,
+        "status": "OPEN",
+        "modules": ["ITB-D"],
+        "why_critical": "Online classes through March 20 may be tactical retreat or strategic clearing before Nowruz.",
+        "session_identified": 16,
+        "cross_refs": ["ITB-A12 A12.3.6"],
+    },
+]
+
+# === A12 GAPS (Session 15) ===
+a12_gaps = [
+    {
+        "id": "gap-historical-phase-mapping",
+        "description": "Historical phase-mapping across past coercive-endurance cycles",
+        "priority": 2,
+        "status": "OPEN",
+        "modules": ["ITB-A12"],
+        "why_critical": "Would validate 5-phase model against empirical record.",
+        "session_identified": 15,
+        "cross_refs": ["ITB-A12 A12.9"],
+    },
+    {
+        "id": "gap-eschatological-disruption-speed",
+        "description": "Eschatological disruption activation speed",
+        "priority": 2,
+        "status": "OPEN",
+        "modules": ["ITB-A12"],
+        "why_critical": "Determines Phase 3->4 fracture timing.",
+        "session_identified": 15,
+        "cross_refs": ["ITB-A12 A12.9", "ITB-A10"],
+    },
+]
+
+# Combine all
+all_gaps = priority_1 + g14_gaps + g12_gaps + g13_gaps + g16_gaps + a12_gaps
+
+output = {
+    "version": "2.4",
+    "date": "2026-02-24",
+    "source": "v2.2 + Session 14 reassessment + Session 15 A12 + Session 16 student gaps",
+    "summary": {
+        "priority_1_active": sum(1 for g in all_gaps if g["priority"] == 1 and g["status"] in ("OPEN", "ELEVATED")),
+        "priority_2_total": sum(1 for g in all_gaps if g["priority"] == 2),
+        "priority_3_total": sum(1 for g in all_gaps if g["priority"] == 3),
+        "filled_total": sum(1 for g in all_gaps if g["status"] == "FILLED"),
+    },
+    "entries": all_gaps,
+}
+
+OUT.parent.mkdir(parents=True, exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    yaml.dump(output, f, default_flow_style=False, allow_unicode=True, width=200, sort_keys=False)
+
+print(f"Migrated {len(all_gaps)} gaps to {OUT}")
+print(f"  P1 active: {output['summary']['priority_1_active']}")
+print(f"  P2 total:  {output['summary']['priority_2_total']}")
+print(f"  P3 total:  {output['summary']['priority_3_total']}")
+print(f"  Filled:    {output['summary']['filled_total']}")
+
+
+if __name__ == "__main__":
+    pass  # Already runs at import

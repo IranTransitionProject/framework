@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Session",
+  "description": "A research session log entry",
+  "type": "object",
+  "required": ["number", "date", "summary", "modules_affected"],
+  "additionalProperties": false,
+  "properties": {
+    "number": {
+      "type": ["integer", "string"],
+      "description": "Session number (can be compound like '11-12')"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "modules_affected": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+# ISA-TRAPS: SIMULTANEITY TRAP CATALOG
+
+**Module Code:** ISA-TRAPS
+**Version:** {{ traps_meta.version }}
+**Date:** {{ traps_meta.date }}
+**Source:** {{ traps_meta.source }}
+**Dependencies:** ITB-A, ITB-A8, ITB-A9, ITB-A10, ITB-A11
+**Referenced by:** ISA-CORE (intervention sequencing), ISA-SCENARIOS (scenario branching)
+
+**Definition:** {{ traps_meta.definition }}
+
+---
+
+## 4. SIMULTANEITY TRAP CATALOG
+
+**Definition:** {{ traps_meta.definition }}
+
+---
+{% for trap in traps %}
+
+### Trap {{ trap.id }}: {{ trap.title }}{% if trap.session_added > 1 %} ({% if trap.category == "negotiation_deal" %}New — Session {{ trap.session_added }}{% else %}New v1.2{% endif %}){% endif %}
+
+{% if trap.extensions %}
+{% for ext in trap.extensions if ext.version != trap.extensions[0].version or loop.first %}
+{% endfor %}
+{% endif %}
+* **Mechanism:** {{ trap.mechanism }}
+* **Circular structure:** {{ trap.circular_structure }}
+{% if trap.extensions %}
+{% for ext in trap.extensions %}
+* **{{ ext.title }} ({{ ext.version }}):** {{ ext.content }}
+{% endfor %}
+{% endif %}
+* **Resolution path:** {{ trap.resolution_path }}
+{% if trap.detection_signal %}
+* **Detection signal:** {{ trap.detection_signal }}
+{% endif %}
+{% if trap.historical_parallels %}
+{% for hp in trap.historical_parallels %}
+* **[HISTORICAL PARALLEL: {{ hp.case }}]** {{ hp.lesson }}
+{% endfor %}
+{% endif %}
+* **ITB anchors:** {{ trap.itb_anchors | join(', ') }}. {{ trap.confidence }}
+
+---
+{% endfor %}
+
+{{ traps_meta.footer }}
+
+{{ traps_meta.category_note }}

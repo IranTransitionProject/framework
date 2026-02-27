@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Module",
+  "description": "A project module in the registry",
+  "type": "object",
+  "required": ["code", "file", "version", "description"],
+  "additionalProperties": false,
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "Module code (e.g., 'ITB-A', 'ISA-CORE')"
+    },
+    "file": {
+      "type": "string",
+      "description": "Filename"
+    },
+    "version": {
+      "type": "string"
+    },
+    "lines_approx": {
+      "type": "string",
+      "description": "Approximate line count"
+    },
+    "description": {
+      "type": "string"
+    },
+    "level": {
+      "type": "integer",
+      "enum": [0, 1, 2, 3],
+      "description": "0=Navigation, 1=Pillar A, 2=Pillars B-H, 3=ISA/Appendix"
+    },
+    "dependencies": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "referenced_by": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Variable",
+  "description": "A tracked variable in the Iran Transition Project dashboard",
+  "type": "object",
+  "required": ["id", "name", "table", "current_value", "trend", "insight", "confidence"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (e.g., 'SV-01', 'FV-03', 'TV-02', 'PO-05', 'NQ-07')",
+      "pattern": "^(SV|FV|TV|PO|NQ)-\\d{2}$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the variable"
+    },
+    "table": {
+      "type": "string",
+      "enum": ["stock", "flow", "threshold", "positive_optionality", "normalization_quality"],
+      "description": "Which dashboard table this variable belongs to"
+    },
+    "current_value": {
+      "type": "string",
+      "description": "Current observed or estimated value"
+    },
+    "trend": {
+      "type": "string",
+      "description": "Direction of change (e.g., 'Aging', 'Accelerating', 'Static', 'Unknown')"
+    },
+    "insight": {
+      "type": "string",
+      "description": "Critical analytical insight or ratio"
+    },
+    "confidence": {
+      "type": "string",
+      "description": "Confidence band: [High], [Med], [Low], or compound like [Fact -- High; trend Inference -- Med]"
+    },
+    "version_added": {
+      "type": "string",
+      "description": "Version when this variable was added (e.g., 'v1.0', 'v1.3')"
+    },
+    "session_added": {
+      "type": ["integer", "null"],
+      "description": "Session number when added"
+    },
+    "cross_refs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Module/section cross-references (e.g., ['ITB-A10', 'ISA-TRAPS Trap 8'])"
+    },
+    "epistemic_tag": {
+      "type": "string",
+      "enum": ["Fact", "Inference", "Uncertain", "Speculation", "Mixed"],
+      "description": "Primary epistemic classification"
+    },
+    "monitoring_note": {
+      "type": "string",
+      "description": "Monitoring cadence or special instructions"
+    },
+    "nq_type": {
+      "type": "string",
+      "enum": ["Stock", "Flow"],
+      "description": "For NQ variables only: stock vs flow type"
+    },
+    "nq_threshold": {
+      "type": "string",
+      "description": "For NQ variables only: threshold or range description"
+    }
+  }
+}

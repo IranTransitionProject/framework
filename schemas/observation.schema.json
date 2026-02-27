@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Observation",
+  "description": "An analytical observation (the 'so-what' log)",
+  "type": "object",
+  "required": ["id", "title", "diagnosis", "strategic_implication"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "Observation number (1-21+)"
+    },
+    "title": {
+      "type": "string",
+      "description": "Short descriptive title"
+    },
+    "diagnosis": {
+      "type": "string",
+      "description": "What is true (analytical finding)"
+    },
+    "strategic_implication": {
+      "type": "string",
+      "description": "What this means for planning"
+    },
+    "itb_anchors": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "ITB section references"
+    },
+    "scenario_impact": {
+      "type": "object",
+      "description": "Impact on specific scenarios, keyed by scenario ID",
+      "additionalProperties": { "type": "string" }
+    },
+    "corrections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["session", "date", "content"],
+        "properties": {
+          "session": { "type": "integer" },
+          "date": { "type": "string", "format": "date" },
+          "content": { "type": "string" }
+        }
+      },
+      "description": "Subsequent corrections or updates"
+    },
+    "leading_indicators": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "What to monitor"
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Source citations"
+    },
+    "cross_refs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Cross-references to traps, other observations, modules"
+    },
+    "version_added": {
+      "type": "string",
+      "description": "ISA-SCENARIOS version when added"
+    },
+    "session_added": {
+      "type": "integer",
+      "description": "Session number when added"
+    },
+    "confidence": {
+      "type": "string"
+    }
+  }
+}

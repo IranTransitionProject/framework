@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# output/ is intentionally tracked — generated markdown is readable on GitHub
+# To exclude it, uncomment the line below:
+# output/

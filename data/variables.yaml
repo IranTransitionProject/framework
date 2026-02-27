@@ -1,0 +1,919 @@
+version: '1.7'
+date: '2026-02-24'
+source: v1.5 + Session 15 (A12 variables) + Session 16 integration
+monitoring_notes:
+- Variables require weekly recheck on flow and threshold tables. Stock variables recheck monthly or on significant event.
+- 'v1.2 NOTE (still active): Given active mourning cycle, Hormuz exercise tempo, and campaign-ready US force posture, flow and threshold variables should be rechecked every 3-5 days until situation stabilizes
+  or transitions to a new phase.'
+- 'v1.3 NOTE: Paydari trajectory and Ghalibaf timeline variables are election-cycle dependent (2028); monitor Guardian Council candidate approval patterns in 2027 as leading indicator. Judicial moratorium
+  threshold is instantaneous upon any transition event -- no warning lag.'
+- 'v1.5 NOTE (CRITICAL): Trump deadline variables, Iran proposal delivery, Geneva Round 3 outcome, and student protest expansion require DAILY monitoring through at least March 6. The system is in maximum-velocity
+  phase. Multiple variables are converging on a ~10-day decision window (Feb 22 to ~March 3). Any individual variable crossing its threshold may cascade the others.'
+- 'v1.7 NOTE (Session 16): IAEA Board (March 2) creates third independent clock converging with Geneva Round 3 and Trump deadline. This is the tightest multi-clock convergence documented in the project.
+  Student protest expansion (12+ universities) now modeled as independent internal resistance clock (A12.3.6). Caine/Cooper dynamics create new variable in Washington Patience Clock. All three factors require
+  monitoring through at least March 6.'
+entries:
+- id: SV-01
+  name: Supreme Leader Age
+  table: stock
+  current_value: 86 (Khamenei)
+  trend: Aging
+  insight: 'Single point of failure: Only 2nd holder; no tested succession'
+  confidence: High
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-02
+  name: IRGC Economic Share
+  table: stock
+  current_value: 25-40% GDP
+  trend: Entrenched
+  insight: 'Parallel state: Cannot reform economy without IRGC confrontation'
+  confidence: Low/Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-03
+  name: HEU Inventory
+  table: stock
+  current_value: ~400 kg (diplomatic ref)
+  trend: '[Unknown]'
+  insight: 'Nuclear breakout: Timeline uncertain post-Midnight Hammer'
+  confidence: Low
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-04
+  name: Protest Deaths (confirmed)
+  table: stock
+  current_value: '7,015+ (HRANA: 6,425 adult protesters, 146 minors, 214 security forces, 57 non-participants)'
+  trend: Accumulating
+  insight: 'Legitimacy hemorrhage: Each death deepens rupture. 26+ death sentences issued; 8,843 indictments = industrial judicial pipeline.'
+  confidence: Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-05
+  name: Population
+  table: stock
+  current_value: ~88-90M
+  trend: Slow growth
+  insight: 'Youth bulge: Large 18-35 cohort most discontented'
+  confidence: Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-06
+  name: Diaspora Size
+  table: stock
+  current_value: 2-4M
+  trend: Stable
+  insight: 'Skills reservoir: No coordination mechanism'
+  confidence: Low
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-07
+  name: National Identity Strength
+  table: stock
+  current_value: HIGH
+  trend: Durable
+  insight: 'Territorial integrity anchor: Strongest vs. Iraq/Libya/Syria'
+  confidence: Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-08
+  name: Theological Violence Doctrine
+  table: stock
+  current_value: ACTIVE (institutionalized)
+  trend: Self-reproducing
+  insight: 'Identity lock: IRGC violence is theologically authorized, creating deeper binding with each act; no clean transition precedent'
+  confidence: Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-09
+  name: IRGC Parallel Society Population
+  table: stock
+  current_value: 2-10M (three-tier estimate)
+  trend: Stable/slowly growing
+  insight: Core (~500K-1M) ideologically bound; majority (~2-4M) economically captive
+  confidence: Inference -- Low/Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-10
+  name: Educational Pipeline Throughput
+  table: stock
+  current_value: 'Shahed: ~405K; Basij Student Org: 4.6M claimed; IHU: ~6K; ISU: ~1-2K'
+  trend: Active
+  insight: 'Pipeline wide at base, narrow at top: mass socialization to elite selection'
+  confidence: Fact/Inference -- Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-11
+  name: Syria-Trained Personnel in Domestic Command
+  table: stock
+  current_value: '[GAP -- unquantified]'
+  trend: Increasing (promotion pattern)
+  insight: 'Doctrine transfer institutional, not anecdotal: IHU academizes Syria methods'
+  confidence: Inference -- Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-12
+  name: Taqiyyah Analytical Exposure
+  table: stock
+  current_value: ACTIVE (institutionalized in ISU, IHU, diplomatic corps)
+  trend: Self-reproducing
+  insight: Western analytical models systematically degraded by theologically authorized strategic deception
+  confidence: Inference -- Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-13
+  name: Pragmatist Institutional Weight
+  table: stock
+  current_value: ~15-25% of elite power structure
+  trend: Unknown
+  insight: Segment 3 controls negotiating table but not implementation machinery; insufficient to deliver compliance against Segments 1+2
+  confidence: Inference -- Med
+  version_added: v1.1
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-14
+  name: Combined A10+Resister Weight
+  table: stock
+  current_value: ~45-65% of institutional power
+  trend: Likely increasing (succession)
+  insight: 'Two-front opposition: theological veto + bureaucratic friction. Together create structural non-compliance'
+  confidence: Inference -- Med
+  version_added: v1.1
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-15
+  name: Majlis Factional Composition (12th Majlis)
+  table: stock
+  current_value: 233/290 principlist (~80%); Paydari ascendant in Tehran; Ghalibaf as Speaker
+  trend: Capturing further (ratchet dynamic)
+  insight: 12th Majlis is the most hardline in IRI history. Reformists boycotted. 41% turnout = election is already near-intra-regime selection. Transition cannot rely on current Majlis as transitional
+    vehicle.
+  confidence: Fact — High; trend projection Inference — Med
+  version_added: v1.3
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-16
+  name: Judicial Reconstruction Capacity
+  table: stock
+  current_value: ZERO usable secular bench; ~70,000 Bar Association lawyers; ~89,000 judiciary employees (all functions)
+  trend: Static until transition begins
+  insight: Single hardest transition task. No secular-trained judges to restore. 47 years of systematic destruction. Bar Association is only survivable institution with independence claim. Bootstrapping
+    problem is absolute.
+  confidence: Inference — High confidence; personnel figures Fact — Med
+  version_added: v1.3
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-17
+  name: Coercive-Endurance Cycle Phase
+  table: stock
+  current_value: Phase 2→3 transition
+  trend: Advancing (slowly)
+  insight: A12.6 current events mapping
+  confidence: Med-High
+  version_added: v1.6
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: SV-18
+  name: Opponent Strain Perception
+  table: stock
+  current_value: Uncertain -- regime assessing
+  trend: Unknown
+  insight: No direct access under blackout
+  confidence: Low
+  version_added: v1.6
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-01
+  name: Rial Exchange Rate
+  table: flow
+  current_value: Collapsed
+  trend: Deteriorating
+  insight: 'Economic trigger: Currency crisis initiated uprising'
+  confidence: Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-02
+  name: Brain Drain
+  table: flow
+  current_value: ~$150B+/yr (est.)
+  trend: Accelerating
+  insight: 'Dual reading: Talent loss domestically; skills reservoir abroad'
+  confidence: Low
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-03
+  name: Protest Intensity
+  table: flow
+  current_value: '[GAP]'
+  trend: Unknown (blackout)
+  insight: 'Information vacuum: Cannot assess trajectory'
+  confidence: Low
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-04
+  name: Negotiation Momentum
+  table: flow
+  current_value: Round 2 complete (Feb 17-18); "guiding principles" agreed; two-week draft exchange proposed
+  trend: Ambiguous â€” thin diplomatic progress concurrent with maximum military buildup
+  insight: '"Guiding principles" < "framework agreement." Vance: Iran hasn''t acknowledged all red lines. Trump strike decision NOT yet made (WSJ Feb 19). Oil markets read talks as slightly de-escalatory
+    (Brent -2.3%).'
+  confidence: Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-05
+  name: Military Buildup Rate
+  table: flow
+  current_value: 2 CSGs + F-22s + F-35s + F-15s + F-16s + KC-135s + AWACS + Patriot; 250+ cargo flights
+  trend: Accelerating
+  insight: 'Largest US air deployment since 2003 Iraq invasion (WSJ). US officials: supports "several weeks" of operations. Exceeds deterrence posture â€” campaign-ready. See ITB-F §F1.1 v2.1.'
+  confidence: High
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-06
+  name: Regime Internal Dissent
+  table: flow
+  current_value: Multiple signals
+  trend: '[Unknown]'
+  insight: 'Hardliner vs. negotiator: Active internal contest'
+  confidence: Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-07
+  name: IRGC Economic Patronage Capacity
+  table: flow
+  current_value: 30-60% GDP
+  trend: Under sanctions pressure
+  insight: Erosion of patronage = erosion of non-ideological loyalty; primary binding mechanism is degrading
+  confidence: Inference -- Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-08
+  name: Washington Patience Clock
+  table: flow
+  current_value: Active (~weeks-months remaining)
+  trend: Compressing
+  insight: Shorter of two clocks governs. Trump rhetoric + Netanyahu pressure + Congressional hawkishness.
+  confidence: Med
+  version_added: v1.1
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-09
+  name: Succession Clock
+  table: flow
+  current_value: Active (months-years)
+  trend: Accelerating (Khamenei diminished)
+  insight: Mirbagheri faction trajectory upward. Each month increases probability of eschatological successor.
+  confidence: Med
+  version_added: v1.1
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-10
+  name: Deal Implementation Friction Rate
+  table: flow
+  current_value: Not yet measurable
+  trend: Projected high
+  insight: '2022 Vienna near-miss as baseline: institutional resistance killed near-complete deal. Current deal requires more reform = more friction.'
+  confidence: Inference -- Med
+  version_added: v1.1
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-11
+  name: 40-Day Mourning Cycle (Chehelom)
+  table: flow
+  current_value: ACTIVE â€” first cycle initiated Feb 17-18 for Jan 8-9 victims
+  trend: Self-reinforcing if new deaths occur
+  insight: '1978-79 revolution escalated through this exact mechanism. Security forces fired on mourners in Abdanan (1 reported killed) and clashed with mourners in Mashhad. Mourning spread beyond cemeteries
+    into streets/hospitals. Cultural shift: music, dance, fireworks replacing Shia religious mourning forms = regime losing control of symbolic register. Regime co-optation attempt (Khamenei "martyrs" framing)
+    rejected. Next critical inflection: ~late Mar 2026 (second chehelom) coincides with Nowruz. See ISA-SCENARIOS Obs 011.'
+  confidence: Med
+  version_added: v1.2
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-12
+  name: Hormuz Escalation Tempo
+  table: flow
+  current_value: IRGC live-fire exercise + first-ever Strait closure announcement (Feb 16-18)
+  trend: Escalating
+  insight: New deterrence threshold crossed. Anti-ship missiles fired, drones/subs deployed from three islands. Russia-China naval presence concurrent. Mine warfare capability latent but demonstrated intent.
+    Any incident (drone, speedboat, mine) during heightened operations = potential casus belli. See ITB-B §B8.
+  confidence: Med
+  version_added: v1.2
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-13
+  name: Paydari Parliamentary Trajectory
+  table: flow
+  current_value: '2024 baseline: largest Tehran bloc, ~60–80 seats estimated'
+  trend: Accelerating (ratchet mechanism active)
+  insight: 'Self-tightening feedback: massacre validates maximalist strategy, IRGC institutional alignment, disciplined Basij voter base, new proportional representation law favors organized parties. Paydari
+    is the most organized faction. 2028 projection: working majority possible if Khamenei cannot or does not constrain.'
+  confidence: Inference — Med
+  version_added: v1.3
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-14
+  name: Ghalibaf Strategic Timeline
+  table: flow
+  current_value: ACTIVE — Speaker, presidential ambitions, Article 111 positioning
+  trend: Compressing (2028 election is hard deadline)
+  insight: 'A6.10 ratchet creates existential deadline: if Paydari captures Speakership in 2028, Ghalibaf loses Art. 111 succession role, presidential platform, and "system manager" positioning simultaneously.
+    Three options: align with Paydari, seek Khamenei direct protection, make a succession move before 2028. Interacts with ITB-A11 Pinochet mechanism.'
+  confidence: Inference — Med
+  version_added: v1.3
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-15
+  name: Larijani Authority Scope
+  table: flow
+  current_value: Effectively running Iran; Pezeshkian sidelined
+  trend: Expanding
+  insight: 'Shadow governance since early Jan 2026. Khamenei delegated day-to-day governance. Araghchi authorization chain runs through Larijani, not president. Liaising with Russia, Qatar, Oman. Overseeing
+    nuclear negotiations. In charge of January protest crushing. Implications: wrong interlocutor thesis confirmed at deepest level (Obs 016). Monitoring: presidential statements, SNSC directives, Araghchi
+    authorization chain.'
+  confidence: Fact -- High; NYT, six senior Iranian officials, three IRGC members
+  version_added: v1.5
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-16
+  name: Trump Deadline Countdown
+  table: flow
+  current_value: ~8-13 days remaining (from Feb 22)
+  trend: Counting down
+  insight: 'Trump stated Feb 19: "10, 15 days, pretty much maximum." Aligns with IAEA Board (Mar 2), full force readiness (mid-Mar), Ford CSG arrival. "Not scientific" per US official -- pressure tool,
+    not commitment -- but military buildup makes it credible. Washington Patience Clock (Obs 010) now has concrete expiry: ~March 1-6. Monitoring: Trump statements, military deployment completion signals.'
+  confidence: Fact -- High for statement; Inference -- Med for expiry date interpretation
+  version_added: v1.5
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-17
+  name: Student Protest Expansion
+  table: flow
+  current_value: 12+ universities, 4 cities, Day 4+
+  trend: Accelerating -- institutional infrastructure emerging
+  insight: 'Feb 21-24: University of Tehran, Al-Zahra, Sharif, Amirkabir, Shahid Beheshti, Science & Technology, Khajeh Nasir, Science & Culture (Tehran); Isfahan University of Technology; Ferdowsi, Sajjad
+    (Mashhad); Shiraz. Government spokesperson acknowledged student grievances while insisting on "red lines." Some universities moved classes online through March 20 (Nowruz). Students escalated to prosecutor
+    general (judicial, not disciplinary). Sharif website hacked to pre-revolution name. NOW MODELED AS INDEPENDENT INTERNAL CLOCK (A12.3.6): student front operates on academic calendar rhythm distinct from
+    mourning cycle, creates two-front resource allocation strain degrading regime capacity to sustain external coercive-endurance cycle. Monitoring: spread to non-university sectors (workers/bazaar); regime
+    judicial vs. military response; campus shutdown duration; Nowruz convergence.'
+  confidence: Fact -- High; Al Jazeera, NPR, Iran International, CBS, NCRI
+  version_added: v1.7
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-18
+  name: IRGC-Hezbollah Activation
+  table: flow
+  current_value: Direct IRGC operational control
+  trend: Escalating
+  insight: 'IRGC officers arrived from Iran, rebuilding Hezbollah military capabilities, personally briefing fighters across Lebanon, meeting with missile units. Israel struck 3 Beqaa sites (12 killed including
+    senior officer, 50+ wounded). Iran pressuring Hezbollah to fight if US strikes. Expands S2 from bilateral to multi-front regional. Monitoring: IDF strike frequency; Hezbollah statements; IRGC personnel
+    movements.'
+  confidence: Inference -- Med-High; Al-Arabiya via Hezbollah-proximate sources + IDF pattern
+  version_added: v1.5
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-19
+  name: Enrichment Position Gap
+  table: flow
+  current_value: Executive flexible, legislative rigid, Iran claiming no demand
+  trend: Widening
+  insight: 'Systematic contradiction: Trump/S.Res.212 = zero enrichment; Witkoff told Araghchi "zero" (Axios); same official signals "token enrichment" flexibility; Araghchi claims US "has not asked for
+    zero enrichment." Gap between what each side says was said is itself a negotiation risk factor. Validates Three Clocks model (Obs 014/017). "Token enrichment" satisfies none of three clocks fully. Monitoring:
+    Congressional statements post-Axios; Araghchi proposal content.'
+  confidence: Fact -- High for contradiction; Inference -- Med for structural interpretation
+  version_added: v1.5
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-20
+  name: War Readiness
+  table: flow
+  current_value: All forces at highest alert; missile launchers deployed
+  trend: Near-peak
+  insight: 'Ballistic missile launchers deployed on western borders (near Israel) and southern Persian Gulf shores (near US bases). Defense Council created under Shamkhani (survived Israeli assassination
+    Jun 2025). Four-layer succession for every key position. Pentagon presented options including targeting Khamenei and Mojtaba (Axios Feb 22). 90% kinetic action estimate from anonymous Trump adviser.
+    Monitoring: force deployment completion; ammunition pre-positioning.'
+  confidence: Fact -- High for deployments; Inference -- Med for intent interpretation
+  version_added: v1.5
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-21
+  name: Iran Proposal Delivery
+  table: flow
+  current_value: Expected "in 2-3 days" per Araghchi (from Feb 21)
+  trend: Pending
+  insight: 'Araghchi (CBS Feb 22): "A better deal than JCPOA is possible," "No need for so many details. Agree on basic things." Content unknown. Arrival before Trump deadline is the key timing variable.
+    Monitoring: delivery to Witkoff; content leaked or described.'
+  confidence: Fact -- Med for timeline; content unknown
+  version_added: v1.5
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-22
+  name: Next Geneva Round
+  table: flow
+  current_value: Confirmed Feb 26 (Thursday) by Oman FM
+  trend: Confirmed
+  insight: 'Badr Albusaidi (Oman FM) tweeted Feb 22 confirming Geneva "this Thursday" with "positive push to go the extra mile towards finalizing the deal." If Iran''s proposal arrives and Geneva Round
+    3 occurs Feb 26, this is the last diplomatic off-ramp before Trump deadline window opens. Monitoring: Albusaidi confirmation; Araghchi travel; Witkoff travel.'
+  confidence: Fact -- High; Oman FM public confirmation
+  version_added: v1.5
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-23
+  name: Phase transition velocity
+  table: flow
+  current_value: Phase 2→3
+  trend: Slow (weeks)
+  insight: US military completion + adversary cost signals
+  confidence: Med
+  version_added: v1.6
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: FV-24
+  name: Eschatological disruption activation
+  table: flow
+  current_value: Dormant→Active
+  trend: Will accelerate at Phase 3→4 boundary
+  insight: Phase 4 indicators emerging
+  confidence: Med
+  version_added: v1.6
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-01
+  name: Nuclear Deal
+  table: threshold
+  current_value: NEGOTIATIONS ACTIVE â€” Round 2 complete, "guiding principles" only
+  trend: Two-week draft exchange window; no Round 3 date set
+  insight: 'Binary compressed: "Guiding principles" buys ~2 weeks. Force posture now campaign-ready concurrent with draft exchange. Deal/strike decision likely within weeks, not months.'
+  confidence: Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-02
+  name: Second US Strike
+  table: threshold
+  current_value: POSSIBLE â€” force posture now campaign-ready
+  trend: Talks failure + provocation + Trump decision (not yet made per WSJ Feb 19)
+  insight: 'Category A shock: Force sized for multi-week campaign (largest since 2003). Clean attribution, mobilization trigger. Hormuz retaliation now explicitly signaled by Iran. Israeli officials pushing
+    "maximalist scenario targeting regime change."'
+  confidence: Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-03
+  name: Khamenei Succession
+  table: threshold
+  current_value: LATENT
+  trend: Health event or death
+  insight: 'Regime existential: No tested mechanism'
+  confidence: Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-04
+  name: Internet Blackout
+  table: threshold
+  current_value: ACTIVE
+  trend: Imposed Jan 8
+  insight: Information vacuum
+  confidence: High
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-05
+  name: Foreign Militia Presence
+  table: threshold
+  current_value: DEPLOYED
+  trend: Jan 2026
+  insight: 'Sovereignty violation: Foreign forces vs. own citizens'
+  confidence: High
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-06
+  name: EU IRGC Terror Designation
+  table: threshold
+  current_value: ACTIVE
+  trend: Jan 29, 2026
+  insight: Diplomatic isolation
+  confidence: High
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-07
+  name: Mourning Cycle Escalation
+  table: threshold
+  current_value: ACTIVE â€” Cycle 1 initiated
+  trend: 'New deaths during mourning (confirmed: at least 1 in Abdanan)'
+  insight: 'Self-reinforcing mechanism: Each death creates new 40-day cycle. If Cycle 2 initiates (~late Mar), coincides with Nowruz. 1978-79 precedent: this mechanism produced revolution.'
+  confidence: Med
+  version_added: v1.2
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-08
+  name: Paydari Parliamentary Majority
+  table: threshold
+  current_value: PROJECTED — not yet reached
+  trend: 2028 election; earlier if Khamenei health event disrupts balancing mechanism
+  insight: 'Category B institutional shift: If Paydari achieves working majority in 13th Majlis — (a) nuclear weapons advocacy becomes legislative program capable of passing formal bills; (b) Ghalibaf loses
+    Art. 111 succession position; (c) Majlis-as-transitional-vehicle assumption in ISA-SCENARIOS must be replaced with parallel constituent assembly model; (d) fatwa reinterpretation becomes legislative
+    possibility (see ITB-A8 §A8.1).'
+  confidence: Inference — Med
+  version_added: v1.3
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-09
+  name: Judicial Moratorium (Day 1 threshold)
+  table: threshold
+  current_value: NOT YET — requires transition event
+  trend: Day 1 of any transition scenario
+  insight: 'Non-negotiable first act: Iran''s execution rate (1,791 in 2025; 336 in November alone) means any transitional authority that does not impose an immediate moratorium loses legitimacy on human
+    rights grounds within hours. Simultaneously, revolutionary courts must be declared constitutionally void (they have no constitutional basis). These two acts define the new system before anything else.
+    Delay is not a viable option.'
+  confidence: Inference — High confidence
+  version_added: v1.3
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-10
+  name: Larijani Shadow Governance
+  table: threshold
+  current_value: ACTIVE -- since early Jan 2026
+  trend: Khamenei delegation (already occurred)
+  insight: 'Constitutional ambiguity: Larijani holds no constitutional authority for day-to-day governance (SNSC is advisory). His power derives from Khamenei''s personal delegation, making it fragile to
+    Khamenei health event. Post-Khamenei, Larijani''s authority evaporates unless formalized. Creates immediate power vacuum in succession scenario.'
+  confidence: Fact -- High; NYT sourcing
+  version_added: v1.5
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-11
+  name: Defense Council
+  table: threshold
+  current_value: ACTIVE -- newly created
+  trend: War preparation assessment (already occurred)
+  insight: New institutional body headed by Shamkhani. Composition unknown (G14-02 GAP). May become post-strike power center. Represents institutional adaptation for wartime governance outside constitutional
+    structure.
+  confidence: Fact -- Med; NYT, limited detail
+  version_added: v1.5
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-12
+  name: Trump Deadline Expiry
+  table: threshold
+  current_value: PENDING -- window ~March 1-6
+  trend: Trump decision point
+  insight: 'Not a commitment ("not scientific") but military buildup makes it credible. Last diplomatic off-ramp: Geneva Round 3, Feb 26. If no deal framework by March 1-6, military option becomes primary.'
+  confidence: Inference -- Med
+  version_added: v1.5
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-13
+  name: IAEA Board Censure / UNSC Referral
+  table: threshold
+  current_value: PENDING -- Board meeting March 2
+  trend: IAEA censure vote + possible UNSC referral
+  insight: 'Three-clock convergence: Geneva Round 3 (Feb 26) + IAEA Board (March 2-6) + Trump deadline (~March 1-6) compress into single 8-day window. If IAEA refers Iran to UNSC concurrent with failed
+    Round 3, political predicate for strikes strengthens on multiple independent axes. IAEA censure is independently triggerable regardless of Geneva outcome -- feeds Obs 014 (Three Clocks) and A12.6 Phase
+    assessment.'
+  confidence: Fact -- High for meeting date; Inference -- Med for convergence dynamics
+  version_added: v1.7
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-14
+  name: US Internal Military Debate
+  table: threshold
+  current_value: ACTIVE -- Caine warning vs. Trump dismissal
+  trend: Contested
+  insight: 'Joint Chiefs Chairman Caine cautioned Trump: munitions shortfalls (Israel/Ukraine depletion), lack of allied support, significant risk. Trump publicly contradicted. CENTCOM commander Cooper
+    excluded from Iran meetings -- civilian leadership controlling military options. Two readings: (a) genuine strain signal advancing regime Phase 3 assessment; (b) deliberate leak to prevent regime slow-play.
+    Regime likely perceiving this as opponent strain indicator (A12.5.1). Monitoring: Caine public statements; Cooper inclusion/exclusion; munitions resupply pace.'
+  confidence: Fact -- High; Washington Post, Axios
+  version_added: v1.7
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: TV-15
+  name: UK Diego Garcia Refusal
+  table: threshold
+  current_value: ACTIVE -- UK refuses basing for Iran strikes
+  trend: Constraining
+  insight: PM Starmer indicated US cannot use British airbases (Diego Garcia, RAF Fairford) for Iran strikes -- would breach international law. Constrains B-2 basing options for bunker-buster operations.
+    Feeds opponent strain perception (allied non-support).
+  confidence: Fact -- High; Al Jazeera
+  version_added: v1.7
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: PO-01
+  name: National Identity
+  table: positive_optionality
+  current_value: Civilizational continuity
+  trend: 2,500+ years
+  insight: Cohesion anchor vs. all comparators
+  confidence: High
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: PO-02
+  name: Education Level
+  table: positive_optionality
+  current_value: Literate, educated population
+  trend: ~97% youth literacy
+  insight: Governance capacity exceeds Iraq/Libya/Afghanistan
+  confidence: Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: PO-03
+  name: Diaspora Professional Base
+  table: positive_optionality
+  current_value: Engineers, doctors, lawyers, academics
+  trend: 2-4M in advanced economies
+  insight: Skills reservoir for post-transition
+  confidence: Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: PO-04
+  name: Energy Resources
+  table: positive_optionality
+  current_value: Massive oil/gas reserves
+  trend: 3rd oil, 2nd gas globally
+  insight: Economic foundation post-sanctions
+  confidence: High
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: PO-05
+  name: Geographic Position
+  table: positive_optionality
+  current_value: Strategic crossroads
+  trend: Gulf-Central Asia-South Asia
+  insight: Natural trade hub
+  confidence: High
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: PO-06
+  name: Proxy Degradation
+  table: positive_optionality
+  current_value: Hezbollah decimated; QF weakened
+  trend: Post-2024/2025
+  insight: Reduced external spoiler capacity
+  confidence: Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: PO-07
+  name: Parallel Society Internal Hollowness
+  table: positive_optionality
+  current_value: Most members bound by economics, not ideology
+  trend: Golkar (academic), Azizi (Yale), 2009 behavioral evidence
+  insight: 'Disaggregation possible: economic alternatives can separate majority from core'
+  confidence: Inference -- Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: PO-08
+  name: Demographic Bet Failure
+  table: positive_optionality
+  current_value: Regime cannot outbreed opposition
+  trend: National TFR 1.7; no evidence of IRGC differential
+  insight: Time favors broader population, not regime
+  confidence: Inference -- Med
+  version_added: v1.0
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: PO-09
+  name: Bar Association Institutional Survival
+  table: positive_optionality
+  current_value: ~70,000 independent lawyers; institutional memory of independence dating to 1953 (Mossadegh)
+  trend: Constrained but persistent
+  insight: 'Only judicial institution with legitimate claim to independence. Survived three formal closures. Diaspora amplifier: Iranian-American Bar Association alone has 1,500+ members. Fastest path to
+    judicial reconstruction backbone.'
+  confidence: Inference — Med-High
+  version_added: v1.3
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: PO-10
+  name: Parliamentary Infrastructure (Election Machinery)
+  table: positive_optionality
+  current_value: 12 elections conducted since 1980; polling stations, voter rolls, regional constituencies physically exist
+  trend: Intact (hardware); captured (software)
+  insight: The obstacle to free elections is the vetting superstructure, not the machinery. Remove Guardian Council vetting → existing infrastructure supports free elections without rebuilding. This advantage
+    partially survives even the ratchet — infrastructure exists regardless of who uses it.
+  confidence: Inference — Med
+  version_added: v1.3
+  session_added: null
+  cross_refs: []
+  epistemic_tag: Mixed
+- id: NQ-01
+  name: NIOC-IRGC separation index
+  table: normalization_quality
+  current_value: ''
+  trend: ''
+  insight: Whether IRGC commanders hold NIOC board/leadership positions
+  confidence: Med
+  version_added: v1.4
+  session_added: 12
+  cross_refs: []
+  epistemic_tag: Mixed
+  nq_type: Stock
+  nq_threshold: 'Binary: yes = Type B blocked; no = Type B condition met'
+- id: NQ-02
+  name: KAA competitive bidding rate
+  table: normalization_quality
+  current_value: ''
+  trend: ''
+  insight: '% of Iranian construction contracts awarded via competitive process (verifiable via Iranian procurement records)'
+  confidence: Med
+  version_added: v1.4
+  session_added: 12
+  cross_refs: []
+  epistemic_tag: Mixed
+  nq_type: Flow
+  nq_threshold: '>50% = meaningful reform; 0% = unchanged'
+- id: NQ-03
+  name: Western oil major IPC contract status
+  table: normalization_quality
+  current_value: ''
+  trend: ''
+  insight: Number of Western oil majors (TotalEnergies, Shell, BP, Eni, ExxonMobil) with signed IPC contracts
+  confidence: Med
+  version_added: v1.4
+  session_added: 12
+  cross_refs: []
+  epistemic_tag: Mixed
+  nq_type: Stock
+  nq_threshold: 0 = hollow deal; ≥1 = Type B unlocking
+- id: NQ-04
+  name: Diaspora capital repatriation flows
+  table: normalization_quality
+  current_value: ''
+  trend: ''
+  insight: Annual documented investment flows from diaspora to Iran (USD)
+  confidence: Med
+  version_added: v1.4
+  session_added: 12
+  cross_refs: []
+  epistemic_tag: Mixed
+  nq_type: Flow
+  nq_threshold: 'Baseline: ~$0 under sanctions/hollow deal; meaningful repatriation = governance signal'
+- id: NQ-05
+  name: IRGC bank ownership index
+  table: normalization_quality
+  current_value: ''
+  trend: ''
+  insight: '% of Iranian banking assets with IRGC ownership in chain'
+  confidence: Med
+  version_added: v1.4
+  session_added: 12
+  cross_refs: []
+  epistemic_tag: Mixed
+  nq_type: Stock
+  nq_threshold: '>25% = Type B correspondent banking blocked'
+- id: NQ-06
+  name: Chabahar operational actor
+  table: normalization_quality
+  current_value: ''
+  trend: ''
+  insight: India vs. China as Shahid Beheshti terminal operator
+  confidence: Med
+  version_added: v1.4
+  session_added: 12
+  cross_refs: []
+  epistemic_tag: Mixed
+  nq_type: Stock
+  nq_threshold: India = Type A normalization pathway active; China = China vacuum proceeding
+- id: NQ-07
+  name: South Pars development actor
+  table: normalization_quality
+  current_value: ''
+  trend: ''
+  insight: Chinese vs. Western primary developer of Iranian side of field
+  confidence: Med
+  version_added: v1.4
+  session_added: 12
+  cross_refs: []
+  epistemic_tag: Mixed
+  nq_type: Stock
+  nq_threshold: Western entry = Type B; Chinese expansion only = hollow/Type A
+- id: NQ-08
+  name: IRGC oil revenue share (statutory)
+  table: normalization_quality
+  current_value: ''
+  trend: ''
+  insight: '% of oil/gas export revenue allocated to IRGC by budget law'
+  confidence: Med
+  version_added: v1.4
+  session_added: 12
+  cross_refs: []
+  epistemic_tag: Mixed
+  nq_type: Stock
+  nq_threshold: 51% (2025 baseline) = any sanctions relief is IRGC enrichment; reduction requires deal conditionality
+- id: NQ-09
+  name: EU IRGC designation status
+  table: normalization_quality
+  current_value: ''
+  trend: ''
+  insight: Whether EU IRGC terrorist designation remains in force
+  confidence: Med
+  version_added: v1.4
+  session_added: 12
+  cross_refs: []
+  epistemic_tag: Mixed
+  nq_type: Stock
+  nq_threshold: Active = Type B blocked for EU companies (criminal liability); reversed = requires unanimous EU Council vote
+- id: NQ-10
+  name: Oman re-export Iran revenue
+  table: normalization_quality
+  current_value: ''
+  trend: ''
+  insight: Annual Oman re-export revenues to Iran (USD)
+  confidence: Med
+  version_added: v1.4
+  session_added: 12
+  cross_refs: []
+  epistemic_tag: Mixed
+  nq_type: Flow
+  nq_threshold: $803M (2024 baseline) — growth = mediation interest continues; decline = direct channels opening

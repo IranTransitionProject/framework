@@ -1,0 +1,75 @@
+# APP-G: CONSOLIDATED RESEARCH GAPS
+
+**Module Code:** APP-G
+**Version:** {{ gaps_meta.version }}
+**Date:** {{ gaps_meta.date }}
+**Source:** {{ gaps_meta.source }}
+**Purpose:** Single inventory of all unfilled research gaps, prioritized
+
+---
+
+## SUMMARY
+
+| Metric | Count |
+|--------|-------|
+| Priority 1 (active) | {{ gaps_meta.summary.priority_1_active }} |
+| Priority 2 (total) | {{ gaps_meta.summary.priority_2_total }} |
+| Priority 3 (total) | {{ gaps_meta.summary.priority_3_total }} |
+| Filled (total) | {{ gaps_meta.summary.filled_total }} |
+
+---
+
+## PRIORITY 1: CRITICAL -- REMAINING GAPS
+
+| ID | Module | Gap | Why Critical | Status |
+|----|--------|-----|--------------|--------|
+{% for g in gaps if g.priority == 1 %}
+| {{ g.id }} | {{ g.modules | join(', ') }} | {{ g.description }} | {{ g.why_critical }} | {{ g.status }}{% if g.fill_note %} -- {{ g.fill_note }}{% endif %} |
+{% endfor %}
+
+---
+
+## PRIORITY 2: IMPORTANT -- REMAINING GAPS
+
+| ID | Module | Gap | Why Critical | Status |
+|----|--------|-----|--------------|--------|
+{% for g in gaps if g.priority == 2 %}
+| {{ g.id }} | {{ g.modules | join(', ') }} | {{ g.description }} | {{ g.why_critical }} | {{ g.status }}{% if g.fill_note %} -- {{ g.fill_note }}{% endif %} |
+{% endfor %}
+
+---
+
+## PRIORITY 3: USEFUL -- REMAINING GAPS
+
+| ID | Module | Gap | Why Critical | Status |
+|----|--------|-----|--------------|--------|
+{% for g in gaps if g.priority == 3 %}
+| {{ g.id }} | {{ g.modules | join(', ') }} | {{ g.description }} | {{ g.why_critical }} | {{ g.status }} |
+{% endfor %}
+
+---
+
+## PRIORITY 4: RESEARCH ENRICHMENT
+
+| ID | Module | Gap | Why Critical | Status |
+|----|--------|-----|--------------|--------|
+{% for g in gaps if g.priority == 4 %}
+| {{ g.id }} | {{ g.modules | join(', ') }} | {{ g.description }} | {{ g.why_critical }} | {{ g.status }} |
+{% endfor %}
+
+---
+
+## FILLED GAPS (ARCHIVE)
+
+{% for g in gaps if g.status == "FILLED" %}
+### {{ g.id }}: {{ g.description }}
+* **Modules:** {{ g.modules | join(', ') }}
+* **Session filled:** {{ g.session_filled }}
+* **Note:** {{ g.fill_note }}
+{% if g.cross_refs %}* **Cross-refs:** {{ g.cross_refs | join(', ') }}{% endif %}
+
+{% endfor %}
+
+---
+
+*Generated from structured data on {{ build_date }}. Total gaps tracked: {{ gaps | length }}.*

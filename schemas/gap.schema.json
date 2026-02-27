@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Gap",
+  "description": "A research gap in the Iran Transition Project",
+  "type": "object",
+  "required": ["id", "description", "priority", "status", "modules"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (e.g., 'G12-01', 'G14-03', or descriptive slug for legacy gaps)",
+      "pattern": "^(G\\d{2}-\\d{2}|G16-\\d{2}|gap-[a-z0-9-]+)$"
+    },
+    "description": {
+      "type": "string",
+      "description": "What information is missing"
+    },
+    "priority": {
+      "type": "integer",
+      "enum": [1, 2, 3, 4],
+      "description": "1=Critical/Blocking, 2=Important, 3=Useful, 4=Enrichment"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["OPEN", "PARTIALLY_FILLED", "FILLED", "DEPRIORITIZED", "ELEVATED", "CONFLICT"],
+      "description": "Current status of the gap"
+    },
+    "modules": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Modules this gap affects (e.g., ['ITB-B', 'ISA-CORE'])"
+    },
+    "why_critical": {
+      "type": "string",
+      "description": "Why this gap matters for analysis or planning"
+    },
+    "blocking_for": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "What analyses or findings are blocked by this gap"
+    },
+    "session_identified": {
+      "type": ["integer", "null"],
+      "description": "Session number when gap was first identified"
+    },
+    "session_filled": {
+      "type": ["integer", "null"],
+      "description": "Session number when gap was filled (null if still open)"
+    },
+    "fill_note": {
+      "type": "string",
+      "description": "Notes on how/when the gap was filled or partially filled"
+    },
+    "upgrades": {
+      "type": "string",
+      "description": "If this gap upgrades or replaces another gap"
+    },
+    "cross_refs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Cross-references to related gaps, observations, or traps"
+    }
+  }
+}

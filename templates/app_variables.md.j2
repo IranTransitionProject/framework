@@ -1,0 +1,60 @@
+# APP-V: VARIABLES DASHBOARD
+
+**Module Code:** APP-V
+**Version:** {{ variables_meta.version }}
+**Date:** {{ variables_meta.date }}
+**Source:** {{ variables_meta.source }}
+**Dependencies:** All ITB modules
+**Referenced by:** INDEX (system overview), all sessions
+
+---
+
+# APPENDIX A: VARIABLES DASHBOARD
+
+### TABLE 1: CRITICAL STOCK VARIABLES
+
+| Variable | Current Value | Trend | Ratio / Critical Insight | Confidence |
+| :--- | :--- | :--- | :--- | :--- |
+{% for v in variables if v.table == "stock" %}
+| {% if v.version_added != "v1.0" %}**({{ v.version_added }})** {% endif %}**{{ v.name }}** | {{ v.current_value }} | {{ v.trend }} | **{{ v.insight }}** | [{{ v.confidence }}] |
+{% endfor %}
+
+### TABLE 2: CRITICAL FLOW VARIABLES
+
+| Variable | Current Value | Trend | Ratio / Critical Insight | Confidence |
+| :--- | :--- | :--- | :--- | :--- |
+{% for v in variables if v.table == "flow" %}
+| {% if v.version_added != "v1.0" %}**({{ v.version_added }})** {% endif %}**{{ v.name }}** | {{ v.current_value }} | {{ v.trend }} | **{{ v.insight }}** | [{{ v.confidence }}] |
+{% endfor %}
+
+### TABLE 3: THRESHOLD / TRIGGER VARIABLES
+
+| Variable | Threshold | Current Distance | Scenario Trigger | Confidence |
+| :--- | :--- | :--- | :--- | :--- |
+{% for v in variables if v.table == "threshold" %}
+| {% if v.version_added != "v1.0" %}**({{ v.version_added }})** {% endif %}**{{ v.name }}** | {{ v.current_value }} | {{ v.trend }} | **{{ v.insight }}** | [{{ v.confidence }}] |
+{% endfor %}
+
+### TABLE 4: POSITIVE OPTIONALITY
+
+| Variable | Advantage | Metric | Strategic Value | Confidence |
+| :--- | :--- | :--- | :--- | :--- |
+{% for v in variables if v.table == "positive_optionality" %}
+| {% if v.version_added != "v1.0" %}**({{ v.version_added }})** {% endif %}**{{ v.name }}** | {{ v.current_value }} | {{ v.trend }} | **{{ v.insight }}** | [{{ v.confidence }}] |
+{% endfor %}
+
+---
+
+## NORMALIZATION QUALITY VARIABLES (Session 12 — F12)
+
+| Code | Variable | Type | Description | Threshold / Range |
+|------|----------|------|-------------|------------------|
+{% for v in variables if v.table == "normalization_quality" %}
+| {{ v.id }} | {{ v.name }} | {{ v.nq_type }} | {{ v.insight }} | {{ v.nq_threshold }} |
+{% endfor %}
+
+---
+
+{% for note in variables_meta.monitoring_notes %}
+*{{ note }}*
+{% endfor %}

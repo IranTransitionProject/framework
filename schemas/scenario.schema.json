@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Scenario",
+  "description": "A transition scenario with probability bands",
+  "type": "object",
+  "required": ["id", "title", "description", "probability_current"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Scenario ID (e.g., 'S1', 'S1A', 'S1B', 'S2', 'S3', 'S4', 'S5')"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string",
+      "description": "What this scenario involves"
+    },
+    "probability_current": {
+      "type": "string",
+      "description": "Current probability range (e.g., '7-13%')"
+    },
+    "probability_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["version", "range", "rationale"],
+        "properties": {
+          "version": { "type": "string" },
+          "range": { "type": "string" },
+          "rationale": { "type": "string" }
+        }
+      },
+      "description": "History of probability adjustments with rationale"
+    },
+    "key_variables": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Variables that drive this scenario"
+    },
+    "planning_implication": {
+      "type": "string"
+    },
+    "traps_activated": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Traps that activate under this scenario"
+    },
+    "cross_refs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "parent_scenario": {
+      "type": ["string", "null"],
+      "description": "For sub-scenarios (1A, 1B), the parent ID"
+    }
+  }
+}

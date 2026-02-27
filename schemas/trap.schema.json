@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Trap",
+  "description": "A simultaneity trap in the Iran Transition Project",
+  "type": "object",
+  "required": ["id", "title", "mechanism", "circular_structure", "resolution_path"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "Trap number (1-12+)"
+    },
+    "title": {
+      "type": "string",
+      "description": "Short descriptive title"
+    },
+    "mechanism": {
+      "type": "string",
+      "description": "How the trap operates (prose)"
+    },
+    "circular_structure": {
+      "type": "string",
+      "description": "The circular dependency chain (A requires B requires A)"
+    },
+    "resolution_path": {
+      "type": "string",
+      "description": "Proposed way to break the circularity"
+    },
+    "historical_parallels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["case", "lesson"],
+        "properties": {
+          "case": { "type": "string" },
+          "lesson": { "type": "string" }
+        }
+      },
+      "description": "Historical cases that illustrate this trap"
+    },
+    "detection_signal": {
+      "type": "string",
+      "description": "What to monitor to detect this trap activating"
+    },
+    "extensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["version", "title", "content"],
+        "properties": {
+          "version": { "type": "string" },
+          "session": { "type": "integer" },
+          "title": { "type": "string" },
+          "content": { "type": "string" }
+        }
+      },
+      "description": "Version extensions added over time (e.g., wrong interlocutor dimension, congressional kill switch)"
+    },
+    "actors": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Key actors involved in this trap"
+    },
+    "itb_anchors": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "ITB section references"
+    },
+    "confidence": {
+      "type": "string",
+      "description": "Confidence assessment"
+    },
+    "cross_refs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Cross-references to observations, scenarios, other traps"
+    },
+    "session_added": {
+      "type": "integer",
+      "description": "Session when first added"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["core_transition", "negotiation_deal"],
+      "description": "Traps 1-8 are core transition; 9-12 are negotiation/deal-specific"
+    }
+  }
+}
