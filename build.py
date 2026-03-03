@@ -19,6 +19,7 @@ from jinja2 import Environment, FileSystemLoader
 
 BASE = Path(__file__).parent
 DATA = BASE / "data"
+CONTENT = DATA / "content"
 TEMPLATES = BASE / "templates"
 OUTPUT = BASE / "output"
 
@@ -70,6 +71,7 @@ def build_all(env, targets=None):
         "scenarios_meta": load_metadata(DATA / "scenarios.yaml"),
         "sessions": load_entries(DATA / "sessions.yaml"),
         "modules": load_entries(DATA / "modules.yaml"),
+        "index_meta": load_yaml(DATA / "index_meta.yaml") if (DATA / "index_meta.yaml").exists() else {},
         "build_date": date.today().isoformat(),
     }
 
@@ -93,7 +95,11 @@ def build_all(env, targets=None):
     }
 
     if targets:
+        # Allow "content" as a target to build only content modules
+        build_content = "content" in targets
         reports = {k: v for k, v in reports.items() if k in targets}
+    else:
+        build_content = True
 
     OUTPUT.mkdir(exist_ok=True)
 
@@ -111,6 +117,37 @@ def build_all(env, targets=None):
             f.write(rendered)
 
         print(f"✅ Built {output_file} ({len(rendered)} chars)")
+
+    # Build content modules (Phase 2)
+    if build_content and CONTENT.exists():
+        content_template_file = "module_content.md.j2"
+        tmpl_path = TEMPLATES / content_template_file
+        if not tmpl_path.exists():
+            print(f"⚠️  Content template not found: {tmpl_path} — skipping content modules")
+        else:
+            template = env.get_template(content_template_file)
+            # Find the output filename from modules.yaml registry
+            modules_lookup = {m["code"]: m for m in ctx["modules"]}
+
+            for yaml_file in sorted(CONTENT.glob("*.yaml")):
+                with open(yaml_file, "r", encoding="utf-8") as f:
+                    module_data = yaml.safe_load(f)
+                if module_data is None:
+                    continue
+
+                mc = module_data.get("module_code", "")
+                # Determine output filename from modules registry, or derive from code
+                if mc in modules_lookup:
+                    output_file = modules_lookup[mc].get("file", "").split("+")[0].strip().strip("`")
+                else:
+                    # Fallback: derive from module_code
+                    output_file = mc.replace("-", "_") + ".md"
+
+                rendered = template.render(module=module_data, **ctx)
+                out_path = OUTPUT / output_file
+                with open(out_path, "w", encoding="utf-8") as f:
+                    f.write(rendered)
+                print(f"✅ Built {output_file} ({len(rendered)} chars) [content: {mc}]")
 
 
 def main():

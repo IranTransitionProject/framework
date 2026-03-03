@@ -1,1 +1,117 @@
-entries: []
+version: '2.3'
+date: '2026-02-24'
+source: Migrated from 00_MASTER_INDEX.md v2.3 Session Log
+entries:
+- number: 1
+  date: '2026-02-16'
+  summary: Initial ITB v1.0 + ISA v1.0
+  modules_affected:
+  - All
+- number: 2
+  date: '2026-02-16'
+  summary: A8 (Ideology) deep research + ISA v1.1
+  modules_affected:
+  - ITB-A8
+  - ISA-CASES
+  - ISA-SCENARIOS
+- number: 3
+  date: '2026-02-16'
+  summary: A9 (Parallel Society) + Taqiyyah + ISA v1.2
+  modules_affected:
+  - ITB-A8
+  - ITB-A9
+  - ISA-CORE
+  - ISA-TRAPS
+- number: 4
+  date: '2026-02-17'
+  summary: A10 v0.1 (Eschatological Faction)
+  modules_affected:
+  - ITB-A10
+- number: 5
+  date: '2026-02-17'
+  summary: A11 (Pinochet) + ISA Pinochet updates + Scenario Matrix
+  modules_affected:
+  - ITB-A11
+  - ISA-TRAPS
+  - ISA-SCENARIOS
+- number: 6
+  date: '2026-02-18'
+  summary: A10 v0.2 (succession, Basij, Mahsouli, Dugin, Khamenei)
+  modules_affected:
+  - ITB-A10
+- number: 7
+  date: '2026-02-18'
+  summary: 'Modular restructure: monolith -> 20 modules'
+  modules_affected:
+  - ALL
+- number: 8
+  date: '2026-02-18'
+  summary: Post-refactoring audit + B-H stub upgrade to v2.0 (70+ sources)
+  modules_affected:
+  - ITB-B
+  - ITB-C
+  - ITB-D
+  - ITB-E
+  - ITB-F
+  - ITB-G
+  - ITB-H
+  - APP-G
+- number: 9
+  date: '2026-02-19'
+  summary: A10/A11 interaction analysis integration (velocity gap, two clocks, wrong interlocutor, institutional inertia,
+    three-segment factional model)
+  modules_affected:
+  - ITB-A10
+  - ITB-A11
+  - ISA-CORE
+  - ISA-TRAPS
+  - ISA-SCENARIOS
+  - APP-V
+  - APP-G
+- number: 10
+  date: '2026-02-20'
+  summary: 'Pre-session infrastructure: Parliament deep-dive (A6 + A6.10 ratchet mechanism), Judiciary module (D16), ITB-D
+    v5.0, Master Index v2.1'
+  modules_affected:
+  - ITB-A6
+  - ITB-D16
+  - ITB-D
+  - APP-G
+  - APP-V
+  - INDEX
+- number: 11-12
+  date: '2026-02-21'
+  summary: F11 equilibrium beneficiaries + F12 Normalization Quality Framework. Traps 9+10. Obs 012. Scenario 1B/5 reframes.
+    Per-module integration spec.
+  modules_affected:
+  - ITB-F11
+  - ITB-F12
+  - ISA-TRAPS
+  - ISA-SCENARIOS
+  - ITB-F
+  - ITB-G
+  - ITB-C
+  - APP-V
+  - APP-G
+  - INDEX
+- number: 15
+  date: '2026-02-23'
+  summary: 'A12 Coercive-Endurance Interaction Doctrine: 5-phase behavioral model, factional reconciliation, taqiyyah coupling,
+    Pinochet/F12 enrichment coupling, current events mapping (Phase 2->3), Obs 019 proposed'
+  modules_affected:
+  - ITB-A12
+  - ISA-SCENARIOS
+  - ISA-TRAPS
+  - APP-V
+  - APP-G
+  - INDEX
+- number: 16
+  date: '2026-02-24'
+  summary: 'News monitoring + integration: Geneva Round 3 confirmed Feb 26; IAEA March 2 convergence; student protests 12+
+    universities; 26+ death sentences; Independent Internal Resistance Clock (A12.3.6, Obs 020)'
+  modules_affected:
+  - ITB-A12
+  - ISA-SCENARIOS
+  - APP-V
+  - ITB-F
+  - ITB-H

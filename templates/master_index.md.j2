@@ -1,0 +1,92 @@
+# {{ index_meta.project_title | upper }}: MASTER INDEX
+
+**Project Version:** {{ index_meta.version }}
+**Date:** {{ index_meta.date }}
+**Status:** {{ index_meta.status }}
+
+---
+
+## HOW TO USE THIS SYSTEM
+
+This project has been restructured from monolithic documents into self-contained modules. **This index is the only file you must read first.** It tells you which modules to pull for any question.
+
+**Rules:**
+1. Every session begins by reading this index + `00_INSTRUCTIONS.md`.
+2. Load only the modules relevant to the session's task.
+3. Each module is self-contained with its own epistemic tags and source log.
+4. Cross-references use module codes (e.g., "see ITB-A10 §3.4").
+5. Updates happen at the module level — updating A10 does not require touching A1.
+
+**Governance Protocol (applies to all modules):**
+{% for rule in index_meta.governance_protocol %}
+{{ loop.index }}. {{ rule }}
+{% endfor %}
+
+---
+
+## MODULE REGISTRY
+
+{% for level_num, level_label in index_meta.level_labels.items() %}
+{% set ns = namespace(has_modules=false) %}
+{% for mod in modules if mod.level is defined and mod.level == level_num %}
+{% set ns.has_modules = true %}
+{% endfor %}
+{% if ns.has_modules %}
+### {{ level_label }}
+
+| Code | File | Ver | Lines | Description |
+|------|------|-----|-------|-------------|
+{% for mod in modules if mod.level is defined and mod.level == level_num %}
+| {{ mod.code }} | `{{ mod.file }}` | {{ mod.version }} | {{ mod.lines_approx | default('—') }} | {{ mod.description }} |
+{% endfor %}
+
+{% endif %}
+{% endfor %}
+
+---
+
+## DEPENDENCY MAP
+
+```
+{{ index_meta.dependency_map }}
+```
+
+---
+
+## QUICK LOOKUP: WHICH MODULES FOR WHICH QUESTION?
+
+| Question Type | Load These Modules |
+|---------------|-------------------|
+{% for item in index_meta.quick_lookup %}
+| {{ item.question }} | {{ item.modules | join(', ') }} |
+{% endfor %}
+
+---
+
+## ANALYTICAL STATE SUMMARY ({{ index_meta.date }})
+
+{{ index_meta.analytical_summary }}
+
+---
+
+## SESSION LOG
+
+| # | Date | Work Done | Modules Affected |
+|---|------|-----------|-----------------|
+{% for s in sessions %}
+| {{ s.number }} | {{ s.date }} | {{ s.summary }} | {{ s.modules_affected | join(', ') }} |
+{% endfor %}
+
+---
+
+## DATABASE STATISTICS
+
+* **Modules:** {{ modules | length }}
+* **Variables:** {{ variables | length }}
+* **Gaps:** {{ gaps | length }} ({{ filter_by(gaps, 'status', 'OPEN') | length }} open)
+* **Traps:** {{ traps | length }}
+* **Observations:** {{ observations | length }}
+* **Scenarios:** {{ scenarios | length }}
+* **Sessions logged:** {{ sessions | length }}
+
+*Generated {{ build_date }} from itp-db YAML sources.*

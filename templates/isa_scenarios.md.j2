@@ -1,0 +1,121 @@
+# ISA-SCENARIOS: SCENARIO BRANCHING & ANALYTICAL OBSERVATIONS
+
+**Module Code:** ISA-SCENARIOS
+**Version:** {{ scenarios_meta.version }}
+**Date:** {{ scenarios_meta.date }}
+**Source:** {{ scenarios_meta.source }}
+**Dependencies:** All ITB modules, ISA-CORE, ISA-TRAPS, ISA-CASES
+**Referenced by:** INDEX (quick lookup), all future sessions
+
+---
+
+## 7. SCENARIO BRANCHING
+
+**Purpose:** Establish the primary transition scenarios with probability ranges and planning-relevant differences. NOT predictions -- planning tools.
+
+**Note:** {{ scenarios_meta.note }}
+
+{% if scenarios_meta.critical_assessment %}
+**CRITICAL ASSESSMENT (v{{ scenarios_meta.version }}):** {{ scenarios_meta.critical_assessment }}
+{% endif %}
+
+{% for scenario in scenarios if not scenario.parent_scenario %}
+### Scenario {{ scenario.id[1:] }}: {{ scenario.title }}
+* **Description:** {{ scenario.description }}
+* **Probability range:** **{{ scenario.probability_current }}**
+{% if scenario.probability_history %}
+* **Adjustment history:**
+{% for ph in scenario.probability_history %}
+  - {{ ph.version }}: {{ ph.range }} — {{ ph.rationale }}
+{% endfor %}
+{% endif %}
+{% if scenario.key_variables %}
+* **Key variables:** {{ scenario.key_variables | join('; ') }}
+{% endif %}
+* **Planning implication:** {{ scenario.planning_implication }}
+{% if scenario.traps_activated %}
+* **Traps activated:** {{ scenario.traps_activated | join(', ') }}
+{% endif %}
+{% if scenario.cross_refs %}
+* **Cross-references:** {{ scenario.cross_refs | join(', ') }}
+{% endif %}
+
+{% for sub in scenarios if sub.parent_scenario == scenario.id %}
+### Scenario {{ sub.id[1:] }}: {{ sub.title }}
+* **Description:** {{ sub.description }}
+* **Probability range:** **{{ sub.probability_current }}**
+{% if sub.probability_history %}
+* **Adjustment history:**
+{% for ph in sub.probability_history %}
+  - {{ ph.version }}: {{ ph.range }} — {{ ph.rationale }}
+{% endfor %}
+{% endif %}
+{% if sub.key_variables %}
+* **Key variables:** {{ sub.key_variables | join('; ') }}
+{% endif %}
+* **Planning implication:** {{ sub.planning_implication }}
+{% if sub.traps_activated %}
+* **Traps activated:** {{ sub.traps_activated | join(', ') }}
+{% endif %}
+{% if sub.cross_refs %}
+* **Cross-references:** {{ sub.cross_refs | join(', ') }}
+{% endif %}
+
+{% endfor %}
+---
+
+{% endfor %}
+
+{% if scenarios_meta.scenario_independent_needs %}
+**Scenario-Independent Planning Needs:**
+{% for need in scenarios_meta.scenario_independent_needs %}
+* {{ need }}
+{% endfor %}
+{% endif %}
+
+---
+
+## 9. ANALYTIC ANNOTATIONS (THE "SO-WHAT" LOG)
+
+{% for obs in observations %}
+### Observation {{ '%03d' | format(obs.id) }}: {{ obs.title }}{% if obs.version_added %} ({{ obs.version_added }}){% endif %}
+
+* **Diagnosis:** {{ obs.diagnosis }}
+
+* **Strategic implication:** {{ obs.strategic_implication }}
+{% if obs.scenario_impact %}
+
+* **Scenario impact:**
+{% for sid, impact in obs.scenario_impact.items() %}
+  - **{{ sid }}:** {{ impact }}
+{% endfor %}
+{% endif %}
+{% if obs.corrections %}
+{% for corr in obs.corrections %}
+
+* **Correction (Session {{ corr.session }}, {{ corr.date }}):** {{ corr.content }}
+{% endfor %}
+{% endif %}
+{% if obs.leading_indicators %}
+
+* **Leading indicators:**
+{% for li in obs.leading_indicators %}
+  - {{ li }}
+{% endfor %}
+{% endif %}
+{% if obs.sources %}
+* **Sources:** {{ obs.sources | join('; ') }}
+{% endif %}
+* **ITB anchors:** {{ obs.itb_anchors | join(', ') }}
+{% if obs.cross_refs %}
+* **Cross-references:** {{ obs.cross_refs | join(', ') }}
+{% endif %}
+{% if obs.confidence %}
+* **Confidence:** {{ obs.confidence }}
+{% endif %}
+
+---
+
+{% endfor %}
+
+*Scenarios, observations, and matrix integrated. Cross-reference: ISA-TRAPS for trap activation per scenario; ISA-CASES for historical parallels; ISA-CORE for intervention sequencing.*

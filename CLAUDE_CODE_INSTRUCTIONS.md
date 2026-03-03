@@ -10,10 +10,15 @@ itp-db/
 │   ├── variables.yaml       # APP-V dashboard (77 entries)
 │   ├── gaps.yaml            # APP-G research gaps (35 entries)
 │   ├── traps.yaml           # ISA-TRAPS simultaneity traps (12 entries)
-│   ├── observations.yaml    # ISA-SCENARIOS observations (future)
-│   ├── scenarios.yaml       # ISA-SCENARIOS scenarios (future)
-│   ├── sessions.yaml        # Session log (future)
-│   └── modules.yaml         # Module registry (future)
+│   ├── observations.yaml    # ISA-SCENARIOS observations (21 entries)
+│   ├── scenarios.yaml       # ISA-SCENARIOS scenarios (7 entries)
+│   ├── sessions.yaml        # Session log (13 entries)
+│   ├── modules.yaml         # Module registry (25 entries)
+│   ├── index_meta.yaml      # Master index semi-static content
+│   └── content/             # MODULE PROSE (Phase 2)
+│       ├── itb_b.yaml       # ITB-B: Security & Military Apparatus
+│       ├── itb_h.yaml       # ITB-H: Information Environment
+│       └── (remaining modules to be migrated)
 │
 ├── schemas/                 # VALIDATION RULES
 │   ├── variable.schema.json
@@ -22,24 +27,33 @@ itp-db/
 │   ├── observation.schema.json
 │   ├── scenario.schema.json
 │   ├── session.schema.json
-│   └── module.schema.json
+│   ├── module.schema.json
+│   └── content.schema.json  # Phase 2: module content schema
 │
 ├── templates/               # REPORT TEMPLATES (Jinja2)
 │   ├── app_variables.md.j2
 │   ├── app_gaps.md.j2
-│   └── (future: isa_traps.md.j2, isa_scenarios.md.j2, master_index.md.j2)
+│   ├── isa_traps.md.j2
+│   ├── isa_scenarios.md.j2
+│   ├── master_index.md.j2   # Renders 00_MASTER_INDEX.md
+│   └── module_content.md.j2 # Generic template for all content modules
 │
 ├── output/                  # GENERATED MARKDOWN (never edit)
 │   ├── APPENDIX_VARIABLES.md
-│   └── APPENDIX_GAPS.md
+│   ├── APPENDIX_GAPS.md
+│   ├── ISA_TRAPS.md
+│   ├── ISA_SCENARIOS.md
+│   ├── 00_MASTER_INDEX.md
+│   ├── ITB_B_SECURITY.md    # Phase 2: generated from content YAML
+│   └── ITB_H_INFORMATION.md # Phase 2: generated from content YAML
 │
 ├── scripts/                 # MIGRATION SCRIPTS (one-time use)
 │   ├── migrate_variables.py
 │   ├── migrate_gaps.py
 │   └── cleanup_variables.py
 │
-├── validate.py              # Schema validation + cross-ref check
-├── build.py                 # YAML → Markdown renderer
+├── validate.py              # Schema validation + cross-ref check + content validation
+├── build.py                 # YAML → Markdown renderer (reports + content modules)
 └── CLAUDE_CODE_INSTRUCTIONS.md  # This file
 ```
 
@@ -117,6 +131,105 @@ Find by `id` in `data/variables.yaml`, change the relevant field:
 # Find gap by id, change:
   priority: 1     # was 2
   status: ELEVATED
+```
+
+### Add a new observation
+```yaml
+# Append to data/observations.yaml entries list:
+- id: 22                    # Next sequential integer
+  title: "Short Descriptive Title"
+  diagnosis: >-
+    What is true (analytical finding).
+  strategic_implication: >-
+    What this means for planning.
+  itb_anchors: ["ITB-A10", "ISA-TRAPS Trap 8"]
+  scenario_impact:           # Optional: per-scenario effects
+    S2: "How this affects Scenario 2"
+    S3: "How this affects Scenario 3"
+  leading_indicators:        # Optional
+    - "What to monitor"
+  corrections:               # Optional: added when updating later
+    - session: 18
+      date: "2026-03-01"
+      content: "What changed and why"
+  sources: ["Source 1"]      # Optional
+  cross_refs: ["Obs 010"]   # Optional
+  confidence: "[Inference -- Med]"
+  version_added: "v1.6"
+  session_added: 18
+```
+
+### Update a scenario probability
+```yaml
+# Find scenario by id, update:
+  probability_current: "40-55%"
+  # Append to probability_history:
+  probability_history:
+    # ... existing entries ...
+    - version: "v1.6"
+      range: "40-55%"
+      rationale: "Why the probability changed"
+```
+
+### Add a new session
+```yaml
+# Append to data/sessions.yaml entries list:
+- number: 18
+  date: "2026-03-01"
+  summary: "What was accomplished"
+  modules_affected: ["ITB-A12", "ISA-SCENARIOS"]
+```
+
+### Add a new module
+```yaml
+# Append to data/modules.yaml entries list:
+- code: "ITB-A13"
+  file: "ITB_A13_NEW_MODULE.md"
+  version: "1.0"
+  lines_approx: "~200"
+  description: "What this module covers"
+  level: 1
+  dependencies: ["ITB-A"]
+```
+
+### Add a new content module (Phase 2)
+```yaml
+# Create data/content/itb_a13.yaml:
+module_code: ITB-A13          # Must match modules.yaml code
+version: "1.0"
+date: "2026-03-01"
+source: "Session 19"
+dependencies: ["ITB-A"]
+referenced_by: []
+title: "New Module Title"
+pillar: "A"
+last_verified: "2026-03-01"
+confidence: "Med"
+sections:
+  - id: "A13.1"
+    title: "First Section"
+    content: |
+      Markdown prose here. Supports bullets, tables, inline tags.
+      * **Key finding:** Example. [Fact — Med]
+    subsections:
+      - id: "A13.1.1"
+        title: "Subsection"
+        level: 3
+        tags: ["NEW"]
+        content: |
+          Subsection prose.
+footer: >-
+  Remaining gaps: what is not yet covered.
+```
+
+### Update a content module section
+Find the section by `id` in the content YAML, edit the `content` block:
+```yaml
+# In data/content/itb_b.yaml, update section B1 content:
+  - id: "B1"
+    title: "Nuclear Program Status (Post-Midnight Hammer)"
+    content: |
+      * Updated content here...
 ```
 
 ### Add a new trap
@@ -203,18 +316,33 @@ When a Claude session produces an Integration Spec (the current delivery format)
 7. **Build:** `python build.py`
 8. **Commit:** `git add -A && git commit -m "Session N: [summary]"`
 
-## Future Migration (Phase 1-3)
+## Future Migration (Phase 2-3)
 
-Phase 0 (current): Variables + Gaps migrated. Pipeline proven.
+Phase 0 (complete): Variables + Gaps migrated. Pipeline proven.
 
-Phase 1: Migrate Traps, Observations, Scenarios, Sessions, Modules.
-- These have more narrative prose content mixed with structured data
+Phase 1 (complete): Traps, Observations (21), Scenarios (7), Sessions (13), Modules (25) migrated.
 - Prose sections stored as `content` string fields in YAML
 - Templates handle rendering
+- isa_scenarios.md.j2 template created and tested
+- All 190 entries validate against schemas
 
-Phase 2: Migrate module prose content (ITB-A through ITB-H, ISA-CORE).
-- Each module becomes a YAML file in `data/content/`
-- Sections[] array with prose blocks + metadata
+Phase 2 (in progress): Module prose content (ITB-A through ITB-H, ISA-CORE).
+- Each module becomes a YAML file in `data/content/` (e.g., `itb_b.yaml`)
+- Schema: `schemas/content.schema.json`
+- Template: `templates/module_content.md.j2` (generic, renders any content module)
+- Sections[] array with prose blocks (markdown block scalars) + structured metadata
+- Section metadata: id, title, level, tags, subsections (recursive)
+- Module metadata: module_code, version, date, source, dependencies, referenced_by, pillar, confidence
+- Mojibake cleaned during migration (â€" → —, â€" → –, Â§ → §)
+- `module_code` must match a registered code in `modules.yaml`
+- Build: `python build.py` builds all content modules + all reports
+- Build: `python build.py content` builds only content modules
+- Validate: `python validate.py` validates content files automatically
+- master_index.md.j2 template created, driven by modules.yaml + sessions.yaml + index_meta.yaml
+- index_meta.yaml holds semi-static content: governance protocol, dependency map, quick lookup, analytical summary
+
+Completed migrations: ITB-B, ITB-H (proof-of-concept, validated + built)
+Remaining: ITB-A, ITB-A6, ITB-A8, ITB-A9, ITB-A10, ITB-A11, ITB-A12, ITB-C, ITB-D, ITB-D16, ITB-E, ITB-F, ITB-F11, ITB-F12, ITB-G, ISA-CORE, ISA-CASES
 
 Phase 3: Migrate Briefs.
 - Structured changelog, findings, version history

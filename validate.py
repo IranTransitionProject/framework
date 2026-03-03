@@ -30,6 +30,53 @@ ENTITY_MAP = {
     "modules":      ("modules.yaml",      "module.schema.json",      "code"),
 }
 
+CONTENT_DIR = DATA / "content"
+
+
+def validate_content_files() -> list:
+    """Validate all content YAML files in data/content/ against content schema."""
+    schema_path = SCHEMAS / "content.schema.json"
+    if not schema_path.exists():
+        return ["Content schema not found: schemas/content.schema.json"]
+    if not CONTENT_DIR.exists():
+        return []  # No content files yet — not an error
+
+    schema = load_schema(schema_path)
+    errors = []
+    count = 0
+
+    # Load module codes for cross-reference validation
+    module_codes = set()
+    for entry in load_yaml(DATA / "modules.yaml"):
+        module_codes.add(entry.get("code", ""))
+
+    for yaml_file in sorted(CONTENT_DIR.glob("*.yaml")):
+        count += 1
+        with open(yaml_file, "r", encoding="utf-8") as f:
+            data = yaml.safe_load(f)
+        if data is None:
+            errors.append(f"  [content] {yaml_file.name}: empty file")
+            continue
+        try:
+            validate(instance=data, schema=schema)
+        except ValidationError as e:
+            path_str = " -> ".join(str(p) for p in e.absolute_path) if e.absolute_path else "(root)"
+            errors.append(f"  [content] {yaml_file.name}: {path_str}: {e.message}")
+
+        # Check module_code matches a registered module
+        mc = data.get("module_code", "")
+        if mc and mc not in module_codes:
+            errors.append(f"  [content] {yaml_file.name}: module_code '{mc}' not in modules.yaml registry")
+
+    if errors:
+        print(f"\n❌ content ({count} files): {len(errors)} error(s)")
+        for e in errors:
+            print(e)
+    elif count > 0:
+        print(f"✅ content ({count} files): OK")
+
+    return errors
+
 
 def load_yaml(path: Path) -> list:
     """Load a YAML file, return list of entities."""
@@ -174,6 +221,10 @@ def main():
 
     xref_errors = check_cross_references()
     total_errors.extend(xref_errors)
+
+    # Validate content files (Phase 2)
+    content_errors = validate_content_files()
+    total_errors.extend(content_errors)
 
     print(f"\n{'='*50}")
     if total_errors:

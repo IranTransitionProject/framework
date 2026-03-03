@@ -26,8 +26,8 @@
     },
     "level": {
       "type": "integer",
-      "enum": [0, 1, 2, 3],
-      "description": "0=Navigation, 1=Pillar A, 2=Pillars B-H, 3=ISA/Appendix"
+      "enum": [0, 1, 2, 3, 4],
+      "description": "0=Navigation, 1=Pillar A, 2=Pillars B-H, 3=ISA, 4=Appendices"
     },
     "dependencies": {
       "type": "array",

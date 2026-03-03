@@ -1,0 +1,62 @@
+{#- Generic template for ITB/ISA module content files -#}
+{#- Renders any content YAML file following the content.schema.json schema -#}
+
+{#- Macro: render a section recursively with subsections -#}
+{% macro render_section(section, default_level=2) -%}
+{% set level = section.level | default(default_level) %}
+{% set hashes = '#' * level %}
+{{ hashes }} {{ section.id }}) {{ section.title }}
+{%- if section.tags %} — {{ section.tags | join(', ') }}{% endif %}
+
+{% if section.content %}
+{{ section.content }}
+{% endif -%}
+{% if section.subsections %}
+{% for sub in section.subsections %}
+{{ render_section(sub, level + 1) }}
+{% endfor %}
+{% endif -%}
+{%- endmacro -%}
+
+# {{ module.module_code }}: {{ module.title | upper }}
+
+**Module Code:** {{ module.module_code }}
+**Version:** {{ module.version }}
+**Date:** {{ module.date }}
+{% if module.source -%}
+**Source:** {{ module.source }}
+{% endif -%}
+{% if module.dependencies -%}
+**Dependencies:** {{ module.dependencies | join(', ') }}
+{% endif -%}
+{% if module.referenced_by -%}
+**Referenced by:** {{ module.referenced_by | join(', ') }}
+{% endif %}
+
+---
+
+{% if module.pillar -%}
+# PILLAR {{ module.pillar }}: {{ module.title | upper }}
+{% endif %}
+
+{% if module.last_verified or module.confidence -%}
+**Last verified:** {{ module.last_verified | default('—') }} | **Confidence:** [{{ module.confidence | default('—') }}]
+
+---
+{% endif %}
+
+{% if module.preamble %}
+{{ module.preamble }}
+
+---
+{% endif %}
+
+{% for section in module.sections %}
+{{ render_section(section) }}
+---
+
+{% endfor %}
+
+{% if module.footer %}
+*{{ module.footer }}*
+{% endif %}

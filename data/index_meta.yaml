@@ -1,0 +1,115 @@
+version: "2.3"
+date: "2026-02-24"
+status: "[LIVING INDEX]"
+project_title: "Iran Transition Project"
+
+governance_protocol:
+  - "**Retention Rule:** DO NOT DELETE. No section, variable, or citation may be removed."
+  - "**Update Logic:** New data added as diffs. Contradictions marked [CONFLICT]."
+  - "**Epistemic Tags:** [Fact], [Inference], [Uncertain], [Speculation]."
+  - '**Confidence Bands:** [High] multi-source/audited; [Med] single institutional/media consensus; [Low] leak-based/single-source/extrapolated.'
+  - "**BOM Discipline:** Institutional anatomy tagged with BOM markers (Level 0/1/2)."
+  - '**Diaspora Bias Check:** Internal sources over external. [DIASPORA SOURCE] tag when needed.'
+  - '**Factional Neutrality:** "What must happen regardless of who governs."'
+  - "**OPSEC:** Analytical frameworks safe; operational details not."
+  - "**Regime Source Filtering:** Iranian state media treated as adversarial. Cited for claims, not facts."
+
+# Level groupings for module registry rendering
+level_labels:
+  0: "Level 0: Navigation & Reference"
+  1: "Level 1: ITB Pillar A — Regime Architecture"
+  2: "Level 2: ITB Pillars B-H"
+  3: "Level 3: ISA — Stress Architecture"
+  4: "Level 4: Appendices"
+
+# Semi-static dependency map (update manually when module structure changes)
+dependency_map: |
+  INDEX (always load first)
+    │
+    ├── ITB-A — foundation for all Pillar A modules
+    │    ├── ITB-A6 — Parliament/Majlis (→ ISA-TRAPS Trap 3)
+    │    ├── ITB-A8 — theological layer (→ A9, A10, ISA-TRAPS)
+    │    ├── ITB-A9 — parallel society (→ A10, ISA-TRAPS, ISA-CORE)
+    │    ├── ITB-A10 — eschatological faction (→ ISA-TRAPS, ISA-SCENARIOS)
+    │    ├── ITB-A11 — Pinochet mechanism (→ ISA-TRAPS, ISA-SCENARIOS)
+    │    └── ITB-A12 — Coercive-Endurance Doctrine (→ ISA-SCENARIOS, ISA-TRAPS)
+    │
+    ├── ITB-B through ITB-H — standalone (load as needed)
+    │    ├── ITB-D16 — Judiciary (→ ITB-A8 Haqqani pipeline)
+    │    ├── ITB-F — international positions (→ F11, F12)
+    │    │    ├── ITB-F11 — equilibrium beneficiaries (→ F12, ISA-SCENARIOS Obs 009)
+    │    │    └── ITB-F12 — normalization quality [TRANSITION PLANNING CRITICAL]
+    │    │         (→ ISA-TRAPS Trap 9+10, ISA-SCENARIOS Obs 012 + Scenario 1B/5,
+    │    │          ITB-G §G6.4, ITB-C §C2.a, APP-V NQ-vars, APP-G G12-gaps)
+    │    └── ITB-G — diaspora (→ F12 §3.3 for governance precondition)
+    │
+    ├── ISA-CORE — coupling map + sequencing (references all ITB)
+    │    ├── ISA-TRAPS — simultaneity traps (→ ITB-A, A8, A9, A10, A11, F12)
+    │    ├── ISA-SCENARIOS — scenarios + observations (references all)
+    │    └── ISA-CASES — historical parallels (→ ISA-TRAPS, ISA-SCENARIOS)
+    │
+    └── APP-V, APP-G — reference/working docs
+
+# Quick lookup table for question-based navigation
+quick_lookup:
+  - question: "Succession dynamics"
+    modules: ["ITB-A", "ITB-A10", "ISA-SCENARIOS"]
+  - question: "IRGC reform/transition"
+    modules: ["ITB-A", "ITB-A9", "ISA-CORE", "ISA-TRAPS", "ITB-F12 §3.1"]
+  - question: "Nuclear negotiations"
+    modules: ["ITB-B", "ITB-F", "ITB-A8", "ISA-SCENARIOS"]
+  - question: "Eschatological faction"
+    modules: ["ITB-A10", "ITB-A8", "ISA-TRAPS", "ISA-SCENARIOS"]
+  - question: "Historical parallels"
+    modules: ["ISA-CASES", "ISA-TRAPS"]
+  - question: "Economic transition"
+    modules: ["ITB-C", "ITB-A", "ISA-CORE", "ISA-TRAPS (Trap 1)", "ITB-F12 §3.2"]
+  - question: "Diaspora coordination"
+    modules: ["ITB-G", "ITB-H", "ISA-CORE (Trap 5)", "ITB-F12 §3.3"]
+  - question: "Territorial integrity"
+    modules: ["ITB-E", "ITB-D", "ISA-CASES (Track B)"]
+  - question: "Security sector reform"
+    modules: ["ITB-A", "ITB-B", "ISA-TRAPS (Trap 2)", "ISA-CORE"]
+  - question: "Parliament / Majlis dynamics"
+    modules: ["ITB-A6", "ITB-A10", "ITB-A11", "ISA-TRAPS (Trap 3)"]
+  - question: "Judicial reconstruction"
+    modules: ["ITB-D16", "ITB-A8 (Haqqani)", "ITB-D (D14)", "ISA-TRAPS"]
+  - question: "Pinochet/alignment switch"
+    modules: ["ITB-A11", "ISA-TRAPS (Trap 8)", "ISA-SCENARIOS", "ITB-F12 §4.1"]
+  - question: "Normalization quality / deal design"
+    modules: ["ITB-F12", "ISA-TRAPS (Trap 10)", "ITB-F11", "ISA-SCENARIOS (Obs 012)"]
+  - question: "Equilibrium beneficiaries (regional)"
+    modules: ["ITB-F11", "ITB-F12 §3.4", "ISA-SCENARIOS (Obs 009)"]
+  - question: "Diaspora capital + governance precondition"
+    modules: ["ITB-G §G6.4", "ITB-F12 §3.3"]
+  - question: "South Pars / Western investment barrier"
+    modules: ["ITB-F12 §B1", "ITB-C §C2.a", "ISA-TRAPS (Trap 10)"]
+  - question: "China vacuum / strategic competition"
+    modules: ["ITB-F12 §2+§3.4", "ITB-F §F6", "ITB-F11"]
+  - question: "Deal conditionality design"
+    modules: ["ITB-F12 §4.2", "ISA-TRAPS Trap 10", "ISA-SCENARIOS Obs 012"]
+  - question: "Full system overview"
+    modules: ["INDEX", "APP-V", "ISA-CORE"]
+  - question: "Regime external behavior model / escalation-diplomacy sequencing"
+    modules: ["ITB-A12"]
+
+# Analytical state summary (update each session)
+analytical_summary: |
+  Deep coverage achieved on Pillar A: constitutional architecture (A, with expanded A6 Parliament module), theological machinery (A8), IRGC parallel society (A9), eschatological hardline faction with academic validation (A10), Pinochet alignment-switch mechanism (A11). Pillars B-H upgraded to v2.0 working drafts. ITB-D expanded to v5.0 (615 lines) with deep political culture, geography, and small-city analysis. New D16 module (Judiciary) documents the single hardest institutional reconstruction problem in any transition scenario.
+
+  A12 (Coercive-Endurance Interaction Doctrine) provides the behavioral model explaining how the regime
+  sequences confrontation and diplomacy as phases in a single cycle. Scope: describes pragmatist operating
+  logic (Segment 3); must be read against A10 (eschatological spoiler) and three-segment factional model
+  (A10.4a.5) for complete picture. Current assessment: Phase 2→3 transition (Feb 2026).
+
+  **Key analytical finding added Session 10:** Turnout-extremism ratchet (A6.10) is self-tightening. January 2026 massacre accelerated it by a full cycle. Terminal state (Paydari parliamentary monopoly, 2028) weakens the A6.6.2 "free Majlis election as fastest transition path" finding. Any transition coinciding with 13th Majlis sitting must bypass parliament and create a parallel constituent body.
+
+  **Sessions 11-12 (2026-02-21):** Equilibrium beneficiaries + normalization quality research. Three new analytical modules: F11 (Tier 1 active beneficiaries: Qatar, UAE, Turkey, China, Russia, Iraq/PMF), F11 Addendum (Tier 2/3 reclassification: Pakistan → constrained, Oman → mediation industry, Armenia/Azerbaijan → external pressure/TRIPP coupling, India → constrained normalization aspirant), and F12 (Normalization Quality Framework).
+
+  **Top structural finding — F12:** Hollow deal = IRGC enrichment. A nuclear deal without IRGC economic conditionality routes sanctions relief through IRGC-controlled channels (51% statutory oil revenue allocation), enriches the IRGC without divestiture, blocks all Type B actors (Western oil majors, banks, EU companies, diaspora capital, Iranian private sector), and hands South Pars development to China. This is Scenario 1B's economic engine. Deal conditionality design (NIOC restructuring, KAA competitive bidding, banking IRGC divestiture, commercial law) is now a Tier 1 transition planning priority. See ITB-F12, ISA-TRAPS Trap 10, ISA-SCENARIOS Obs 012.
+
+  **TRIPP encirclement coupling:** Armenia-Azerbaijan-US TRIPP corridor (Aug 2025) provides A10 eschatological faction with empirical three-front encirclement evidence, coupling external geopolitics to internal spoiler capacity. Pragmatist acceptance of IRGC divestiture conditionality is politically harder under visible encirclement. Sequencing implication: de-escalation first → conditionality negotiation → snap-back, is preferable to maximum pressure + conditionality demands simultaneously.
+
+  **EU IRGC designation (Feb 2026):** Creates criminal liability for European companies in IRGC-dominant sectors under EU law, independent of US sanctions status. Hollow deal does not unlock EU investment. European reconstruction participation structurally requires IRGC economic divestiture or EU de-designation (politically impossible post-massacre).
+
+  **Top 5 unfilled gaps (updated):** (1) NIOC board IRGC commander composition (G12-01 — Priority 1); (2) Artesh unit-level loyalty signals under blackout; (3) IRGC new command cohort factional alignments; (4) KAA current contract pipeline (G12-02 — Priority 1); (5) Heyat network armed capability (quantitative). See APP-G.
