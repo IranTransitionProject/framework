@@ -61,8 +61,10 @@ def validate_brief(filepath: Path, schema: dict) -> list[str]:
         expected_id = f"EB{expected_prefix[2:].zfill(2)}"
     elif expected_prefix == "intro":
         expected_id = "INTRO"
-    elif expected_prefix == "exec_summary":
+    elif expected_prefix in ("es", "exec_summary"):
         expected_id = "ES"
+    elif expected_prefix.startswith("supp_"):
+        expected_id = f"SUPP-{expected_prefix[5:].upper()}"
     else:
         expected_id = None
 

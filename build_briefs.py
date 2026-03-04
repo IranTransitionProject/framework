@@ -33,9 +33,8 @@ TEMPLATE_MAP = {
     "brief": "brief.md.j2",
     "emergency_brief": "brief.md.j2",
     "supplemental": "brief.md.j2",
-    # These get their own templates when created:
-    # "executive_summary": "brief_exec_summary.md.j2",
-    # "introduction": "brief.md.j2",
+    "executive_summary": "brief.md.j2",
+    "introduction": "brief.md.j2",
 }
 
 # Map brief_id to output filename

@@ -1,0 +1,43 @@
+{# brief_changelog.md.j2 — Renders CHANGE_LOG from per-brief changelog[] fields.
+   Input: briefs (list of dicts), series_changelog (list of series-level entries)
+   Output: Markdown changelog matching CHANGE_LOG_BRIEFS format.
+-#}
+# CHANGE LOG -- Iran Transition Project Convergence Briefs
+**Version:** {{ meta.version | default('3.0') }}
+**Date:** {{ meta.date | default('2026-02-23') }}
+**Covers:** {{ meta.covers | default('Briefs #1-#10, Executive Summary, Introduction') }}
+
+---
+{% if series_changelog is defined and series_changelog %}
+
+## SERIES-LEVEL CHANGES
+{% for entry in series_changelog %}
+
+### {{ entry.version }} ({{ entry.date }}): {{ entry.title }}
+
+{{ entry.content }}
+{% endfor %}
+
+---
+{% endif %}
+{% for brief in briefs %}
+{%- if brief.changelog %}
+
+## {% if brief.number is not none %}BRIEF #{{ brief.number }} -- {{ brief.title }}{% elif brief.type == 'emergency_brief' %}EMERGENCY BRIEF -- {{ brief.title }}{% elif brief.type == 'executive_summary' %}EXECUTIVE SUMMARY{% elif brief.type == 'introduction' %}INTRODUCTION{% else %}{{ brief.brief_id }} -- {{ brief.title }}{% endif %}
+
+{% for entry in brief.changelog %}
+### {{ entry.version }} ({{ entry.date }})
+{% if entry.structural_changes %}
+**Structural changes:**
+{{ entry.structural_changes }}
+{% endif %}
+{% if entry.content_changes %}
+**Content changes:**
+{{ entry.content_changes }}
+{% endif %}
+{% endfor %}
+---
+{% endif %}
+{%- endfor %}
+
+*{{ meta.footer | default('Generated from per-brief changelog[] fields in ITP database.') }}*

@@ -1,0 +1,139 @@
+{# brief_governance.md.j2 — Renders BRIEF_GOVERNANCE document.
+   Input:
+     briefs (list of dicts) — all brief YAML data, used for Parts 1/4/5
+     static (dict) — static governance rules for Parts 2/3/6/7/8
+     meta (dict) — document-level metadata (version, date, etc.)
+   Output: Full governance framework markdown.
+-#}
+# IRAN TRANSITION PROJECT: BRIEF GOVERNANCE FRAMEWORK
+
+**Document Code:** BRIEF_GOVERNANCE
+**Version:** {{ meta.version | default('2.0') }}
+**Date:** {{ meta.date | default('2026-02-23') }}
+**Purpose:** Decision system for (a) routing new analytical findings to "new brief" vs. "version update," and (b) assessing all existing briefs against current analytical state. This document is part of the living project architecture and must be updated whenever a brief is published or revised.
+**Status:** STANDING -- applies to all current and future briefs
+
+---
+
+## PART 1: WHAT THE BRIEF SERIES IS AND IS NOT
+
+### What a brief IS:
+- A **public-facing distillation** of one structural finding from the ITB/ISA analytical baseline
+- Written for **policy-relevant audiences** (policy professionals, diaspora organizers, journalists, think tanks) -- not for the internal analytical project
+- Built around a **single thesis** that can be stated in one sentence
+- **Time-calibrated**: accurate at publication; marked as updated when material facts change
+- **Self-contained**: a reader who picks it up with no prior context can follow it
+
+### What a brief IS NOT:
+- A comprehensive summary of the full ITB/ISA baseline
+- A news article or event recap
+- A faction advocacy document
+- An internal working paper
+
+### The brief series currently covers:
+
+| # | Title | Core Thesis |
+|---|-------|-------------|
+{% for brief in briefs %}
+{%- if brief.type == 'brief' %}
+| {{ brief.number }} | {{ brief.title }} | {{ brief.core_thesis }} |
+{%- endif %}
+{%- endfor %}
+
+### Series-level documents:
+{% for brief in briefs %}
+{%- if brief.type in ['executive_summary', 'introduction', 'emergency_brief', 'supplemental'] %}
+- **{{ brief.title }}** ({{ brief.brief_id }}) -- {{ brief.core_thesis[:100] }}{% if brief.core_thesis | length > 100 %}...{% endif %}
+
+{%- endif %}
+{%- endfor %}
+
+---
+
+## PART 2: THE ROUTING DECISION FRAMEWORK
+
+{{ static.part2 }}
+
+---
+
+## PART 3: SPECIAL CASES
+
+{{ static.part3 }}
+
+---
+
+## PART 4: STATUS REGISTRY
+
+| # | Title | Published? | Version | Status | Notes |
+|---|-------|-----------|---------|--------|-------|
+{% for brief in briefs %}
+{%- if brief.type == 'brief' %}
+| {{ brief.number }} | {{ brief.title }} | {% if brief.date_published %}Yes{% else %}No{% endif %} | {{ brief.version }} | {{ brief.status }} | {{ brief.governance.routing_decision | default('') }}{% if brief.governance.pending_updates %} Pending: {{ brief.governance.pending_updates }}{% endif %} |
+{%- endif %}
+{%- endfor %}
+
+{% for brief in briefs %}
+{%- if brief.type != 'brief' %}
+| -- | {{ brief.title }} | {% if brief.date_published %}Yes{% else %}No{% endif %} | {{ brief.version }} | {{ brief.status }} | {{ brief.governance.routing_decision | default('') }}{% if brief.governance.pending_updates %} Pending: {{ brief.governance.pending_updates }}{% endif %} |
+{%- endif %}
+{%- endfor %}
+
+---
+
+## PART 5: REFACTOR ASSESSMENT -- ALL BRIEFS
+
+{% for brief in briefs %}
+{%- if brief.type == 'brief' %}
+### BRIEF #{{ brief.number }}: {{ brief.title }}
+**Status:** {{ brief.status }}.
+{%- if brief.governance.shelf_life %}
+**Shelf life:** {{ brief.governance.shelf_life }}.
+{%- endif %}
+{%- if brief.governance.pending_updates %}
+**Pending:** {{ brief.governance.pending_updates }}
+{%- endif %}
+{%- if brief.governance.vulnerability %}
+**Vulnerability:** {{ brief.governance.vulnerability }}
+{%- endif %}
+
+---
+{% endif %}
+{%- endfor %}
+
+{% for brief in briefs %}
+{%- if brief.type != 'brief' %}
+### {{ brief.brief_id }}: {{ brief.title }}
+**Status:** {{ brief.status }}.
+{%- if brief.governance.shelf_life %}
+**Shelf life:** {{ brief.governance.shelf_life }}.
+{%- endif %}
+{%- if brief.governance.pending_updates %}
+**Pending:** {{ brief.governance.pending_updates }}
+{%- endif %}
+{%- if brief.governance.vulnerability %}
+**Vulnerability:** {{ brief.governance.vulnerability }}
+{%- endif %}
+
+---
+{% endif %}
+{%- endfor %}
+
+## PART 6: PENDING BRIEF CANDIDATES
+
+{{ static.part6 }}
+
+---
+
+## PART 7: MASTER BRIEF ACTION PLAN
+
+{{ static.part7 }}
+
+---
+
+## PART 8: HOW TO UPDATE THIS DOCUMENT
+
+{{ static.part8 }}
+
+---
+
+*BRIEF_GOVERNANCE {{ meta.version | default('v2.0') }}. Standing document. Update after every analytical session that produces brief-relevant findings.*
