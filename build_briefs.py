@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build markdown briefs from YAML data using Jinja2 templates."""
 
+import re
 import sys
 from pathlib import Path
 
@@ -48,16 +49,17 @@ def output_filename(data: dict) -> str:
     elif btype == "introduction":
         return "01_Convergence_Briefs_-_Introduction.md"
     elif bid.startswith("EB"):
-        # Emergency_Brief_Children_in_the_Compound_v2.md
-        title_slug = data.get("title", "").replace(" ", "_").replace(":", "")
-        return f"Emergency_Brief_{title_slug}.md"
+        title_slug = data.get("title", "").replace(" ", "_")
+        title_slug = re.sub(r'[^A-Za-z0-9_-]', '', title_slug)
+        return f"Emergency_Brief_{title_slug}_v2.md"
     elif bid.startswith("SUPP"):
-        title_slug = data.get("title", "").replace(" ", "_").replace(":", "")
+        title_slug = data.get("title", "").replace(" ", "_")
+        title_slug = re.sub(r'[^A-Za-z0-9_-]', '', title_slug)
         return f"{title_slug}.md"
     else:
-        # Brief_03_Iran_Is_Not_Iraq.md
         num = data.get("number", 0)
-        title_slug = data.get("title", "").replace(" ", "_").replace(":", "")
+        title_slug = data.get("title", "").replace(" ", "_")
+        title_slug = re.sub(r'[^A-Za-z0-9_-]', '', title_slug)
         return f"Brief_{num:02d}_{title_slug}.md"
 
 
@@ -90,10 +92,11 @@ def build_brief(yaml_path: Path, env: jinja2.Environment) -> tuple[str, str]:
               f"falling back to brief.md.j2")
         template = env.get_template("brief.md.j2")
 
-    # Add display-formatted date
-    data["date_display"] = format_date_display(
-        data.get("date_published") or data.get("date", "")
-    )
+    # Add display-formatted date only if not already in YAML
+    if not data.get("date_display"):
+        data["date_display"] = format_date_display(
+            data.get("date_published") or data.get("date", "")
+        )
 
     rendered = template.render(brief=data)
 

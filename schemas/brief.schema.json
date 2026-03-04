@@ -91,6 +91,15 @@
       },
       "description": "Reader-facing update notes displayed after header in published brief"
     },
+    "preamble": {
+      "type": ["string", "null"],
+      "description": "Raw text block rendered between header separator and first content section. Preserves exact source formatting (bold, italic, etc.)."
+    },
+    "section_separators": {
+      "type": "boolean",
+      "default": false,
+      "description": "If true, render --- separator between body sections"
+    },
     "sections": {
       "type": "array",
       "minItems": 1,
@@ -100,6 +109,19 @@
     "source_summary": {
       "type": ["string", "null"],
       "description": "Source summary for footer (e.g., '~85 English and Farsi sources')"
+    },
+    "footer_raw": {
+      "type": ["string", "null"],
+      "description": "Complete raw footer text rendered verbatim. When present, overrides template-generated footer (attribution, companion, extras, bio)."
+    },
+    "footer_attribution": {
+      "type": ["string", "null"],
+      "description": "Custom attribution line overriding default template. Rendered as-is in italic."
+    },
+    "footer_extras": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Additional footer blocks (key sources, epistemic notes, etc.) rendered after companion briefs."
     },
     "companion_briefs": {
       "type": "array",
@@ -119,6 +141,20 @@
     "author_bio": {
       "type": ["string", "null"],
       "description": "Author bio line for footer"
+    },
+    "byline_override": {
+      "type": ["string", "null"],
+      "description": "Raw byline text overriding the default template construction"
+    },
+    "separator": {
+      "type": "string",
+      "enum": ["---", "-----"],
+      "default": "---",
+      "description": "Separator style used in this brief"
+    },
+    "date_display": {
+      "type": ["string", "null"],
+      "description": "Display-formatted date (e.g., 'February 2026' or 'February 28, 2026')"
     },
     "changelog": {
       "type": "array",

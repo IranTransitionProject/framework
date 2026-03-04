@@ -1,0 +1,211 @@
+brief_id: B06
+number: 6
+title: The Day After
+subtitle: What Determines Whether the Regime Survives the Next Strike
+author: Hooman Mehr
+contact: hooman@mac.com
+series_link: https://hmehr.substack.com/p/iran-the-convergence-briefs
+brief_link: https://hmehr.substack.com/p/the-day-after
+version: v3.0
+date: '2026-02-24'
+date_published: '2026-02-20'
+status: CURRENT
+type: brief
+core_thesis: The regime has a documented false-flag doctrine, a 1988 precedent, and an activated legal framework; the day-after
+  scenario is worse than most transition planning assumes.
+itb_anchors:
+- ITB-B
+- ITB-A9
+- ITB-G
+update_notes: []
+preamble: |-
+  ---
+
+  *Version 2.1 note: This brief was originally published February 20, 2026. v2.0 integrated the Larijani governance revelation (NYT, Feb 22), updated force posture data through Feb 23, and the student protest expansion. v2.1 (Feb 24) updates campus protest count (7 -> 12+), death sentence count (14 -> 26+), HRANA verified deaths (7,005+ -> 7,015+), adds 8,843 indictment judicial pipeline data, and notes university online-class shutdowns through March 20 (Nowruz convergence). See Briefs #7-#10 for Larijani, succession, coercive-endurance, and post-strike analyses.*
+
+  ---
+separator: '---'
+section_separators: false
+sections:
+- title: Reading the Force Posture
+  level: 2
+  content: |
+    The United States has assembled the largest concentration of military power in the Middle East since the 2003 Iraq invasion. On February 22, Axios reported that this diplomatic push is "likely the last chance President Trump will give Iran before launching a massive U.S.-Israeli military operation that could directly target Supreme Leader Ali Khamenei." That assessment is consistent with every observable indicator.
+
+    The specific assets tell the story.
+
+    **Two carrier strike groups.** The USS Abraham Lincoln arrived in the Arabian Sea in late January with its full strike group: guided-missile destroyers USS Spruance, USS Michael Murphy, and USS Frank E. Petersen Jr., the guided-missile cruiser USS Mobile Bay, carrier air wing with F/A-18E Super Hornets, F-35C Lightning IIs, EA-18G Growler electronic warfare aircraft, and E-2 Hawkeye airborne early warning planes. The USS Gerald R. Ford \-- the world's largest warship \-- transited the Strait of Gibraltar on February 20 and is now operating in the eastern Mediterranean. The Ford pulled ahead of its own escort destroyers \-- USS Winston S. Churchill, USS Bainbridge, and USS Mahan \-- to get there faster, prioritizing speed over formation. Its deployment has been extended for a second time. Two simultaneous carrier strike groups have not been deployed to this region since the June 2025 war. Combined carrier air power exceeds 160 fixed-wing aircraft.
+
+    **Fifteen destroyers.** In addition to the carrier escort destroyers, the USS McFaul and USS Mitscher are operating in the Strait of Hormuz. The USS Delbert D. Black is in the Red Sea. The USS Roosevelt and USS Bulkeley are in the Mediterranean. Three Littoral Combat Ships \-- USS Canberra, USS Tulsa, and USS Santa Barbara \-- are equipped with mine countermeasure packages in the Persian Gulf, staged from Bahrain's Fifth Fleet headquarters. The total naval presence now exceeds fourteen ships. OSINT analysts estimate the combined fleet carries over 600 Tomahawk land-attack cruise missiles available for a single salvo.
+
+    **Air power surge.** F-22 Raptors \-- at least twelve \-- departed Langley Air Force Base heading east. F-22s are America's most expensive air superiority fighter. Their primary mission is SEAD: suppression of enemy air defenses. You deploy Raptors to destroy integrated air defense networks before strike packages enter. You do not deploy them as a negotiating signal. Over fifty F-35, F-22, and F-16 fighter jets moved to the region in a single twenty-four-hour window around February 17\. F-15E Strike Eagles from the 494th Expeditionary Fighter Squadron \-- approximately thirty-five aircraft \-- arrived at Muwaffaq Salti Air Base in Jordan from RAF Lakenheath. Satellite imagery shows every visible parking space on the base full. Additional F-35s staged through Rota and Moron Air Bases in Spain. E-3 AWACS airborne warning and control aircraft are aloft. KC-46 Pegasus aerial refueling tankers surged to Lajes Air Field in the Azores \-- the largest deployment that base has ever hosted. CBS News tracked over fifty US Air Force and Navy aircraft flying east in a single eight-hour window on February 19, mostly refueling, transport, and surveillance aircraft. Western analysts have tracked at least 249 flights by C-17 Globemaster III and C-5M Super Galaxy heavy transport aircraft from US, European, and regional bases between January 15 and February 21\.
+
+    **Infrastructure activation.** Bulgaria closed Sofia Airport to commercial traffic on Monday and Tuesday, February 24-25, exclusively for US military aircraft operations. This is not a routine base access arrangement \-- it is a NATO member closing a civilian airport for military staging. The pattern of base activations across southern Europe and the eastern Mediterranean \-- Ramstein, Rota, Moron, Lajes, Souda Bay in Crete \-- traces the logistics chain for a sustained campaign, not a single-night strike.
+
+    **Submarine and extended assets.** The submarine picture is opaque by design. The USS Georgia participated in the June 2025 strikes, launching over thirty Tomahawks at Isfahan. The Navy retained USS Ohio and USS Florida on the active roster specifically by removing them from the fiscal year 2026 deactivation list, preserving four Ohio-class guided-missile submarines each capable of carrying 154 Tomahawk cruise missiles. At least one fast-attack submarine likely accompanies each carrier strike group.
+
+    Military analysts assess this force configuration enables approximately 800 combat sorties per day over a sustained period \-- a capacity that dwarfs the single-night Midnight Hammer operation of June 2025\. Multiple units scheduled to rotate home have had their orders extended. Rotation extensions cost readiness, morale, and money. They signal that the forces are needed in place for something specific, within weeks.
+
+    The Ford's positioning in the eastern Mediterranean allows it to simultaneously defend Israel against Iranian retaliation while the Lincoln's air wing in the Arabian Sea prosecutes inland targets \-- a division of labor that was not available during Midnight Hammer's single-carrier execution. US officials told the Wall Street Journal this buildup supports "several weeks of operations." President Trump said of the second carrier: "In case we don't make a deal, we'll need it." He described regime change as "the best thing that could happen." On remaining nuclear targets: "If we do it, that would be the least of the mission." On February 21, he said he was considering limited strikes to force a deal. Pentagon planners told the White House they would "soon be ready to launch." Strike plans presented range from "quick strikes to more in-depth operations."
+
+    Iran's response was direct: a letter to the UN Secretary General stating that "all bases, facilities, and assets of the hostile force in the region would constitute legitimate targets" in the event of an attack. Khamenei warned that the United States "may be struck so hard that it cannot get back up."
+
+    A force this size cannot be held in readiness indefinitely. Within two to four weeks of reaching full readiness, the posture begins degrading \-- crew fatigue, maintenance cycles, political attention drift. The Ford's arrival in the Mediterranean on February 20 starts that clock. The diplomatic window (Iran's proposal due Tuesday, Geneva Round 3 Thursday) and the military window close at approximately the same time, around early to mid-March. This is not a coincidence. It is a design.
+- title: Iran Is Preparing for the Strike
+  level: 2
+  content: |
+    Iran is not merely negotiating. It is simultaneously hardening for an attack it considers increasingly likely.
+
+    **Nuclear site fortification.** Satellite imagery analyzed by the Institute for Science and International Security shows Iran racing to bury its nuclear infrastructure. At the Parchin military complex southeast of Tehran, a facility targeted by Israel in October 2024 has been encased in what analysts call a "concrete sarcophagus" and is now being covered with soil \-- ISIS founder David Albright warned that "the facility may soon become a fully unrecognizable bunker." At Isfahan, all three tunnel entrances to the underground enrichment complex have been completely backfilled with soil as of February 9\. At Pickaxe Mountain near Natanz, fresh concrete is visible at both western and eastern tunnel entrances, with construction equipment actively hardening the site. Iran is transferring centrifuges and sensitive equipment into the mountain, aiming to establish protected production lines deep underground. A new roof identical in architectural features to the destroyed Karaj centrifuge production facility has been erected at the Isfahan surface site \-- designed to hide rotor and bellows production from satellite observation.
+
+    **Missile base reconstruction.** Iran has rebuilt missile bases damaged in the June 2025 war. The Qom missile base has a new roof over its damaged building, completed in late November 2025\. The Shiraz South missile base shows extensive repair and clearance work. Ballistic missile launchers have been deployed on western borders and along the southern Gulf shore. Iran has reconstituted an estimated portion of its ballistic missile arsenal \-- the June 2025 strikes destroyed approximately two-thirds of Iran's launchers and between a third and half of its estimated 2,500-missile inventory, but production facilities are being rebuilt and concealed.
+
+    **Command dispersal.** The Wall Street Journal reported that Iran is implementing "mosaic defense" \-- dispersing command authority across multiple nodes to survive a decapitation strike. Ali Shamkhani has been appointed to head a new Defense Council managing war planning. Larijani has ordered four layers of succession for every key position Khamenei appoints. As CNN analyst Hamidreza Azizi noted, Shamkhani's appointment signals preparation for a specific scenario: "the issue of post-Khamenei succession" in the event of a US strike targeting regime leadership. This is not abstract contingency planning. It is institutional preparation for a named threat.
+
+    **Naval and deterrent posture.** Iran conducted its first-ever announced closure of parts of the Strait of Hormuz for live-fire exercises, firing anti-ship cruise missiles from three islands and deploying drones and submarines. Iran-Russia joint naval exercises launched in the Sea of Oman and northern Indian Ocean on February 19\. On February 3, six IRGC Navy gunboats attempted to seize a US tanker, the Stena Imperative, in the Strait of Hormuz \-- the vessel continued under USS McFaul escort. A US F-35 shot down an Iranian Shahed 139 drone approaching the USS Abraham Lincoln. All armed forces have been placed at their highest readiness level. These are not exercises. They are operational deployments.
+- title: Three Strikes, Three Futures
+  level: 2
+  content: |
+    Not all strikes are equal. The scope of military action determines whether the regime survives, and the force assembled is sized for the full range.
+
+    **Scenario A: Nuclear-Only (Midnight Hammer 2.0).** The US strikes Natanz, Fordow, Isfahan, and Pickaxe Mountain \-- the same targets as June 2025, plus hardened sites under reconstruction. Objective: set back nuclear program another 12-18 months. This is the floor of what the force can do, and the force in theater is vastly oversized for it. The regime survived this in June 2025 and would almost certainly survive it again. But Iran's fortification effort is specifically designed to make this option less effective than June \-- buried tunnel entrances, concrete sarcophagi, centrifuges moved deeper underground. A repeat of Midnight Hammer against hardened targets may require heavier ordnance and longer operations than the single-night 2025 strike. The regime absorbs the blow, declares victory, and rebuilds. The internal dynamic does not change.
+
+    **Scenario B: Nuclear \+ Military Infrastructure.** The US strikes nuclear sites plus IRGC military assets: missile production facilities, drone factories, naval bases in the Gulf, air defense networks, command and control nodes. The F-22s and SEAD package make sense for this scenario \-- they clear the air defenses, then the F-15Es and F-35s destroy the target list over days to weeks. The 800-sortie-per-day capacity and dual-carrier positioning enable sustained operations that Midnight Hammer's single-night execution could not. The regime survives but is significantly weakened. IRGC loses military credibility. The key question becomes whether the population interprets this as an attack on Iran or an attack on the regime that has been killing them. That interpretation determines whether the post-strike environment stabilizes or spirals.
+
+    **Scenario C: Maximalist (Regime Decapitation \+ Infrastructure).** The US strikes nuclear sites, military infrastructure, and regime command structures \-- Supreme Leader compound, IRGC headquarters, SNSC, communications infrastructure, state broadcasting, key leaders' known locations. Axios confirmed on February 22 that Pentagon options presented to Trump include targeting Khamenei and Mojtaba specifically. Israeli officials have described a "maximalist scenario targeting regime change." The force in theater is sufficient. Iran's "mosaic defense" and succession directives are designed to survive this scenario \-- but survival of the state apparatus is not the same as survival of the regime. This is the scenario where the regime may not survive. It is also the scenario that produces the most dangerous post-strike environment: no functioning government, potential IRGC fragmentation, nuclear material security questions, humanitarian crisis, and a power vacuum in a country of 88 million. This is where transition planning either exists or it doesn't.
+- title: Why This Is Not June 2025
+  level: 2
+  content: |
+    Operation Midnight Hammer struck a quiescent Iran. The population was not mobilized. The mourning cycle was not active. The regime redirected nationalist anger outward, rallied its base, and declared survival. That playbook worked.
+
+    It will not work the same way in March 2026\. Four differences:
+
+    First, the population is already in the streets. The 40-day mourning cycle (chehelom) for the January 8-9 massacre victims became active on February 17-18. Security forces fired on mourners in Abdanan, killing at least one person. Clashes erupted in Mashhad. Mourning has spread beyond cemeteries into streets and hospitals. This is the mechanism that produced the 1979 revolution: each cycle of mourning creates new confrontations, new deaths, and a new 40-day cycle. If the next chehelom falls in late March \-- coinciding with Nowruz \-- the regime faces a convergence of mourning, holiday gathering, and post-strike chaos simultaneously.
+
+    Second, the student movement has opened a second front that continues expanding. By February 24, protests had spread across at least twelve university campuses in four cities over four consecutive days -- University of Tehran, Al-Zahra, Sharif, Amirkabir, Shahid Beheshti, Science & Technology, Khajeh Nasir, and Science & Culture in Tehran; Isfahan University of Technology; Ferdowsi and Sajjad in Mashhad; and Shiraz University. Students trampled images of Khamenei, raised pre-1979 Iranian flags, and chanted anti-regime slogans. The protests have exposed an intra-opposition factional dynamic that did not exist in January: students at Tehran University issued a statement criticizing a "monarchist current," while others chanted "Neither monarchy nor mullahs' rule; yes to democracy and equality." Clashes between anti-establishment students and Basij militia occurred on multiple campuses. The university protests draw regime security resources into a second theater \-- one that operates on a different rhythm than the mourning cycle and cannot be suppressed by the same methods. The regime's response reveals the strain: the government spokesperson acknowledged students "have wounds in their hearts" while insisting on "red lines." Several universities moved classes online through March 20 -- Nowruz -- an implicit admission that campus-based control has failed. Students are now being referred to the prosecutor general's office rather than university disciplinary bodies, indicating escalation from administrative to judicial processing. The Sharif University website was hacked to display its pre-revolution name, "Aryamehr University of Technology." If campus shutdowns persist through Nowruz, the student front converges with the mourning cycle and holiday gathering -- three independent escalation mechanisms operating simultaneously.
+
+    Third, the regime has already exhausted its easy options. In June 2025, domestic security forces were intact and available. By January 2026, the regime was already deploying approximately 5,000 Iraqi and Afghan militia fighters domestically, plus an additional 800 foreign militia members imported specifically for protest suppression. Reports describe Arabic-speaking forces and non-Persian-speaking units firing on Iranian civilians. When you are importing foreign fighters to suppress your own population, your domestic security margin is already thin. A major US strike thins it further \-- because the IRGC must now defend against external attack while simultaneously containing internal unrest on two fronts.
+
+    Fourth, the rally-around-the-flag effect may not work. In June 2025, the regime could frame the strike as an attack on Iran. In March 2026, for a population mourning thousands killed by its own government and a student movement openly confronting the regime, a US strike on IRGC military infrastructure may read differently. Not as an attack on Iran \-- but as an attack on the force that has been attacking them. This is not certain. Nationalist sentiment is powerful and can override all other calculations. But the January massacre creates an ambiguity that did not exist in June 2025: whose side is the population on the day after the strike?
+- title: The 50,000
+  level: 2
+  content: |
+    There is a variable in the strike scenario that has no precedent in June 2025 and that most Western analysts are not modeling: the regime is holding over 50,000 detained protesters. HRANA documented 51,790 arrests as of February 9, and the count continues to climb.
+
+    This is not speculation about what the regime might do. It is a documented capability combined with a documented doctrine combined with a documented precedent \-- and, as of February 19, a confirmed practice.
+
+    **The precedent:** In the summer of 1988, as the Iran-Iraq war ended, Khomeini ordered the mass execution of political prisoners. A "Death Commission" \-- which included Ebrahim Raisi, later president \-- moved through Iran's prisons in weeks, conducting interviews lasting minutes, and sending thousands to execution. Estimates range from 2,800 to 30,000 killed. The regime was under stress; the war had ended in what Khomeini called "drinking poison." The prisoners were a political liability \-- potential future opposition \-- and they were liquidated while the world's attention was elsewhere.
+
+    **The doctrine:** In February 2026, reformist former MP Ali Shakouri-Rad publicly revealed the existence of a peer-reviewed article in Imam Hossein University's Scientific Research Quarterly \-- the IRGC's own military-academic institution. The article, "Psychological Operations and Their Effect on Urban Riots" by Amiri and Naffavi (published 2016-17), according to Shakouri-Rad's account, explicitly describes "manufacturing deaths among one's own forces" as a psychological operations technique for managing urban unrest and describes burning mosques and Qurans and attributing these to protesters as justification for crackdowns.
+
+    **The confirmation:** On February 19, Javad Tajik, the CEO of the Behesht Zahra Organization \-- Tehran's main cemetery \-- held a press conference in which he confirmed that the "coup de grace" \-- the practice of delivering a final, fatal shot to wounded protesters \-- was widely used during the January suppression. This is a regime official publicly admitting to extrajudicial execution of the wounded. IHRNGO had previously documented eyewitness reports of wounded individuals being "finished off" both on the streets and in medical facilities. On February 1, reports linked unknown substances being forcibly injected into detainees with multiple deaths in custody. President Pezeshkian himself apologized to the nation on February 11 for the crackdown \-- an extraordinary admission from a sitting president whose government carried it out. The execution machinery is not hypothetical. It is operational and publicly acknowledged.
+
+    **The legal framework:** The judiciary has already classified detained protesters as "enemies of God" (mofsed-e-filarz) \-- a charge that carries mandatory death under Islamic Penal Code Articles 284-287. Judiciary chief Mohseni Ejei has ordered "zero leniency" and "maximum penalties \-- do it now." An 18-year-old wrestling champion has been sentenced to public execution. At least twenty-six protesters have been sentenced to death as of February 24, with hundreds more -- including children -- facing capital charges. Amnesty International has documented thirty individuals facing execution, including two seventeen-year-olds. Seven protesters, including nineteen-year-old Mohammad Amin Biglari, were sentenced to death for a Basij base fire and tried by Judge Salavati -- the regime's notorious "Judge of Death." Fourteen protesters were sentenced in a single online court session. Three brothers from Shahinshahr received death sentences on February 18. The judiciary has announced 8,843 indictments issued -- establishing an industrial-scale judicial pipeline from detention to execution. The theological-legal machinery for mass killing of detainees is not hypothetical. It is activated and producing results.
+
+    **The operational logic under strike conditions:** If a US strike is imminent or underway, the regime has three reasons to act against its detainees. First, as a false-flag rally tool: kill the prisoners, blame the Americans, declare them casualties of the strike, and use the deaths to mobilize nationalist anger. Second, as a deterrent: signal to the population that taking to the streets during the chaos of a strike means death, not liberation. Third, as preemptive elimination: the same logic as 1988 \-- detainees are potential future opposition leaders, organizers, witnesses.
+
+    The internet blackout is the enabling condition. In January, the regime imposed the blackout before the massacre \-- not after. The sequence is deliberate: cut information access first, then kill. Under blackout, mass execution of detainees can be carried out with no real-time documentation.
+
+    Over fifty thousand people. Every one of them has a family that does not know where they are, whether they are alive, or what is being done to them.
+- title: The Two Variables That Determine Everything
+  level: 2
+  content: |
+    The single most important variable in any post-strike scenario is IRGC cohesion.
+
+    If the IRGC holds together as a unified institution, the regime survives anything short of Scenario C \-- and possibly survives even that. A unified IRGC can suppress the population, maintain territorial control, activate Hormuz retaliation, and reconstitute the nuclear program. Every historical case of authoritarian survival after military strikes depends on security force cohesion.
+
+    If the IRGC fractures, the regime is finished regardless of strike scope.
+
+    The IRGC is not monolithic. The June 2025 strikes killed Commander-in-Chief Hossein Salami and numerous senior commanders. The new leadership generation under Mohammad Pakpour has no tested working relationships. There are fragmentary signals of strain: Tehran reportedly rotated "more loyal" IRGC contingents from other provinces to replace units showing signs of dissent. Digital forensics tracked over $400 million in cryptocurrency moving out of Iran by mid-level regime officials between December 2025 and January 2026 \-- the kind of capital flight that precedes institutional abandonment.
+
+    A major strike introduces the stress test. IRGC members and their families \-- the 2-10 million people who live inside the parallel society \-- must decide in real time whether their institutional loyalty holds. For the ideological core, it will. For the economically dependent majority, it depends on whether the institution can still provide. A strike that degrades the IRGC's economic infrastructure may do more to fracture it than one that targets its military assets.
+
+    There is a second variable operating alongside IRGC cohesion: the survival of the pragmatic-institutionalist leadership centered on Ali Larijani. The New York Times confirmed on February 22 that Larijani has been effectively running Iran since January \-- managing internal security, foreign relationships, nuclear negotiations, and war planning simultaneously. He has established a four-layer succession directive requiring every key officeholder to name replacements. A new Defense Council under Ali Shamkhani manages the military confrontation.
+
+    If a strike kills Khamenei but Larijani survives, his institutional network \-- the SNSC apparatus, pragmatic IRGC factions, and the cross-factional relationships he has been building \-- provides a rapid consolidation pathway that favors managed survival over theological capture. The eschatological faction (Mirbagheri/Paydari) would be contained by a surviving Larijani apparatus that controls the operational machinery of state. Probability of eschatological capture: lower.
+
+    If both Khamenei and Larijani are killed simultaneously, the power vacuum is severe \-- the two people running the country are gone at once. The eschatological faction's advantages become decisive: Mirbagheri's Assembly of Experts seat positions him in the constitutional succession body, the Paydari parliamentary bloc provides legislative control, and the Basij provincial network offers ground-level organizational capacity that no other faction can match in a vacuum. The four-layer succession directive is designed to prevent this scenario, but we do not know which faction the designated successors favor. Probability of eschatological capture: significantly higher.
+
+    This branching should inform strike planning and post-strike contingency design. A strike that decapitates the regime broadly may produce a worse factional outcome than one that selectively degrades military infrastructure while leaving the pragmatic institutional chain intact. Iran's own "mosaic defense" doctrine \-- dispersing command authority to survive decapitation \-- may paradoxically serve the pragmatists' interests by preserving institutional continuity through subordinate nodes, while the theological faction's comparative advantage lies precisely in the chaos that decapitation produces.
+
+    The Artesh \-- Iran's conventional military, approximately 420,000 personnel \-- is the third variable. The Artesh issued loyalty statements in January, but framed them around national defense, not explicitly endorsing the massacre of protesters. No confirmed Artesh defections, but no confirmed Artesh participation in protest suppression either. In a post-strike chaos scenario, the Artesh could serve as a stabilizing force \-- or it could fracture along the same lines. Its posture is the key unknown.
+- title: Hormuz \-- What Iran Can Actually Do
+  level: 2
+  content: |
+    Iran's most publicized deterrent is the Strait of Hormuz. Twenty to thirty percent of daily global oil consumption transits the waterway. Iran has just conducted its first-ever announced closure of parts of the Strait for live-fire exercises, firing anti-ship cruise missiles from three islands and deploying drones and submarines. The IRGC gunboat seizure attempt on the Stena Imperative and the drone intercept by a US F-35 demonstrate that low-level confrontation is already occurring in the waterway.
+
+    The deterrent is real but limited. Iran can threaten the Strait. It almost certainly cannot close it for long. Sustained closure requires sustained naval operations in a waterway where the US Navy now has overwhelming superiority \-- fifteen destroyers distributed across the Strait, the Red Sea, and the Mediterranean, plus two carrier strike groups with combined air power exceeding 160 aircraft. Iran's most effective Hormuz option is a burst \-- mines, a swarm attack, a tanker hit \-- designed to produce a global economic shock and then negotiate from the chaos. Not a sustained blockade.
+
+    The concurrent presence of Russian warships in the Maritime Security Belt 2026 joint exercise in the Sea of Oman adds a complication. Striking Iranian naval assets while Russian vessels are in adjacent waters creates deconfliction requirements and political consequences. Whether this is deliberate tripwire placement or routine timing is ambiguous \-- but it raises the threshold for US first strike in Hormuz itself.
+- title: What the Diaspora Should Be Doing Now
+  level: 2
+  content: |
+    If this analysis is correct \-- and the author sincerely hopes it is wrong \-- the Iranian diaspora has days, not weeks, to prepare for a major disruption.
+
+    **Communications.** The internet blackout imposed January 8 remains in force. The diaspora needs to have communication channels \-- satellite, radio, mesh networks, Signal with international relay \-- planned now, not improvised after the strike.
+
+    **Humanitarian preparation.** A major strike on a country already in economic collapse, already under internet blackout, already with thousands dead from protest suppression, will produce a humanitarian crisis. Medical supply chains, refugee corridor planning, and emergency coordination should be in motion now.
+
+    **Skills inventory.** The Iranian diaspora of four to five million includes engineers, physicians, lawyers, technologists, and academics. If transition comes, it comes fast. Who can do what, where, and how quickly? This should be cataloged, not left to improvisation.
+
+    **Institutional design.** The hardest lesson from Iraq, Libya, Syria, and Afghanistan: if you do not have a governance framework ready when the old regime falls, what fills the vacuum is worse. The framework must be Iranian-designed, tested against every documented failure mode from previous transitions, and ready to deploy on compressed timelines.
+
+    **Unity over faction.** The diaspora's greatest weakness is its fragmentation. Monarchists, republicans, federalists, MEK, leftists \-- each with legitimate grievances and irreconcilable visions. The student protests have already surfaced this fracture: "Neither monarchy nor mullahs' rule" is both a unifying slogan and a warning that the opposition's internal divisions will not wait for the regime to fall. A strike does not resolve these disagreements. It compresses the timeline for managing them. The minimum viable consensus is: no return to theocracy, territorial integrity, and a constitutional process determined by Iranians inside Iran. Everything else is negotiable. But the consensus must exist before the crisis, not after.
+source_summary: null
+footer_raw: |-
+  ---
+
+  *Brief \#6 in the Iran Transition Project, by Hooman Mehr. AI-assisted research (Claude/Anthropic). No factional allegiance; no policy agenda beyond analytical accuracy.*
+
+  *Companion briefs: (1) "[The Blind Spot in Every Iran Deal](https://hmehr.substack.com/p/the-blind-spot-in-every-iran-deal)" -- the taqiyyah verification gap. (2) "[The Country Inside the Country](https://hmehr.substack.com/p/the-country-inside-the-country)" -- IRGC parallel civilization. (3) "[Iran Is Not Iraq](https://hmehr.substack.com/p/iran-is-not-iraq)" -- why the comparison fails. (4) "[The Spoiler](https://hmehr.substack.com/p/the-spoiler)" -- the faction blocking every deal. (5) "[The Deal That Cannot Hold](https://hmehr.substack.com/p/the-deal-that-cannot-hold)" -- the Pinochet Pivot and three failure fronts. (7) "[Who Is Actually Running Iran?](https://hmehr.substack.com/p/who-is-actually-running-iran)" -- the Larijani revelation. (8) "[The Puppet Problem](https://hmehr.substack.com/p/the-puppet-problem)" -- why the next Supreme Leader may not matter. (9) "[The Doctrine Behind the Escalation](https://hmehr.substack.com/p/the-doctrine-behind-the-escalation)" -- the coercive-endurance cycle. (10) "[The Table After the Bombs](https://hmehr.substack.com/p/the-table-after-the-bombs)" -- what post-strike negotiations actually look like.*
+
+  *Hooman Mehr is an independent analyst based in Kirkland, Washington. The Iran Transition Project publishes on [Substack](https://hmehr.substack.com) and [LinkedIn](https://www.linkedin.com/in/hoomanmehr). Contact: [hooman@mac.com](mailto:hooman@mac.com)*
+footer_attribution: '*Brief \#6 in the Iran Transition Project, by Hooman Mehr. AI-assisted research (Claude/Anthropic). No
+  factional allegiance; no policy agenda beyond analytical accuracy.*'
+companion_briefs:
+- number: 1
+  title: The Blind Spot in Every Iran Deal
+  link: https://hmehr.substack.com/p/the-blind-spot-in-every-iran-deal
+  description: the taqiyyah verification gap
+- number: 2
+  title: The Country Inside the Country
+  link: https://hmehr.substack.com/p/the-country-inside-the-country
+  description: IRGC parallel civilization
+- number: 3
+  title: Iran Is Not Iraq
+  link: https://hmehr.substack.com/p/iran-is-not-iraq
+  description: why the comparison fails
+- number: 4
+  title: The Spoiler
+  link: https://hmehr.substack.com/p/the-spoiler
+  description: the faction blocking every deal
+- number: 5
+  title: The Deal That Cannot Hold
+  link: https://hmehr.substack.com/p/the-deal-that-cannot-hold
+  description: the Pinochet Pivot and three failure fronts
+- number: 7
+  title: Who Is Actually Running Iran?
+  link: https://hmehr.substack.com/p/who-is-actually-running-iran
+  description: the Larijani revelation
+- number: 8
+  title: The Puppet Problem
+  link: https://hmehr.substack.com/p/the-puppet-problem
+  description: why the next Supreme Leader may not matter
+- number: 9
+  title: The Doctrine Behind the Escalation
+  link: https://hmehr.substack.com/p/the-doctrine-behind-the-escalation
+  description: the coercive-endurance cycle
+- number: 10
+  title: The Table After the Bombs
+  link: https://hmehr.substack.com/p/the-table-after-the-bombs
+  description: what post-strike negotiations actually look like
+footer_extras: []
+author_bio: 'Hooman Mehr is an independent analyst based in Kirkland, Washington. The Iran Transition Project publishes on
+  [Substack](https://hmehr.substack.com) and [LinkedIn](https://www.linkedin.com/in/hoomanmehr). Contact: [hooman@mac.com](mailto:hooman@mac.com)'
+changelog: []
+governance:
+  routing_decision: null
+  shelf_life: MEDIUM
+  pending_updates: Optional post-transition economic barriers.
+  vulnerability: null
+date_display: February 2026

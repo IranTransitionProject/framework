@@ -7,42 +7,35 @@
 
 ## {{ brief.subtitle }}
 {%- endif %}
+{% if brief.byline_override is defined and brief.byline_override %}
 
-**By {{ brief.author | default('Hooman Mehr') }} | [{{ brief.contact | default('hooman@mac.com') }}](mailto:{{ brief.contact | default('hooman@mac.com') }}){% if brief.number is not none %} | Brief \#{{ brief.number }}{% endif %} | [Iran Transition Project]({{ brief.series_link | default('https://hmehr.substack.com/p/iran-the-convergence-briefs') }}) | {{ brief.date_display | default(brief.date) }}**
-
----
-{%- if brief.update_notes %}
-{% for note in brief.update_notes %}
-
-*{{ note.version }} note ({{ note.date }}):* {{ note.note }}
-{%- endfor %}
-
----
-{%- endif %}
-{% for section in brief.sections %}
-{%- if section.level is defined and section.level == 3 %}
-
-### {{ section.title }}
-{%- elif section.level is defined and section.level == 4 %}
-
-#### {{ section.title }}
+{{ brief.byline_override }}
 {%- else %}
 
-## {{ section.title }}
+**By {{ brief.author | default('Hooman Mehr') }} | [{{ brief.contact | default('hooman@mac.com') }}](mailto:{{ brief.contact | default('hooman@mac.com') }}){% if brief.number is not none %} | Brief \#{{ brief.number }}{% endif %} | [Iran Transition Project]({{ brief.series_link | default('https://hmehr.substack.com/p/iran-the-convergence-briefs') }}) | {{ brief.date_display | default(brief.date) }}**
 {%- endif %}
+{% if brief.preamble is defined and brief.preamble %}
+
+{{ brief.preamble }}
+{%- elif not (brief.preamble is defined and brief.preamble) %}
+
+{{ brief.separator | default('---') }}
+{%- endif %}
+{% for section in brief.sections %}
+{%- if brief.section_separators is defined and brief.section_separators and not loop.first %}
+
+{{ brief.separator | default('---') }}
+{% endif %}
+
+## {{ section.title }}
 {% if section.content %}
 
 {{ section.content -}}
 {% endif %}
 {%- if section.subsections is defined %}
 {% for sub in section.subsections %}
-{%- if sub.level is defined and sub.level == 4 %}
-
-#### {{ sub.title }}
-{%- else %}
 
 ### {{ sub.title }}
-{%- endif %}
 {% if sub.content %}
 
 {{ sub.content -}}
@@ -50,14 +43,31 @@
 {%- endfor %}
 {%- endif %}
 {%- endfor %}
+{% if brief.footer_raw is defined and brief.footer_raw %}
 
----
+{{ brief.footer_raw }}
+{%- else %}
 
-*Brief{% if brief.number is not none %} \#{{ brief.number }}{% endif %} in the Iran Transition Project, by {{ brief.author | default('Hooman Mehr') }}. AI-assisted research (Claude/Anthropic). No factional allegiance; no policy agenda beyond analytical accuracy.{% if brief.source_summary %} {{ brief.source_summary }}.{% endif %}*
+{{ brief.separator | default('---') }}
+{% if brief.footer_attribution is defined and brief.footer_attribution %}
+
+{{ brief.footer_attribution }}
+{%- else %}
+
+*{% if brief.type == 'emergency_brief' %}Emergency Brief from{% else %}Brief{% if brief.number is not none %} \#{{ brief.number }}{% endif %} in{% endif %} the Iran Transition Project, by {{ brief.author | default('Hooman Mehr') }}. AI-assisted research (Claude/Anthropic).{% if brief.source_summary %} {{ brief.source_summary }}.{% endif %} No factional allegiance; no policy agenda beyond analytical accuracy.*
+{%- endif %}
 {% if brief.companion_briefs %}
+
 *Companion briefs: {% for cb in brief.companion_briefs %}({{ cb.number }}) "{% if cb.link %}[{{ cb.title }}]({{ cb.link }}){% else %}{{ cb.title }}{% endif %}"{% if cb.description %} -- {{ cb.description }}{% endif %}{% if not loop.last %}. {% endif %}{% endfor %}.*
-{% endif %}
-{%- if brief.author_bio %}
+{%- endif %}
+{% if brief.footer_extras is defined and brief.footer_extras %}
+{% for extra in brief.footer_extras %}
+
+{{ extra }}
+{%- endfor %}
+{%- endif %}
+{% if brief.author_bio %}
 
 *{{ brief.author_bio }}*
+{%- endif %}
 {%- endif %}
