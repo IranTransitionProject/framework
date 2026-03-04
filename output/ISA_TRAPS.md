@@ -1,9 +1,9 @@
 # ISA-TRAPS: SIMULTANEITY TRAP CATALOG
 
 **Module Code:** ISA-TRAPS
-**Version:** 2.3
-**Date:** 2026-02-22
-**Source:** ISA v1.2 section 4 (Traps 1-7) + ISA_PINOCHET_UPDATES (Trap 8) + Session 12 (Traps 9-10) + Session 13 (Trap 11 + Trap 12)
+**Version:** 2.4
+**Date:** 2026-03-04
+**Source:** ISA v1.2 section 4 (Traps 1-7) + ISA_PINOCHET_UPDATES (Trap 8) + Session 12 (Traps 9-10) + Session 13 (Trap 11 + Trap 12) + Session 17 (Trap 13 Proxy Lab)
 **Dependencies:** ITB-A, ITB-A8, ITB-A9, ITB-A10, ITB-A11
 **Referenced by:** ISA-CORE (intervention sequencing), ISA-SCENARIOS (scenario branching)
 
@@ -144,6 +144,15 @@
 * **Resolution path:** The tracks must be sequenced, not simultaneous. Either commit to diplomacy with genuine conditionality (pausing visible transition planning) or commit to transition support (withdrawing from nuclear negotiations). The current configuration maximizes the probability of the worst outcome: failed diplomacy providing pretext for an unprepared strike without transition infrastructure.
 * **Detection signal:** Evidence (verified): The National (Feb 5, 2026) confirmed Kushner assembling Iranian-American business leaders. CNN (Feb 18) confirmed both tracks operating simultaneously in Geneva. Graham itinerary (Feb 13-22: Munich rally -> Netanyahu -> MBZ -> MBS) is Track B coalition's diplomatic circuit.
 * **ITB anchors:** ITB-F F1.2, ISA-TRAPS Trap 11, ISA-SCENARIOS S2. [Inference -- High for structural mechanism; Med for Track B operational details]
+
+---
+
+### Trap 13: The Proxy Lab (New — Session 17)
+* **Mechanism:** China uses the Iran crisis as a weapons-testing theater and US-attrition mechanism for Taiwan contingency planning, creating a structural incentive to prolong the US-Iran standoff. Acting against Iran depletes munitions needed for Taiwan deterrence. Not acting emboldens the regime and validates Chinese investment. Either outcome serves Chinese strategic interests.
+* **Circular structure:** Chinese weapons improve Iran defenses -> US needs more munitions for Iran operation -> munitions depleted from Taiwan contingency -> China achieves attrition objective -> China provides more weapons -> cycle deepens. Simultaneously: each Chinese delivery generates combat-testing data for Taiwan planning.
+* **Resolution path:** No resolution within Iran-only frame. Requires strategic-level resource allocation treating Iran and Taiwan as single munitions budget. Options: emergency munitions production acceleration (2027+), campaign scope limitation, deterrence signaling to China, multilateral burden-sharing on Iran operations.
+* **Detection signal:** When US campaign planning begins scope-reducing to preserve munitions, or when Chinese delivery tempo accelerates ahead of anticipated strike window, the Proxy Lab mechanism is active. Watch for: public statements on munitions adequacy, Congressional supplemental requests, allied burden-sharing discussions.
+* **ITB anchors:** ITB-B B9, ITB-F F6.1, ITB-F12. [Inference -- Med-High for mechanism; Med for Chinese intentionality]
 
 ---
 

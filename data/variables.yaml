@@ -1,6 +1,6 @@
-version: '1.7'
-date: '2026-02-24'
-source: v1.5 + Session 15 (A12 variables) + Session 16 integration
+version: '1.8'
+date: '2026-03-04'
+source: v1.7 + Session 17 (Chinese pipeline variables)
 monitoring_notes:
 - Variables require weekly recheck on flow and threshold tables. Stock variables recheck monthly or on significant event.
 - 'v1.2 NOTE (still active): Given active mourning cycle, Hormuz exercise tempo, and campaign-ready US force posture, flow and threshold variables should be rechecked every 3-5 days until situation stabilizes
@@ -917,3 +917,74 @@ entries:
   epistemic_tag: Mixed
   nq_type: Flow
   nq_threshold: $803M (2024 baseline) — growth = mediation interest continues; decline = direct channels opening
+- id: FV-25
+  name: Chinese weapons pipeline tempo
+  table: flow
+  current_value: Accelerating (16+ Y-20, 5+ Il-76, 4+ Belarusian Il-76 since Jan 1)
+  trend: Accelerating
+  insight: 'Largest compressed China-Iran military airlift ever recorded. Systems confirmed/near-confirmed: HQ-9B SAM, CM-302 anti-ship (near-final), EW/cyber systems, solid-fuel propellant inputs, satellite
+    intelligence. Oil-for-weapons barter loop documented (Dryad Global). Each delivery improves Iran BATNA.'
+  confidence: Med-High
+  version_added: v1.8
+  session_added: 17
+  cross_refs:
+  - ITB-B B9
+  - ITB-F F6.1
+  - ISA-TRAPS Trap 13
+  epistemic_tag: Mixed
+- id: FV-26
+  name: Iran air defense capability
+  table: flow
+  current_value: HQ-9B delivered or near-operational; HQ-22 delivered; Cobra V8 EW deployed near Strait
+  trend: Step-change from June 2025 baseline
+  insight: 'Qualitative improvement: HQ-9B (260km range, mobile, 15-min deploy) replaces gutted S-300/Bavar-373 layer. JY-26 radar for low-observable detection. But Pakistan intercept failures and export-grade
+    limitations create performance uncertainty. Untested against US/Israeli platforms.'
+  confidence: Med
+  version_added: v1.8
+  session_added: 17
+  cross_refs:
+  - ITB-B B9
+  - ITB-F F6.1
+  epistemic_tag: Mixed
+- id: FV-27
+  name: CM-302 acquisition status
+  table: flow
+  current_value: Near-final negotiations per Reuters (6 sources, Feb 24)
+  trend: Final stage -- delivery unconfirmed
+  insight: If delivered, qualitative leap from subsonic to Mach 3-4 supersonic anti-ship capability. 290km range covers entire Gulf/Strait from Iranian coastline. Compresses defender reaction time. No delivery
+    date confirmed.
+  confidence: Med-High
+  version_added: v1.8
+  session_added: 17
+  cross_refs:
+  - ITB-B B9
+  - ITB-B B2
+  epistemic_tag: Fact
+- id: FV-28
+  name: US defensive munitions status
+  table: flow
+  current_value: Severely depleted (THAAD, Patriot, SM-2/3/6)
+  trend: Degrading; production ramp 2027+
+  insight: 'JCS Caine warned Trump directly. 12-day war depleted 15-20% of global THAAD stockpile. Production tripling (Patriot) and quadrupling (THAAD) underway but years from delivery. CSIS: 6 years to
+    rebuild. Structural incentive for shortest possible campaign.'
+  confidence: High
+  version_added: v1.8
+  session_added: 17
+  cross_refs:
+  - ITB-F F1.1
+  - ISA-TRAPS Trap 13
+  epistemic_tag: Fact
+- id: FV-29
+  name: Iran negotiation BATNA quality
+  table: flow
+  current_value: Improving
+  trend: Accelerating with each Chinese delivery
+  insight: 'Pre-resupply: air defenses gutted, high pressure to concede. Post-resupply: HQ-9B raises SEAD costs, CM-302 threatens carriers, EW degrades intelligence advantage. Each improvement reduces Iran
+    need to make concessions.'
+  confidence: Med-High
+  version_added: v1.8
+  session_added: 17
+  cross_refs:
+  - ITB-B B9
+  - ISA-SCENARIOS Obs 022
+  epistemic_tag: Inference

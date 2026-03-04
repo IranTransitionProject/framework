@@ -331,5 +331,21 @@
 
 ---
 
+### Observation 022: The Wrong Arsenal -- Chinese Weapons as Hardware Dimension of the Wrong Interlocutor Problem
+* **Diagnosis:** Chinese weapons resupply creates hardware reinforcement of non-compliance: pragmatist concessions undermined by hardliner access to credible military alternative. China upgraded from passive to active equilibrium beneficiary.
+
+* **Strategic implication:** Deal conditionality must address Chinese supply pipeline. China upgraded from passive to active equilibrium beneficiary -- not just benefiting from sanctions economy but actively providing military capability that sustains the regime. Post-strike deal windows narrower than assumed because Chinese resupply accelerates recovery.
+
+* **Scenario impact:**
+  - **S1:** Deal conditionality must now address Chinese weapons pipeline -- additional failure mechanism.
+  - **S2:** Chinese systems raise costs of military confrontation; may extend campaign timeline.
+  - **S3:** Regime has improved military tools for internal repression via surveillance tech.
+  - **S4:** Chinese resupply sustains regime military capability, supporting prolonged decay.
+* **ITB anchors:** ITB-B B9, ITB-F F6.1, ITB-F12, ITB-A10, ITB-A12
+* **Cross-references:** Obs 010, Brief 4, Brief 5 Part III, Trap 13
+* **Confidence:** [Inference -- Med-High for mechanism; Med for impact magnitude]
+
+---
+
 
 *Scenarios, observations, and matrix integrated. Cross-reference: ISA-TRAPS for trap activation per scenario; ISA-CASES for historical parallels; ISA-CORE for intervention sequencing.*

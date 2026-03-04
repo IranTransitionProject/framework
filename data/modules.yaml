@@ -1,4 +1,4 @@
-version: '2.3'
+version: '2.4'
 date: '2026-02-24'
 source: Migrated from 00_MASTER_INDEX.md v2.3 Module Registry
 entries:
@@ -12,22 +12,20 @@ entries:
   file: 00_INSTRUCTIONS_v3.md
   version: '3.0'
   lines_approx: ref
-  description: Session protocol, analytical rules, persona. Stakes classification, module system, interaction modes, output
-    protocol.
+  description: Session protocol, analytical rules, persona. Stakes classification, module system, interaction modes, output protocol.
   level: 0
 - code: ITB-A
   file: ITB_A_CORE.md
   version: '1.0'
   lines_approx: ~150
-  description: 'Constitutional architecture (A1-A7): Supreme Leader, Guardian Council, AoE, IRGC overview, Artesh, Judiciary,
-    Parliament, Cohesion.'
+  description: 'Constitutional architecture (A1-A7): Supreme Leader, Guardian Council, AoE, IRGC overview, Artesh, Judiciary, Parliament, Cohesion.'
   level: 1
 - code: ITB-A6
   file: A6_PARLIMENT_DRAFT.md + A6_10_RACHET_ADDENDUM.md
   version: '1.0'
   lines_approx: ~375
-  description: 'Parliament (Majlis): 120-year institutional history, constitutional constraints, 12th Majlis composition,
-    Ghalibaf positioning, transition implications. A6.10: Turnout-extremism ratchet mechanism.'
+  description: 'Parliament (Majlis): 120-year institutional history, constitutional constraints, 12th Majlis composition, Ghalibaf positioning, transition implications. A6.10: Turnout-extremism ratchet
+    mechanism.'
   level: 1
   dependencies:
   - ITB-A
@@ -52,8 +50,7 @@ entries:
   file: ITB_A10_ESCHATOLOGICAL.md
   version: '1.1'
   lines_approx: ~380
-  description: 'Eschatological hardline faction: Mirbagheri/Paydari/MASAF, Dugin connection, succession dynamics, sabotage
-    capacity.'
+  description: 'Eschatological hardline faction: Mirbagheri/Paydari/MASAF, Dugin connection, succession dynamics, sabotage capacity.'
   level: 1
   dependencies:
   - ITB-A
@@ -72,8 +69,8 @@ entries:
   file: ITB_A12_COERCIVE_ENDURANCE.md
   version: '1.0'
   lines_approx: ~440
-  description: 'Coercive-Endurance Interaction Doctrine: 5-phase behavioral model, factional reconciliation with three-segment
-    model, taqiyyah coupling, Phase 5 Pinochet/F12 enrichment coupling, current events mapping.'
+  description: 'Coercive-Endurance Interaction Doctrine: 5-phase behavioral model, factional reconciliation with three-segment model, taqiyyah coupling, Phase 5 Pinochet/F12 enrichment coupling, current
+    events mapping.'
   level: 1
   dependencies:
   - ITB-A
@@ -95,15 +92,14 @@ entries:
   file: ITB_D_SOCIETY_V4_0.md
   version: '5.0'
   lines_approx: ~615
-  description: 'Full social fabric: demographics, ethnicity, religion, political culture (D14 zerangi/arbab), small-city/rural
-    collapse, geographic inequality, protest dynamics, IRGC dependent population mapping.'
+  description: 'Full social fabric: demographics, ethnicity, religion, political culture (D14 zerangi/arbab), small-city/rural collapse, geographic inequality, protest dynamics, IRGC dependent population
+    mapping.'
   level: 2
 - code: ITB-D16
   file: D16_THE_JUDICIARY.md
   version: '1.0'
   lines_approx: ~148
-  description: 'Judiciary institutional anatomy: 47-year destruction sequence, Haqqani pipeline capture, execution machinery,
-    Bar Association survivable elements, transition reconstruction problem.'
+  description: 'Judiciary institutional anatomy: 47-year destruction sequence, Haqqani pipeline capture, execution machinery, Bar Association survivable elements, transition reconstruction problem.'
   level: 2
   dependencies:
   - ITB-A8
@@ -117,15 +113,14 @@ entries:
   file: ITB_F_INTERNATIONAL.md
   version: '2.3'
   lines_approx: ~410+
-  description: 'US, Israel, Gulf, Turkey, Russia, China, EU, Iraq, IAEA. v2.3: Type A/B actor classifications, F12 framework
-    pointer.'
+  description: 'US, Israel, Gulf, Turkey, Russia, China, EU, Iraq, IAEA. v2.3: Type A/B actor classifications, F12 framework pointer.'
   level: 2
 - code: ITB-F11
   file: ITB_F_F11_Equilibrium_Beneficiaries_v1_0.md + Addendum
   version: '1.0'
   lines_approx: ~950
-  description: 'F11: Regional actors structurally invested in current equilibrium. Tier 1: Qatar, UAE, Turkey, China, Russia,
-    Iraq/PMF. Tier 2: Oman mediation industry. Constrained: Pakistan, India. External pressure: Armenia/Azerbaijan TRIPP coupling.'
+  description: 'F11: Regional actors structurally invested in current equilibrium. Tier 1: Qatar, UAE, Turkey, China, Russia, Iraq/PMF. Tier 2: Oman mediation industry. Constrained: Pakistan, India. External
+    pressure: Armenia/Azerbaijan TRIPP coupling.'
   level: 2
   dependencies:
   - ITB-F
@@ -133,8 +128,8 @@ entries:
   file: ITB_F_F12_NORMALIZATION_QUALITY_v1_0.md
   version: '1.0'
   lines_approx: ~700
-  description: NORMALIZATION QUALITY FRAMEWORK -- TRANSITION PLANNING CRITICAL. Type A/B taxonomy, normalization ladder, hollow
-    deal thesis, IRGC enrichment mechanism, South Pars Type B dependency, conditionality architecture.
+  description: NORMALIZATION QUALITY FRAMEWORK -- TRANSITION PLANNING CRITICAL. Type A/B taxonomy, normalization ladder, hollow deal thesis, IRGC enrichment mechanism, South Pars Type B dependency, conditionality
+    architecture.
   level: 2
   dependencies:
   - ITB-F
@@ -148,8 +143,7 @@ entries:
   file: ITB_G_DIASPORA.md
   version: '2.1'
   lines_approx: ~120+
-  description: 'Organizations, skills, limitations, Munich signal. v2.1: G6.4 governance precondition for diaspora capital
-    deployment.'
+  description: 'Organizations, skills, limitations, Munich signal. v2.1: G6.4 governance precondition for diaspora capital deployment.'
   level: 2
 - code: ITB-H
   file: ITB_H_INFORMATION.md
@@ -161,15 +155,13 @@ entries:
   file: ISA_CORE.md
   version: '1.1'
   lines_approx: ~220
-  description: Coupling map, institutional slack, cascading failure index, intervention sequencing, system governors, Frontier
-    connection.
+  description: Coupling map, institutional slack, cascading failure index, intervention sequencing, system governors, Frontier connection.
   level: 3
 - code: ISA-TRAPS
   file: ISA_TRAPS.md
   version: '2.2'
   lines_approx: ~180+
-  description: 'Simultaneity Traps 1-12. v2.2: Trap 9 (Mediator''s Interest), Trap 10 (Hollow Deal = IRGC Enrichment). Traps
-    11-12 added Session 13.'
+  description: 'Simultaneity Traps 1-12. v2.2: Trap 9 (Mediator''s Interest), Trap 10 (Hollow Deal = IRGC Enrichment). Traps 11-12 added Session 13.'
   level: 3
   dependencies:
   - ITB-A
@@ -207,3 +199,21 @@ entries:
   lines_approx: ~150+
   description: Consolidated research gaps from ALL modules, prioritized. Generated from itp-db.
   level: 4
+- code: SESSION-19
+  file: SESSION_19_TIER_1_ANALYSIS_md.md
+  version: '1.0'
+  lines_approx: ~400
+  description: Tier 1 analytical deep-dive from Session 19. Bayt-e Rahbari, shadow fleet, social reproduction, Terman analogy.
+  level: 2
+- code: 17B-PRECEDENT
+  file: 17B_HISTORICAL_PRECEDENT_RESEARCH.md
+  version: '1.0'
+  lines_approx: ~700
+  description: 'Historical precedent research: secure communication for civil resistance (Solidarity, ANC, Chile, Baltics, Myanmar). Background research, not for publication.'
+  level: 3
+- code: IPP-EP
+  file: IPP_EMERGENCY_PHASE_REFERENCE.md
+  version: '1.0'
+  lines_approx: ~600
+  description: IPP/NUFDI Emergency Phase booklet structured reference. External document, not ITP-authored. 14 white papers covering first 180 days post-transition.
+  level: 3

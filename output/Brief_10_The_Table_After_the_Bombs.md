@@ -36,6 +36,8 @@ But the eschatological faction's narrative is also strengthened: "See, the Great
 
 This is the scenario where transition planning either exists or it does not, and where the absence of a prepared interlocutor on the Iranian side means the United States is negotiating with itself about what it wants Iran to look like.
 
+A factor absent from the original analysis: China's role as a resupply guarantor changes the regime's post-strike recovery timeline and therefore its post-strike negotiating position. With an active Chinese air bridge, documented oil-for-weapons barter mechanism, and near-finalized acquisitions of advanced weapons systems, the regime can credibly argue at the post-strike table that time is on its side. Post-strike deal windows may be narrower than policymakers assume, because the regime's pain is more transient when external resupply is available.
+
 ---
 
 ## The Pinochet Trap Intensifies

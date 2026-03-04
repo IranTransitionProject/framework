@@ -1,9 +1,9 @@
 # APP-V: VARIABLES DASHBOARD
 
 **Module Code:** APP-V
-**Version:** 1.7
-**Date:** 2026-02-24
-**Source:** v1.5 + Session 15 (A12 variables) + Session 16 integration
+**Version:** 1.8
+**Date:** 2026-03-04
+**Source:** v1.7 + Session 17 (Chinese pipeline variables)
 **Dependencies:** All ITB modules
 **Referenced by:** INDEX (system overview), all sessions
 
@@ -62,6 +62,11 @@
 | **(v1.5)** **Next Geneva Round** | Confirmed Feb 26 (Thursday) by Oman FM | Confirmed | **Badr Albusaidi (Oman FM) tweeted Feb 22 confirming Geneva "this Thursday" with "positive push to go the extra mile towards finalizing the deal." If Iran's proposal arrives and Geneva Round 3 occurs Feb 26, this is the last diplomatic off-ramp before Trump deadline window opens. Monitoring: Albusaidi confirmation; Araghchi travel; Witkoff travel.** | [Fact -- High; Oman FM public confirmation] |
 | **(v1.6)** **Phase transition velocity** | Phase 2→3 | Slow (weeks) | **US military completion + adversary cost signals** | [Med] |
 | **(v1.6)** **Eschatological disruption activation** | Dormant→Active | Will accelerate at Phase 3→4 boundary | **Phase 4 indicators emerging** | [Med] |
+| **(v1.8)** **Chinese weapons pipeline tempo** | Accelerating (16+ Y-20, 5+ Il-76, 4+ Belarusian Il-76 since Jan 1) | Accelerating | **Largest compressed China-Iran military airlift ever recorded. Systems confirmed/near-confirmed: HQ-9B SAM, CM-302 anti-ship (near-final), EW/cyber systems, solid-fuel propellant inputs, satellite intelligence. Oil-for-weapons barter loop documented (Dryad Global). Each delivery improves Iran BATNA.** | [Med-High] |
+| **(v1.8)** **Iran air defense capability** | HQ-9B delivered or near-operational; HQ-22 delivered; Cobra V8 EW deployed near Strait | Step-change from June 2025 baseline | **Qualitative improvement: HQ-9B (260km range, mobile, 15-min deploy) replaces gutted S-300/Bavar-373 layer. JY-26 radar for low-observable detection. But Pakistan intercept failures and export-grade limitations create performance uncertainty. Untested against US/Israeli platforms.** | [Med] |
+| **(v1.8)** **CM-302 acquisition status** | Near-final negotiations per Reuters (6 sources, Feb 24) | Final stage -- delivery unconfirmed | **If delivered, qualitative leap from subsonic to Mach 3-4 supersonic anti-ship capability. 290km range covers entire Gulf/Strait from Iranian coastline. Compresses defender reaction time. No delivery date confirmed.** | [Med-High] |
+| **(v1.8)** **US defensive munitions status** | Severely depleted (THAAD, Patriot, SM-2/3/6) | Degrading; production ramp 2027+ | **JCS Caine warned Trump directly. 12-day war depleted 15-20% of global THAAD stockpile. Production tripling (Patriot) and quadrupling (THAAD) underway but years from delivery. CSIS: 6 years to rebuild. Structural incentive for shortest possible campaign.** | [High] |
+| **(v1.8)** **Iran negotiation BATNA quality** | Improving | Accelerating with each Chinese delivery | **Pre-resupply: air defenses gutted, high pressure to concede. Post-resupply: HQ-9B raises SEAD costs, CM-302 threatens carriers, EW degrades intelligence advantage. Each improvement reduces Iran need to make concessions.** | [Med-High] |
 
 ### TABLE 3: THRESHOLD / TRIGGER VARIABLES
 

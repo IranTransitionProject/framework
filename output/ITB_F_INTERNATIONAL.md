@@ -1,9 +1,9 @@
 # ITB-F: INTERNATIONAL STAKEHOLDER POSITIONS
 
 **Module Code:** ITB-F
-**Version:** 2.4
-**Date:** 2026-02-24
-**Source:** v2.3 + Session 16 (Caine warning, Cooper sidelining, UK Diego Garcia refusal, Russia-China-Iran exercises)
+**Version:** 2.5
+**Date:** 2026-03-04
+**Source:** v2.3 + Session 16 (Caine warning, Cooper sidelining, UK Diego Garcia refusal, Russia-China-Iran exercises) + Session 17 F3.3 Oman expansion (verified sources) + Session 17 (F6.1 military supply, F1.1 munitions)
 **Dependencies:** ITB-A8 (taqiyyah affects analytical assessment of all positions)
 **Referenced by:** ISA-CORE (coupling map), ISA-SCENARIOS (all scenarios), ISA-TRAPS (Trap 4)
 
@@ -39,6 +39,10 @@
 * **Waltz/Rubio divergence:** Rubio: "no one knows who would take over" if Khamenei fell. Waltz at UNSC: "all options are on the table to stop the slaughter." [Fact]
 * **Some personnel withdrawn:** US withdrew some personnel from Al Udeid Air Base as "precautionary measure" (Jan 2026). [Fact]
 * **US drone engagement:** US forces shot down an Iranian drone that approached the Lincoln (same day Iran tried to stop a US-flagged ship in Strait of Hormuz — ~Feb 11). [Fact — PBS/AP]
+
+* **Munitions constraint (NEW -- Session 17):** JCS Chairman Dan Caine warned Trump directly that any major Iran operation may be hampered by severely depleted munitions stockpiles from arming Israel and Ukraine. Specific concerns: THAAD interceptors and Patriot missiles produced at only several hundred per year -- far below operational need. Navy stocks of SM-2, SM-3, and SM-6 missiles also depleted. 12-day war alone drew down 15-20% of US global THAAD interceptor stockpile. [Fact -- High; Washington Post, Newsweek, CSMonitor, CFR, The Conversation]
+* **Production ramp-up:** Pentagon Munitions Acceleration Council (Deputy SecDef Feinberg, weekly contractor calls). Lockheed Martin contracts to triple Patriot production (600 -> 2,000/year) and quadruple THAAD production (96 -> 400/year). But these are 2027+ timelines, not 2026 operational capacity. CSIS estimated (2023) rebuilding to peacetime stockpile levels could take six years. [Fact -- Med-High; CSMonitor, Daily Caller]
+* **Assessment:** Munitions constraint creates structural incentive for the shortest possible campaign. Any prolongation -- whether from improved Iranian air defenses (Chinese HQ-9B), sustained retaliatory missile salvos, or Hormuz operations -- directly competes with Taiwan contingency readiness. This is the inverse of China's attrition incentive (see ITB-B B9.4). [Inference -- Med-High]
 
 
 ### _L44) F1.2 Negotiating Position
@@ -356,10 +360,77 @@ outcome without Netanyahu making a calculated decision. [Fact — Axios]
 * **Refugee concern:** Stimson Center identifies UAE (especially Dubai) as primary destination for Iranian refugee flows in collapse scenario. [Inference — Med]
 
 
-### _L375) F3.3 Oman
-* **Role:** Primary mediator. Hosted Round 1 of US-Iran talks (Feb 6). Has mediated previous rounds. [Fact]
-* **Position:** Active de-escalation. Attempted (with Qatar) to broker US-Iran non-aggression pact — did not gain traction. [Fact — WSJ]
-* **Strategic position:** Controls southern shore of Strait of Hormuz. Normal relations with Iran. "Switzerland of the Middle East." [Fact — Med]
+### _L375) F3.3 Oman -- Expanded (v2.5)
+**Role:** Primary mediator. Hosted Round 1 of US-Iran talks (Feb 6). Has mediated previous rounds. [Fact]
+
+**Position:** Active de-escalation. Attempted (with Qatar) to broker US-Iran non-aggression pact -- did not gain traction. [Fact -- WSJ]
+
+**Strategic position:** Controls southern shore of Strait of Hormuz. Normal relations with Iran. "Switzerland of the Middle East." [Fact -- Med]
+
+#### F3.3.1 -- Oman as Sanctions-Arbitrage Infrastructure
+
+Oman's mediation role is inseparable from its economic relationship with Iran. The economic relationship is overwhelmingly structured around re-export arbitrage -- not direct trade.
+
+**Trade growth trajectory:**
+
+* 2023: OMR 335.8M (~$873M) bilateral trade. [Fact -- Oman NCSI, Times of Oman]
+* 2024: OMR 512.1M (~$1.33B) -- 52% year-on-year growth. [Fact -- Oman NCSI, Zawya]
+* Jan--Oct 2025: $1.35B, up 24% year-on-year. ICCIMA head Hassanzadeh confirmed trade "has surpassed $2.0 billion." [Fact -- Oman NCSI via Tehran Times; ICCIMA statement May 2025]
+* Oman's *direct exports* to Iran: ~$6M over 7 months (2025). Negligible. [Fact -- Oman NCSI via Tehran Times]
+
+**Re-export dominance (updated from $803M):**
+
+* Re-exports from Oman to Iran: **$843M** in Jan--Oct 2025 alone, up 5% year-on-year. [Fact -- Oman NCSI via Tehran Times]
+* Iran is the **second-largest destination** for Omani re-exports (after UAE). [Fact -- Oman NCSI]
+* Re-exports account for 21% of Oman's total re-export volume. [Fact -- Oman NCSI]
+* October 2025 re-exports spiked from $60M (September) to $260M -- a fourfold surge indicating volatility and possible pre-positioning around sanctions enforcement waves. [Fact -- Oman NCSI via Tehran Times]
+* Oman's direct exports to Iran are negligible (~$6M/7 months). The bilateral relationship is *structurally* a re-export relationship. This is the fingerprint of a sanctions-evasion intermediary, not a normal trading partner. [Inference -- High]
+
+**NOTE:** Previous project references cite "$803M annual re-export" (from 2024 data). The updated figure is $843M for Jan--Oct 2025 alone. Full-year 2025 is tracking toward ~$1B+.
+
+#### F3.3.2 -- Port-Level Manifest Laundering (Sohar)
+
+Sohar port functions as a physical manifest-laundering hub for Iranian-origin goods. The mechanism:
+
+1. Goods (including petroleum products) arrive at Sohar from Iranian ports (e.g., Bandar Abbas).
+2. Goods are unloaded, stored, and reloaded onto different vessels or transport.
+3. Documentation is reissued identifying Sohar, Oman as the port of origin -- stripping the Iranian sanctions trace.
+4. Goods enter destination markets (India, China, Africa, Gulf) as "Omani-origin."
+
+**Verification:** The WSJ investigation into Adani Group (June 2025) documented this exact mechanism: an Iranian LPG shipment was handled via third-party logistics partners with documentation identifying Sohar, Oman, as the port of origin. Adani denied sanctions evasion, calling it a "routine commercial transaction." [Fact -- WSJ via Zawya, June 2025]
+
+**Corroboration:** UANI has documented Iranian crude arriving in China "labeled as... Omani origin." [Fact -- UANI, cited in Wikipedia "Iranian shadow fleet"] The OFAC April 2025 maritime guidance specifically warns about falsified certificates of origin as a sanctions-evasion indicator. [Fact -- OFAC]
+
+**Analytical note:** The re-export commission margin on this activity is not independently verified. Diaspora sources claim 10--20% intermediary commission; this is plausible given standard logistics arbitrage but cannot be treated as [Fact]. The *structural incentive* is confirmed: Oman earns port fees, logistics revenue, re-export commissions, and geopolitical leverage from this function. [Inference -- Med-High for mechanism; Low for specific commission rate]
+
+#### F3.3.3 -- Interbank Mechanism (Emerging)
+
+As of late 2025, Iran and Oman were activating a bilateral interbank transfer mechanism -- reported as the "first" such mechanism between the two countries. [Fact -- Tehran Times, Nov 2025] This is distinct from the re-export trade: it creates a new financial infrastructure layer that could facilitate direct currency transfers outside sanctioned banking channels (SWIFT, correspondent banking).
+
+**Note:** Diaspora sources claim Bank Muscat specifically serves as a chokepoint for currency conversion commissions on frozen funds released from South Korea and Iraq. This is **not confirmed**. The South Korea frozen funds ($6B) were transferred via Switzerland to Qatar (2023), not through Oman. Iraq fund access operates through separate Iraqi banking channels. The specific Bank Muscat claim conflates different financial flows. The new interbank mechanism is real but its operational scope and sanctions implications are not yet clear. [Inference -- Low for Bank Muscat frozen-fund claim; Med for new interbank mechanism existence]
+
+#### F3.3.4 -- Shell Company Infrastructure
+
+IRGC-QF shell companies in Oman are documented by U.S. DOJ, OFAC, and independent investigations. Oman is named alongside UAE, Turkey, Hong Kong, and Cyprus as a front-company jurisdiction for Iranian oil sales and dual-use procurement. [Fact -- DOJ Feb 2024, OFAC multiple designations, Wikipedia "Money laundering in Iran"]
+
+Diaspora sources claim "2,000+ Iranian shell companies" registered in Oman per Chamber of Commerce statistics, described as "mostly military/security entities." This specific number is **not independently confirmed** in English-language sources. The structural claim (significant Iranian shell company presence in Oman for sanctions circumvention) is consistent with documented enforcement actions but the 2,000+ figure requires Farsi-source verification from ICCIMA or Omani business registry data before integration at [Fact] level. [Inference -- Low for specific count; Med-High for structural pattern]
+
+#### F3.3.5 -- Structural Summary: The Oman Incentive Architecture
+
+Oman's economic relationship with Iran operates through four reinforcing channels:
+
+| Channel | Annual scale (est.) | Confirmed? |
+|---------|-------------------|------------|
+| Re-export arbitrage | $843M (10-month 2025; ~$1B+ annualized) | [Fact -- High] |
+| Port/logistics fees (Sohar) | Unknown; embedded in re-export margin | [Fact for mechanism; unknown for scale] |
+| Mediation geopolitical premium | Not monetizable directly | [Inference -- High for existence] |
+| Interbank mechanism (emerging) | Unknown; not yet operational at scale | [Fact for existence -- Med] |
+
+**The circular incentive (from Trap 9) updated:** Oman earns at minimum ~$1B/year from the re-export relationship alone -- an amount that exceeds Oman's total bilateral trade with Iran as recently as 2023. This revenue stream exists *because of* Iranian sanctions. Type B normalization (Iran integrates directly with global markets) eliminates both the re-export premium and the mediation function. Oman's institutional incentive is to sustain the sanctions architecture while appearing to mediate its resolution.
+
+**[F12 TYPE CLASSIFICATION -- updated]:** Oman is a **Type A / Tier 2** actor. Re-export arbitrage revenue ($1B+ annualized) is sanctions-dependent. Mediation function is sanctions-dependent. Both are eliminated by Type B normalization. Oman structurally opposes genuine transition. This classification is unchanged from F12 v1.0 but the evidence base is now substantially stronger. [Inference -- High]
+
+**Cross-references:** Trap 9 (ISA-TRAPS) -- update $803M to $843M+; Brief #5 -- update Oman figures; F11 -- evidence base upgraded; F12 -- classification unchanged, evidence strengthened; ITB-C C2 -- Oman as procurement channel; Shadow Fleet -- Sohar port relevant to STS/relabeling operations.
 
 
 ### _L381) F3.4 Qatar
@@ -449,6 +520,20 @@ Cross-ref: Brief #6 (Hormuz section), ITB-B (naval posture), A12.6 (Phase 2 leve
 * **Maritime Security Belt 2026 (NEW):** Chinese warships participating in joint naval exercise with Russia and Iran in Strait of Hormuz (Feb 17–18). [Fact] → Full details: ITB-B §B8.3.
 * **Assessment (UPDATED):** China wants stable, sanctions-evading Iran as reliable energy supplier and BRI node. Regime collapse would disrupt oil supply and create unpredictable successor — bad for China. Beijing's leverage is primarily economic (oil purchases, tech supply). Chinese-built control systems embedded in Iranian infrastructure create a transition concern: any successor government would inherit Chinese surveillance dependency. Maritime Security Belt 2026 participation signals willingness to maintain visible partnership with Iran even at heightened tension — but China's involvement is less politically assertive than Russia's (no BRICS framing, no provocative statements). China's priority remains Hormuz transit security for its own oil imports, which gives it a stake in preventing both uncontrolled Iranian closure and uncontrolled US escalation. [Inference — Med]
 **[F12 TYPE CLASSIFICATION — Session 12]:** China is a CLASSIC TYPE A actor. IRGC economic dominance is not a barrier for Chinese companies — they operate through state-to-state channels that bypass IRGC designation architecture (US/EU designations do not bind Chinese companies). Under hollow deal, reduced secondary sanctions → Chinese companies expand South Pars development without Western competition. Under Type B normalization (IRGC divestiture, governance change), Western oil majors displace China from Iran's most valuable economic assets. China is therefore an active opponent of Type B normalization. The China vacuum irony: US maximum pressure forces India out of Chabahar (Type A access point); hollow deal hands South Pars to China (Type B prize). US policy is self-defeating on its own strategic China-containment terms. [Inference–High]
+
+### F6.1) F6.1 Military Supply Escalation (NEW -- Session 17)
+China has escalated from surveillance technology provider and sanctions-evasion partner to Iran's primary military resupply source. The transition is qualitative: from enabling (surveillance tech, cyber hardening) to arming (HQ-9B SAM, CM-302 anti-ship missile, EW systems, solid-fuel propellant inputs).
+
+**Key transfers documented:** HQ-9B long-range SAM (confirmed, oil-for-weapons barter via Dryad Global); CM-302 supersonic anti-ship cruise missile (near-final per Reuters Feb 24, 6 sources); electronic warfare and cyber-hardening systems (MSS involvement); MizarVision satellite real-time intelligence on US force positions. Full details: ITB-B B9. [Fact/Inference -- Med-High, multiple sources]
+
+**Strategic logic:** China's four incentives operate simultaneously: (1) weapons combat-testing for Taiwan planning; (2) US munitions attrition; (3) operational intelligence collection on US carrier operations; (4) regime preservation as Type A actor interest. A prolonged standoff that drains US munitions, generates weapons-performance data, and preserves the regime is China's optimal outcome. [Inference -- Med-High]
+
+**Escalation threshold analysis:** China appears willing to transfer advanced defensive and offensive weapons systems but not to cross the operational-manning line. Direct PLA involvement would create an uncontrollable US-China confrontation pathway. The escalation ceiling is hardware + technical advisors + intelligence, not operational combat participation. [Inference -- Med]
+
+**Interaction with F12 Type Classification:** The weapons dimension adds a hardware layer to China's Type A actor behavior. Not only does China benefit from the sanctions economy and oppose governance change -- it is now actively providing the military capability that enables the regime to resist the pressure that might force governance change. This is the most operationally consequential Type A actor behavior documented in the project. [Inference -- High]
+
+**Cross-references:** ITB-B B9, ITB-F12, ISA-TRAPS Trap 13 (Proxy Lab), Brief #6 (Hormuz qualification).
+
 
 
 ---

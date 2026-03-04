@@ -1,9 +1,9 @@
 # ITB-B: SECURITY & MILITARY APPARATUS
 
 **Module Code:** ITB-B
-**Version:** 2.1
-**Date:** 2026-02-19
-**Source:** v2.0 + web research session 2026-02-19 (PBS, AP, TWZ, The National, Washington Times, Iran International, Tehran Times, Fox News)
+**Version:** 2.2
+**Date:** 2026-03-04
+**Source:** v2.0 + web research session 2026-02-19 (PBS, AP, TWZ, The National, Washington Times, Iran International, Tehran Times, Fox News) + Session 17 (Chinese weapons pipeline, BATNA analysis)
 **Dependencies:** ITB-A (IRGC institutional structure)
 **Referenced by:** ISA-CORE (coupling map, CFI), ISA-TRAPS (Trap 2, 7)
 
@@ -167,6 +167,52 @@ The message is layered: to the US, that strikes will produce Hormuz disruption a
 
 **Decision relevance for Scenario 2:** Any second US strike must now incorporate Hormuz disruption into planning. Oil price impact of even a temporary closure or mining threat could exceed the military cost of the strike itself. This strengthens the asymmetric deterrence calculus that makes a "clean" strike scenario implausible. [Inference — Med]
 
+
+
+---
+
+## B9) Chinese Military Supply Pipeline (NEW -- Session 17)
+### B9.1 Air Bridge Logistics
+
+* **Chinese Y-20 flights:** Reports of 16 Chinese military cargo aircraft landing in Iran within 56 hours starting approximately January 18, 2026. Flight paths originated from Chinese logistical hubs, transponders switched off near Central Asian air corridors. If substantiated, this is the largest compressed China-Iran military airlift ever recorded. [Inference -- Med; Defence Security Asia, OSINT community, unconfirmed payload]
+* **Earlier Y-20 flights (June 2025):** Two Chinese cargo planes flew from China to Iran, switching off tracking signals before entering Iranian airspace. One took off from Zhengzhou bound for Luxembourg, then landed unexpectedly in Iran. Aviation experts noted the aircraft type is commonly used for transporting military equipment. [Fact -- Med; Flightradar24 OSINT]
+* **Russian Il-76 flights:** At least five Il-76 heavy military transport aircraft arrived in Tehran since January 1, 2026. Airlift tempo exceeds routine bilateral defense cooperation -- reflects crisis-driven surge logistics. Il-76 payload capacity: up to 50 tonnes per sortie (250 tonnes potential across 5 flights). [Fact -- Med; Defence Security Asia, video evidence]
+* **Belarusian Il-76 intermediary flights:** Four Belarusian Il-76s landed in Tehran carrying military cargo of Russian and Chinese origin. Route: Belarus to Iran with intermediate stops. Belarus serving as logistics intermediary for Russian/Chinese military transfers. [Fact -- Med; FlightRadar24, OSINT Terror Alarm]
+* **Y-20 capability:** Payload ~66 tonnes, operational range 7,800+ km fully loaded. Enables direct flights from eastern China to Iran without refueling. Each sortie can theoretically transport HQ-9 battery components, long-range SAM missiles, advanced radar systems, EW suites, or UAV subsystems. [Fact -- High; published specifications]
+* **Assessment:** Combined air bridge volume (16+ Chinese, 5+ Russian, 4+ Belarusian flights since Jan 1, 2026) represents a structured strategic resupply operation, not isolated transactions. The transponder-off pattern across multiple flights from different origin countries indicates coordinated operational security. [Inference -- Med]
+
+### B9.2 Confirmed/Near-Confirmed Systems
+
+**Air Defense:**
+* **HQ-9B long-range SAM:** China's most advanced export-grade surface-to-air missile system. Engagement range 250-260km, altitude ceiling ~50km, 360-degree radar coverage, multi-target tracking (100 targets, 6-8 simultaneous engagements). Mobile deployment: combat-ready in under 15 minutes from march order. Acquired via oil-for-weapons barter arrangement documented by Dryad Global. Represents qualitative leap beyond Iran's S-300 variants and indigenous Bavar-373, which proved insufficient in June 2025 combat. [Fact -- Med-High; Dryad Global, multiple defense outlets, Reuters]
+* **HQ-22 / FK-3 medium-range SAM:** Medium-range coverage, interception altitudes to 27km. Provides layered defense complement to HQ-9B. [Fact -- Med; Defense Mirror]
+* **JY-26 radar:** Optimized for low-observable (stealth) aircraft detection. Paired with HQ-9B as part of integrated air defense network. Export configuration may not include most sensitive Chinese technologies. [Inference -- Med; defence analysis sources]
+* **Performance caveat:** HQ-9B variants failed to intercept Indian strikes in Pakistan during Operation Sindoor and Iranian attacks in Balochistan (2024). Export-grade Chinese systems may underperform against US/Israeli electronic warfare capabilities (EA-18G Growler, F-35 EW suite). Combat effectiveness against US platforms remains untested. [Fact -- Med; Aero News Journal, Military Watch Magazine]
+
+**Anti-Ship:**
+* **CM-302 supersonic anti-ship cruise missile:** Near-final acquisition stage per Reuters (Feb 24, 2026). Export variant of YJ-12 "carrier killer." Mach 3-4, 290km range, sea-skimming flight profile, 250kg warhead. Can be launched from ships, aircraft, or mobile ground platforms. Also configurable for land-attack. If delivered, represents qualitative leap from Iran's subsonic anti-ship inventory (Ghadir, Noor) to supersonic precision A2/AD capability. CASIC markets CM-302 as capable of sinking aircraft carriers and destroyers. [Fact -- Med-High; Reuters Feb 24, 2026; Times of Israel; Fox News; Defence Security Asia; Army Recognition]
+
+**Electronic Warfare & Intelligence:**
+* **Cobra V8 EW system:** Reportedly deployed near Strait of Hormuz. Iranian claims of capturing F-35 radar "fingerprint." Claims unverified. [Inference -- Low; Defence Security Asia, Iranian media]
+* **MizarVision satellite constellation:** Chinese commercial satellite system providing real-time high-resolution imagery of US force positions at bases across the Middle East. Has published positions of US strike and support aviation at Al Udeid, Prince Sultan, Diego Garcia. This is the public-facing side; classified sharing through state channels is assumed but unverifiable. [Fact -- Med-High; multiple OSINT sources, satellite imagery verified]
+* **MSS cyber hardening:** China's Ministry of State Security reportedly helping Iran close digital vulnerabilities in security/defense sector by providing access to closed, encrypted Chinese communications systems resistant to CIA/Mossad penetration. [Inference -- Med; Modern Diplomacy report]
+* **Surveillance technology:** Chinese-built surveillance systems (facial recognition, monitoring tools) used in January 2026 crackdown. YLC-8B radar previously confirmed. [Fact -- Med]
+
+### B9.3 Oil-for-Weapons Barter Mechanism
+
+* **Dryad Global documentation (Nov 2025):** Exposed clandestine Iran-China oil-for-weapons pact. Iran bartering crude oil exports for advanced Chinese military hardware including HQ-9 systems, missile guidance technologies, drone components, and solid-fuel propellant inputs. [Fact -- Med; Dryad Global Maritime Security analysis]
+* **Mechanism:** IRGC, Armed Forces General Staff (AFGS), and Chinese entities (including Haokan) held negotiations in October 2025 explicitly linking crude shipments to weapons supply. Described as "direct barter loop between oil revenue and hard military capability." [Fact -- Med; Dryad Global]
+* **Sanctions evasion infrastructure:** Network of front companies, AIS-dark tankers, and port-switching operations designed to circumvent Western sanctions. China absorbs ~90% of Iran's crude exports. [Fact -- Med; Dryad Global, SIPRI]
+
+### B9.4 Strategic Assessment
+
+**The BATNA Shift:** Chinese weapons resupply is improving Iran's walk-away alternative from nuclear negotiations. Pre-resupply (post-June 2025), Iran's air defenses were gutted, missile inventory halved, retaliatory capacity limited. Chinese systems change this calculus: HQ-9B raises cost/complexity of SEAD phase; CM-302 (if delivered) creates genuine threat to carrier strike groups; EW systems reduce US intelligence advantage; satellite intelligence sharing degrades element of surprise. Each improvement reduces Iran's need to concede at the negotiating table. [Inference -- Med-High]
+
+**China's Four Strategic Incentives:** (1) Weapons validation -- live-fire proving ground for export defense industry; (2) US stockpile attrition -- every interceptor expended against Iran is one fewer for Taiwan; (3) Operational intelligence -- MSB 2026 exercises + MizarVision provide Taiwan-relevant data; (4) Regime preservation -- per ITB-F12 Type A classification, Chinese weapons transfers ensure continued economic access. [Inference -- Med]
+
+**Delivery vs. operational status:** Being delivered does not equal being operational. Integrating HQ-9B into Iran's air defense network, establishing sensor-sharing, and training operators takes months. CM-302 deal is near-final but no delivery confirmed. Iran's improved BATNA may be partly aspirational. [Inference -- Med]
+
+**Cross-references:** ITB-F F6.1, ITB-F12, ISA-SCENARIOS Obs 022, ISA-TRAPS Trap 13, Brief #6 (Hormuz section).
 
 
 ---

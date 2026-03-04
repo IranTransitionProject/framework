@@ -1,6 +1,6 @@
-version: '2.4'
-date: '2026-02-24'
-source: v2.2 + Session 14 reassessment + Session 15 A12 + Session 16 student gaps
+version: '2.6'
+date: '2026-03-04'
+source: v2.5 + Session 17 gaps (G17-01 to G17-05, Chinese pipeline)
 summary:
   priority_1_active: 14
   priority_2_total: 17
@@ -192,7 +192,7 @@ entries:
   cross_refs: []
 - id: G14-09
   description: Intra-student factional dynamics (monarchist/republican/feminist)
-  priority: 3
+  priority: 2
   status: OPEN
   modules:
   - ITB-D
@@ -383,3 +383,151 @@ entries:
   cross_refs:
   - ITB-A12 A12.9
   - ITB-A10
+- id: G13-03
+  description: Saudi-UAE rift -- documented policy divergences on Iran, timeline
+  priority: 2
+  status: OPEN
+  modules:
+  - ITB-F
+  why_critical: Affects whether united Gulf front exists for strike or transition
+  blocking_for:
+  - ISA-SCENARIOS Obs 015
+  session_identified: 13
+  cross_refs:
+  - ITB-F F4
+  - ITB-F F5
+- id: G13-04
+  description: Israel strike planning specifics -- maximalist vs. limited options reportedly presented to Trump
+  priority: 2
+  status: OPEN
+  modules:
+  - ITB-F
+  why_critical: Determines whether Scenario 2 is US-led or Israel-initiated (different implications for transition)
+  blocking_for:
+  - ISA-SCENARIOS Scenario 2
+  session_identified: 13
+  cross_refs:
+  - ITB-F F6
+- id: G13-05
+  description: INARA review mechanics -- specific timeline, vote threshold, override procedures
+  priority: 2
+  status: OPEN
+  modules:
+  - ISA-TRAPS
+  why_critical: Congressional kill switch operational parameters
+  blocking_for:
+  - ISA-TRAPS Trap 11 v2.0
+  session_identified: 13
+  cross_refs: []
+- id: G13-06
+  description: Iran's written proposal content -- expected within days; determines Track A viability
+  priority: 2
+  status: OPEN
+  modules:
+  - ITB-F
+  why_critical: Deal scope assessment; 'token enrichment' vs. 'zero enrichment' resolution
+  blocking_for:
+  - ISA-SCENARIOS Scenario 1
+  session_identified: 13
+  cross_refs:
+  - ITB-F F1.2
+- id: G13-07
+  description: 'Qatar''s actual preference re: Iran strike vs. deal vs. status quo'
+  priority: 2
+  status: OPEN
+  modules:
+  - ISA-TRAPS
+  - ITB-F
+  why_critical: Resolves Qatar paradox (Obs 015 / Trap 9 interaction); Qatar benefits from process continuation but may calculate weakened-Iran-but-not-collapsed is optimal
+  blocking_for:
+  - ISA-TRAPS Trap 9
+  session_identified: 13
+  cross_refs:
+  - ITB-F F8
+- id: G16-01
+  description: Regime internal assessment of Caine warning
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-A12
+  why_critical: Determines whether regime reads JCS warning as genuine opponent strain (advancing Phase 3) or deliberate leak (counter-signal). Not accessible under blackout. Feeds A12.6 phase assessment.
+  blocking_for:
+  - ITB-A12 Phase assessment
+  session_identified: 16
+  cross_refs: []
+- id: G16-02
+  description: IAEA March 2 vote trajectory
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-F
+  why_critical: Whether IAEA Board pursues censure, UNSC referral, or deferral. Determines whether third clock triggers independently of Geneva Round 3 outcome.
+  blocking_for:
+  - ISA-SCENARIOS
+  session_identified: 16
+  cross_refs: []
+- id: G17-01
+  description: HQ-9B integration status -- operational vs. delivered
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-B
+  why_critical: Determines whether Iran air defense improvement is real or aspirational right now. Integration timeline, sensor-sharing protocols, operator training unknown.
+  blocking_for:
+  - ISA-SCENARIOS
+  - ITB-B B9
+  session_identified: 17
+  cross_refs:
+  - ITB-B B9
+- id: G17-02
+  description: CM-302 delivery timeline and quantity
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-B
+  why_critical: Reuters says near-final but no delivery date. If delivered before strike window, fundamentally changes carrier risk calculus. Number of missiles determines demonstration vs. operational
+    capability.
+  blocking_for:
+  - ITB-B B9
+  - Brief 6
+  session_identified: 17
+  cross_refs:
+  - ITB-B B2
+  - ITB-B B9
+- id: G17-03
+  description: Chinese military personnel in Iran -- presence, role, authorization level
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-B
+  why_critical: Would be single most escalatory finding if confirmed. Need to distinguish technical advisors (likely) from operational manning (unlikely but transformative).
+  blocking_for:
+  - ISA-TRAPS Trap 13
+  session_identified: 17
+  cross_refs:
+  - ITB-B B9
+  - ITB-F F6.1
+- id: G17-04
+  description: US EW effectiveness against Chinese-origin systems (HQ-9B, CM-302)
+  priority: 2
+  status: OPEN
+  modules:
+  - ITB-B
+  why_critical: Determines whether Chinese systems raise costs significantly or fold quickly under US electronic attack. Pakistan Operation Sindoor provides one data point.
+  blocking_for: []
+  session_identified: 17
+  cross_refs:
+  - ITB-B B9
+- id: G17-05
+  description: Chinese commercial/military satellite intelligence sharing scope with Iran
+  priority: 2
+  status: OPEN
+  modules:
+  - ITB-B
+  - ITB-F
+  why_critical: MizarVision publishes some imagery publicly. Private state-channel sharing assumed but unquantifiable. Determines Iran battlefield awareness improvement.
+  blocking_for: []
+  session_identified: 17
+  cross_refs:
+  - ITB-B B9
+  - ITB-F F6.1

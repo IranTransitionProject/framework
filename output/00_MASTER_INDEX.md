@@ -65,6 +65,7 @@ This project has been restructured from monolithic documents into self-contained
 | ITB-F12 | `ITB_F_F12_NORMALIZATION_QUALITY_v1_0.md` | 1.0 | ~700 | NORMALIZATION QUALITY FRAMEWORK -- TRANSITION PLANNING CRITICAL. Type A/B taxonomy, normalization ladder, hollow deal thesis, IRGC enrichment mechanism, South Pars Type B dependency, conditionality architecture. |
 | ITB-G | `ITB_G_DIASPORA.md` | 2.1 | ~120+ | Organizations, skills, limitations, Munich signal. v2.1: G6.4 governance precondition for diaspora capital deployment. |
 | ITB-H | `ITB_H_INFORMATION.md` | 1.0 | ~50 | Media ecosystem, competing narratives, counter-narratives. |
+| SESSION-19 | `SESSION_19_TIER_1_ANALYSIS_md.md` | 1.0 | ~400 | Tier 1 analytical deep-dive from Session 19. Bayt-e Rahbari, shadow fleet, social reproduction, Terman analogy. |
 
 ### Level 3: ISA — Stress Architecture
 
@@ -74,6 +75,8 @@ This project has been restructured from monolithic documents into self-contained
 | ISA-TRAPS | `ISA_TRAPS.md` | 2.2 | ~180+ | Simultaneity Traps 1-12. v2.2: Trap 9 (Mediator's Interest), Trap 10 (Hollow Deal = IRGC Enrichment). Traps 11-12 added Session 13. |
 | ISA-SCENARIOS | `ISA_SCENARIOS.md` | 1.5 | ~567 | Scenarios 1-5 (+1A/1B split), Observations 001-021, Scenario Matrix. v1.5: Session 14 comprehensive reassessment. |
 | ISA-CASES | `ISA_CASE_STUDIES.md` | 1.0 | ~230 | Historical case studies: methodology, Iraq, Libya, Syria, Afghanistan, Turkey, Indonesia, Spain, Chile/Pinochet. |
+| 17B-PRECEDENT | `17B_HISTORICAL_PRECEDENT_RESEARCH.md` | 1.0 | ~700 | Historical precedent research: secure communication for civil resistance (Solidarity, ANC, Chile, Baltics, Myanmar). Background research, not for publication. |
+| IPP-EP | `IPP_EMERGENCY_PHASE_REFERENCE.md` | 1.0 | ~600 | IPP/NUFDI Emergency Phase booklet structured reference. External document, not ITP-authored. 14 white papers covering first 180 days post-transition. |
 
 ### Level 4: Appendices
 
@@ -184,19 +187,24 @@ logic (Segment 3); must be read against A10 (eschatological spoiler) and three-s
 | 9 | 2026-02-19 | A10/A11 interaction analysis integration (velocity gap, two clocks, wrong interlocutor, institutional inertia, three-segment factional model) | ITB-A10, ITB-A11, ISA-CORE, ISA-TRAPS, ISA-SCENARIOS, APP-V, APP-G |
 | 10 | 2026-02-20 | Pre-session infrastructure: Parliament deep-dive (A6 + A6.10 ratchet mechanism), Judiciary module (D16), ITB-D v5.0, Master Index v2.1 | ITB-A6, ITB-D16, ITB-D, APP-G, APP-V, INDEX |
 | 11-12 | 2026-02-21 | F11 equilibrium beneficiaries + F12 Normalization Quality Framework. Traps 9+10. Obs 012. Scenario 1B/5 reframes. Per-module integration spec. | ITB-F11, ITB-F12, ISA-TRAPS, ISA-SCENARIOS, ITB-F, ITB-G, ITB-C, APP-V, APP-G, INDEX |
+| 13 | 2026-02-22 | Identified two-track policy incoherence (Trap 12), Congressional kill switch as independent deal failure mechanism, and expanded mourning cycle assessment. Five new gaps registered. | ISA-TRAPS, ISA-SCENARIOS, APP-G, ITB-F |
+| 14 | 2026-02-23 | Comprehensive reassessment triggered by Larijani revelation, Trump 48-hour deadline, and enrichment contradiction cluster. Produced Obs 016-018, updated scenario probabilities to v1.5, ten new gaps. | ISA-SCENARIOS, ISA-TRAPS, APP-G, APP-V, ITB-F |
 | 15 | 2026-02-23 | A12 Coercive-Endurance Interaction Doctrine: 5-phase behavioral model, factional reconciliation, taqiyyah coupling, Pinochet/F12 enrichment coupling, current events mapping (Phase 2->3), Obs 019 proposed | ITB-A12, ISA-SCENARIOS, ISA-TRAPS, APP-V, APP-G, INDEX |
 | 16 | 2026-02-24 | News monitoring + integration: Geneva Round 3 confirmed Feb 26; IAEA March 2 convergence; student protests 12+ universities; 26+ death sentences; Independent Internal Resistance Clock (A12.3.6, Obs 020) | ITB-A12, ISA-SCENARIOS, APP-V, ITB-F, ITB-H |
+| 17 | 2026-02-25 | Integration specification session. Produced multi-session starter for 17A-D, regime primary sources methodology, instructions v4 patch. Pre-session planning for Geneva Round 3 analysis and diaspora security architecture. | 00_INSTRUCTIONS, ISA-SCENARIOS, INDEX |
+| 18 | 2026-03-01 | Reverse-timeline analysis of Operation Epic Fury. Produced Briefs #11 (Clock Was Already Running), #12 (Succession Contest), #13 (Mediator Problem), Brief #5 v4.0 update with convergent spoiler finding. | Briefs, ISA-SCENARIOS, ITB-A10, ITB-F |
+| 19 | 2026-03-02 | Tier 1 analytical deep-dive on Bayt-e Rahbari architecture, shadow fleet integration, social reproduction mechanisms, and Terman analogy insertion. | ITB-A, ITB-F, ITB-D, ITB-A10 |
 
 ---
 
 ## DATABASE STATISTICS
 
-* **Modules:** 25
-* **Variables:** 77
-* **Gaps:** 35 (27 open)
-* **Traps:** 12
-* **Observations:** 21
+* **Modules:** 28
+* **Variables:** 82
+* **Gaps:** 47 (39 open)
+* **Traps:** 13
+* **Observations:** 22
 * **Scenarios:** 7
-* **Sessions logged:** 13
+* **Sessions logged:** 18
 
 *Generated 2026-03-04 from itp-db YAML sources.*
