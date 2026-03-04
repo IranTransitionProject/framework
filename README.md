@@ -1,143 +1,63 @@
-# Iran Transition Project
+# Iran Transition Project — Structured Database
 
-**Independent analytical framework for Iranian regime architecture and transition dynamics.**
+## What This Is
 
-🌐 [irantransitionproject.org](https://irantransitionproject.org)
-📧 [admin@irantransitionproject.org](mailto:admin@irantransitionproject.org)
-📄 Licensed under [CC BY-SA 4.0](LICENSE) · [Governance](GOVERNANCE.md) · [Contributing](CONTRIBUTING.md)
+A relational database architecture for the Iran Transition Project (ITP), replacing hand-edited markdown files with structured YAML data validated against JSON schemas. Markdown reports are generated artifacts.
 
----
+## Quick Start
 
-## Why This Exists
+```bash
+# Validate all data
+python validate.py
 
-In January 2026, the Iranian regime killed and imprisoned thousands of its own people.
-That event — and what preceded it over decades — is not in serious dispute. What *is*
-disputed, often passionately among Iranians themselves, is what comes next.
+# Build all markdown reports
+python build.py
 
-Many Iranians who are horrified by the regime are simultaneously terrified of change.
-They have watched Iraq disintegrate. They watched Syria burn. They look at Libya. And
-they conclude, not irrationally, that the known catastrophe may be safer than an
-unknown one. That fear is real. It deserves a serious answer — not dismissal.
+# Validate then build
+python build.py --validate
 
-This project is that answer, or an attempt at one.
-
-The reason a successful transition feels unimaginable to so many people is largely
-because no serious, impartial, publicly available roadmap exists. That gap is not just
-an academic problem — it is itself a political force that reinforces paralysis, feeds
-regime propaganda, and may ultimately doom the Iranian people to exactly the outcome
-everyone fears.
-
-If we can fill that gap, even partially, we change what is imaginable. And what is
-imaginable shapes what is possible.
-
----
-
-## What This Project Is
-
-An open, independent analytical framework examining:
-
-- **Regime architecture** — how power actually flows, who controls what, where
-  structural vulnerabilities exist
-- **Transition dynamics** — what conditions, sequences, and institutions a successful
-  transition would require
-- **Failure modes** — the specific mechanisms that turned Iraq, Syria, and Libya into
-  catastrophes, and whether they apply to Iran
-
-The framework is organized into modular research documents covering security, economy,
-society, ideology, territorial integrity, international positioning, diaspora dynamics,
-and information environment — cross-referenced, version-controlled, and maintained as
-a living analytical system.
-
----
-
-## What This Project Is Not
-
-**This is not advocacy for any specific political faction, opposition group, or
-foreign policy position.**
-
-It does not endorse regime change by any particular means. It does not align with any
-diaspora organization, political party, or government. It does not take positions on
-sanctions, military options, or diplomatic strategy — except to analyze their structural
-consequences as honestly as possible.
-
-The guiding discipline throughout is a single question: *What must be true for a
-transition to succeed, regardless of who governs?*
-
----
-
-## Repository Structure
-
-This repository is the **structured data layer** of the Iran Transition Project.
-Analytical content lives in validated YAML source files. Markdown outputs are
-generated artifacts — never edited directly.
-
-```
-├── data/           # YAML source of truth (variables, gaps, traps, scenarios)
-├── schemas/        # JSON Schema validation rules
-├── templates/      # Jinja2 rendering templates
-├── scripts/        # Migration and utility scripts
-├── output/         # Generated markdown (do not edit)
-├── validate.py     # Schema validation runner
-└── build.py        # Artifact build system
+# Build specific report
+python build.py variables
 ```
 
-For build instructions, dependency requirements, and data architecture details,
-see [ARCHITECTURE.md](ARCHITECTURE.md).
+## Why
 
-For Claude Code agent operating instructions, see
-[CLAUDE_CODE_INSTRUCTIONS.md](CLAUDE_CODE_INSTRUCTIONS.md).
+The original project accumulated 21+ markdown files updated via manual patch instructions from LLM sessions. This caused:
+- Line number drift between sessions
+- Inconsistent formatting across patches
+- No schema validation on data integrity
+- Cross-reference breakage as modules grew
+- Compounding errors with each session
 
----
+The database architecture solves these by making the YAML the single source of truth, with deterministic rendering to markdown.
 
 ## Current Status
 
-| Component | Status | Entries |
-|-----------|--------|---------|
-| Variables (APP-V) | ✅ Complete | 77 |
-| Research Gaps (APP-G) | ✅ Complete | 35 |
-| Simultaneity Traps (ISA) | ✅ Complete | 12 |
-| Observations | 🔄 Pending migration | — |
-| Scenarios | 🔄 Pending migration | — |
-| Module prose (ITB-A through ITB-H) | 🔄 Pending migration | — |
-| Policy Briefs | 🔄 Pending migration | 5 published |
+**Phase 0 (Complete):** Variables (77 entries), Gaps (35 entries) migrated. Build pipeline operational.
 
----
+**Phase 1 (Complete):** Traps (12), Observations (21), Scenarios (7), Sessions (13), Modules (25) migrated. All 190 entries validate. ISA-SCENARIOS and ISA-TRAPS templates built and tested.
 
-## Contributing
+**Phase 2 (Complete):** Module prose content migrated to `data/content/` YAML files.
+- Schema: `schemas/content.schema.json`
+- Template: `templates/module_content.md.j2` (generic for all modules)
+- Master index: `templates/master_index.md.j2` + `data/index_meta.yaml`
+- All 19 modules migrated, validated, and building
+- Migration script: `scripts/migrate_content.py` (uses ftfy for mojibake repair)
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). All contributors must sign the CLA.
+**Phase 3 (Pending):** Policy Briefs.
+- Session starter: `PHASE_3_SESSION_STARTER.md` (schema design, template plan, migration order)
+- 12 briefs + 5 supporting documents
+- Separate `brief.schema.json` (briefs have different structure: narrative prose, byline, update notes, companion list, governance metadata)
+- 4 templates planned: brief, exec summary, changelog, governance
 
-Highest-priority needs:
-- Persian-language source integration and translation
-- Subject matter review (political science, security studies, economics, law)
-- Methodological critique — where the framework is wrong, say so explicitly
+## Requirements
 
----
+```bash
+pip install pyyaml jsonschema jinja2 ftfy
+```
 
-## Why I Built This
+## See Also
 
-I am an Iranian-American. I am not a professional academic, a policy professional,
-or an intelligence analyst. I am someone who looked at what was happening in January
-2026, looked for serious, impartial work on what a viable transition might actually
-require, and found a gap where that work should have been.
-
-So I started building it.
-
-I believe that a successful transition in Iran — one that produces stability,
-accountability, and genuine self-determination for the Iranian people — would be
-transformative not just for Iran but for the entire region. The Iranian people's
-success is not a sectarian or national interest. It is a regional and human one.
-
----
-
-## License
-
-[CC BY-SA 4.0](LICENSE) — open for reuse and adaptation with attribution.
-Derivative works must remain open under the same terms.
-
-Alternative licensing available for policy institutions with copyleft constraints.
-Contact: admin@irantransitionproject.org
-
----
-
-*Independent research. No institutional affiliation. No factional alignment.*
+- `CLAUDE_CODE_INSTRUCTIONS.md` — Operating manual for Claude Code
+- `schemas/` — JSON Schema definitions for all entity types
+- `scripts/` — One-time migration scripts from original markdown

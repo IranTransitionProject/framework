@@ -199,4 +199,4 @@ logic (Segment 3); must be read against A10 (eschatological spoiler) and three-s
 * **Scenarios:** 7
 * **Sessions logged:** 13
 
-*Generated 2026-02-27 from itp-db YAML sources.*
+*Generated 2026-03-03 from itp-db YAML sources.*

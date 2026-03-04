@@ -341,8 +341,8 @@ Phase 2 (in progress): Module prose content (ITB-A through ITB-H, ISA-CORE).
 - master_index.md.j2 template created, driven by modules.yaml + sessions.yaml + index_meta.yaml
 - index_meta.yaml holds semi-static content: governance protocol, dependency map, quick lookup, analytical summary
 
-Completed migrations (18 modules): ITB-A, ITB-A6, ITB-A8, ITB-A9, ITB-A10, ITB-A11, ITB-A12, ITB-B, ITB-C, ITB-D, ITB-D16, ITB-E, ITB-F, ITB-F12, ITB-G, ITB-H, ISA-CORE, ISA-CASES
-Remaining: ITB-F11 (source file not in project — needs upload of ITB_F_F11_Equilibrium_Beneficiaries_v1_0.md + Addendum)
+Completed migrations (19 modules): ITB-A, ITB-A6, ITB-A8, ITB-A9, ITB-A10, ITB-A11, ITB-A12, ITB-B, ITB-C, ITB-D, ITB-D16, ITB-E, ITB-F, ITB-F11, ITB-F12, ITB-G, ITB-H, ISA-CORE, ISA-CASES
+Phase 2 COMPLETE. All module prose content migrated to YAML.
 
 Phase 3: Migrate Briefs.
 - Structured changelog, findings, version history

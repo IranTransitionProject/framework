@@ -1,0 +1,1102 @@
+module_code: ITB-F11
+version: '1.0'
+date: '2026-02-21'
+source: Session 11 — Equilibrium Beneficiaries deep-dive + Tier 2/3 Addendum
+dependencies:
+- ITB-F (v2.2)
+- ITB-C
+- ITB-A9
+- ITB-A11
+- ISA-SCENARIOS
+referenced_by:
+- ISA-TRAPS Trap 9+10
+- ISA-SCENARIOS Obs 011
+- ITB-F12
+title: Equilibrium Beneficiaries — Regional Perverse Incentive Mapping
+pillar: F
+last_verified: '2026-02-21'
+confidence: Med-High
+sections:
+- id: F11.1
+  title: "FRAMING: THE THIRD CATEGORY"
+  content: |
+    Standard diplomatic analysis maps actors as "supports deal," "opposes deal," or "neutral/mediator."
+    This section adds a **fourth category** that cuts across all three:
+
+    > **EQUILIBRIUM BENEFICIARY** — an actor whose economic model, competitive position, or
+    > political survival *depends on Iran remaining in its current degraded, sanctioned state*,
+    > such that the actor has structural incentive to resist any change in either direction
+    > (deal, transition, or collapse) regardless of its stated diplomatic position.
+
+    This is analytically distinct from "supporting the regime." An equilibrium beneficiary may
+    publicly support sanctions, human rights, and the protesters — while structurally profiting from
+    the conditions that make those sanctions necessary and permanent.
+
+    The policy implication: every deal, transition, and scenario model that omits this category is
+    missing an active resistance layer that operates *independently* of internal Iranian spoiler
+    mechanisms (documented in A10, A11).
+- id: F11.2
+  title: "TIER 1: STRONG STRUCTURAL INCENTIVE"
+  subsections:
+  - id: F11.3
+    title: "ACTOR: Qatar"
+    level: 3
+    content: |
+      **STATED POSITION:** [Fact] Mediator; hosts US diplomatic facilities, US air power at Al-Udeid;
+      hosted Oman-mediated Round 1 talks (Feb 6); publicly neutral on Iran crisis.
+
+      **STRUCTURAL INTEREST:** [Inference — High] Qatar's entire LNG economy is built on exploiting
+      a shared gas field (South Pars/North Dome) while Iran cannot. Sanctions prevent Iran from
+      installing the technology, capital, and Western partnerships required to develop its sector.
+      A normalized Iran is Qatar's most dangerous gas competitor.
+
+      **SPECIFIC MECHANISM:**
+
+      - South Pars/North Dome is the world's largest gas field. Qatar holds ~36.8 Tcm of reserves;
+        Iran holds ~14.2 Tcm — but Iran is *extracting at a fraction of potential* due to sanctions.
+      - In 2022, Qatar generated >$42B in revenue from its North Dome sector. Iran, from the same
+        field, generated roughly $8-9B equivalent — unable to exploit even 20% of comparable capacity.
+        [Fact — NCRI/Iran International cross-referenced]
+      - Qatar is executing a $29B expansion (TotalEnergies, ExxonMobil, Shell, Eni partnerships)
+        to increase LNG exports from 77 mtpa to 126 mtpa by 2027, targeting 142 mtpa by 2030.
+        [Fact — Iran International, AGSI]
+      - Western oil majors (TotalEnergies, Shell) abandoned Iranian contracts in 2018 after US
+        sanctions reimposed; the *same companies* then signed the Qatari expansion. Qatar's
+        competitive advantage over Iran is *structurally constituted by Western sanctions*.
+        [Inference — High; mechanism is explicit in company filings]
+      - IEA World Energy Outlook 2025: Qatar's gas production rises 170 → 300 bcm by 2035, gas
+        exports increase 2.5x. Iran's export capacity is projected to reach *zero* by mid-2030s due
+        to declining South Pars pressure, under-investment, and sanctions-induced technology denial.
+        [Fact — IEA WEO 2025 via Middle East Forum]
+      - Iran's South Pars pressure is now declining ~7 atmospheres/year. Restoring pressure requires
+        $35-40B investment in 20,000-ton platforms and massive compressors — technology Iran cannot
+        procure under sanctions. Qatar installed equivalent systems years ago with Western tech.
+        [Fact — Iran International, NCRI]
+      - Gas migration risk: as Iran's pressure falls, gas migrates from Iranian sector to Qatari sector.
+        Qatar effectively extracts Iranian gas reserves through differential development.
+        [Inference — Med; acknowledged in academic literature as "disputed but credible"]
+
+      **DIRECTION OF RESISTANCE:**
+
+      - *Resist deal:* Sanctions relief enables Western tech investment in South Pars pressure
+        restoration. Iran reenters LNG export market. Qatar loses price leadership and market share.
+      - *Resist transition:* A democratic Iran with Western partnerships would develop South Pars
+        aggressively. Same competitive threat, potentially larger-scale.
+      - *Resist collapse:* Physical chaos near a shared offshore field is dangerous. BUT: a collapsed
+        Iran that cannot invest in its sector is less threatening than a normalized Iran that can.
+        Collapse resistance is secondary to normalization resistance.
+      - **Optimal equilibrium:** Perpetual negotiation in which Iran remains sanctioned, talks
+        continue, and Qatar mediates — indefinitely.
+
+      **LEVERAGE:**
+
+      - Hosts Al-Udeid Air Base (~10,000 US troops, B-52 staging). US military dependence on Qatar
+        creates structural inhibition against pressuring Doha on economic issues.
+      - QatarEnergy controls LNG supply chains Europe depends on. EU cannot alienate Qatar during
+        Russian energy decoupling.
+      - Mediation role (Oman Round 1 hosted in Qatar) gives diplomatic cover.
+      - Qatari wealth funds are deeply integrated into Western financial institutions.
+
+      **WHAT CHANGES IF IRAN NORMALIZES:**
+
+      - Iran enters global LNG market with the world's second-largest gas reserves. Qatar's 32%
+        global LNG market share faces structural erosion over 5-10 years.
+      - Western oil majors re-enter Iran under commercial terms, potentially diverting capital
+        and technology from ongoing Qatari expansion.
+      - South Pars pressure restoration (with Western tech) converts Iran from a declining producer
+        to a growing one — reversed migration dynamics, reduced Qatar extraction advantage.
+      - Loss estimate: [Uncertain — Low confidence] Multi-decade revenue impact potentially $500B+
+        at current LNG prices and production trajectories. Single-decade impact $50-100B range.
+
+      **WHAT CHANGES IF IRAN COLLAPSES:**
+
+      - Physical chaos near offshore facilities creates safety and legal risks for shared field.
+      - A collapsed Iran cannot invest in South Pars at all — Qatar's competitive advantage deepens.
+      - Successor government inherits a technical obligation to develop the field; the timeline for
+        any competitive threat extends by a decade or more.
+      - Net: collapse is *less bad* for Qatar than normalization. Qatar has low incentive to prevent
+        collapse if normalization is the alternative.
+
+      **ADVERSARIAL TEST (what would refute):** Finding that Qatar has quietly facilitated technology
+      transfer to Iran's South Pars sector, or that QatarEnergy is pursuing joint development
+      arrangements with Tehran, would refute. No evidence of this exists; the opposite is documented.
+
+      **CONFIDENCE:** [High] — causal mechanism is documented, quantified, and structurally
+      transparent. Not dependent on intent — Qatar profits from Iranian underdevelopment regardless
+      of what it wants.
+  - id: F11.4
+    title: "ACTOR: UAE (Dubai)"
+    level: 3
+    content: |
+      **STATED POSITION:** [Fact] Formally supportive of nuclear deal negotiations; IRGC designated
+      as terrorist organization by UAE after Jan 2026 crackdown; Abraham Accords partner with Israel.
+
+      **STRUCTURAL INTEREST:** [Inference — High] Dubai functions as the primary hub of Iran's
+      sanctions evasion economy. Iranian capital flight, oil proceeds laundering, petrochemical sales,
+      gold re-export, real estate, and shadow banking all flow through UAE financial infrastructure.
+      This is not incidental — it is institutional, embedded, and scale-significant.
+
+      **SPECIFIC MECHANISM:**
+
+      - FinCEN (US financial intelligence) identified ~$9B in Iranian shadow banking activity
+        flowing through US-accessible financial institutions in 2024 alone. UAE-based entities
+        are the primary intermediary layer. [Fact — FinCEN 2025 Advisory / FTA-Iranian-Shadow-Banking]
+      - OFAC designated the "Zarringhalam brothers network" (June 2025): >35 individuals and entities,
+        "laundering billions through shadow banking spanning China, Hong Kong, and UAE."
+        [Fact — OFAC, DLA Piper analysis]
+      - UAE-based foreign exchange houses enabled sanctioned Persian Gulf Petrochemical Industry
+        Commercial Co. (PGPICC) to sell billions in Iranian petrochemicals while hiding PGPICC's
+        involvement. Dubai-based front companies processed customer payments.
+        [Fact — Atlantic Council Global Sanctions Dashboard]
+      - Iranian oil smuggled as "Iraqi oil" routes through UAE intermediaries. Iran-to-China oil
+        transfers involve UAE-registered shipping management companies and STS transfer facilitation.
+        [Fact — OFAC, State Dept. designations; multiple shipping company sanctions 2025]
+      - Capital flight: >$400M in Tether tracked leaving Iran via Dubai-based exchange infrastructure
+        Dec 2025-Jan 2026. [Inference — Low, single source — ITB-C]
+      - Gold: 93% of $31B undeclared gold smuggled from Africa annually flows to UAE markets for
+        processing and resale. Iranian gold-for-sanctions-evasion flows use this same corridor.
+        [Fact — Swissaid via MENA risk report]
+      - Dubai real estate: UAE/Dubai real estate functions as capital flight destination for Iranian
+        elites. "Dubai Unlocked" investigation (OCCRP, 75 media outlets) documented sanctioned
+        Iranian asset holders. UAE removed from FATF grey list only in 2024 — after years of
+        documented Iranian sanctions evasion facilitation. [Fact — multiple]
+      - UAE free trade zones (40+ in Dubai/Abu Dhabi) provide corporate secrecy enabling sanctions
+        evasion across Iran, Russia, and other sanctioned jurisdictions simultaneously.
+        [Fact — FATF, GIR, TRACCC]
+
+      **DIRECTION OF RESISTANCE:**
+
+      - *Resist deal:* Sanctions relief eliminates the arbitrage premium. Iranian funds can flow
+        through normal banking channels. UAE's role as the essential bypass disappears. Dubai loses
+        the spread between sanctioned and unsanctioned Iranian finance.
+      - *Resist transition:* A normalized Iran with Western banking access routes capital through
+        European and US banks, not through Dubai exchange houses and real estate.
+      - *Resist collapse:* Physical chaos disrupts the flow — Iranian elites flee with less, or flee
+        to Europe not Dubai; the sanctions evasion supply chain breaks down.
+      - **Optimal equilibrium:** Permanent low-grade sanctions environment in which Iran cannot access
+        Western finance but *can* generate oil/petrochemical revenue that needs laundering. Dubai
+        captures the spread indefinitely.
+
+      **LEVERAGE:**
+
+      - UAE hosts ~3,500 US troops at Al Dhafra Air Base. F-35s positioned at Muwaffaq Salti nearby.
+        US military dependence is structural.
+      - UAE is the largest Arab economy by GDP per capita. Major sovereign wealth fund (ADIA) is
+        deeply integrated into US and European financial markets.
+      - UAE's "reform" of AML/CFT (sufficient to exit FATF grey list) was calibrated to achieve
+        minimum compliance while preserving operational flexibility.
+      - Dubai's role as Iran sanctions evasion hub is *also* its role as Russia sanctions evasion hub.
+        Both clients simultaneously. Losing either would reduce total hub revenue.
+
+      **WHAT CHANGES IF IRAN NORMALIZES:**
+
+      - Shadow banking arbitrage disappears. Iranian exchange houses integrate with SWIFT.
+        UAE intermediary markup on every transaction drops to zero.
+      - Iranian real estate capital flight to Dubai decelerates; funds go to legitimate markets.
+      - Oil proceeds laundering revenue collapses — oil is sold openly, proceeds flow through normal
+        banking, no UAE re-routing premium.
+      - Estimated annual revenue impact: [Uncertain — Med confidence] $5-15B/year in direct financial
+        service revenue lost. Indirect effects on real estate, gold markets, free zone utilization
+        are additional.
+
+      **WHAT CHANGES IF IRAN COLLAPSES:**
+
+      - Collapse creates a flood of Iranian elite capital flight to Dubai in the short term (positive).
+      - In the medium term, successor government may seek to normalize and repatriate capital — bad.
+      - Physical chaos may disrupt Hormuz traffic, damaging Dubai's trade-dependent economy.
+      - Net: short-term positive (capital flight spike), medium-term negative (normalization path).
+
+      **CONFIDENCE:** [High] — documented, sanctioned, and institutionally embedded. FinCEN advisory
+      is explicit: UAE is the primary routing node for Iranian shadow banking globally.
+  - id: F11.5
+    title: "ACTOR: Turkey"
+    level: 3
+    content: |
+      **STATED POSITION:** [Fact] Self-designated mediator; FM Fidan met Araghchi Jan 2026; publicly
+      warns against military escalation; coordinates with Iran on PKK/PJAK suppression.
+
+      **STRUCTURAL INTEREST:** [Inference — High] Three-layer interest in Iran's current configuration,
+      each independently significant. Together they constitute the strongest multi-dimensional
+      structural stake of any regional actor.
+
+      **SPECIFIC MECHANISM:**
+
+      **Layer 1 — Sanctions Evasion Corridor:**
+
+      - Former PM Davutoglu, Jan 14, 2026, TiVi6 TV: publicly admitted Turkey "deliberately bypassed
+        US sanctions on Iran" as "a deliberate and conscious choice made at the highest levels of the
+        Turkish state." This is the highest-level public admission of state-level sanctions evasion
+        by any country. [Fact — Nordic Monitor]
+      - The Halkbank case (US federal prosecution): Turkish state bank Halkbank used gold-for-gas
+        swap scheme to launder ~$20B in Iranian oil proceeds through US financial system.
+        The Erdogan government lobbied Trump directly to have the prosecution dropped.
+        [Fact — US DOJ; Halkbank indictment public record]
+      - Bilateral trade Turkey-Iran: ~$10B in 2024. Iran supplies ~15% of Turkey's natural gas
+        under a pipeline agreement (set to expire mid-2026). [Fact — Iran International]
+      - Turkey consistently opposes US sanctions on Iran in international forums, arguing they
+        "harm regional trade." The economic incentive is direct and documented.
+        [Fact — Iran International, INSS]
+
+      **Layer 2 — Kurdish Containment:**
+
+      - Iran cooperates with Turkey on suppression of PJAK (PKK's Iranian affiliate). Joint
+        operations have been documented; Fidan explicitly stated after Jan 2026 protests: "We have
+        seen that the PKK/PJAK is attempting to take advantage. This demonstrates PJAK is a threat
+        not only to Turkey but to Iran. We reiterate the need for joint action."
+        [Fact — WSWS citing Fidan statement]
+      - A democratic Iran with Kurdish autonomy = existential threat to Turkey. Kurdish political
+        gains in Iran would embolden PKK domestically and provide operational depth in a third
+        country. This is the dominant concern in Turkish public discourse (~20-25% of all X discourse
+        on Iran crisis per INSS analysis). [Fact — INSS Insight No. 2097, Feb 4, 2026]
+      - Turkey is currently pursuing PKK disarmament (Ocalan February 2026 call). PJAK has not
+        heeded the call. Iran's stability suppresses PJAK operationally.
+        [Fact — Washington Institute, RUSI]
+      - Washington Institute: "Ankara generally abhors Middle East instability... it will likely
+        support diplomatic steps to prevent Iran from reestablishing nuclear capability while
+        *opposing military steps that could greatly erode the state's authority or topple the regime*."
+        [Fact — Wash. Institute, direct quote from analysis]
+
+      **Layer 3 — Energy Transit Middleman:**
+
+      - Iran cannot sell gas directly to Europe under current sanctions. Turkey *is* the gas
+        transit corridor to Europe for Iranian gas.
+      - The pipeline agreement (~15% of Turkey's gas supply) is also the infrastructure through
+        which Turkey extracts transit rents. A normalized Iran could export LNG directly to Europe
+        via other routes, bypassing Turkish transit infrastructure.
+      - [Inference — Med] Turkey's role as indispensable energy bridge between sanctioned Iran and
+        European market disappears if Iran can trade directly.
+
+      **DIRECTION OF RESISTANCE:**
+
+      - *Resist deal that normalizes Iran fully:* Full normalization ends sanctions arbitrage, enables
+        direct Iran-Europe energy trade, and may strengthen Kurdish political positions in Iran.
+      - *Resist transition to democratic Iran:* A pluralist Iran recognizing Kurdish cultural rights
+        is Turkey's nightmare scenario. Even a mild version threatens domestic Kurdish politics.
+      - *Resist collapse:* PJAK vacuum exploitation is the primary collapse fear. Kurdish vacuum in
+        NW Iran + PJAK + refugee wave = multidimensional threat. Turkey has strong interest in
+        preventing collapse even more than in preventing normalization.
+      - **Optimal equilibrium:** Weakened, stable, authoritarian Iran that suppresses Kurds jointly
+        with Turkey, provides gas through Turkish transit infrastructure, and relies on Turkish
+        financial bypass mechanisms. Perpetual negotiation that maintains this configuration.
+
+      **LEVERAGE:**
+
+      - NATO membership — US cannot sanction Turkey without damaging NATO.
+      - Turkish Straits control (Bosphorus/Dardanelles) — leverage over naval deployments.
+      - F-16 dependency creates leverage with US over Turkish behavior.
+      - Refugee hosting: 2.3M Syrians + 170K other asylum seekers. An Iranian refugee wave
+        threatens domestic political stability — Erdogan uses this as leverage with EU and US.
+      - Active PKK peace process — any disruption to the peace process creates domestic crisis
+        that Erdogan uses to resist Western pressure on Iran policy.
+
+      **WHAT CHANGES IF IRAN NORMALIZES:**
+
+      - Sanctions arbitrage corridor revenue disappears.
+      - Iran gains independent LNG export capacity; Turkish transit rents fall.
+      - Kurdish cultural/political space expands in a democratic Iran; PKK gains legitimacy spillover.
+      - Turkey loses its unique mediator role — ceases to be the indispensable Iran interlocutor.
+
+      **WHAT CHANGES IF IRAN COLLAPSES:**
+
+      - PJAK activates in NW Iran — Turkey's primary collapse fear.
+      - Refugee wave from Iran estimated at millions (2.3M already hosted; Iranian wave comparable
+        to Syrian wave).
+      - Iranian chaos destabilizes Iraq-Turkey corridor (Development Road project) — $50B+ project
+        at risk.
+      - Net: collapse is *worse* for Turkey than normalization. Turkey has the strongest incentive
+        of any actor to prevent collapse AND the strongest incentive to prevent full normalization.
+        Perfect interest alignment with: perpetual weakened equilibrium.
+
+      **ADVERSARIAL TEST:** Davutoglu's admission is the adversarial test case. This is not inference —
+      it is the former PM of Turkey describing deliberate state policy on national television.
+      The hypothesis is confirmed, not inferred.
+
+      **CONFIDENCE:** [High] — all three layers independently documented. Davutoglu admission alone
+      is sufficient to confirm Layer 1.
+  - id: F11.6
+    title: "ACTOR: China"
+    level: 3
+    content: |
+      **STATED POSITION:** [Fact] Opposes sanctions; participates in Maritime Security Belt 2026
+      exercise; rejects unilateral US sanctions as illegitimate; "countries should stop pushing
+      for sanctions."
+
+      **STRUCTURAL INTEREST:** [Inference — High] China buys 90% of Iran's oil exports at a
+      sustained discount of $7-12/barrel below Brent. The discount *exists because* Iran is
+      sanctioned. China's teapot refinery sector — ~20% of total Chinese refining capacity —
+      depends on discounted sanctioned crude for profitability.
+
+      **SPECIFIC MECHANISM:**
+
+      - Iran exports ~1.38-1.65 Mb/d to China (Kpler, 2024-2025 data). Chinese independent
+        "teapot" refineries in Shandong province buy 77-90% of Iran's total exports.
+        [Fact — multiple: Reuters, OilPrice, EIA, Kpler]
+      - Discount: Iranian crude trades $7-12/barrel below Brent (range reflects enforcement
+        intensity). At 1.5 Mb/d and $10 average discount, China captures ~$5.5B/year in
+        below-market procurement savings. At higher volumes (1.65 Mb/d), savings approach $6B/year.
+        [Fact — Reuters, Middle East Forum, CRS; discount is well-documented]
+      - By 2025, sanctioned crude (Iran + Russia + Venezuela) represents ~40% of China's total oil
+        imports. The discount ecosystem saves China an estimated $15-20B+ annually on aggregate.
+        [Inference — Med; based on volume and discount data from multiple sources]
+      - Reuters (May 2025): "Lifting US sanctions on Iran could crush China's teapot oil refineries."
+        Teapot business model depends on the sanctioned discount; removal of sanctions eliminates
+        their competitive advantage over state-owned refineries. [Fact — Reuters/RON Bousso]
+      - China pays for Iranian oil in renminbi through channels insulated from the US dollar system.
+        This is the operational test case for China's "de-dollarization" strategy — it requires
+        Iran's exclusion from dollar-based trade to remain relevant.
+        [Inference — Med; structural logic confirmed by transaction documentation]
+      - $400B 25-Year Cooperation Agreement (2021): viable only in sanctions environment where no
+        Western competitor can bid. If Iran normalizes, Western capital and technology outcompete
+        Chinese terms. The $400B agreement was never real — it was a geopolitical positioning
+        document — but any future Chinese economic preferential access requires continued exclusion
+        of Western competitors. [Fact — multiple; agreement described as "minimal actual
+        implementation" even by Iran analysts]
+      - Chinese surveillance technology deployed in Iran's crackdown (Jan 2026): YLC-8B radar,
+        surveillance systems. This creates a Chinese stake in the current security architecture
+        that would be disrupted in any transition. [Fact — ITB-F F6]
+
+      **COMPLICATION (important nuance):**
+
+      China is *not* structurally dependent on Iranian crude in aggregate — it is only the teapot
+      sector that is discount-dependent. State-owned refineries (Sinopec, PetroChina) avoid
+      sanctioned crude due to secondary sanctions risk. The structural beneficiary is the teapot
+      sector specifically, not China as a monolith.
+
+      Furthermore, China's energy transition (reached 2030 renewable targets in 2024, six years
+      early; EV/hybrid penetration 51% of retail market by March 2025) is reducing transport fuel
+      demand. [Fact — IEA via Geopolitical Monitor] This slightly reduces the long-term strategic
+      weight of the discount, though petrochemical feedstock demand remains high.
+
+      Revised characterization: China's structural interest in Iran's sanctioned state is *significant
+      but not existential* — it is sectoral (teapots) rather than economy-wide. The political and
+      geostrategic benefits (captive ally, US distraction, anti-dollar precedent) may exceed the
+      direct economic benefit in Beijing's calculus.
+
+      **DIRECTION OF RESISTANCE:**
+
+      - *Resist deal that normalizes Iran:* Western oil majors reenter Iran on competitive terms;
+        teapot discount disappears; $400B framework becomes worthless. China loses Iran as a
+        "demonstration project" for sanctions-resistant economic partnership.
+      - *Resist transition to Western-aligned Iran:* New government would negotiate with Western
+        partners, not Chinese. Chinese surveillance infrastructure would be removed or decoupled.
+      - *Resist collapse:* Oil supply disruption; unpredictable successor; Hormuz closure would
+        directly damage Chinese energy imports from the entire Gulf (not just Iran). China is the
+        country most exposed to a Hormuz blockage — ~40% of China's oil imports transit Hormuz.
+
+      **LEVERAGE:**
+
+      - Purchases 90% of Iran's exports — Iran's economy collapses without Chinese buyers.
+      - Provides surveillance technology embedded in Iranian security infrastructure.
+      - UN Security Council veto blocks punitive resolutions.
+      - Naval presence: Maritime Security Belt 2026 participation signals military solidarity.
+
+      **WHAT CHANGES IF IRAN NORMALIZES:**
+
+      - Teapot sector loses discount advantage; many become unviable.
+      - Western oil companies reenter Iran, undercutting Chinese infrastructure deals.
+      - Iran re-integrates into dollar-based financial system; China's de-dollarization test case
+        ends.
+      - China's preferential access to Iranian oil, gas, and markets disappears.
+
+      **WHAT CHANGES IF IRAN COLLAPSES:**
+
+      - Oil supply shock affecting 1.5+ Mb/d of Chinese imports.
+      - Hormuz disruption risk for all Chinese Gulf oil imports (~40% of total).
+      - Surveillance infrastructure loss and political reconfiguration.
+      - Net: collapse is worse for China than normalization — but a *managed* collapse into a
+        China-friendly successor is marginally acceptable. The risk is that collapse is unmanaged.
+
+      **CONFIDENCE:** [High] for economic mechanism; [Med] for political/strategic weighting.
+      The teapot discount data is hard fact. How Beijing weighs teapot interests vs. geopolitical
+      objectives is inference.
+  - id: F11.7
+    title: "ACTOR: Russia"
+    level: 3
+    content: |
+      **STATED POSITION:** [Fact] Sanctions non-compliance; "no reasons to stop joint projects";
+      Maritime Security Belt 2026 joint naval exercise; provides diplomatic cover via UNSC veto.
+
+      **STRUCTURAL INTEREST:** [Inference — High] Russia benefits from Iran's sanctioned state across
+      three distinct mechanisms: oil market competition suppression, shared sanctions-evasion
+      infrastructure, and Iran's role as captive diplomatic ally.
+
+      **SPECIFIC MECHANISM:**
+
+      **Mechanism 1 — Oil Market Competition Suppression:**
+
+      - Both Russia and Iran sell discounted crude to China and India. They are competing for the
+        same discounted-crude market segment.
+      - A normalized Iran flooding the market with 2-3+ Mb/d at market rates would compete
+        directly with Russian crude (both are heavy-medium sour grades). Estimated impact on
+        Russian export margins: [Uncertain — Low confidence] significant, as Iran could add
+        500K+ Mb/d within 6 months of sanctions relief (OPEC assessment) and 1-2 Mb/d within
+        2-3 years.
+      - Key nuance: Russia and Iran currently coordinate through shared dark fleet infrastructure
+        and are not directly competing for the same buyers at the same time. Normalization creates
+        head-to-head competition for Asian markets.
+
+      **Mechanism 2 — Shared Sanctions-Evasion Infrastructure:**
+
+      - The Zarringhalam brothers network (OFAC, June 2025): laundering Iranian oil proceeds through
+        UAE and Hong Kong — the same network facilitates Russian sanctions evasion simultaneously.
+        [Fact — OFAC designation]
+      - Shamkhani smuggling network (OFAC, July 2025): 50+ individuals and 50+ vessels, shared
+        Iranian-Russian smuggling network for dual-use components, weapons, and oil.
+        [Fact — The Hill investigation, OFAC]
+      - Shared dark fleet: both countries use the same shadow tanker fleet, ship-to-ship transfer
+        zones (Malaysia, Gulf of Oman), and flag-of-convenience registries (Cook Islands). These
+        networks were built for Iran, then Russia adopted them after 2022. If Iran normalizes,
+        Russia loses both the co-investor in the infrastructure and the cover of a parallel sanctions
+        regime that justifies the infrastructure's existence.
+        [Inference — Med; documented through vessel tracking and OFAC actions]
+      - Shahed drone deal ($1.75B, 2023): Russia imported Iranian Shahed drones and licensed local
+        production. October 5, 2025 Lviv strike: 549 drones/missiles, using Iranian blueprints
+        and Russian materials. The Iran-Russia defense-industrial cooperation requires both countries
+        to remain outside Western export control systems. [Fact — The Hill]
+
+      **Mechanism 3 — Captive Diplomatic Ally:**
+
+      - Sanctions-isolated Iran has no choice but to coordinate with Russia in international forums.
+        Russia uses Iran at the UNSC, in BRICS framing, and in "multi-polar world" narratives.
+        A normalized Iran has diplomatic alternatives and less need for Russian patronage.
+      - Maritime Security Belt 2026: Patrushev called for BRICS to acquire "strategic maritime
+        dimension." Russia is using Iran's crisis to advance a broader anti-Western coalition
+        posture. A collapsed or normalized Iran removes this platform.
+
+      **DIRECTION OF RESISTANCE:**
+
+      - *Resist deal that normalizes Iran:* Iranian crude reenters global market; OPEC+ leverage
+        reduced; Iran-Russia dark fleet and weapons cooperation framework loses its Iranian partner.
+      - *Resist transition to Western-aligned Iran:* Loss of everything above plus loss of drone
+        technology supply chain.
+      - *Resist collapse:* Loss of sanctions-evasion partner, diplomatic ally, drone supply chain.
+        Russia cannot replace any of these quickly. Russia's Ukraine war depends on continued
+        Iranian drone supply.
+
+      **LEVERAGE:**
+
+      - UNSC veto — blocks any punitive UN resolution.
+      - Nuclear supplier: historical Bushehr relationship; promised new reactor.
+      - Maritime Security Belt 2026 presence in Hormuz during any potential US strike creates
+        physical deconfliction requirement and escalation risk. Whether deliberate positioning
+        or timing coincidence, the effect is identical: complicates US military planning.
+
+      **WHAT CHANGES IF IRAN NORMALIZES:**
+
+      - Oil market competition (Iran adds 1-2 Mb/d at market prices, compressing Russian margins).
+      - Dark fleet and shared smuggling infrastructure loses Iranian investment and cover.
+      - Drone/weapons cooperation framework disrupted — Russia cannot indigenize Shahed production
+        as quickly without ongoing Iranian technical support.
+      - Iran gains diplomatic alternatives; Russia loses captive UNSC/BRICS partner.
+
+      **WHAT CHANGES IF IRAN COLLAPSES:**
+
+      - Worse than normalization: all the above losses, plus immediate drone supply chain
+        disruption, plus Hormuz instability threatening broader oil market (which Russia is
+        integrated into as a price-maker).
+      - Russia lacks the capability to prevent Iranian collapse (Ukraine war absorbs military
+        capacity). Can only complicate US military planning at the margins (maritime presence).
+
+      **CONFIDENCE:** [Med] — mechanisms are documented; relative weighting of mechanisms in
+      Russian decision-making is uncertain. Russia's public statements are regime-source propaganda
+      and cannot be treated as factual claims about intent.
+- id: F11.8
+  title: "TIER 2: SIGNIFICANT STRUCTURAL INCENTIVE"
+  subsections:
+  - id: F11.9
+    title: "ACTOR: Iraq (PMF Faction Set)"
+    level: 3
+    content: |
+      **NOTE:** Iraq as a state is not a coherent actor. The Government of Iraq (GoI) under al-Sudani
+      has explicit interest in *reducing* Iranian dependency and asserting sovereignty. The equilibrium
+      beneficiary is the **PMF faction set** — which controls key ministries, the judiciary, the
+      Central Bank's dollar-access mechanisms, and the security sector — not Iraq as a state.
+      This distinction is analytically critical.
+
+      **STATED POSITION (PMF):** [Fact] Declared jihad in support of Iran (Kataib Hezbollah);
+      deployed inside Iran for protest suppression; explicit Iranian proxy.
+
+      **STRUCTURAL INTEREST:** PMF's political, economic, and military power depends on the IRGC's
+      current operational configuration. A transition in Iran that dissolves or restructures the IRGC
+      removes the PMF's sponsor, training network, weapons supply chain, and ideological framework.
+
+      **SPECIFIC MECHANISM:**
+
+      - PMF annual funding has doubled in recent years through parliamentary votes by Iran-aligned
+        parties. PMF fighters receive Iraqi state salaries (equal to regular military) while
+        reporting to IRGC-QF. [Fact — OFAC, Brookings, Carnegie]
+      - PMF controls: Interior Ministry (Badr Brigade); key intelligence services; corruption-
+        monitoring bodies; elements of the Central Bank; oil exportation; portions of the judiciary.
+        [Fact — Washington Institute analysis]
+      - "Iranian oil smuggled as Iraqi oil": OFAC designated networks (July, September, October 2025)
+        targeting Iraq-based entities facilitating Iranian oil fraud — Iranian crude sold as Iraqi
+        crude, processed through PMF-controlled infrastructure, with proceeds laundered through
+        PMF-connected banking networks. This is a PMF revenue stream independent of Iranian transfers.
+        [Fact — US Treasury/State Dept designations]
+      - Iraq's Parliament (July 2025): legislation to formally integrate militia leaders into security
+        decision-making — proposed by Iran-aligned factions. US pressure caused withdrawal, but
+        intent signals PMF's goal of full institutional capture. [Fact — Carnegie, SWP-Berlin]
+      - PMF has replaced "Axis of Resistance" rhetoric with anti-Sunni-jihadism framing after
+        Assad's fall, demonstrating tactical adaptability — but the structural dependency on
+        IRGC's current configuration remains. [Fact — Carnegie]
+
+      **DIRECTION OF RESISTANCE:**
+
+      - *Resist transition that restructures IRGC:* PMF loses sponsor, supply chain, and legitimacy.
+      - *Resist deal that includes human rights conditionality:* IRGC restructuring as deal condition
+        would cascade to PMF.
+      - *Resist collapse:* Uncontrolled collapse disrupts the structured dependency network;
+        successor government in Iran might be explicitly anti-PMF.
+
+      **LEVERAGE:** Controls key Iraqi state institutions; can disrupt US Iraq policy by threatening
+      American troops and bases; can mobilize against Kurdish groups; controls Iraqi financial flows.
+
+      **CONFIDENCE:** [High] — PMF structural dependency on IRGC is documented across multiple
+      independent sources (Brookings, Carnegie, Washington Institute, SWP-Berlin, US Treasury).
+  - id: F11.10
+    title: "ACTOR: India"
+    level: 3
+    content: |
+      **STATED POSITION:** [Fact] Abstains on Iran resolutions; Chabahar port investment;
+      strategic autonomy posture; buys discounted Iranian crude.
+
+      **STRUCTURAL INTEREST:** [Inference — Med] India benefits from discounted Iranian crude and
+      from Chabahar port access (bypassing Pakistan, accessing Central Asian markets). However,
+      India's interest is *less structural* than Tier 1 actors because: (a) India buys less Iranian
+      crude than China; (b) Chabahar investment is strategic but not economy-defining; (c) India
+      has strong incentives to normalize Iran as a potential counterweight to China-Pakistan axis.
+
+      **SPECIFIC MECHANISM:**
+
+      - India was a significant Iranian oil buyer before 2018 sanctions reimposition; reduced
+        substantially but maintains some informal flows.
+      - Chabahar port: $500M investment in Shahid Beheshti terminal (May 2024 agreement). Provides
+        India with access to Afghanistan and Central Asia without transiting Pakistan.
+        [Fact — multiple]
+      - India's discount on Iranian crude (when buying): similar to China, $7-10/barrel below Brent.
+        [Inference — Med]
+      - BUT: India receives secondary sanctions pressure from US. Trump 25% tariff threat on Indian
+        goods for Russian oil purchases shows US willingness to sanction India for sanctions evasion.
+        India's exposure to US financial system is much higher than China's — this limits India's
+        ability to systematically evade Iran sanctions at scale. [Fact — Global Trade Law Blog]
+
+      **DIRECTION OF RESISTANCE:** Conditional and moderate. India wants cheap oil but also wants
+      access to Western financial system. India would benefit from a normalized Iran (Chabahar
+      without sanctions complications, full legal oil imports). India is **not** a clear equilibrium
+      beneficiary — it is a *situational* beneficiary.
+
+      **CONFIDENCE:** [Med] — India's interest in perpetuating Iran's sanctioned state is weaker
+      than the Tier 1 actors. India belongs in Tier 2 as a conditional, not structural, beneficiary.
+- id: F11.11
+  title: "TIER 3: SECONDARY/CONDITIONAL INCENTIVE"
+  subsections:
+  - id: F11.12
+    title: "ACTOR: Oman"
+    level: 3
+    content: |
+      **STATED POSITION:** [Fact] Primary mediator for US-Iran talks (Round 1 Oman, Round 2 at
+      Omani envoy residence in Geneva); longstanding mediation role.
+
+      **STRUCTURAL INTEREST:** [Inference — Med] Oman has built "mediation" as a national strategic
+      industry — the Gulf state too small to be a military power, which carved a geopolitical niche
+      as the indispensable back channel. This role requires perpetual negotiation: if Iran-US talks
+      conclude, Oman's unique value disappears. Oman profits from the process of negotiation, not
+      from its outcome.
+
+      **NOTE:** Oman also operates the Dolphin Pipeline gas import from Qatar; unlike Qatar, it is
+      not structurally threatened by Iranian LNG competition. Oman's equilibrium interest is
+      primarily about its mediation industry value, not energy economics.
+
+      **CONFIDENCE:** [Med-Low] — the "mediation industry" logic is plausible and structural, but
+      evidence that Oman actively resists deal conclusions (vs. passively benefiting from their
+      absence) is not documented. Treat as candidate for further research.
+  - id: F11.13
+    title: "ACTOR: Pakistan"
+    level: 3
+    content: |
+      **STRUCTURAL INTEREST:** [Inference — Low] Balochistan management: Iran cooperates on Baloch
+      suppression, which suits Pakistan. A democratic Iran supporting Baloch rights complicates
+      Pakistani domestic politics. Iran-Pakistan IP pipeline ($7.5B): stalled under US pressure but
+      represents a potential revenue stream if sanctions lifted — Pakistan *might* actually benefit
+      from normalization. Pakistan's interest in equilibrium is weaker and more contradictory than
+      Tier 1-2 actors.
+
+      **CONFIDENCE:** [Low] — insufficient research. Flag for Priority 2 gap.
+  - id: F11.14
+    title: "ACTOR: Afghanistan (Taliban)"
+    level: 3
+    content: |
+      **STRUCTURAL INTEREST:** [Inference — Uncertain] Taliban stated they would support Iran against
+      US attack. Taliban are building dams threatening Iranian water (Helmand/Hirmand). The interest
+      set is contradictory: Taliban want both Iranian stability (border management) and Iranian
+      weakness (water leverage). Not a coherent equilibrium beneficiary.
+
+      **CONFIDENCE:** [Uncertain] — contradictory incentives. Remove from equilibrium beneficiary
+      framework; treat as case-by-case actor.
+- id: F11.15
+  title: AGGREGATE ASSESSMENT
+  subsections:
+  - id: F11.16
+    title: "How Many Actors Benefit from the Current Equilibrium?"
+    level: 3
+    content: |
+      | Actor | Tier | Annual Economic Stake | Direction |
+      |-------|------|----------------------|-----------|
+      | Qatar | 1 | $30-100B+ (multi-decade LNG advantage) | Resist normalization strongly |
+      | UAE/Dubai | 1 | $5-15B/year (shadow banking/arbitrage) | Resist normalization strongly |
+      | Turkey | 1 | $2-5B/year direct + strategic Kurdish/security value | Resist both extremes; prefer equilibrium |
+      | China | 1 | $5-6B/year (discount on 1.5 Mb/d) + strategic | Resist normalization moderately |
+      | Russia | 1 | Significant but multi-form: oil market, dark fleet, weapons, diplomatic | Resist collapse most, normalization second |
+      | Iraq (PMF) | 2 | Control of Iraqi state institutions — non-monetized but power-critical | Resist IRGC restructuring |
+      | India | 2 | Conditional; weaker; India may prefer normalization | Ambiguous |
+      | Oman | 3 | Mediation industry value | Passive beneficiary |
+
+      **Conclusion:** At minimum **five major regional actors** have documented, quantifiable structural
+      incentives to resist Iran's exit from its current degraded equilibrium. Four of these (Qatar,
+      UAE, Turkey, China) are simultaneously *the primary diplomatic infrastructure* through which
+      any deal would be facilitated. The most important mediators are simultaneously the most
+      important beneficiaries of mediation never concluding.
+- id: F11.17
+  title: POLICY-RELEVANT FINDINGS
+  subsections:
+  - id: F11.18
+    title: "Finding 1: The Mediator's Paradox"
+    level: 3
+    content: |
+      Qatar hosts Al-Udeid. The UAE is the financial hub of the deal ecosystem. Turkey is the
+      diplomatic bridge. Oman conducts the back channel. All four are equilibrium beneficiaries.
+      The actors who make a deal possible are the actors who benefit most from the deal never being
+      concluded. This is not a conspiracy — it is a structural alignment of incentives that operates
+      independently of intent. Even honest mediators with good intentions cannot escape this structural
+      position without actively working against their own economic interests.
+  - id: F11.19
+    title: "Finding 2: Feed-Back into Brief #5 (The Deal That Cannot Hold)"
+    level: 3
+    content: |
+      Brief #5 identified internal spoiler mechanisms (eschatological faction, velocity gap, two-clock
+      misalignment) as the primary reason a deal cannot hold. F11 adds an *external* resistance layer:
+
+      **The deal faces a two-sided structural problem:**
+      - *Inside Iran:* A10 eschatological spoilers with theological motivation and institutional
+        veto capacity over deal implementation (documented in Brief #5)
+      - *Outside Iran:* Five or more regional actors with quantifiable economic stakes in the deal
+        never being concluded — each with leverage over the actors and infrastructure required
+        to implement it
+
+      Brief #5's "velocity gap" (sabotage mechanisms operate faster than deal implementation) now
+      has a regional analogue: external beneficiaries can slow implementation through compliance gaps,
+      intermediary friction, and mediation delays — all while appearing to support the process.
+  - id: F11.20
+    title: "Finding 3: The Pinochet Pivot (A11) Requires Regional Revision"
+    level: 3
+    content: |
+      A11 documents why an Iranian Pinochet alignment switch cannot succeed. F11 adds: even if
+      the internal structural problems were overcome, *China* — the primary buyer of Iranian oil —
+      has no interest in a normalized, Western-aligned Iran. China's $400B framework, teapot
+      discount model, and de-dollarization test case all require Iran's continued sanctions status.
+      A Pinochet pivot requires China to accept the end of discounted oil access and the defeat of
+      its economic positioning in Iran. China has no incentive to support this and significant
+      incentive to slow-walk or undermine it.
+- id: F11.21
+  title: CANDIDATE ISA OBSERVATIONS AND TRAPS
+  subsections:
+  - id: F11.22
+    title: "Candidate Observation 011: The Equilibrium Beneficiaries"
+    level: 3
+    content: |
+      > A significant subset of regional actors — including the primary diplomatic mediators —
+      > are structurally invested in maintaining Iran's current degraded, sanctioned equilibrium,
+      > because their economic models, competitive positions, or political power depend on conditions
+      > that only exist when Iran is isolated. This creates a previously unmapped resistance layer
+      > against any change trajectory (deal, transition, or collapse) that operates independently of
+      > and in addition to the internal spoiler mechanisms documented in A10/A11.
+      >
+      > **Strategic implication:** Scenario assessments that treat mediating actors as neutral process
+      > managers are systematically wrong. Mediation sincerity must be assessed against the mediator's
+      > structural economic interest in the process continuing, not concluding.
+  - id: F11.23
+    title: "Candidate Trap 9: The Mediator's Interest"
+    level: 3
+    content: |
+      > **Trap:** Assuming that actors currently positioned as mediators or neutral facilitators are
+      > incentivized to produce a successful outcome, when their structural economic interests align
+      > with perpetual negotiation rather than deal conclusion.
+      >
+      > **Mechanism:** The mediator captures rent from the negotiation process itself (diplomatic
+      > prestige, basing fees, sanctions-evasion arbitrage, energy market advantage). Successful
+      > deal conclusion eliminates the rent. The mediator therefore has incentive to keep talks alive
+      > without allowing them to conclude — to be seen as indispensable to a process that never ends.
+      >
+      > **Detection signal:** When a mediating actor simultaneously profits from the sanctioned state
+      > the negotiations are designed to end, the mediator's stated neutrality is structurally
+      > compromised regardless of intent.
+      >
+      > **Precedent:** Oman's mediation role; Qatar's mediation role. Both countries have documented
+      > structural interests in Iran's current state. The diplomatic position (neutral facilitator)
+      > conflicts with the economic position (equilibrium beneficiary).
+      >
+      > **Does not imply bad faith:** Structural incentive alignment does not require conscious
+      > sabotage. A mediator who genuinely tries to produce a deal, but whose institutional
+      > infrastructure (banks, pipelines, gas fields) depends on the deal failing, will produce
+      > unconscious friction at every implementation step.
+- id: F11.24
+  title: NEW RESEARCH GAPS (APP-G CANDIDATES)
+  content: |
+    | Priority | Gap | Analytical Impact |
+    |----------|-----|------------------|
+    | P1 | Quantify Qatar LNG market share loss under full Iranian normalization | Confirms/refutes equilibrium beneficiary magnitude for Qatar |
+    | P1 | Map UAE exchange house network nodes handling Iranian proceeds | Identifies specific friction points in any deal implementation |
+    | P1 | Turkey-Iran gas pipeline agreement extension/termination (mid-2026) | Tests whether Turkey's structural interest changes post-2026 |
+    | P2 | Oman's documented instances of deal-slowing vs. deal-facilitating behavior | Tests mediator's interest hypothesis empirically |
+    | P2 | Pakistan Balochistan-Iran cooperation mechanisms | Clarifies Pakistan's tier placement |
+    | P2 | China state-level vs. teapot-level decision-making on Iran oil policy | Tests whether equilibrium interest is sectoral or strategic at national level |
+    | P3 | India's net position: Chabahar normalization benefit vs. oil discount benefit | Resolves India's tier ambiguity |
+- id: F11.25
+  title: NEW VARIABLES (APP-V CANDIDATES)
+  content: |
+    | Variable | Type | Measurement Proxy |
+    |----------|------|------------------|
+    | Qatar LNG competitive advantage index | Stock | South Pars production differential (Qatar sector / Iran sector) |
+    | UAE Iran shadow banking revenue | Flow | FinCEN-flagged Iranian transaction volume (annual) |
+    | Turkey Iran arbitrage margin | Flow | Halkbank-style bypass volume ($ value) |
+    | China teapot discount capture | Flow | (Iranian export volume) x (Brent discount) annually |
+    | External equilibrium resistance score | Composite | Weighted sum of Tier 1-2 actors' structural interest magnitudes |
+- id: F11.26
+  title: INTEGRATION NOTES FOR EXISTING MODULES
+  content: |
+    **ITB-F (F3-F6, F8):** Add "STRUCTURAL INTEREST" subsection to each actor's assessment.
+    Turkey (F4), China (F6), Russia (F5), Iraq (F8) sections require explicit equilibrium
+    beneficiary language added.
+
+    **ISA-SCENARIOS:**
+    - Scenario 1 (Deal): Add "External resistance layer" variable. Note that mediating infrastructure
+      is structurally compromised.
+    - Scenario 3 (Internal collapse): Add Qatar, UAE as actors with preference for collapse over
+      normalization.
+    - Scenario 5 (Managed transition): Note that China's cooperation in any Pinochet-pivot scenario
+      is structurally improbable.
+
+    **ISA-CORE:** Add coupling map entries: Qatar-SP/ND gas field — Iran sanctions status;
+    UAE financial infrastructure — Iranian shadow banking flows; Turkey energy transit — Iranian
+    gas supply.
+
+    **Brief #5 update / Brief #7:** F11 provides the external resistance layer missing from Brief
+    #5's architecture. Brief #5 should be updated or Brief #7 should be drafted to integrate both
+    internal spoiler mechanisms (A10/A11) and external equilibrium beneficiaries (F11) into a
+    unified "Why This Deal Structure Cannot Hold" framework.
+
+
+    *F11 draft produced 2026-02-21. Session 11 output. Pending user integration into ITB_F_INTERNATIONAL.md.*
+    *All claims carry epistemic tags per MASTER_INDEX governance protocol.*
+    *UTF-8 encoded: explicit Python UTF-8 output.*
+
+
+
+    # ITB-F F11 ADDENDUM: TIER 2/3 ACTOR ANALYSIS
+- id: F11.27
+  title: Pakistan, Oman, and the Caucasus Dimension
+  content: "**Version:** 1.0  \n**Date:** 2026-02-21  \n**Status:** RESEARCH COMPLETE — READY FOR INTEGRATION  \n**Epistemic\
+    \ tag:** [HIGH confidence on mechanisms; MED on strategic weighting]  \n**Encoding:** UTF-8\n"
+- id: F11.28
+  title: PURPOSE
+  content: |
+    This addendum extends the F11 Equilibrium Beneficiaries analysis (v1.0) with deeper investigation of three actor categories flagged as Tier 2/3 in the original document: Pakistan, Oman, and the Armenia/Azerbaijan Caucasus dimension. Two actors require reclassification; one is confirmed with a refined mechanism description. A new structural coupling finding is documented under the Caucasus section.
+- id: F11.29
+  title: "ACTOR 1: PAKISTAN — RECLASSIFIED AS \"CONSTRAINED ACTOR\""
+  subsections:
+  - id: F11.30
+    title: Summary Classification
+    level: 3
+    content: "**Reclassified from Tier 2 (equilibrium beneficiary) to: CONSTRAINED ACTOR**  \nPakistan is NOT a structural\
+      \ beneficiary of Iran's sanctioned equilibrium. It is structurally harmed by it, but coerced into compliance by US sanctions\
+      \ architecture and IMF conditionality.\n"
+  - id: F11.31
+    title: Stated Position
+    level: 3
+    content: |
+      Pakistan publicly supports energy cooperation with Iran. Multiple governments have nominally backed the Iran-Pakistan (IP) gas pipeline since 2009. Pakistan's official position is to pursue the pipeline "if and when" a US sanctions waiver is obtained.
+  - id: F11.32
+    title: "The IP Pipeline: The Central Evidence"
+    level: 3
+    content: |
+      Iran completed its pipeline section (1,100 km, $2B invested) in 2011. Pakistan has built nothing since construction was inaugurated in 2013. The proximate reason is unambiguous: US sanctions.
+
+      Key data:
+      - Pakistan faces **$18B in arbitration exposure** from Iran for failure to complete its contractual obligations
+      - Iran agreed to a 10-year extension (2025) and reduced volumes — a near-unconditional accommodation
+      - Pakistan's January 2026 posture: seeking out-of-court settlement to **scrap** the project entirely, offering revival only if US waiver obtained
+      - Qatar supplies 24 LNG cargoes to Pakistan in 2026 at **higher prices** than Iranian gas would cost
+      - US explicitly warned Pakistan against IP pipeline in 2013 (Michael Dodman: "economic sanctions" threat); 2024 State Department reiterated sanctions enforcement
+
+      **The coercive mechanism:** Pakistan is in an ongoing IMF program. IMF conditionality, combined with direct US sanctions threat, overrides Pakistan's stated energy interests. Saudi Arabia provides additional pressure vector (competing for Pakistan alignment against Iran). Pakistan cannot transact.
+  - id: F11.33
+    title: Secondary Benefit That Does Exist
+    level: 3
+    content: |
+      Informal cross-border petroleum trade ("Zamyad trucks") across Sistan-Baluchestan/Balochistan — thousands of trucks transporting Iranian petroleum products to Karachi and Rawalpindi. Both governments tacitly permit this to continue even during periods of military tension (notably: the January 2024 cross-border strike exchange left the border trade uninterrupted). This creates a marginal informal-economy interest in maintaining current arrangements.
+
+      Estimated scale: Undocumented; no reliable figures. Below $1B/year by most assessments. Not a structural dependence.
+  - id: F11.34
+    title: The Balochistan Security Coupling
+    level: 3
+    content: |
+      Iran and Pakistan share a **joint suppression interest** in Baloch insurgency:
+      - Iran strikes Jaish al-Adl in Pakistani territory (January 2024 cross-border strikes)
+      - Pakistan and Iran coordinate against PJAK and BLA
+      - A weakened post-transition Iranian state might reduce counter-insurgency partnership capacity
+
+      This creates a **thin secondary interest** in maintaining IRGC operational capacity (which conducts joint Baloch suppression). But this does not constitute equilibrium beneficiary status — it is a security externality, not an economic structural dependence.
+  - id: F11.35
+    title: Direction of Interest
+    level: 3
+    content: |
+      - **Toward normalization:** Pipeline, lower energy costs, reduced arbitration exposure, trade expansion
+      - **Against normalization:** Cannot risk secondary sanctions, IMF leverage, Saudi pressure
+      - **Net:** Coerced into status quo despite preferring change
+  - id: F11.36
+    title: What Changes If Iran Normalizes
+    level: 3
+    content: |
+      Pakistan would **benefit substantially**. Gas pipeline becomes feasible; arbitration exposure disappears; cheaper energy; bilateral trade expansion along 900+ km shared border. Pakistan's constrained position would be relieved.
+  - id: F11.37
+    title: What Changes If Iran Collapses
+    level: 3
+    content: |
+      Pakistan faces acute security risk: Baloch vacuum, refugee flows, potential IRGC command fragmentation affecting joint suppression operations, and loss of Iran as informal energy supplier.
+  - id: F11.38
+    title: Analytical Verdict
+    level: 3
+    content: |
+      **Pakistan illustrates the coercive reach of the equilibrium rather than its benefits.** Pakistan demonstrates that US sanctions architecture captures even actors who nominally prefer Iran's normalization. Pakistan is a data point on **third-party compliance extraction**, not a co-beneficiary of Iran's current state.
+
+      **Confidence:** High (IP pipeline evidence is documentary; coercion mechanisms publicly confirmed)
+- id: F11.39
+  title: "ACTOR 2: OMAN — CONFIRMED TIER 2, REFINED MECHANISM"
+  subsections:
+  - id: F11.40
+    title: Summary Classification
+    level: 3
+    content: "**Confirmed: Tier 2 Equilibrium Beneficiary**  \nMechanism is unique: Oman profits from **diplomatic process\
+      \ continuity**, not from Iran's economic degradation. This distinguishes Oman from all Tier 1 actors and requires a\
+      \ refined mechanism description.\n"
+  - id: F11.41
+    title: Economic Ties With Iran
+    level: 3
+    content: |
+      Oman-Iran trade data (2024):
+      - Iran is Oman's **second-largest re-export destination**: OR309M ($803M) in first 10 months of 2024
+      - Direct bilateral trade: $419M (35% year-on-year increase)
+      - Oman re-exports include transport equipment, electrical machinery, foodstuffs — categories consistent with sanctions circumvention facilitation
+
+      **Normalization impact on re-exports:** If Iran accesses Western markets directly, Oman's re-export arbitrage diminishes. Direct trading routes to Europe, the US, and East Asia open. Oman's role as necessary intermediary evaporates. Re-export revenue from Iran ($803M+) is structurally threatened by normalization.
+  - id: F11.42
+    title: The Mediation Industry
+    level: 3
+    content: |
+      Oman has hosted:
+      - 2012-2015: Secret US-Iran back-channel enabling JCPOA
+      - Multiple rounds of Yemen talks
+      - 5 rounds of US-Iran nuclear talks (April-June 2025)
+      - Round 1 restart: Muscat, February 6, 2026
+      - Round 2: Geneva, February 17, 2026 (Oman continues as facilitator)
+
+      **The mediation brand as strategic asset:** Oman's role as "indispensable mediator" is the source of its geopolitical leverage with every major power simultaneously:
+      - United States: grants Duqm port access (US aircraft carrier berthing rights), defense agreements
+      - China: $40.45B bilateral trade (2024), China-Oman Industrial Park at Duqm, Hafeet Rail investment
+      - India: Adani Group Duqm SEZ talks, Indian Ocean Conference hosting
+      - Iran: Direct economic ties, religious/geographic proximity
+
+      **The structural logic:** Oman needs the Iran problem to remain *live* to maintain this leverage with all parties simultaneously. A US-Iran deal concluded without Oman degrades Oman's value proposition. Iran's collapse eliminates the problem. **Full normalization is worse for Oman's diplomatic identity than perpetual process.** Optimal from Oman's perspective: successive rounds of talks, occasional tactical breakthroughs, indefinite continuation.
+  - id: F11.43
+    title: What Changes If Iran Normalizes
+    level: 3
+    content: |
+      - Re-export intermediary role diminishes ($803M at risk)
+      - Mediation function terminates (Oman's unique "bridge" identity evaporates)
+      - Major powers no longer need Oman as a conduit; leverage with US/China/India reduces
+      - Vision 2040 diversification strategy loses a key geopolitical differentiator
+  - id: F11.44
+    title: What Changes If Iran Collapses
+    level: 3
+    content: |
+      - Mediation function terminates (no live problem)
+      - Hormuz instability risk increases (Oman's ports are OUTSIDE Hormuz — but Salalah experienced 16% container volume decline during Red Sea crisis, showing regional spillover sensitivity)
+      - Refugee and security externalities along Gulf of Oman coastline
+  - id: F11.45
+    title: Mechanism Classification
+    level: 3
+    content: |
+      **"Mediation Industry" structural interest.** Unlike Tier 1 actors (Qatar: LNG market share; UAE: shadow banking arbitrage; Turkey: sanctions evasion revenue; China: teapot discount; Russia: weapons sales), Oman does not profit from Iran's economic degradation per se. Oman profits from **the existence of a solvable but unsolved problem.**
+
+      This is analytically distinct but equally structural: it operates regardless of Oman's stated intent to achieve a deal. Oman FM Busaidi can sincerely want a nuclear deal concluded AND simultaneously benefit from the process never concluding — because the process itself IS the product.
+
+      **Confidence:** High for re-export economic mechanism; High for mediation identity dependence
+- id: F11.46
+  title: "ACTOR 3: ARMENIA/AZERBAIJAN — RECLASSIFIED TO EXTERNAL PRESSURE DYNAMICS"
+  subsections:
+  - id: F11.47
+    title: Summary Classification
+    level: 3
+    content: "**Reclassified from Tier 2/3 (potential equilibrium beneficiary) to: EXTERNAL PRESSURE MULTIPLIER**  \nNeither\
+      \ Armenia nor Azerbaijan has structural economic interests in preserving Iran's current sanctioned state. The relevant\
+      \ analytical finding is a **coupling mechanism** between Caucasus geopolitics and Iranian internal spoiler capacity.\n"
+  - id: F11.48
+    title: "The TRIPP Corridor: Key Development"
+    level: 3
+    content: |
+      On August 8, 2025, at a White House ceremony, Trump brokered the Armenia-Azerbaijan peace agreement including the Trump Route for International Peace and Prosperity (TRIPP):
+      - 43-km corridor through Armenia's Syunik province along Iran's border
+      - US holds 74% stake and exclusive 99-year development rights
+      - Connects Azerbaijan mainland to Nakhchivan exclave, and onward to Turkey
+      - Explicitly designed to reduce Iranian, Russian, and Chinese influence in South Caucasus (per US official statement to Axios)
+      - Renamed from "Zangezur Corridor" (Azerbaijani/Turkish terminology)
+  - id: F11.49
+    title: Armenia's Position
+    level: 3
+    content: |
+      Post-TRIPP, Armenia is **pivoting away** from the Iran-Russia orbit:
+      - US AI/semiconductor partnership (Nvidia AI Factory in Armenia)
+      - Small Modular Reactor (SMR) nuclear cooperation with US
+      - OSCE Minsk Group formally dissolved September 1, 2025
+      - Russian defensive forces withdrawing from Armenia-Azerbaijan border
+      - June 2026 parliamentary elections scheduled with new constitution to remove territorial claims against Azerbaijan
+
+      Armenia historically served as Iran's northern transit corridor and shared interest in blocking Turkish-Azerbaijani corridor. That alignment is dissolving. Iran increasingly loses its northern buffer.
+  - id: F11.50
+    title: Azerbaijan's Position
+    level: 3
+    content: |
+      **Active anti-Iran strategic actor:**
+      - 40% of Israeli oil imported from Azerbaijan
+      - Israeli drone/weapons pipeline through Baku
+      - Aliyev's "Greater Azerbaijan" irredentism includes Iranian Azerbaijan (Tabriz region) — a direct existential threat perception in Tehran
+      - TRIPP partner with US
+      - Strong bilateral relationship with Israel despite maintaining formal neutrality
+
+      Azerbaijan is NOT an equilibrium beneficiary of any kind — it actively seeks to reduce Iranian influence.
+  - id: F11.51
+    title: "The Critical Analytical Finding: ENCIRCLEMENT COUPLING MECHANISM"
+    level: 3
+    content: "Iran's reaction to TRIPP reveals a **coupling between external geopolitics and internal spoiler capacity:**\n\
+      \n- Velayati (Supreme Leader advisor): \"This corridor will not become Trump's road; it will be a graveyard for Trump's\
+      \ mercenaries\"\n- Iranian Foreign Ministry: welcomed peace agreement \"in principle\" while warning against \"foreign\
+      \ intervention near its borders\"\n- Kayhan (newspaper under Supreme Leader supervision): proposed invoking Geneva/Jamaica\
+      \ conventions to ban US/Israeli vessels through Hormuz in response to TRIPP\n- Iran threatened to block corridor \"\
+      with or without Russia\"\n\n**What this reveals:** TRIPP hands Iranian hardliners (A10 actors — Mirbagheri, Paydari,\
+      \ MASAF) a **concrete geopolitical argument** against deal-making with the US. The argument is: US normalization is\
+      \ a strategic Trojan horse. Evidence: \n1. US-brokered corridor on Iran's northern border (TRIPP)\n2. US carrier strike\
+      \ group in Arabian Sea\n3. US strikes on Iranian nuclear facilities (June 2025)\n4. Geneva talks concurrent with \"\
+      zero nuclear capability\" demand\n\n**From the A10 hardliner perspective, this is coherent evidence that normalization\
+      \ = encirclement + disarmament.** The eschatological spoiler faction does not need to manufacture paranoia — the TRIPP\
+      \ corridor and post-war military posture provide legitimate grist for their resistance narrative.\n"
+  - id: F11.52
+    title: The Three-Front Encirclement Narrative (New Finding)
+    level: 3
+    content: |
+      Hardliners can now point to a three-front compression:
+      1. **North:** US presence on Iranian border via TRIPP corridor, Armenian pivot to Washington
+      2. **South/East:** US carrier strike group (USS Abraham Lincoln) in Arabian Sea + CENTCOM Adm. Brad Cooper at February 6 talks
+      3. **West:** Israeli military degradation of IRGC capacities ongoing; Hezbollah effectively neutralized
+
+      This is a factual description of Iranian strategic position, not fabrication. Any pragmatist arguing for a deal must answer the hardliner question: *"How does normalization protect us from encirclement?"* No pragmatist has a satisfactory answer, because the encirclement is real.
+  - id: F11.53
+    title: 'Coupling to Brief #5 / F11 Core Argument'
+    level: 3
+    content: |
+      The TRIPP corridor is an **external structural input** that **amplifies internal spoiler capacity** (A10/A11). This is a coupling mechanism that wasn't in the original F11 document:
+
+      ```
+      TRIPP + Military Posture → Encirclement Narrative
+                               → Validates A10 Theological Resistance
+                               → Strengthens Hardliner Veto Position
+                               → Reduces Pragmatist Bargaining Space
+                               → Increases Velocity of Internal Sabotage
+      ```
+
+      **This is additive to Brief #5's "velocity gap."** External geopolitics doesn't just create external resistance (F11 Tier 1 actors) — it also feeds back into internal spoiler capacity, making the two-sided structural problem (A10 + F11 actors) self-reinforcing rather than independent.
+  - id: F11.54
+    title: Classification of Armenia and Azerbaijan for F11
+    level: 3
+    content: |
+      - **Azerbaijan:** Not an equilibrium beneficiary. Active anti-Iran actor. Exclude from F11; include in ITB-F under "Adversarial Regional Actors."
+      - **Armenia:** Transitional actor, not yet fully committed to either orbit. Not a structural beneficiary either direction. Monitor for 2026 parliamentary election outcomes.
+- id: F11.55
+  title: UPDATED F11 ACTOR TAXONOMY
+  content: |
+    | Actor | F11 Classification | Primary Mechanism | Confidence |
+    |-------|-------------------|-------------------|------------|
+    | Qatar | Tier 1 | LNG market share ($50-100B/decade) | High |
+    | UAE/Dubai | Tier 1 | Shadow banking arbitrage ($5-15B/yr) | High |
+    | Turkey | Tier 1 | Three-layer (sanctions evasion + Kurdish + transit) | High |
+    | China (teapots) | Tier 1 | Crude discount capture ($5.5B/yr) | High |
+    | Russia | Tier 1 | Weapons sales + evasion infrastructure + oil competition | High |
+    | Iraq (PMF) | Tier 1 | Political/economic power dissolution risk | High |
+    | Oman | Tier 2 | Mediation industry + re-export arbitrage | High |
+    | **Pakistan** | **Constrained Actor** | **Coerced non-beneficiary — structural victim** | High |
+    | India | Tier 2 | Conditional; contradictory incentives | Medium |
+    | **Armenia/Azerbaijan** | **External Pressure Dynamics** | **Encirclement coupling to A10 spoilers** | Medium |
+- id: F11.56
+  title: NEW INTEGRATION TARGETS (ADDENDUM-SPECIFIC)
+  subsections:
+  - id: F11.57
+    title: Immediate
+    level: 3
+    content: "1. **F11 Core Document (v1.0) → Update Pakistan entry:**  \n   Change classification from \"Tier 2\" to \"Constrained\
+      \ Actor.\" Add IP pipeline data. Add paragraph on coercive compliance extraction as analytical finding.\n\n2. **F11\
+      \ Core Document (v1.0) → Update Oman entry:**  \n   Add re-export data ($803M figure). Add Vision 2040 context. Sharpen\
+      \ \"mediation industry\" as primary mechanism with evidence.\n\n3. **F11 Core Document (v1.0) → Add Caucasus section:**\
+      \  \n   Add TRIPP corridor findings. Classify as External Pressure Dynamics rather than equilibrium beneficiary. Document\
+      \ three-front encirclement narrative.\n"
+  - id: F11.58
+    title: ISA Integration
+    level: 3
+    content: "4. **ISA-TRAPS → Add Trap 9: The Mediator's Interest**  \n   Oman's structural dependence on process continuity\
+      \ means the actor with most information about both parties (mediator with message relay) has an institutional interest\
+      \ in process extension, not conclusion. Specific test: monitor for \"useful but inconclusive\" language in Oman FM statements\
+      \ — this is the optimal Omani outcome descriptor.\n\n5. **ISA-SCENARIOS → Update all scenarios with encirclement coupling\
+      \ variable:**  \n   Scenarios 1 (collapse), 2 (transition), 3 (deal), 5 (military strike) all require updating with\
+      \ encirclement feedback mechanism. A10 resistance capacity is now partially a function of US/Israeli external posture,\
+      \ not solely internal theological factors.\n\n6. **A10 (Eschatological Spoilers) → Add external validation section:**\
+      \  \n   A10 actors' theological arguments are now bolstered by empirically observable encirclement. The distinction\
+      \ between \"theological paranoia\" and \"strategic assessment\" has collapsed. This makes A10 harder to marginalize\
+      \ in internal Iranian debates.\n"
+  - id: F11.59
+    title: New Research Gaps
+    level: 3
+    content: "7. **APP-G → Add Priority 2: Pakistan Informal Trade Quantification**  \n   Estimate scale of Zamyad cross-border\
+      \ petroleum trade. Even if below structural threshold, documents sanctions arbitrage at border.\n\n8. **APP-G → Add\
+      \ Priority 2: Oman Re-Export Channel Mapping**  \n   Map Oman's re-export to Iran against sanctioned goods categories.\
+      \ Determine whether Oman functions as a parallel channel to UAE.\n\n9. **APP-G → Add Priority 1: Armenia June 2026 Elections**\
+      \  \n   Pashinyan's constitutional referendum and parliamentary election outcomes will determine whether Armenia's westward\
+      \ pivot consolidates or reverses. Reversal would reduce TRIPP implementation confidence and potentially restore Iran's\
+      \ northern buffer.\n"
+- id: F11.60
+  title: "KEY FINDING: THE COERCION ASYMMETRY"
+  content: |
+    A structural distinction emerges from Tier 2/3 research that has implications for the entire F11 framework:
+
+    **Not all actors in Iran's regional environment are equilibrium beneficiaries. Some are equilibrium victims coerced into compliance.**
+
+    Pakistan demonstrates that US sanctions architecture can capture even actors who would benefit from Iran's normalization. This has two implications:
+
+    First, the equilibrium is more fragile than the Tier 1 beneficiary count suggests — if sanctions pressure relaxes, coerced actors (Pakistan, potentially others) would immediately shift behavior toward normalization-enabling activities.
+
+    Second, US policy has miscounted its coalition. States like Pakistan are being treated as reliable anti-Iran partners when they are actually coerced reluctant participants. A deal that provides Pakistan a face-saving exit from its IP pipeline obligations would likely receive quiet Pakistani support, not opposition.
+
+    **This asymmetry does not weaken the F11 thesis — it refines it.** The equilibrium is maintained by a combination of (a) genuine structural beneficiaries who will actively resist change and (b) coerced actors who will comply passively. The Tier 1 actors provide the active resistance; coerced actors provide the passive compliance. Together they constitute the regional architecture that surrounds and sustains Iran's current state.
+- id: F11.61
+  title: ADVERSARIAL TEST
+  content: "**Q: Does Pakistan's case disprove F11's core thesis?**\n\nNo. F11's thesis is that regional actors who appear\
+    \ to be mediators or neutral parties are structurally invested in equilibrium. Pakistan doesn't fit this description —\
+    \ it's not a mediator and not neutral. It's a constrained energy importer. Its reclassification strengthens the thesis\
+    \ by demonstrating that even actors with opposite interests can be captured by the sanctions architecture, without becoming\
+    \ beneficiaries.\n\n**Q: Is Oman genuinely a beneficiary or just claiming mediator identity for prestige?**\n\nThe re-export\
+    \ data ($803M) is documentary evidence of economic dependence on sanctioned Iran trade, independent of diplomatic identity\
+    \ arguments. Even without the mediation industry analysis, Oman has direct economic incentives to preserve Iran's access\
+    \ to circumvented trade channels. The two mechanisms are additive, not alternative.\n\n**Q: Does the TRIPP encirclement\
+    \ narrative prove Iranian hardliners are right to resist?**\n\nAnalytically irrelevant. Whether encirclement is \"real\"\
+    \ or \"perceived\" does not affect its function as an internal spoiler amplifier. What matters for F11 is that external\
+    \ geopolitics provides hardliners with a coherent evidence-based argument that pragmatists cannot counter. The mechanism\
+    \ operates regardless of correct strategic assessment.\n\n\n*Document: ITB_F_F11_Tier2_3_Addendum_v1_0.md*  \n*Prepared:\
+    \ 2026-02-21*  \n*Integration target: Append to ITB_F_F11_Equilibrium_Beneficiaries_v1_0.md or treat as standalone addendum*\
+    \  \n*Version control: New document; no prior version*\n"
