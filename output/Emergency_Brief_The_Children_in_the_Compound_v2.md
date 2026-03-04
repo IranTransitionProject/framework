@@ -1,0 +1,131 @@
+# The Children in the Compound
+
+## What No One Is Telling You About the School That Was Bombed in Iran
+
+**By Hooman Mehr | [hooman@mac.com](mailto:hooman@mac.com) | Emergency Brief | [Iran Transition Project](https://hmehr.substack.com/p/iran-the-convergence-briefs) | February 28, 2026**
+
+*Updated March 1, 2026 -- casualty figures revised from initial 85 to 165 killed, 96 wounded per local prosecutor Ebrahim Taheri (IRNA). Video verified by Washington Post and New York Times. UNESCO, UN Secretary-General, and Malala Yousafzai condemnations added to international response section.*
+
+-----
+
+## What You Have Been Told
+
+By now you have seen the images. A girls’ elementary school in Minab, a city in Iran’s southern Hormozgan Province, struck during the opening hours of Operation Epic Fury. At least 165 students killed, aged seven to twelve — a figure confirmed by Iran's local prosecutor and state television by Sunday, with independent video verification by the Washington Post and New York Times. One hundred and seventy girls were in the building when it was hit. A staff member told Middle East Eye she stepped outside moments before the strike, then ran back to find children’s bodies on classroom benches and in corners of the school. “I felt like I had gone mute,” she said. “You could hear the sound of children crying and screaming.”
+
+Iranian Foreign Minister Araghchi posted on X: “The destroyed building is a primary school for girls in the south of Iran. It was bombed in broad daylight, when packed with young pupils. Dozens of innocent children have been murdered at this site alone.”
+
+Save the Children issued a statement: “Every war is a war on children. Schools should always be a haven — not a battlefield.” A US congresswoman cited the strike as evidence of an “illegal war of aggression.” Al Jazeera’s correspondent called it “a civilian target” that was “problematic” for the coalition’s claim of targeting only the regime.
+
+CENTCOM’s response: “We are aware of reports concerning civilian harm resulting from ongoing military operations. We take these reports seriously and are looking into them.”
+
+That is what you have been told.
+
+Here is what no one has told you.
+
+## What the School Actually Is
+
+The school’s name is Shajareh Tayyebeh. It is not a regular Iranian public school. It is operated by the Islamic Revolutionary Guard Corps Navy.
+
+This is not speculation. It was documented months before the strike, in a comprehensive IranWire investigation of the IRGC’s institutional structure published in November 2024. The report identifies the Shajareh Tayyebeh network as consisting of 32 schools across Iran, all run by the IRGC Navy, with a primary function of introducing and recruiting students into the IRGC Navy across Iran’s southern coastal provinces — Khuzestan, Bushehr, Hormozgan, and Sistan-Baluchistan. The schools form a religious and educational network in the southern provinces called Beit-ol-Zahra.
+
+An independent analyst, Ashkan Khatibi, reviewed satellite imagery on the day of the strike and confirmed that the Shajareh Tayyebeh school in Minab is “located adjacent to and within the same compound as several buildings belonging to the Islamic Revolutionary Guard Corps.” These include the Shahid Aabsalan military complex.
+
+The city of Minab is also home to the IRGC Navy’s Asef Missile Brigade — the unit that controls Iran’s anti-ship missile capability overlooking the Strait of Hormuz, through which roughly one-fifth of the world’s oil passes every day.
+
+As of this writing, not a single English-language news outlet reporting on the Minab strike has identified the school’s IRGC affiliation. Not one has mentioned the Shajareh Tayyebeh network. Not one has noted the adjacent military compound or the Asef Missile Brigade.
+
+The regime knows exactly what this school is. It chose not to tell you.
+
+## Why the School Was There
+
+To understand Minab, you need to understand a system I documented in Brief #2, “[The Country Inside the Country](https://hmehr.substack.com/p/the-country-inside-the-country).”
+
+The IRGC has built, over 45 years, a complete parallel society. It is not an army that happens to have schools and housing. It is a designed, self-reproducing social system that educates its children in its own schools, houses its families in gated compounds, employs its members through its own economic network, and provides healthcare through its own hospitals. An estimated two to ten million Iranians live inside this system. They are born into it, raised in it, and many never leave it.
+
+The Shahed school network — operated by the Martyrs’ Foundation — enrolls approximately 405,000 students nationwide. The Shajareh Tayyebeh network adds another 32 schools specifically run by the IRGC Navy. Gated residential compounds operate in at least 24 cooperative units across all provinces, with ten named complexes in Tehran alone. One Tehran compound contains over 500 residential blocks and tower complexes of 15 to 20 stories. A real estate listing for it states that residents “can meet their daily needs within the compound and do not need to leave.”
+
+This system was designed for social reproduction — to ensure that the IRGC’s human capital renews itself across generations. Children grow up attending compound schools, worshipping at compound mosques, socializing within compound walls. But a social reproduction system has a structural feature that becomes catastrophically relevant under military attack: the civilian dependents are physically embedded within the military infrastructure.
+
+The Shajareh Tayyebeh school in Minab was not next to the IRGC compound by accident. It was there because that is how the system works. The school exists to serve the families of IRGC Navy personnel stationed at the base. The families live near the base. The school is near the families. The children are in the school. The missile brigade is next door.
+
+## It Is Not Just Minab
+
+This is the point that matters most, and the point most likely to be missed in the grief and outrage over one school.
+
+The co-location pattern is systemic. The 32 Shajareh Tayyebeh schools are distributed across exactly the provinces where the IRGC Navy’s operational infrastructure is concentrated — the southern coastal belt from Khuzestan to Sistan-Baluchistan. Every IRGC Navy base in those provinces has families nearby. Every cluster of families has schools, clinics, and mosques nearby.
+
+In Kermanshah, western Iran, where the IRGC operates underground missile bases that were already struck in June 2025, two towns with “almost completely military populations” — named Takawar and Zafar — sit adjacent to the launch facilities. These are not compounds. They are entire towns populated by IRGC families.
+
+In Tehran, the Shahrak-e Shahid Bagheri compound — 500-plus residential blocks in Districts 21 and 22 — sits in the same area as major IRGC headquarters complexes that were struck today. The Shahrak-e Shahid Mahallati compound in northeast Tehran is home to IRGC commanders and their families, built on land confiscated from the Baha’i community. The elite Shahrak-e Shahid Daqayeqi compound in the Lavizan forest area historically housed figures including Qasem Soleimani.
+
+In Isfahan, Iran’s largest missile production complex sits in a city with major IRGC residential areas. In Bushehr, the IRGC Navy’s Asaluyeh base — reportedly struck today — sits near IRGC Navy medical facilities and Shajareh Tayyebeh schools. In Chabahar, also reportedly struck, the IRGC Navy base neighbors a clinic serving IRGC families.
+
+Operation Epic Fury is not hitting one school. It is hitting a military infrastructure that has millions of civilians wrapped around it by design.
+
+## The Regime’s Playbook
+
+The Iranian regime’s response to Minab follows a precise pattern, and it is important to understand its structure rather than simply react to it.
+
+Layer one is emotional framing, deployed immediately. Araghchi’s statement. Pezeshkian’s formal condemnation. State television footage of parents searching rubble. This is genuine grief instrumentalized for strategic effect. The children are really dead. The regime’s use of their deaths for propaganda does not make them less dead.
+
+Layer two is deliberate omission. No Iranian official has identified the school as an IRGC Navy institution. No Iranian media outlet has mentioned the Shajareh Tayyebeh network’s military recruitment function. No reference to the adjacent IRGC compound. The school is presented as a purely civilian girls’ elementary school, full stop.
+
+Layer three is international amplification. Save the Children, members of Congress, international correspondents, and progressive media amplify the atrocity framing without the contextual information that would complicate it. This is not a conspiracy. It is an information asymmetry. The organizations amplifying the regime’s framing do not know that the school is an IRGC institution because that fact has never entered English-language reporting.
+
+This creates a feedback loop that will repeat for every subsequent strike that hits parallel society infrastructure. The IRGC co-locates civilians with military targets. The coalition strikes the military target. The regime presents the civilian casualties as a pure atrocity. Western media, lacking knowledge of the parallel society’s geography, reports the regime’s framing. International condemnation constrains coalition operations. The regime gains both a propaganda victory and operational protection for its remaining military assets.
+
+This loop will not break by itself. It can only be broken by someone publicly documenting the co-location pattern — which is what this brief is attempting to do.
+
+## Why This Matters for What Comes After
+
+I have spent the past six weeks documenting what I call the parallel society identity crisis — the challenge of transitioning millions of IRGC-dependent Iranians into a post-regime society. In Brief #2, “[The Country Inside the Country](https://hmehr.substack.com/p/the-country-inside-the-country),” I argued that the primary binding mechanism of the parallel society is economic dependency, not ideology. Most participants remain loyal because their families’ material existence depends on the system, not because they believe in the Supreme Leader’s divine mandate.
+
+I called this the “hollowness” finding. The system appears more robust than it actually is. Under the right conditions, the economically dependent majority could be absorbed into post-transition society — if alternatives were provided before dissolution, if the de-Ba’athification error of Iraq were avoided, if reintegration pathways existed.
+
+The Minab strike may be destroying this possibility in real time.
+
+Nothing converts economic captives into ideological defenders faster than killing their children. The emotional and tribal binding effect of shared loss is categorically different from economic incentive. You can redirect economic dependency by offering alternative employment and housing. You cannot redirect grief-driven loyalty by offering anything.
+
+Every dead child in a Shajareh Tayyebeh school creates families with a personal reason to fight — not an institutional one, not an economic one, but a blood debt against the forces that killed their child. If continued operations produce more incidents like Minab, the parallel society population that was supposed to be available for reintegration will instead become a permanently aggrieved community that no transitional government can reconcile.
+
+In Brief #3, “[Iran Is Not Iraq](https://hmehr.substack.com/p/iran-is-not-iraq),” I argued that Iran’s 2,500-year civilizational continuity makes it structurally different from Iraq’s colonial-era borders. The parallel society collateral pattern creates an Iraq-like dynamic through a different mechanism. In Iraq, de-Ba’athification excluded millions from the new state, creating the insurgency’s manpower base. In Iran, if strikes kill significant numbers of parallel society children, the surviving population becomes a pre-transition insurgent community — not through exclusion but through bereavement.
+
+In Brief #4, “[The Spoiler](https://hmehr.substack.com/p/the-spoiler),” I documented an eschatological faction within the regime that views apocalyptic conflict as theologically desirable. The Minab strike is a gift to this faction. Dead children in IRGC schools confirm their narrative that the enemies of Islam are waging a war of extermination. Every funeral becomes a recruitment event.
+
+In Brief #6, “[The Day After](https://hmehr.substack.com/p/the-day-after),” I mapped what determines whether strikes produce regime collapse or regime consolidation. One of the critical variables was whether the Iranian population perceived the strikes as targeting the regime or targeting them. The Minab school strike pushes the perception toward “targeting us” — not for the general population, many of whom celebrated Khamenei’s reported death, but for the two to ten million people who live inside the parallel society and whose children attend these schools.
+
+## The Two Audiences
+
+President Trump and Prime Minister Netanyahu have explicitly called on the Iranian people to rise up. “Take over your government,” Trump said. “It will be yours to take.” Netanyahu told Iranians their “help has arrived.”
+
+The intended audience is the eighty-plus million Iranians who live outside the IRGC’s walls. Many of those Iranians appear to be listening. Witnesses reported cheers echoing across parts of Tehran and residents playing celebratory music after reports of Khamenei’s death. For the Iranians who lived through the 2022 Mahsa Amini protests, the 2019 massacre, and decades of theocratic oppression, today may feel like liberation.
+
+But the message is being received by two audiences simultaneously.
+
+Audience one is the vast majority of Iranians who dream of freedom. For them, the strikes target the regime that has brutalized them for 45 years.
+
+Audience two is the two to ten million people inside the parallel society — the ones whose children attend Shajareh Tayyebeh schools, whose families live in the gated compounds, whose livelihoods depend on the IRGC economic network. For them, the strikes target their children, their homes, and their world.
+
+Audience one does not have weapons, training, or organizational infrastructure. Audience two does. The transition challenge is not whether audience one wants freedom. It is whether audience two can eventually be brought to accept it. Every Minab makes that harder.
+
+## What Should Happen Now
+
+First, the coalition should immediately and publicly document the Minab co-location. The IranWire documentation of the Shajareh Tayyebeh network as an IRGC Navy institution exists in open source, published in English fourteen months ago. Satellite imagery confirms the school’s placement within an IRGC compound. Releasing this information is not an excuse — dead children do not become less dead because the school was next to a missile base. It is context that the global public deserves and that the regime is deliberately withholding.
+
+Second, the coalition needs to map the full parallel society geographic footprint against its remaining target bank. The 32 Shajareh Tayyebeh schools. The 405,000-student Shahed network. The 24-plus gated compounds. The IRGC hospitals and clinics. The military-family towns in Kermanshah. If this mapping does not exist, more Minabs are near-certain.
+
+Third, strikes should be timed to minimize contact with school and residential populations. Today’s strikes hit on Saturday morning — the first day of Iran’s work week, when children are in school and families are in their routines. The Iranian government provided no warning. Night operations against the same targets would produce a dramatically different civilian casualty profile.
+
+Fourth, independent journalists and analysts need to do the work that institutional media has not done. The IRGC parallel society is documented. Its schools are named. Its compounds are mapped. Its co-location with military infrastructure is visible in satellite imagery. The information exists. It has simply never been synthesized into the story that English-language media is telling about Iran today.
+
+And fifth — for those who are planning what comes after, whether in Washington, in the diaspora, or inside Iran itself — every effort must be made to preserve the reintegration pathway for the parallel society population. The transition framework I have been building across these briefs depends on the possibility that millions of IRGC-dependent Iranians can eventually be absorbed into a free society. That possibility shrinks with every dead child. If it vanishes entirely, what comes after the regime will not be a democracy. It will be a civil war between two Irans — the one that celebrated today and the one that buried its children.
+
+-----
+
+*Emergency Brief from the Iran Transition Project, by Hooman Mehr. AI-assisted research (Claude/Anthropic). No factional allegiance; no policy agenda beyond analytical accuracy.*
+
+*Companion briefs: (1) “[The Blind Spot in Every Iran Deal](https://hmehr.substack.com/p/the-blind-spot-in-every-iran-deal)” — taqiyyah and Western analytical failure. (2) “[The Country Inside the Country](https://hmehr.substack.com/p/the-country-inside-the-country)” — IRGC parallel civilization. (3) “[Iran Is Not Iraq](https://hmehr.substack.com/p/iran-is-not-iraq)” — why the comparison fails. (4) “[The Spoiler](https://hmehr.substack.com/p/the-spoiler)” — the faction blocking every deal. (5) “[The Deal That Cannot Hold](https://hmehr.substack.com/p/the-deal-that-cannot-hold)” — the Pinochet Pivot and three failure fronts. (6) “[The Day After](https://hmehr.substack.com/p/the-day-after)” — what determines regime survival after the next strike. (7) “[Who Is Actually Running Iran?](https://hmehr.substack.com/p/who-is-actually-running-iran)” — the Larijani revelation. (8) “[The Puppet Problem](https://hmehr.substack.com/p/the-puppet-problem)” — why the next Supreme Leader may not matter. (9) “[The Doctrine Behind the Escalation](https://hmehr.substack.com/p/the-doctrine-behind-the-escalation)” — the coercive-endurance cycle. (10) “[The Table After the Bombs](https://hmehr.substack.com/p/the-table-after-the-bombs)” — what post-strike negotiations actually look like.*
+
+*Hooman Mehr is an independent analyst based in Kirkland, Washington. The Iran Transition Project publishes on [Substack](https://hmehr.substack.com) and [LinkedIn](https://www.linkedin.com/in/hoomanmehr). Contact: [hooman@mac.com](mailto:hooman@mac.com)*
+
+*Key source for IRGC Navy parallel society infrastructure: [IranWire, “The IRGC Navy”](https://iranwire.com/en/features/65749-the-irgc-navy/) (November 2024). Satellite imagery analysis: [Ashkan Khatibi](https://x.com/KhatibiOfficial/status/2027789789114863681) (February 28, 2026).*

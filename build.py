@@ -11,6 +11,7 @@ Output goes to output/ directory. These are the generated reports
 that replace hand-edited markdown files.
 """
 
+import re
 import sys
 import yaml
 from pathlib import Path
@@ -20,6 +21,7 @@ from jinja2 import Environment, FileSystemLoader
 BASE = Path(__file__).parent
 DATA = BASE / "data"
 CONTENT = DATA / "content"
+BRIEFS = DATA / "briefs"
 TEMPLATES = BASE / "templates"
 OUTPUT = BASE / "output"
 
@@ -53,6 +55,55 @@ def load_metadata(path: Path) -> dict:
     if isinstance(data, dict):
         return {k: v for k, v in data.items() if k != "entries"}
     return {}
+
+
+# --- Brief building helpers (Phase 3) ---
+
+BRIEF_TEMPLATE_MAP = {
+    "brief": "brief.md.j2",
+    "emergency_brief": "brief.md.j2",
+    "supplemental": "brief.md.j2",
+    "executive_summary": "brief.md.j2",
+    "introduction": "brief.md.j2",
+}
+
+
+def brief_output_filename(data: dict) -> str:
+    """Derive output markdown filename from brief data."""
+    bid = data.get("brief_id", "")
+    btype = data.get("type", "brief")
+
+    if btype == "executive_summary":
+        return "00_Convergence_Briefs_-_Executive_Summary.md"
+    elif btype == "introduction":
+        return "01_Convergence_Briefs_-_Introduction.md"
+    elif bid.startswith("EB"):
+        title_slug = data.get("title", "").replace(" ", "_")
+        title_slug = re.sub(r'[^A-Za-z0-9_-]', '', title_slug)
+        return f"Emergency_Brief_{title_slug}_v2.md"
+    elif bid.startswith("SUPP"):
+        title_slug = data.get("title", "").replace(" ", "_")
+        title_slug = re.sub(r'[^A-Za-z0-9_-]', '', title_slug)
+        return f"{title_slug}.md"
+    else:
+        num = data.get("number", 0)
+        title_slug = data.get("title", "").replace(" ", "_")
+        title_slug = re.sub(r'[^A-Za-z0-9_-]', '', title_slug)
+        return f"Brief_{num:02d}_{title_slug}.md"
+
+
+def format_date_display(date_str: str) -> str:
+    """Convert 2026-02-21 to February 2026 for display."""
+    if not date_str or len(date_str) < 7:
+        return date_str or ""
+    months = {
+        "01": "January", "02": "February", "03": "March", "04": "April",
+        "05": "May", "06": "June", "07": "July", "08": "August",
+        "09": "September", "10": "October", "11": "November", "12": "December"
+    }
+    parts = date_str.split("-")
+    month = months.get(parts[1], parts[1])
+    return f"{month} {parts[0]}"
 
 
 def build_all(env, targets=None):
@@ -95,11 +146,13 @@ def build_all(env, targets=None):
     }
 
     if targets:
-        # Allow "content" as a target to build only content modules
+        # Allow "content" and "briefs" as targets
         build_content = "content" in targets
+        build_briefs = "briefs" in targets
         reports = {k: v for k, v in reports.items() if k in targets}
     else:
         build_content = True
+        build_briefs = True
 
     OUTPUT.mkdir(exist_ok=True)
 
@@ -148,6 +201,50 @@ def build_all(env, targets=None):
                 with open(out_path, "w", encoding="utf-8") as f:
                     f.write(rendered)
                 print(f"✅ Built {output_file} ({len(rendered)} chars) [content: {mc}]")
+
+    # Build briefs (Phase 3)
+    if build_briefs and BRIEFS.exists():
+        # Use a separate Jinja2 environment for briefs (different trim settings)
+        brief_env = Environment(
+            loader=FileSystemLoader(str(TEMPLATES)),
+            keep_trailing_newline=True,
+            trim_blocks=False,
+            lstrip_blocks=False,
+        )
+
+        for yaml_file in sorted(BRIEFS.glob("*.yaml")):
+            with open(yaml_file, "r", encoding="utf-8") as f:
+                brief_data = yaml.safe_load(f)
+            if brief_data is None:
+                continue
+
+            btype = brief_data.get("type", "brief")
+            template_name = BRIEF_TEMPLATE_MAP.get(btype, "brief.md.j2")
+
+            try:
+                template = brief_env.get_template(template_name)
+            except Exception:
+                print(f"⚠️  Template '{template_name}' not found for {yaml_file.name}, "
+                      f"falling back to brief.md.j2")
+                template = brief_env.get_template("brief.md.j2")
+
+            # Add display-formatted date if not already set
+            if not brief_data.get("date_display"):
+                brief_data["date_display"] = format_date_display(
+                    brief_data.get("date_published") or brief_data.get("date", "")
+                )
+
+            rendered = template.render(brief=brief_data)
+
+            # Clean up excessive blank lines
+            rendered = re.sub(r'\n{3,}', '\n\n', rendered)
+            rendered = rendered.strip() + "\n"
+
+            fname = brief_output_filename(brief_data)
+            out_path = OUTPUT / fname
+            with open(out_path, "w", encoding="utf-8") as f:
+                f.write(rendered)
+            print(f"✅ Built {fname} ({len(rendered)} chars) [brief: {brief_data.get('brief_id', '?')}]")
 
 
 def main():

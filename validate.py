@@ -31,6 +31,66 @@ ENTITY_MAP = {
 }
 
 CONTENT_DIR = DATA / "content"
+BRIEFS_DIR = DATA / "briefs"
+
+
+def validate_brief_files() -> list:
+    """Validate all brief YAML files in data/briefs/ against brief schema."""
+    schema_path = SCHEMAS / "brief.schema.json"
+    if not schema_path.exists():
+        return ["Brief schema not found: schemas/brief.schema.json"]
+    if not BRIEFS_DIR.exists():
+        return []  # No brief files yet — not an error
+
+    schema = load_schema(schema_path)
+    errors = []
+    count = 0
+
+    for yaml_file in sorted(BRIEFS_DIR.glob("*.yaml")):
+        count += 1
+        with open(yaml_file, "r", encoding="utf-8") as f:
+            data = yaml.safe_load(f)
+        if data is None:
+            errors.append(f"  [brief] {yaml_file.name}: empty file")
+            continue
+        try:
+            validate(instance=data, schema=schema)
+        except ValidationError as e:
+            path_str = " -> ".join(str(p) for p in e.absolute_path) if e.absolute_path else "(root)"
+            errors.append(f"  [brief] {yaml_file.name}: {path_str}: {e.message}")
+
+        # Cross-validate brief_id against filename
+        stem = yaml_file.stem.lower()
+        bid = data.get("brief_id", "")
+        expected_id = None
+        if stem.startswith("b") and not stem.startswith("eb"):
+            expected_id = f"B{stem[1:].zfill(2)}"
+        elif stem.startswith("eb"):
+            expected_id = f"EB{stem[2:].zfill(2)}"
+        elif stem == "intro":
+            expected_id = "INTRO"
+        elif stem in ("es", "exec_summary"):
+            expected_id = "ES"
+        elif stem.startswith("supp_"):
+            expected_id = f"SUPP-{stem[5:].upper()}"
+
+        if expected_id and bid != expected_id:
+            errors.append(f"  [brief] {yaml_file.name}: brief_id '{bid}' does not match "
+                          f"filename (expected '{expected_id}')")
+
+        # Numbered briefs must have number field
+        if bid.startswith("B") and len(bid) == 3 and bid[1:].isdigit():
+            if data.get("number") is None:
+                errors.append(f"  [brief] {yaml_file.name}: numbered brief {bid} must have 'number' set")
+
+    if errors:
+        print(f"\n❌ briefs ({count} files): {len(errors)} error(s)")
+        for e in errors:
+            print(e)
+    elif count > 0:
+        print(f"✅ briefs ({count} files): OK")
+
+    return errors
 
 
 def validate_content_files() -> list:
@@ -225,6 +285,10 @@ def main():
     # Validate content files (Phase 2)
     content_errors = validate_content_files()
     total_errors.extend(content_errors)
+
+    # Validate brief files (Phase 3)
+    brief_errors = validate_brief_files()
+    total_errors.extend(brief_errors)
 
     print(f"\n{'='*50}")
     if total_errors:

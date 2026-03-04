@@ -15,10 +15,19 @@ itp-db/
 │   ├── sessions.yaml        # Session log (13 entries)
 │   ├── modules.yaml         # Module registry (25 entries)
 │   ├── index_meta.yaml      # Master index semi-static content
-│   └── content/             # MODULE PROSE (Phase 2)
-│       ├── itb_b.yaml       # ITB-B: Security & Military Apparatus
-│       ├── itb_h.yaml       # ITB-H: Information Environment
-│       └── (remaining modules to be migrated)
+│   ├── content/             # MODULE PROSE (Phase 2, 19 modules)
+│   │   ├── itb_a.yaml       # ITB-A: Core Architecture
+│   │   ├── itb_b.yaml       # ITB-B: Security & Military
+│   │   ├── ...              # (19 total — all ITB + ISA modules)
+│   │   └── isa_cases.yaml   # ISA-CASES: Case Studies
+│   └── briefs/              # CONVERGENCE BRIEFS (Phase 3, 14 files)
+│       ├── b01.yaml         # Brief #1: The Blind Spot in Every Iran Deal
+│       ├── b02.yaml         # Brief #2: The Country Inside the Country
+│       ├── ...              # (10 numbered briefs)
+│       ├── eb01.yaml        # Emergency Brief: Children in the Compound
+│       ├── es.yaml          # Executive Summary
+│       ├── intro.yaml       # Introduction
+│       └── supp_psc.yaml    # Supplemental: Parallel Society Collateral
 │
 ├── schemas/                 # VALIDATION RULES
 │   ├── variable.schema.json
@@ -28,7 +37,8 @@ itp-db/
 │   ├── scenario.schema.json
 │   ├── session.schema.json
 │   ├── module.schema.json
-│   └── content.schema.json  # Phase 2: module content schema
+│   ├── content.schema.json  # Phase 2: module content schema
+│   └── brief.schema.json   # Phase 3: brief schema
 │
 ├── templates/               # REPORT TEMPLATES (Jinja2)
 │   ├── app_variables.md.j2
@@ -36,7 +46,10 @@ itp-db/
 │   ├── isa_traps.md.j2
 │   ├── isa_scenarios.md.j2
 │   ├── master_index.md.j2   # Renders 00_MASTER_INDEX.md
-│   └── module_content.md.j2 # Generic template for all content modules
+│   ├── module_content.md.j2 # Generic template for all content modules
+│   ├── brief.md.j2          # Phase 3: renders individual briefs
+│   ├── brief_changelog.md.j2  # Phase 3: renders changelog
+│   └── brief_governance.md.j2 # Phase 3: renders governance framework
 │
 ├── output/                  # GENERATED MARKDOWN (never edit)
 │   ├── APPENDIX_VARIABLES.md
@@ -44,16 +57,24 @@ itp-db/
 │   ├── ISA_TRAPS.md
 │   ├── ISA_SCENARIOS.md
 │   ├── 00_MASTER_INDEX.md
-│   ├── ITB_B_SECURITY.md    # Phase 2: generated from content YAML
-│   └── ITB_H_INFORMATION.md # Phase 2: generated from content YAML
+│   ├── ITB_*.md             # Phase 2: all content modules
+│   ├── ISA_*.md             # Phase 2: ISA content modules
+│   ├── Brief_*.md           # Phase 3: numbered briefs
+│   ├── Emergency_Brief_*.md # Phase 3: emergency briefs
+│   ├── 00_Convergence_*.md  # Phase 3: exec summary
+│   ├── 01_Convergence_*.md  # Phase 3: introduction
+│   └── FLASH_ANALYSIS_*.md  # Phase 3: supplemental briefs
 │
 ├── scripts/                 # MIGRATION SCRIPTS (one-time use)
 │   ├── migrate_variables.py
 │   ├── migrate_gaps.py
-│   └── cleanup_variables.py
+│   ├── cleanup_variables.py
+│   ├── migrate_content.py   # Phase 2: module content migration
+│   ├── migrate_b03.py       # Phase 3: single brief migration example
+│   └── migrate_all_briefs.py # Phase 3: bulk brief migration
 │
-├── validate.py              # Schema validation + cross-ref check + content validation
-├── build.py                 # YAML → Markdown renderer (reports + content modules)
+├── validate.py              # Schema validation + cross-ref + content + briefs
+├── build.py                 # YAML → Markdown renderer (reports + content + briefs)
 └── CLAUDE_CODE_INSTRUCTIONS.md  # This file
 ```
 
@@ -70,8 +91,10 @@ python validate.py variables  # one type
 
 ### Rule 3: Build after every data change
 ```bash
-python build.py             # all reports
+python build.py             # all reports + content + briefs
 python build.py variables   # one report
+python build.py content     # content modules only
+python build.py briefs      # briefs only
 python build.py --validate  # validate then build
 ```
 
@@ -232,6 +255,68 @@ Find the section by `id` in the content YAML, edit the `content` block:
       * Updated content here...
 ```
 
+### Add a new brief (Phase 3)
+```yaml
+# Create data/briefs/b11.yaml:
+brief_id: B11
+number: 11
+title: "Brief Title"
+subtitle: "Optional Subtitle"
+author: "Hooman Mehr"
+contact: "hooman@mac.com"
+series_link: "https://hmehr.substack.com/p/iran-the-convergence-briefs"
+version: "v1.0"
+date: "2026-03-03"
+date_published: "2026-03-03"
+status: DRAFT
+type: brief
+core_thesis: "Single-sentence thesis statement."
+itb_anchors: ["ITB-A", "ITB-B"]
+sections:
+  - title: "First Section"
+    content: |
+      Markdown prose here.
+  - title: "Second Section"
+    content: |
+      More prose.
+source_summary: "~50 English and Farsi sources"
+companion_briefs:
+  - number: 1
+    title: "The Blind Spot in Every Iran Deal"
+    link: "https://hmehr.substack.com/p/the-blind-spot"
+author_bio: "Author bio text"
+```
+
+### Update a brief section
+Find the section by title in the brief YAML, edit the `content` block:
+```yaml
+# In data/briefs/b01.yaml, update section content:
+  - title: "The Problem"
+    content: |
+      Updated prose here...
+```
+
+### Brief types and filename patterns
+| Type | YAML filename | Output filename |
+|------|--------------|-----------------|
+| Numbered brief | `b01.yaml` - `b99.yaml` | `Brief_01_Title.md` |
+| Emergency brief | `eb01.yaml` | `Emergency_Brief_Title_v2.md` |
+| Executive summary | `es.yaml` | `00_Convergence_Briefs_-_Executive_Summary.md` |
+| Introduction | `intro.yaml` | `01_Convergence_Briefs_-_Introduction.md` |
+| Supplemental | `supp_*.yaml` | `Title_Slug.md` |
+
+### Brief ID patterns
+| Type | Pattern | Example |
+|------|---------|---------|
+| Numbered | `B01`-`B99` | B01, B10 |
+| Emergency | `EB01`+ | EB01 |
+| Executive summary | `ES` | ES |
+| Introduction | `INTRO` | INTRO |
+| Supplemental | `SUPP-*` | SUPP-PSC |
+
+### Brief status values
+`STABLE`, `CURRENT`, `NEEDS_UPDATE`, `DRAFT`, `SUPERSEDED`
+
 ### Add a new trap
 ```yaml
 # Append to data/traps.yaml entries list:
@@ -344,9 +429,23 @@ Phase 2 (in progress): Module prose content (ITB-A through ITB-H, ISA-CORE).
 Completed migrations (19 modules): ITB-A, ITB-A6, ITB-A8, ITB-A9, ITB-A10, ITB-A11, ITB-A12, ITB-B, ITB-C, ITB-D, ITB-D16, ITB-E, ITB-F, ITB-F11, ITB-F12, ITB-G, ITB-H, ISA-CORE, ISA-CASES
 Phase 2 COMPLETE. All module prose content migrated to YAML.
 
-Phase 3: Migrate Briefs.
-- Structured changelog, findings, version history
-- Body prose as content blocks
+Phase 3 (complete): Convergence Briefs migrated to YAML.
+- 14 brief YAML files in `data/briefs/` (10 numbered + 1 emergency + 1 exec summary + 1 intro + 1 supplemental)
+- Schema: `schemas/brief.schema.json`
+- Template: `templates/brief.md.j2` (renders all brief types)
+- Additional templates: `brief_changelog.md.j2`, `brief_governance.md.j2`
+- Build: `python build.py` builds all briefs + all content + all reports
+- Build: `python build.py briefs` builds only briefs
+- Validate: `python validate.py` validates briefs automatically
+- Brief types: brief, emergency_brief, executive_summary, introduction, supplemental
+- All types route through `brief.md.j2` with conditional rendering
+- Separate Jinja2 environment for briefs (trim_blocks=False for whitespace fidelity)
+- 2,593 total YAML lines across all briefs
+Phase 3 COMPLETE. All briefs migrated and integrated into unified pipeline.
+
+Phase 3e (pending): Testing + cleanup.
+- Create `index_meta.yaml` with static governance content for Parts 2/3/6/7/8
+- Final packaging
 
 ## Mojibake Handling
 

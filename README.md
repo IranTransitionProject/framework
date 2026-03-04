@@ -10,14 +10,16 @@ A relational database architecture for the Iran Transition Project (ITP), replac
 # Validate all data
 python validate.py
 
-# Build all markdown reports
+# Build all markdown reports + content + briefs
 python build.py
 
 # Validate then build
 python build.py --validate
 
-# Build specific report
-python build.py variables
+# Build specific targets
+python build.py variables   # one report
+python build.py content     # content modules only
+python build.py briefs      # briefs only
 ```
 
 ## Why
@@ -44,11 +46,14 @@ The database architecture solves these by making the YAML the single source of t
 - All 19 modules migrated, validated, and building
 - Migration script: `scripts/migrate_content.py` (uses ftfy for mojibake repair)
 
-**Phase 3 (Pending):** Policy Briefs.
-- Session starter: `PHASE_3_SESSION_STARTER.md` (schema design, template plan, migration order)
-- 12 briefs + 5 supporting documents
-- Separate `brief.schema.json` (briefs have different structure: narrative prose, byline, update notes, companion list, governance metadata)
-- 4 templates planned: brief, exec summary, changelog, governance
+**Phase 3 (Complete):** Convergence Briefs migrated to `data/briefs/` YAML files.
+- Schema: `schemas/brief.schema.json`
+- Template: `templates/brief.md.j2` (all brief types)
+- Additional templates: `brief_changelog.md.j2`, `brief_governance.md.j2`
+- 14 briefs migrated, validated, and building (10 numbered + 1 emergency + 1 exec summary + 1 intro + 1 supplemental)
+- Integrated into unified `validate.py` and `build.py` pipeline
+
+**Totals:** 190 structured entries + 19 content modules + 14 briefs = 38 generated markdown outputs
 
 ## Requirements
 
