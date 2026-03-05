@@ -20,7 +20,7 @@ This is not advocacy for any faction, opposition group, or foreign policy positi
 The guiding question throughout is: *what must be true for a transition to succeed,
 regardless of who governs?*
 
-For the full project rationale and database architecture, see [ARCHITECTURE.md](ARCHITECTURE.md).
+For database design and build pipeline details, see [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ---
 
@@ -28,52 +28,37 @@ For the full project rationale and database architecture, see [ARCHITECTURE.md](
 
 ```
 /
-├── .github/workflows/           # CI configuration
-├── data/                        # YAML source-of-truth files (validated against schemas)
-│   ├── content/                 # Iran Transition Baseline (ITB) module prose
-│   ├── briefs/                  # Convergence Brief source data
+├── data/                        # YAML source-of-truth files
+│   ├── content/                 # ITB/ISA module prose (19 files)
+│   ├── briefs/                  # Convergence brief content (14 files)
 │   └── *.yaml                   # Variables, gaps, traps, observations, scenarios, sessions
-├── schemas/                     # JSON Schema definitions for all data structures
-├── templates/                   # Jinja2 templates for artifact generation
-├── scripts/                     # One-time migration and utility scripts
-├── build.py                     # Main build entry point (markdown output)
-├── build_briefs.py              # Brief-specific build runner
+├── schemas/                     # JSON Schema definitions (10 schemas)
+├── templates/                   # Jinja2 rendering templates
+├── scripts/                     # One-time migration utilities
+├── .github/workflows/           # CI configuration
+├── build.py                     # Entity reports + content module builder
+├── build_briefs.py              # Convergence brief builder
 ├── build_pdf.py                 # PDF release bundle builder
-├── validate.py                  # Schema validation runner
-├── validate_briefs.py           # Brief schema validation runner
-├── ARCHITECTURE.md              # Database design and build pipeline documentation
+├── validate.py                  # Schema validation (entities + content)
+├── validate_briefs.py           # Schema validation (briefs)
+├── ARCHITECTURE.md              # Database design and pipeline documentation
 ├── CLAUDE_CODE_INSTRUCTIONS.md  # Operating manual for AI-assisted sessions
 ├── CONTRIBUTING.md
 ├── GOVERNANCE.md
-├── LICENSE
-└── README.md                    # This file
+└── LICENSE
 ```
 
 ---
 
-## Build System
-
-The project uses a YAML-first architecture. All analytical content lives in
-validated YAML source files. Markdown and PDF outputs are generated
-artifacts — never edited directly.
+## Quick Start
 
 ```bash
-# Install dependencies
 pip install pyyaml jsonschema jinja2 ftfy weasyprint markdown
 
-# Validate all source files against schemas
-python validate.py
-python validate_briefs.py
-
-# Build all markdown output
-python build.py
-python build_briefs.py
-
-# Build PDF release bundles (run after build steps above)
-python build_pdf.py
+python validate.py && python validate_briefs.py   # validate
+python build.py && python build_briefs.py          # build markdown
+python build_pdf.py                                # build PDF releases
 ```
-
-Requires Python 3.10+.
 
 ---
 
@@ -94,7 +79,7 @@ PDF bundles are published as [GitHub Releases](../../releases). Each release inc
 |-----------|----------|--------|
 | Iran Transition Baseline (ITB) | 8 pillars, 19 modules | Active |
 | Iran Stress Architecture (ISA) | Traps, observations, scenarios | Active |
-| Policy Briefs | 13 published + supplementals | Active |
+| Policy briefs | 13 published + supplementals | Active |
 | Analytical variables | 86 tracked | Active |
 | Research gaps | 57 registered (49 open) | Active |
 
