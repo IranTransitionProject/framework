@@ -16,21 +16,21 @@ framework/
 │   ├── traps.yaml           # ISA-TRAPS analytical traps (14 entries)
 │   ├── observations.yaml    # Project observations (30 entries)
 │   ├── scenarios.yaml       # Scenario matrix (12 entries)
-│   ├── sessions.yaml        # Session log (21 entries)
+│   ├── sessions.yaml        # Session log (20 entries)
 │   ├── modules.yaml         # Module registry (28 entries)
 │   ├── index_meta.yaml      # Master index semi-static content
-│   ├── content/             # MODULE PROSE (19 modules)
-│   │   ├── itb_a_core.yaml
+│   ├── content/             # MODULE PROSE (22 modules)
+│   │   ├── itb_a.yaml
 │   │   ├── itb_b.yaml
 │   │   └── ... (one file per module)
-│   └── briefs/              # CONVERGENCE BRIEFS (14 files)
+│   └── briefs/              # CONVERGENCE BRIEFS (17 files)
 │       ├── b01.yaml - b13.yaml  # Numbered briefs
 │       ├── eb01.yaml            # Emergency Brief
 │       ├── es.yaml              # Executive Summary
 │       ├── intro.yaml           # Introduction
 │       └── supp_psc.yaml        # Supplemental
 │
-├── schemas/                 # VALIDATION RULES (10 schemas)
+├── schemas/                 # VALIDATION RULES (9 schemas)
 │   ├── variable.schema.json
 │   ├── gap.schema.json
 │   ├── trap.schema.json
@@ -39,8 +39,7 @@ framework/
 │   ├── session.schema.json
 │   ├── module.schema.json
 │   ├── content.schema.json
-│   ├── brief.schema.json
-│   └── index_meta.schema.json
+│   └── brief.schema.json
 │
 ├── templates/               # REPORT TEMPLATES (Jinja2)
 │   ├── app_variables.md.j2
@@ -57,7 +56,9 @@ framework/
 │   ├── migrate_variables.py
 │   ├── migrate_gaps.py
 │   ├── migrate_content.py
-│   └── migrate_all_briefs.py
+│   ├── migrate_all_briefs.py
+│   ├── migrate_b03.py
+│   └── cleanup_variables.py
 │
 ├── output/                  # GENERATED MARKDOWN (gitignored — never edit)
 ├── releases/                # GENERATED PDFs (gitignored — attach to GitHub Releases)
@@ -67,7 +68,13 @@ framework/
 ├── build.py                 # YAML → Markdown: entity reports + content modules
 ├── build_briefs.py          # YAML → Markdown: convergence briefs
 ├── build_pdf.py             # Markdown → PDF: two-tier release bundles
+├── ARCHITECTURE.md          # Database design and pipeline documentation
+├── README.md                # Project overview and quickstart
+├── CONTRIBUTING.md          # Contribution standards and CLA
+├── GOVERNANCE.md            # Mission constraint and succession plan
+├── CLAUDE_SESSION_LOG.md    # Claude-to-Claude coordination log
 ├── RELEASE_NOTES_TEMPLATE.md
+├── LICENSE
 └── CLAUDE_CODE_INSTRUCTIONS.md  # This file
 ```
 
@@ -424,6 +431,33 @@ Then create a GitHub Release tagged `v{YYYY-MM-DD}` and attach the PDFs from
 
 ---
 
+## Claude-to-Claude Coordination
+
+Analytical research happens in **Claude Chat** sessions; repository maintenance
+happens in **Claude Code** sessions. The two coordinate via `CLAUDE_SESSION_LOG.md`.
+
+### Workflow
+
+1. **Chat** completes an analytical session and appends an Integration Request to
+   the log — listing new entities, updated fields, filled gaps, session number, and
+   any ambiguities.
+2. **Code** reads the log, translates the request into YAML edits, validates, builds,
+   and commits. Then appends an Integration Complete entry.
+3. **Code** prunes resolved request/confirmation pairs on subsequent sessions.
+   Git preserves full history.
+
+### Rules
+
+- Both sides append; neither edits the other's entries.
+- Only Code deletes resolved entries.
+- Integration requests must reference session numbers and entity IDs, not dump
+  large prose blocks into the log.
+- When in doubt, the human owner resolves conflicts.
+
+See `CLAUDE_SESSION_LOG.md` for the full protocol and entry format.
+
+---
+
 ## Mojibake Handling
 
 All current YAML content files are clean. If mojibake appears in rendered output,
@@ -449,8 +483,8 @@ Common patterns:
 |-------|-------------|
 | 0 | Variables, Gaps — pipeline proven |
 | 1 | Traps, Observations, Scenarios, Sessions, Modules |
-| 2 | 19 ITB/ISA module prose files in `data/content/` |
-| 3 | 14 convergence briefs in `data/briefs/` |
+| 2 | 22 ITB/ISA module prose files in `data/content/` |
+| 3 | 17 convergence briefs in `data/briefs/` |
 | 3e | Testing, cleanup, index wiring |
 | PDF | `build_pdf.py` two-tier release builder |
 

@@ -52,17 +52,17 @@ data/
 ├── traps.yaml           # 14 analytical traps with session extensions
 ├── observations.yaml    # 30 observations with status tracking
 ├── scenarios.yaml       # 12 scenarios (wartime W1-W5 + legacy)
-├── sessions.yaml        # 21 session logs
+├── sessions.yaml        # 20 session log entries (sessions 1-21)
 ├── modules.yaml         # Module registry (code, file, version, level)
 ├── index_meta.yaml      # Static content for master index template
-├── content/             # ITB/ISA module prose (19 files)
-│   ├── itb_a_core.yaml
-│   ├── itb_a1.yaml
+├── content/             # ITB/ISA module prose (22 files)
+│   ├── itb_a.yaml
+│   ├── itb_a6.yaml
 │   ├── itb_b.yaml
 │   └── ... (one file per module)
-└── briefs/              # Convergence brief content (14 files)
-    ├── brief_01.yaml
-    ├── brief_02.yaml
+└── briefs/              # Convergence brief content (17 files)
+    ├── b01.yaml
+    ├── b02.yaml
     └── ... (one file per brief)
 ```
 
@@ -181,7 +181,7 @@ Renders entity reports and content modules. Uses a single Jinja2 environment
 | `traps` | `output/ISA_TRAPS.md` |
 | `scenarios` | `output/ISA_SCENARIOS.md` |
 | `index` | `output/00_MASTER_INDEX.md` |
-| `content` | All 19 content module files |
+| `content` | All 22 content module files |
 | `--validate` | Runs validate.py first, aborts on failure |
 
 ### `build_briefs.py`
@@ -210,7 +210,7 @@ Exec summary → Introduction → Briefs 01-13 → Emergency brief → 4-table r
 appendix (variables, gaps, traps, observations). Clickable TOC. Public audience.
 
 **Tier 2 — `ITP-Reference-v{date}.pdf`**
-All Tier 1 content + all 19 ITB/ISA content modules. Two-part TOC. Research audience.
+All Tier 1 content + all 22 ITB/ISA content modules. Two-part TOC. Research audience.
 
 PDF rendering stack: Python `markdown` → HTML with embedded CSS → `weasyprint` → PDF.
 A4, Georgia serif, running page numbers. Brief assembly order controlled by
@@ -285,8 +285,8 @@ reliably. Avoid echo-based approaches for multi-line content.
 |-------|--------|-------------|
 | 0 | Complete | Variables, Gaps — build pipeline proven |
 | 1 | Complete | Traps, Observations, Scenarios, Sessions, Modules |
-| 2 | Complete | 19 ITB/ISA module prose files in `data/content/` |
-| 3 | Complete | 14 convergence briefs in `data/briefs/` |
+| 2 | Complete | 22 ITB/ISA module prose files in `data/content/` |
+| 3 | Complete | 17 convergence briefs in `data/briefs/` |
 | 3e | Complete | Testing, cleanup, index wiring |
 | PDF | Complete | `build_pdf.py` two-tier release builder |
 
