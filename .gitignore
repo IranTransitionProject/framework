@@ -10,3 +10,6 @@ __MACOSX/
 # Generated artifacts — rebuild with: python3 build.py
 # Excluded to keep repo size manageable for project knowledge sync
 output/
+
+# Generated PDF releases — distributed via GitHub Releases, not tracked in repo
+releases/*.pdf
