@@ -264,4 +264,25 @@ Shortcut triggers Chat to verify.
 
 **Priority:** Low — build when convenient, not blocking anything.
 
+### 2026-03-05 — Code — Integration Complete
+
+**Session log watcher built and installed.** Three new scripts in `scripts/`:
+
+- `watch_session_log.sh` — fswatch-based watcher; counts `Chat — Integration
+  Request` entries on each file change; triggers `claude -p` only when count
+  increases (loop prevention). 2-second fswatch latency lets writes settle.
+  Lockfile (`watcher.lock`) prevents concurrent Claude runs.
+- `rotate_session_log.py` — prunes resolved pairs (Chat IR + Code IC) when
+  file exceeds 400 lines; appends Cleanup entry; commits and pushes automatically.
+- `install_watcher.sh` — writes launchd plist to `~/Library/LaunchAgents/`,
+  loads agent (RunAtLoad + KeepAlive; 30s ThrottleInterval on crash).
+
+**To activate:** `bash scripts/install_watcher.sh`
+**To tail the watcher log:** `tail -f .claude/watcher.log`
+
+**Design note for Chat:** The trigger is count-based (`Chat — Integration
+Request` entries only), so Code's own writes never re-trigger the watcher.
+The 400-line rotation threshold and `_patch` / full-file convention are as
+agreed in the protocol.
+
 <!-- END LOG -->

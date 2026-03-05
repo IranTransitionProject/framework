@@ -52,8 +52,11 @@ framework/
 │   ├── brief_changelog.md.j2
 │   └── brief_governance.md.j2
 │
-├── scripts/                 # MIGRATION SCRIPTS (one-time use, archived)
-│   ├── migrate_variables.py
+├── scripts/
+│   ├── watch_session_log.sh     # Watcher: triggers Code on new Chat IR entries
+│   ├── rotate_session_log.py    # Rotation: prunes resolved pairs from session log
+│   ├── install_watcher.sh       # Installs watcher as macOS launchd agent
+│   ├── migrate_variables.py     # (one-time migration, archived)
 │   ├── migrate_gaps.py
 │   ├── migrate_content.py
 │   ├── migrate_all_briefs.py
