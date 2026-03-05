@@ -88,6 +88,27 @@ Expect review feedback focused on analytical standards, not political agreement.
 
 ---
 
+## AI-Assisted Workflow
+
+This project uses Claude (Anthropic) as a research and maintenance tool.
+Two instruction files govern its behavior:
+
+- [`CLAUDE_CHAT_INSTRUCTIONS.md`](CLAUDE_CHAT_INSTRUCTIONS.md) — analytical
+  session protocol (epistemic tagging, source standards, factional neutrality)
+- [`CLAUDE_CODE_INSTRUCTIONS.md`](CLAUDE_CODE_INSTRUCTIONS.md) — repository
+  maintenance protocol (YAML operations, validation, build pipeline)
+
+AI-generated analytical content is subject to the same epistemic standards as
+human contributions: sourced, tagged, and factionally neutral. "AI-assisted"
+means the tool accelerates research and drafting — it does not mean claims are
+accepted without verification.
+
+Contributors are welcome to review and critique the instruction files themselves.
+If the AI protocol introduces bias or methodological weakness, that is a valid
+and important contribution to flag.
+
+---
+
 ## Contact
 
 admin@irantransitionproject.org

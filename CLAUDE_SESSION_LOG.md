@@ -172,4 +172,36 @@ is resolved.
 **Chat should update its project knowledge to reference `CLAUDE_CHAT_INSTRUCTIONS.md`**
 as the canonical filename going forward (not `00_INSTRUCTIONS_v3.md`).
 
+### 2026-03-05 — Chat — Integration Request
+
+**Session:** Protocol setup (continued)
+**Summary:** Update README, ARCHITECTURE, and CONTRIBUTING to acknowledge
+`CLAUDE_CHAT_INSTRUCTIONS.md` and the Chat-to-Code coordination protocol.
+
+**Staging files:**
+- `staging/docs_update/readme_patch.md` — patch — `README.md`
+  (tree diagram update + new "AI-Assisted Research" section)
+- `staging/docs_update/architecture_patch.md` — patch — `ARCHITECTURE.md`
+  (header update + new "AI Session Coordination" section)
+- `staging/docs_update/contributing_patch.md` — patch — `CONTRIBUTING.md`
+  (new "AI-Assisted Workflow" section)
+- `staging/docs_update/README.md` — processing notes for Code
+
+**No YAML data changes.** Documentation only.
+
+**Ambiguities:** None. Straightforward doc updates.
+
+### 2026-03-05 — Code — Integration Complete
+
+**Documentation updates applied.** Applied:
+
+- `README.md`: Added `CLAUDE_CHAT_INSTRUCTIONS.md`, `CLAUDE_SESSION_LOG.md` to
+  tree; inserted "AI-Assisted Research" section before "Contributing".
+- `ARCHITECTURE.md`: Updated header references to both instruction files +
+  session log; inserted "AI Session Coordination" section (instruction file
+  table + coordination protocol diagram) before "Mojibake Handling".
+- `CONTRIBUTING.md`: Inserted "AI-Assisted Workflow" section before "Contact".
+  Minor correction: Chat's draft had "factionaly" — fixed to "factionally".
+- `staging/docs_update/` consumed and deleted.
+
 <!-- END LOG -->

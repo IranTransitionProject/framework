@@ -42,7 +42,9 @@ For database design and build pipeline details, see [ARCHITECTURE.md](ARCHITECTU
 ├── validate.py                  # Schema validation (entities + content)
 ├── validate_briefs.py           # Schema validation (briefs)
 ├── ARCHITECTURE.md              # Database design and pipeline documentation
-├── CLAUDE_CODE_INSTRUCTIONS.md  # Operating manual for AI-assisted sessions
+├── CLAUDE_CHAT_INSTRUCTIONS.md  # Operating instructions for Claude Chat (analytical sessions)
+├── CLAUDE_CODE_INSTRUCTIONS.md  # Operating instructions for Claude Code (repo maintenance)
+├── CLAUDE_SESSION_LOG.md        # Claude-to-Claude coordination log
 ├── CONTRIBUTING.md
 ├── GOVERNANCE.md
 └── LICENSE
@@ -82,6 +84,28 @@ PDF bundles are published as [GitHub Releases](../../releases). Each release inc
 | Policy briefs | 13 published + supplementals | Active |
 | Analytical variables | 86 tracked | Active |
 | Research gaps | 57 registered (49 open) | Active |
+
+---
+
+## AI-Assisted Research
+
+This project uses Claude (Anthropic) as a research assistant across two interfaces:
+
+- **Claude Chat** conducts analytical sessions — source research, factional analysis,
+  framework development, brief drafting. Operating protocol:
+  [`CLAUDE_CHAT_INSTRUCTIONS.md`](CLAUDE_CHAT_INSTRUCTIONS.md).
+- **Claude Code** maintains the repository — YAML edits, schema validation, builds,
+  commits. Operating protocol:
+  [`CLAUDE_CODE_INSTRUCTIONS.md`](CLAUDE_CODE_INSTRUCTIONS.md).
+
+The two coordinate via [`CLAUDE_SESSION_LOG.md`](CLAUDE_SESSION_LOG.md), a structured
+append-only log where Chat posts integration requests and Code confirms execution.
+
+**Why this is public:** Analytical transparency requires disclosing methods.
+AI assistance is a tool, not a source — all claims still require sourcing,
+epistemic tagging, and factional neutrality per the project's analytical standards.
+The instruction files document exactly what the AI is told to do and what constraints
+it operates under.
 
 ---
 

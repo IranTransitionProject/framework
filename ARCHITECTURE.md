@@ -2,7 +2,9 @@
 
 Technical reference for the ITP structured database and build pipeline.
 For orientation and quickstart, see [README.md](README.md).
-For operational session instructions, see [CLAUDE_CODE_INSTRUCTIONS.md](CLAUDE_CODE_INSTRUCTIONS.md).
+For AI session protocols, see [CLAUDE_CHAT_INSTRUCTIONS.md](CLAUDE_CHAT_INSTRUCTIONS.md) (analytical research)
+and [CLAUDE_CODE_INSTRUCTIONS.md](CLAUDE_CODE_INSTRUCTIONS.md) (repository maintenance).
+For coordination between the two, see [CLAUDE_SESSION_LOG.md](CLAUDE_SESSION_LOG.md).
 For project governance and licensing, see [GOVERNANCE.md](GOVERNANCE.md).
 
 ---
@@ -253,6 +255,49 @@ git push origin main --tags
 #    Assets: releases/ITP-Briefs-v{date}.pdf
 #            releases/ITP-Reference-v{date}.pdf
 ```
+
+---
+
+## AI Session Coordination
+
+Analytical research happens in **Claude Chat** sessions; repository maintenance
+happens in **Claude Code** sessions. The two never share a context window — they
+coordinate via files in the repository.
+
+### Instruction Files
+
+| File | Audience | Purpose |
+|------|----------|---------|
+| `CLAUDE_CHAT_INSTRUCTIONS.md` | Claude Chat | Analytical framework, epistemic rules, output protocol, session deliverable protocol |
+| `CLAUDE_CODE_INSTRUCTIONS.md` | Claude Code | Database schema, YAML operations, validation/build commands, staging protocol |
+
+Both files are tracked in git. Chat reads its instructions from the repo filesystem
+at session start (with project knowledge auto-sync as fallback).
+
+### Coordination Protocol
+
+```
+Chat (analytical session)
+  │
+  ├─── writes large content to staging/session_N/
+  ├─── appends Integration Request to CLAUDE_SESSION_LOG.md
+  │
+  ▼
+Code (repository maintenance)
+  │
+  ├─── reads session log + staging files
+  ├─── applies YAML edits to data/
+  ├─── validates + builds
+  ├─── commits atomically
+  ├─── deletes consumed staging files
+  └─── appends Integration Complete to session log
+```
+
+The `staging/` directory is gitignored — it exists only as a transfer mechanism.
+Files without a `_patch` suffix are full replacements (copy to target).
+Files with a `_patch` suffix are field-level merges (update by entity ID).
+
+See `CLAUDE_SESSION_LOG.md` for the full entry format and protocol rules.
 
 ---
 
