@@ -29,10 +29,10 @@ For database design and build pipeline details, see [ARCHITECTURE.md](ARCHITECTU
 ```
 /
 ├── data/                        # YAML source-of-truth files
-│   ├── content/                 # ITB/ISA module prose (19 files)
-│   ├── briefs/                  # Convergence brief content (14 files)
+│   ├── content/                 # ITB/ISA module prose (22 files)
+│   ├── briefs/                  # Convergence brief content (17 files)
 │   └── *.yaml                   # Variables, gaps, traps, observations, scenarios, sessions
-├── schemas/                     # JSON Schema definitions (10 schemas)
+├── schemas/                     # JSON Schema definitions (9 schemas)
 ├── templates/                   # Jinja2 rendering templates
 ├── scripts/                     # One-time migration utilities
 ├── .github/workflows/           # CI configuration
@@ -77,7 +77,7 @@ PDF bundles are published as [GitHub Releases](../../releases). Each release inc
 
 | Component | Coverage | Status |
 |-----------|----------|--------|
-| Iran Transition Baseline (ITB) | 8 pillars, 19 modules | Active |
+| Iran Transition Baseline (ITB) | 8 pillars, 22 modules | Active |
 | Iran Stress Architecture (ISA) | Traps, observations, scenarios | Active |
 | Policy briefs | 13 published + supplementals | Active |
 | Analytical variables | 86 tracked | Active |
