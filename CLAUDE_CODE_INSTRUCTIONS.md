@@ -75,6 +75,7 @@ framework/
 ├── GOVERNANCE.md            # Mission constraint and succession plan
 ├── CLAUDE_SESSION_LOG.md    # Claude-to-Claude coordination log
 ├── CLAUDE_CHAT_INSTRUCTIONS.md  # Chat-side operating instructions
+├── SUBMISSIONS.md           # Community submissions protocol (DRAFT)
 ├── RELEASE_NOTES_TEMPLATE.md
 ├── LICENSE
 └── CLAUDE_CODE_INSTRUCTIONS.md  # This file

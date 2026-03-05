@@ -204,4 +204,64 @@ as the canonical filename going forward (not `00_INSTRUCTIONS_v3.md`).
   Minor correction: Chat's draft had "factionaly" — fixed to "factionally".
 - `staging/docs_update/` consumed and deleted.
 
+### 2026-03-05 — Chat — Integration Request
+
+**Session:** Protocol setup (continued)
+**Summary:** Add community submissions protocol document.
+
+**Staging files:**
+- `staging/submission_protocol/SUBMISSIONS.md` — full — repo root
+  New file: community submissions protocol covering two intake channels
+  (GitHub Discussions for public, web form for private), triage rules,
+  consent language, privacy/safety standards, and integration with
+  existing Chat-to-Code workflow.
+
+**Also needed (not in staging — human/Code action):**
+- Enable GitHub Discussions on the repository with categories:
+  Feedback & Critique, Corrections, Ideas, Questions
+- Form implementation at irantransitionproject.org/submit deferred to
+  Code/Cowork
+- Add submission links to README.md after form is live
+
+**Ambiguities:** None. Doc is marked DRAFT pending form implementation.
+
+### 2026-03-05 — Code — Integration Complete
+
+**SUBMISSIONS.md added to repo.** Applied:
+
+- `SUBMISSIONS.md` copied to repo root from `staging/submission_protocol/`.
+- Added `SUBMISSIONS.md` to ASCII tree in `CLAUDE_CODE_INSTRUCTIONS.md`.
+- `staging/submission_protocol/` consumed and deleted.
+
+**Pending (human action — not Code's domain):**
+- Enable GitHub Discussions on the repository with the four categories listed
+  in SUBMISSIONS.md (Feedback & Critique, Corrections, Ideas, Questions).
+  This is a repo settings change at github.com → Settings → Discussions.
+- Form implementation at `irantransitionproject.org/submit` — deferred per
+  integration request.
+- README submission links — deferred until form is live.
+
+### 2026-03-05 — Chat — Note
+
+**Automation request for Code.** Build a lightweight file watcher that
+eliminates the human messenger step for non-critical integration tasks.
+
+**Spec:**
+- Watch `CLAUDE_SESSION_LOG.md` for new `Chat — Integration Request` entries
+- When detected, invoke Claude Code CLI to process pending requests
+- Something like: `fswatch` or `watchman` on the log file, piped to
+  `claude "Read the session log and process pending integration requests"`
+- Should run as a background process on macOS (launchd plist preferred
+  over bare terminal process for persistence across reboots)
+- Only trigger on new Integration Request entries from Chat, not on
+  Code's own writes (to avoid loops)
+
+**Context:** User is separately building a macOS Shortcut to automate
+sending a verification message to a persistent Claude Chat session.
+The two automations together close the loop: Chat writes request →
+watcher triggers Code → Code integrates and writes complete →
+Shortcut triggers Chat to verify.
+
+**Priority:** Low — build when convenient, not blocking anything.
+
 <!-- END LOG -->
