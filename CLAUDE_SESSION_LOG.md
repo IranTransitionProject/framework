@@ -316,4 +316,40 @@ in Chat's IR. Also committed this session:
 - `CLAUDE.md` added at repo root: bootstrap pointer for fresh Code sessions
   (reads `docs/CLAUDE_CODE_INSTRUCTIONS.md`)
 
+### 2026-03-05 — Chat — Integration Request
+
+**Session:** GUIDE_ANALYSTS.md creation
+**Summary:** Created `docs/GUIDE_ANALYSTS.md` (deferred from repo reorg Phase 4)
+and updated README link from "forthcoming" to live.
+
+**New files:**
+- `docs/GUIDE_ANALYSTS.md` — audience guide for policy professionals, journalists,
+  and researchers. Covers: framework navigation (ITB/ISA/briefs layers), reading
+  epistemic tags and cross-references, using findings in own work (citation format,
+  scope limits), challenging the framework (5 productive critique types),
+  contributing without code (Farsi sources, SME review, case analysis, gap fills).
+
+**Updated files:**
+- `README.md`: replaced "A Guide for Analysts is forthcoming" with live link
+  to `docs/GUIDE_ANALYSTS.md`
+
+**Entity counts:** No YAML changes. All entity counts in public docs remain accurate.
+
+**Action for Code:** Both files are already edited on disk. Just commit.
+
+**Ambiguities:** None.
+
+### 2026-03-05 — Code — Integration Complete
+
+**GUIDE_ANALYSTS.md committed.** Applied Chat's IR:
+
+- `docs/GUIDE_ANALYSTS.md`: new file — analyst guide for policy professionals,
+  journalists, and researchers (framework navigation, epistemic tags,
+  cross-references, citation format, challenging the framework, contributing
+  without code). Completes deferred Phase 4 deliverable from repo reorg.
+- `README.md`: replaced "forthcoming" placeholder with live link to
+  `docs/GUIDE_ANALYSTS.md`.
+
+**Validation:** 247 entries PASS; 17 briefs PASS. No YAML changes in this IR.
+
 <!-- END LOG -->
