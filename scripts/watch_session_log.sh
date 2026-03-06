@@ -23,8 +23,15 @@ REPO_ROOT="/Volumes/SanDiskSSD/Developer/Repositories/framework"
 LOG_FILE="$REPO_ROOT/CLAUDE_SESSION_LOG.md"
 STATE_DIR="$REPO_ROOT/.claude"
 STATE_FILE="$STATE_DIR/watcher_state"
+
+# Redirect all output (including shell errors) to the watcher log early,
+# so even pre-startup crashes are captured when running under launchd.
+mkdir -p "$STATE_DIR"
+exec >> "$STATE_DIR/watcher.log" 2>&1
+
+# Trap to log the exit code whenever the script exits (aids launchd debugging)
+trap 'echo "[$(date +%Y-%m-%d\ %H:%M:%S)] WATCHER EXIT: status=$?" >> "$STATE_DIR/watcher.log"' EXIT
 LOCK_FILE="$STATE_DIR/watcher.lock"
-WATCHER_LOG="$STATE_DIR/watcher.log"
 ROTATION_THRESHOLD=400  # lines before rotation is triggered
 
 TRIGGER_PATTERN="— Chat — Integration Request"
@@ -44,11 +51,9 @@ per the Staging Directory Protocol in CLAUDE_CODE_INSTRUCTIONS.md. \
 Commit all changes atomically and append an Integration Complete entry \
 to the session log."
 
-# --- Setup ---
-mkdir -p "$STATE_DIR"
-
+# --- Helpers ---
 log() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*" | tee -a "$WATCHER_LOG"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*"
 }
 
 count_requests() {
@@ -78,14 +83,14 @@ process_requests() {
 
     cd "$REPO_ROOT"
     # Unset CLAUDECODE so the CLI doesn't refuse to start inside an existing session
+    # stdout/stderr already go to watcher.log via exec redirect at top of script
     env -u CLAUDECODE \
         "$CLAUDE_BIN" -p \
         --permission-mode bypassPermissions \
         --model sonnet \
         "$CLAUDE_PROMPT" \
-        >> "$WATCHER_LOG" 2>&1 \
         && log "Claude Code run complete" \
-        || log "ERROR: Claude Code exited with error (see log above)"
+        || log "ERROR: Claude Code exited with error (exit $?)"
 
     rm -f "$LOCK_FILE"
 
