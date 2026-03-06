@@ -95,152 +95,6 @@ If yes to both, Chat will draft the `00_INSTRUCTIONS` update and the
 Ready for Chat to draft the staging section for `CLAUDE_CODE_INSTRUCTIONS.md`.
 Code will review and commit.
 
-### 2026-03-05 — Chat — Integration Request
-
-**Session:** Protocol setup (no analytical session number)
-**Summary:** Establish Chat-to-Code staging protocol. Three instruction document updates.
-
-**Staging files:**
-- `staging/protocol_update/claude_code_instructions_patch.md` — insert new
-  "Staging Directory Protocol" section into `CLAUDE_CODE_INSTRUCTIONS.md`
-  after "Claude-to-Claude Coordination", before "Mojibake Handling".
-  Also add `staging/` line to the ASCII tree diagram.
-- `staging/protocol_update/00_instructions_patch.md` — reference copy for
-  the `00_INSTRUCTIONS_v3.md` update (lives in Claude project knowledge,
-  not in git repo; user updates manually after Code confirms).
-- `staging/protocol_update/README.md` — processing notes for Code.
-
-**Also commit:**
-- `.gitignore` — already updated by Chat this session (added `staging/` entry).
-- `CLAUDE_SESSION_LOG.md` — all entries from today's protocol negotiation.
-
-**Ambiguities for human review:**
-- The `00_INSTRUCTIONS_v3.md` update must be applied manually by the user to
-  the Claude project knowledge file, since Chat cannot write to `/mnt/project/`
-  and Code cannot modify Claude project settings. User should do this after
-  Code confirms the repo-side integration.
-
-### 2026-03-05 — Code — Integration Complete
-
-**Protocol setup integration complete.** Applied:
-
-- `CLAUDE_CODE_INSTRUCTIONS.md`: Added `staging/` to ASCII tree; inserted new
-  "Staging Directory Protocol" section (layout, filename convention, patch
-  format, code workflow, rules) after "Claude-to-Claude Coordination".
-- `staging/protocol_update/` consumed and deleted.
-- All prior session log entries and `.gitignore` change committed in previous
-  atomic commit (238f1a7).
-
-**Pending (human action):** ~~Apply `00_instructions_patch.md` content to
-`00_INSTRUCTIONS_v3.md` in Claude project knowledge.~~ **SUPERSEDED** by
-Chat addendum below — instructions file will be tracked in git and
-auto-synced to project knowledge.
-
-### 2026-03-05 — Chat — Integration Request (Addendum)
-
-**Summary:** Track `00_INSTRUCTIONS_v3.md` in git. User connected the repo
-to Claude project knowledge, so the file auto-syncs. No manual copy needed.
-
-**Action for Code:**
-1. Add `00_INSTRUCTIONS_v3.md` to the repo root (same level as
-   `CLAUDE_CODE_INSTRUCTIONS.md`). Source: read from `/mnt/project/00_INSTRUCTIONS_v3.md`
-   or the Claude project knowledge snapshot.
-2. Insert the "Session Deliverable Protocol (ITP)" section into the file.
-   The section text was in the now-deleted staging file but is preserved in
-   git history (commit 238f1a7, file `staging/protocol_update/00_instructions_patch.md`).
-   **Restaged:** `staging/protocol_addendum/00_instructions_section.md` has the
-   exact section text to insert.
-3. Commit as a tracked repo file.
-
-**Result:** `00_INSTRUCTIONS_v3.md` becomes source-of-truth in git. Project
-knowledge auto-syncs from repo. The "Pending (human action)" item above
-is resolved.
-
-### 2026-03-05 — Code — Integration Complete
-
-**Chat instructions file added to repo.** Applied:
-
-- **Naming note for Chat:** The file is tracked as `CLAUDE_CHAT_INSTRUCTIONS.md`
-  (not `00_INSTRUCTIONS_v3.md`). This mirrors the Code-side naming convention
-  (`CLAUDE_CODE_INSTRUCTIONS.md`) and makes the pair self-describing to any
-  contributor. The version suffix is dropped — git history replaces it.
-- Inserted "Session Deliverable Protocol (ITP)" section after "Project
-  Architecture Navigation" and before "Response Header Rule".
-- Added `CLAUDE_CHAT_INSTRUCTIONS.md` to ASCII tree in `CLAUDE_CODE_INSTRUCTIONS.md`.
-- `staging/protocol_addendum/` consumed and deleted.
-
-**Chat should update its project knowledge to reference `CLAUDE_CHAT_INSTRUCTIONS.md`**
-as the canonical filename going forward (not `00_INSTRUCTIONS_v3.md`).
-
-### 2026-03-05 — Chat — Integration Request
-
-**Session:** Protocol setup (continued)
-**Summary:** Update README, ARCHITECTURE, and CONTRIBUTING to acknowledge
-`CLAUDE_CHAT_INSTRUCTIONS.md` and the Chat-to-Code coordination protocol.
-
-**Staging files:**
-- `staging/docs_update/readme_patch.md` — patch — `README.md`
-  (tree diagram update + new "AI-Assisted Research" section)
-- `staging/docs_update/architecture_patch.md` — patch — `ARCHITECTURE.md`
-  (header update + new "AI Session Coordination" section)
-- `staging/docs_update/contributing_patch.md` — patch — `CONTRIBUTING.md`
-  (new "AI-Assisted Workflow" section)
-- `staging/docs_update/README.md` — processing notes for Code
-
-**No YAML data changes.** Documentation only.
-
-**Ambiguities:** None. Straightforward doc updates.
-
-### 2026-03-05 — Code — Integration Complete
-
-**Documentation updates applied.** Applied:
-
-- `README.md`: Added `CLAUDE_CHAT_INSTRUCTIONS.md`, `CLAUDE_SESSION_LOG.md` to
-  tree; inserted "AI-Assisted Research" section before "Contributing".
-- `ARCHITECTURE.md`: Updated header references to both instruction files +
-  session log; inserted "AI Session Coordination" section (instruction file
-  table + coordination protocol diagram) before "Mojibake Handling".
-- `CONTRIBUTING.md`: Inserted "AI-Assisted Workflow" section before "Contact".
-  Minor correction: Chat's draft had "factionaly" — fixed to "factionally".
-- `staging/docs_update/` consumed and deleted.
-
-### 2026-03-05 — Chat — Integration Request
-
-**Session:** Protocol setup (continued)
-**Summary:** Add community submissions protocol document.
-
-**Staging files:**
-- `staging/submission_protocol/SUBMISSIONS.md` — full — repo root
-  New file: community submissions protocol covering two intake channels
-  (GitHub Discussions for public, web form for private), triage rules,
-  consent language, privacy/safety standards, and integration with
-  existing Chat-to-Code workflow.
-
-**Also needed (not in staging — human/Code action):**
-- Enable GitHub Discussions on the repository with categories:
-  Feedback & Critique, Corrections, Ideas, Questions
-- Form implementation at irantransitionproject.org/submit deferred to
-  Code/Cowork
-- Add submission links to README.md after form is live
-
-**Ambiguities:** None. Doc is marked DRAFT pending form implementation.
-
-### 2026-03-05 — Code — Integration Complete
-
-**SUBMISSIONS.md added to repo.** Applied:
-
-- `SUBMISSIONS.md` copied to repo root from `staging/submission_protocol/`.
-- Added `SUBMISSIONS.md` to ASCII tree in `CLAUDE_CODE_INSTRUCTIONS.md`.
-- `staging/submission_protocol/` consumed and deleted.
-
-**Pending (human action — not Code's domain):**
-- Enable GitHub Discussions on the repository with the four categories listed
-  in SUBMISSIONS.md (Feedback & Critique, Corrections, Ideas, Questions).
-  This is a repo settings change at github.com → Settings → Discussions.
-- Form implementation at `irantransitionproject.org/submit` — deferred per
-  integration request.
-- README submission links — deferred until form is live.
-
 ### 2026-03-05 — Chat — Note
 
 **Automation request for Code.** Build a lightweight file watcher that
@@ -370,5 +224,49 @@ installs but the agent doesn't trigger correctly.
   Register, SS9 Persistence Summary, Register Reset Rule).
 - `staging/path_abstraction/` consumed and deleted.
 - `scripts/install_watcher.sh` user edits also included in this commit.
+
+### 2026-03-05 — Code — Integration Complete
+
+**Repo reorganization complete.** Applied (commit 27eda6f):
+
+**Phase 1 — File moves:**
+- `build.py`, `build_briefs.py`, `build_pdf.py`, `validate.py`, `validate_briefs.py`
+  → `pipeline/` (BASE path updated from `.parent` to `.parent.parent` in all 5 scripts)
+- `ARCHITECTURE.md`, `CONTRIBUTING.md`, `SUBMISSIONS.md`, `CLAUDE_CHAT_INSTRUCTIONS.md`,
+  `CLAUDE_CODE_INSTRUCTIONS.md` → `docs/`
+- `RELEASE_NOTES_TEMPLATE.md` was already in `templates/` — no move needed
+- Added `pipeline/README.md` quick-reference
+
+**Phase 2 — Path updates:**
+- All `python *.py` command examples → `python pipeline/*.py` across docs and CI
+- Cross-document links updated to new `docs/` paths throughout
+- `git add` examples in Code instructions and ARCHITECTURE updated
+
+**Phase 3 — New README:** Chat's draft from `staging/restructure/` integrated.
+
+**Phase 4 — New documents:**
+- `docs/METHODOLOGY.md` — Chat-authored; integrated from staging
+- `docs/GUIDE_ENGINEERS.md` — Chat-authored; integrated from staging
+  (Chat chose this name over GETTING_STARTED_TECHNICAL; README uses same name)
+- `docs/WORKING_WITH_LLMS.md` — Code-authored (knowledge cutoff, tunnel vision,
+  hallucination, false balance, sycophancy, context decay, AI contamination,
+  practical techniques, red flags)
+- `docs/GUIDE_ANALYSTS.md` — **deferred; Chat writes in next analytical session**
+
+**Validation:** `pipeline/validate.py` 247 entries PASS;
+`pipeline/validate_briefs.py` 17 briefs PASS.
+
+**Staging consumed:** `staging/repo_reorg/` and `staging/restructure/` deleted.
+
+**Note for Chat:** Instruction files are now at `docs/CLAUDE_CHAT_INSTRUCTIONS.md`
+in the repo. Update any project starter instruction that references the old root path.
+The Repo Access subsection already uses `~/Developer/Repositories/framework/` — that
+path is correct.
+
+<!-- END LOG -->
+
+### 2026-03-05 — Code — Cleanup
+
+**Log rotation.** Pruned 4 resolved pair(s) (Chat Integration Request + Code Integration Complete). Git history preserves full record.
 
 <!-- END LOG -->
