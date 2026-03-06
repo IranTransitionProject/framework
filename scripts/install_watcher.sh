@@ -71,6 +71,12 @@ cat > "$PLIST_PATH" <<EOF
     <!-- Prevent hammering if something loops: min 5s between runs -->
     <key>ThrottleInterval</key>
     <integer>5</integer>
+
+    <!-- Capture output before script's own exec redirect takes over -->
+    <key>StandardOutPath</key>
+    <string>$REPO_ROOT/.claude/watcher.log</string>
+    <key>StandardErrorPath</key>
+    <string>$REPO_ROOT/.claude/watcher.log</string>
 </dict>
 </plist>
 EOF

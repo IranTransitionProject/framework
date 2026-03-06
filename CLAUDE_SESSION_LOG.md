@@ -285,4 +285,90 @@ Request` entries only), so Code's own writes never re-trigger the watcher.
 The 400-line rotation threshold and `_patch` / full-file convention are as
 agreed in the protocol.
 
+### 2026-03-05 — Chat — Integration Request
+
+**Session:** Protocol setup (final)
+**Summary:** Abstract hardcoded machine-specific repo path in Chat instructions.
+
+**Staging files:**
+- `staging/path_abstraction/instructions_patch.md` — patch —
+  `CLAUDE_CHAT_INSTRUCTIONS.md`
+  Replace the "Repo Access" subsection in "Session Deliverable Protocol (ITP)"
+  to use `~/Developer/Repositories/framework/` instead of the old
+  `/Volumes/SanDiskSSD/Developer/Repositories/framework/` path, and add
+  fallback logic for environments without filesystem access.
+
+**No other files affected.** Code instructions don't have machine-specific paths.
+Session log historical entries stay as-is.
+
+**Ambiguities:** None.
+
+### 2026-03-05 — Chat — Integration Request
+
+**Session:** Protocol setup (final)
+**Summary:** Remove personal/identifying information from CLAUDE_CHAT_INSTRUCTIONS.md.
+File is now public in git — personal details belong in private Calibration file
+or user preferences, not in the repo.
+
+**Changes (applied directly to file, no staging needed):**
+- Calibration File Fallback section: Removed family details (ages, relationships),
+  ASD/ADHD diagnosis, specific EQ references. Replaced with generic engineering
+  mindset defaults and explicit note that personal context belongs in private config.
+- Audience Register: Removed specific domain list "(IT, CAD/CAM, DIY)", replaced
+  with generic "technical domains".
+- SS9 Persistence Summary: Removed "family context awareness" from calibration
+  behavior references.
+- Register Reset Rule: Removed "family members" from ISM register switch condition.
+
+**Action for Code:** `CLAUDE_CHAT_INSTRUCTIONS.md` is already edited on disk.
+Just commit it.
+
+**Ambiguities:** None.
+
+### 2026-03-05 — Chat — Integration Request
+
+**Session:** Repo reorganization (large)
+**Summary:** Major structural reorganization based on early community feedback.
+8 tasks covering file moves, README rewrite, and 4 new audience-facing documents.
+Session starter in `staging/repo_reorg/SESSION_STARTER_Repo_Reorg.md`.
+
+**Action for Code:** Read the session starter. It contains the full spec,
+execution plan, phasing, and ambiguities. This is a big commit — work through
+the phases in order. Phase 1 (file moves) must complete before Phase 2
+(path updates) can start.
+
+**Decisions (all resolved):**
+1. Directory name: `pipeline/` — confirmed
+2. Division of labor: Code writes Tasks 6+8 (technical docs), Chat writes
+   Tasks 5+7 (methodology + analyst guide) in subsequent session
+3. `RELEASE_NOTES_TEMPLATE.md` → `templates/`
+4. `docs/` structure: flat for now
+
+**Note:** Previous Code session crashed on this task (too large). Code should
+work through the execution plan phases sequentially and commit after each
+phase if needed, rather than attempting one massive commit.
+
+### 2026-03-05 — Code — Note
+
+**Watcher deferred.** Session log watcher (`scripts/watch_session_log.sh`) was
+built and committed (97bf966) but fails under launchd with exit 78/126 despite
+working correctly when run directly. Root cause is unknown — likely a permissions
+or sandbox issue specific to launchd's execution context on macOS. The `exec`
+redirect to the SSD path may be the proximate cause. Deferred for human
+investigation. All three scripts remain committed and functional for manual use:
+`bash scripts/watch_session_log.sh` works; `bash scripts/install_watcher.sh`
+installs but the agent doesn't trigger correctly.
+
+### 2026-03-05 — Code — Integration Complete
+
+**Path abstraction + privacy cleanup committed.** Applied:
+
+- `CLAUDE_CHAT_INSTRUCTIONS.md`: Replaced "Repo Access" subsection with
+  priority-ordered access logic (filesystem tools → `~/Developer/Repositories/framework/`;
+  fallback → project_knowledge_search read-only mode). Also committed Chat's
+  privacy cleanup (personal details removed from Calibration Fallback, Audience
+  Register, SS9 Persistence Summary, Register Reset Rule).
+- `staging/path_abstraction/` consumed and deleted.
+- `scripts/install_watcher.sh` user edits also included in this commit.
+
 <!-- END LOG -->
