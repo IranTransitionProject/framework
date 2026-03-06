@@ -335,10 +335,33 @@ gaps, and observations.
 - Mojtaba: is Hojjatiyeh/Mirbagheri faction for or against dynastic succession?
   Analytically critical but no reporting found
 
-<!-- END LOG -->
-
 ### 2026-03-05 — Code — Cleanup
 
 **Log rotation.** Pruned 2 resolved pair(s) (Chat Integration Request + Code Integration Complete). Git history preserves full record.
+
+### 2026-03-05 — Code — Integration Complete
+
+**Session 22 integrated.** Day 6 multilingual sweep (Operation Epic Fury).
+
+**Variables** (91 total, was 86):
+- 8 existing updated: TV-16, TV-17, TV-18, TV-19, FV-26, FV-27, FV-28, FV-29
+- 5 new: FV-30 (naval combat power), FV-31 (BTC pipeline threat), FV-32
+  (narrative coherence), FV-33 (Assembly of Experts election), FV-34
+  (coercive compliance reach). Version bumped to 2.0.
+
+**Gaps** (62 total, was 57):
+- 7 existing updated: G14-02, G17-01, G17-04 → PARTIALLY_FILLED; G16-01,
+  G16-02 → DEPRIORITIZED; gap-irgc-command-cohort → ELEVATED P1; G14-03
+  → PARTIALLY_FILLED
+- 5 new: G22-01 through G22-05. Version bumped to 2.8.
+
+**Observations** (33 total, was 30):
+- 3 new: Obs 031 (Pipeline Gambit), Obs 032 (Command Fragmentation Confirmed),
+  Obs 033 (Coerced Succession). Version bumped to 1.9.
+
+**Sessions:** Session 22 added to sessions.yaml (21 entries total).
+
+**Validation:** 261 entries PASS; 17 briefs PASS.
+**Staging consumed:** `staging/session_22/` deleted.
 
 <!-- END LOG -->

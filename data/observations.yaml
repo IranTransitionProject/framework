@@ -1,16 +1,15 @@
-version: '1.8'
-date: '2026-03-04'
-source: Migrated from ISA_SCENARIOS.md v1.5 (Sessions 1-16) + Session 17 (Obs 022 Wrong Arsenal) + Session 20 (wartime reassessment, Obs 023-028) + Session 21 (addendums,
-  Obs 029-030)
+version: '1.9'
+date: '2026-03-05'
+source: v1.8 + Session 22 (Day 6 sweep — Obs 031-033)
 section_title: Analytic Annotations (The 'So-What' Log)
 entries:
 - id: 1
   title: The IRGC Is the Transition
-  diagnosis: Every simultaneity trap, every cascading failure, every intervention sequence passes through the IRGC. It is the military force, the economic actor,
-    the intelligence service, the political gatekeeper, and the sanctions-evasion network -- simultaneously. There is no transition that does not involve the IRGC
-    question.
-  strategic_implication: The IRGC question must be the organizing center of all transition planning. Not "what do we do about the IRGC" as one item on a list -- but
-    "every other item on the list depends on how we handle the IRGC."
+  diagnosis: Every simultaneity trap, every cascading failure, every intervention sequence passes through the IRGC. It is
+    the military force, the economic actor, the intelligence service, the political gatekeeper, and the sanctions-evasion
+    network -- simultaneously. There is no transition that does not involve the IRGC question.
+  strategic_implication: The IRGC question must be the organizing center of all transition planning. Not "what do we do about
+    the IRGC" as one item on a list -- but "every other item on the list depends on how we handle the IRGC."
   itb_anchors:
   - A3 (all subsections)
   - C2
@@ -19,11 +18,12 @@ entries:
   session_added: 1
 - id: 2
   title: Iran's Structural Advantages Are Real
-  diagnosis: 'In every negative comparison case (Iraq, Libya, Syria, Afghanistan), at least two of the following were absent: strong national identity, educated population,
-    institutional bureaucratic depth, energy resource base. Iran has all four. This does not guarantee success -- but it means the failure modes of the comparison
-    cases are not inevitable.'
-  strategic_implication: The chaos narrative ("Iran will become the next Iraq/Libya") is analytically incomplete. Iran's structural advantages make managed transition
-    possible in a way it was not in the comparison cases. The framework's job is to demonstrate this with specificity, not to promise it.
+  diagnosis: 'In every negative comparison case (Iraq, Libya, Syria, Afghanistan), at least two of the following were absent:
+    strong national identity, educated population, institutional bureaucratic depth, energy resource base. Iran has all four.
+    This does not guarantee success -- but it means the failure modes of the comparison cases are not inevitable.'
+  strategic_implication: The chaos narrative ("Iran will become the next Iraq/Libya") is analytically incomplete. Iran's structural
+    advantages make managed transition possible in a way it was not in the comparison cases. The framework's job is to demonstrate
+    this with specificity, not to promise it.
   itb_anchors:
   - D2.1
   - D4
@@ -33,10 +33,12 @@ entries:
   session_added: 1
 - id: 3
   title: The Information Blackout Is the Binding Constraint
-  diagnosis: Every Phase 1 intervention (security, humanitarian, nuclear security, transitional authority) requires information flow. The internet blackout blocks
-    all internal coordination, all external assessment of ground truth, and all diaspora-internal communication. Nothing else can start until this is addressed.
-  strategic_implication: 'Communications restoration is not item #2 on a priority list -- it is the prerequisite for the priority list to function. Technical solutions
-    (satellite internet, mesh networks, VPN distribution) should be the subject of dedicated planning.'
+  diagnosis: Every Phase 1 intervention (security, humanitarian, nuclear security, transitional authority) requires information
+    flow. The internet blackout blocks all internal coordination, all external assessment of ground truth, and all diaspora-internal
+    communication. Nothing else can start until this is addressed.
+  strategic_implication: 'Communications restoration is not item #2 on a priority list -- it is the prerequisite for the priority
+    list to function. Technical solutions (satellite internet, mesh networks, VPN distribution) should be the subject of dedicated
+    planning.'
   itb_anchors:
   - B4
   - H1
@@ -45,28 +47,32 @@ entries:
   session_added: 1
 - id: 4
   title: The Theological Identity Lock Has No Playbook
-  diagnosis: 'The IRGC''s capacity for mass violence against civilians is not standard authoritarian repression -- it is theologically constructed through the velayat-e
-    motlaq-e faqih doctrine, the mofsed-e-filarz legal framework, and an institutional pipeline (Haqqani School) that produces ideologically bound enforcers. This
-    creates a self-reinforcing identity lock: each act of violence deepens the perpetrator''s dependence on the theological framework that justifies it. No modern
-    transition has successfully navigated the dissolution of an active theological violence apparatus of this kind.'
-  strategic_implication: Security sector reform plans that treat the IRGC like a standard authoritarian military will fail. The transition challenge includes a theological-identity
-    dimension for which no existing playbook exists. This must be designed, not borrowed. Turkey's caliphate abolition (1924) is the closest structural analog but
-    differs in critical ways (Sunni vs. Shia; top-down military imposition vs. bottom-up demand; no equivalent identity lock mechanism). The framework must be honest
-    about this gap rather than assuming it away.
+  diagnosis: 'The IRGC''s capacity for mass violence against civilians is not standard authoritarian repression -- it is theologically
+    constructed through the velayat-e motlaq-e faqih doctrine, the mofsed-e-filarz legal framework, and an institutional pipeline
+    (Haqqani School) that produces ideologically bound enforcers. This creates a self-reinforcing identity lock: each act
+    of violence deepens the perpetrator''s dependence on the theological framework that justifies it. No modern transition
+    has successfully navigated the dissolution of an active theological violence apparatus of this kind.'
+  strategic_implication: Security sector reform plans that treat the IRGC like a standard authoritarian military will fail.
+    The transition challenge includes a theological-identity dimension for which no existing playbook exists. This must be
+    designed, not borrowed. Turkey's caliphate abolition (1924) is the closest structural analog but differs in critical ways
+    (Sunni vs. Shia; top-down military imposition vs. bottom-up demand; no equivalent identity lock mechanism). The framework
+    must be honest about this gap rather than assuming it away.
   itb_anchors:
   - A8 (all subsections)
   version_added: v1.0
   session_added: 1
 - id: 5
   title: Colonial-Border Comparisons Are Analytically Misleading
-  diagnosis: 'The default comparison set (Iraq, Libya, Syria, Afghanistan) shares a feature Iran does not: colonial-era borders that do not correspond to historical
-    civilizational or national identity. Iran''s borders correspond to a 2,500-year-old civilizational footprint. Iran absorbed its invaders culturally rather than
-    being absorbed by them -- a pattern unique among Middle Eastern states. Using colonial-border states as whole-case comparators systematically overstates Iran''s
+  diagnosis: 'The default comparison set (Iraq, Libya, Syria, Afghanistan) shares a feature Iran does not: colonial-era borders
+    that do not correspond to historical civilizational or national identity. Iran''s borders correspond to a 2,500-year-old
+    civilizational footprint. Iran absorbed its invaders culturally rather than being absorbed by them -- a pattern unique
+    among Middle Eastern states. Using colonial-border states as whole-case comparators systematically overstates Iran''s
     territorial fragmentation risk and understates its institutional resilience.'
-  strategic_implication: 'The ISA historical case study framework has been restructured into three tracks: (A) mechanism extraction from colonial-border states (specific
-    portable lessons), (B) civilizational-state transitions (Turkey, Japan, Spain, Indonesia, South Africa) for territorial/identity/governance dimensions, and (C)
-    theological authority transitions (no clean modern parallel -- Turkey 1924 is closest). The regime''s "chaos without us" narrative gains its power from the Iraq/Libya
-    analogy. Demonstrating why that analogy is structurally flawed is itself a strategic contribution of this framework.'
+  strategic_implication: 'The ISA historical case study framework has been restructured into three tracks: (A) mechanism extraction
+    from colonial-border states (specific portable lessons), (B) civilizational-state transitions (Turkey, Japan, Spain, Indonesia,
+    South Africa) for territorial/identity/governance dimensions, and (C) theological authority transitions (no clean modern
+    parallel -- Turkey 1924 is closest). The regime''s "chaos without us" narrative gains its power from the Iraq/Libya analogy.
+    Demonstrating why that analogy is structurally flawed is itself a strategic contribution of this framework.'
   itb_anchors:
   - D2.1
   - E5
@@ -75,16 +81,19 @@ entries:
   session_added: 1
 - id: 6
   title: The Taqiyyah Analytical Trap
-  diagnosis: Western IR models assume observable behavior reflects actual motivation. The Islamic Republic's operationalization of taqiyyah (theologically authorized
-    strategic deception) explicitly decouples external presentation from internal objectives. This is not standard diplomatic maneuvering -- it is theologically authorized,
-    institutionally embedded (ISU diplomatic training pipeline -- A9.2.3b), and has a 45-year track record of producing Western analytical overconfidence. The regime
-    can simultaneously be calculating (rational in process), pursue non-transactional theological objectives (non-rational in content), and present itself as amenable
-    to deals (taqiyyah in presentation). The Western 'rational actor vs. irrational actor' debate is itself a product of the trap.
-  strategic_implication: 'Every international stakeholder assessment in ITB Pillar F should be stress-tested against the taqiyyah hypothesis: "If the regime''s current
-    diplomatic posture is a taqiyyah-consistent performance, what would look different?" If nothing would look different, the assessment is unfalsifiable and should
-    receive a confidence downgrade. Verification design implication: Nuclear deal verification regimes must be designed to account for a regime that has institutional
-    training in deception at every level. Standard arms control verification baselines are insufficient. Snap-back mechanisms and continuous monitoring are more important
-    than front-loaded trust-building concessions.'
+  diagnosis: Western IR models assume observable behavior reflects actual motivation. The Islamic Republic's operationalization
+    of taqiyyah (theologically authorized strategic deception) explicitly decouples external presentation from internal objectives.
+    This is not standard diplomatic maneuvering -- it is theologically authorized, institutionally embedded (ISU diplomatic
+    training pipeline -- A9.2.3b), and has a 45-year track record of producing Western analytical overconfidence. The regime
+    can simultaneously be calculating (rational in process), pursue non-transactional theological objectives (non-rational
+    in content), and present itself as amenable to deals (taqiyyah in presentation). The Western 'rational actor vs. irrational
+    actor' debate is itself a product of the trap.
+  strategic_implication: 'Every international stakeholder assessment in ITB Pillar F should be stress-tested against the taqiyyah
+    hypothesis: "If the regime''s current diplomatic posture is a taqiyyah-consistent performance, what would look different?"
+    If nothing would look different, the assessment is unfalsifiable and should receive a confidence downgrade. Verification
+    design implication: Nuclear deal verification regimes must be designed to account for a regime that has institutional
+    training in deception at every level. Standard arms control verification baselines are insufficient. Snap-back mechanisms
+    and continuous monitoring are more important than front-loaded trust-building concessions.'
   itb_anchors:
   - A8.8 (all subsections)
   - A9.2.3b
@@ -94,15 +103,18 @@ entries:
   session_added: 3
 - id: 7
   title: The IRGC Is Not a Military Force -- It Is a Parallel Civilization
-  diagnosis: The IRGC parallel society comprises a designed system of theological doctrine (A8), educational pipeline from age 7 through elite university (A9.2),
-    physically segregated residential compounds (A9.3), comprehensive economic patronage (A9.4), and battlefield-tested operational doctrine transferred from Syria
-    (A9.6). The total population is estimated at 2-10 million people across three tiers.
-  strategic_implication: Transition planning frameworks that treat the IRGC as a military force to be "reformed" or an ideological movement to be "de-radicalized"
-    fundamentally misunderstand the challenge. The IRGC is a purpose-built parallel civilization. You cannot "reform" a civilization -- you must either absorb it
-    or create conditions under which it transforms itself. The de-Ba'athification model (dissolve and exclude) will fail at this scale. The post-Soviet model (economic
-    alternatives enable voluntary defection from patronage networks) is more relevant -- but must account for the theological dimension. The most consequential discovery
-    is that economic dependency, not ideology, is the primary binding agent. This means the parallel society can potentially be disaggregated through economic alternatives
-    -- separating the ideologically irreducible core (~500K-1M) from the economically captive majority (~2-4M).
+  diagnosis: The IRGC parallel society comprises a designed system of theological doctrine (A8), educational pipeline from
+    age 7 through elite university (A9.2), physically segregated residential compounds (A9.3), comprehensive economic patronage
+    (A9.4), and battlefield-tested operational doctrine transferred from Syria (A9.6). The total population is estimated at
+    2-10 million people across three tiers.
+  strategic_implication: Transition planning frameworks that treat the IRGC as a military force to be "reformed" or an ideological
+    movement to be "de-radicalized" fundamentally misunderstand the challenge. The IRGC is a purpose-built parallel civilization.
+    You cannot "reform" a civilization -- you must either absorb it or create conditions under which it transforms itself.
+    The de-Ba'athification model (dissolve and exclude) will fail at this scale. The post-Soviet model (economic alternatives
+    enable voluntary defection from patronage networks) is more relevant -- but must account for the theological dimension.
+    The most consequential discovery is that economic dependency, not ideology, is the primary binding agent. This means the
+    parallel society can potentially be disaggregated through economic alternatives -- separating the ideologically irreducible
+    core (~500K-1M) from the economically captive majority (~2-4M).
   itb_anchors:
   - A9 (all subsections)
   - A8 (all subsections)
@@ -112,12 +124,14 @@ entries:
   session_added: 3
 - id: 8
   title: The Deal May Be the Danger
-  diagnosis: 'Conventional analysis frames "deal vs. no deal" as "peace vs. war." The Pinochet mechanism (ITB-A11) reveals a third possibility: the deal itself becomes
-    the instrument of oppression. A nuclear deal that provides sanctions relief without human rights conditionality gives the regime the resources to intensify repression
-    while enjoying international legitimacy. The historical pattern (Chile, Egypt, Saudi Arabia) shows that strategic alignment between a major power and an authoritarian
-    regime consistently produces this outcome.'
-  strategic_implication: Transition planners must not assume that a deal is inherently positive for the population. Deal design -- specifically the presence or absence
-    of human rights conditionality and snap-back mechanisms -- is a first-order transition planning variable.
+  diagnosis: 'Conventional analysis frames "deal vs. no deal" as "peace vs. war." The Pinochet mechanism (ITB-A11) reveals
+    a third possibility: the deal itself becomes the instrument of oppression. A nuclear deal that provides sanctions relief
+    without human rights conditionality gives the regime the resources to intensify repression while enjoying international
+    legitimacy. The historical pattern (Chile, Egypt, Saudi Arabia) shows that strategic alignment between a major power and
+    an authoritarian regime consistently produces this outcome.'
+  strategic_implication: Transition planners must not assume that a deal is inherently positive for the population. Deal design
+    -- specifically the presence or absence of human rights conditionality and snap-back mechanisms -- is a first-order transition
+    planning variable.
   itb_anchors:
   - ITB-A11
   - ITB-F (F1 US position)
@@ -126,12 +140,13 @@ entries:
   session_added: 5
 - id: 9
   title: The Eschatological Faction Is the Black Swan in Every Scenario
-  diagnosis: 'ITB-A10 identifies a faction (Mirbagheri/Paydari/MASAF) that is positioned to benefit from virtually every scenario: (a) Deal -> regime preserved ->
-    succession opportunity; (b) Strike -> nationalist mobilization -> hardliner empowerment; (c) Collapse -> chaos -> "strong leader" demand; (d) Decay -> gradual
-    institutional capture; (e) Managed transition -> sabotage from within. The faction has theological authority, financial independence (Mahsouli), media infrastructure
-    (MASAF), and potential Basij sympathizers in a decentralized provincial structure.'
-  strategic_implication: 'Every scenario must be stress-tested against the question: "How does the Mirbagheri faction exploit this outcome?" If the answer is "they
-    can''t," the scenario assessment is probably wrong.'
+  diagnosis: 'ITB-A10 identifies a faction (Mirbagheri/Paydari/MASAF) that is positioned to benefit from virtually every scenario:
+    (a) Deal -> regime preserved -> succession opportunity; (b) Strike -> nationalist mobilization -> hardliner empowerment;
+    (c) Collapse -> chaos -> "strong leader" demand; (d) Decay -> gradual institutional capture; (e) Managed transition ->
+    sabotage from within. The faction has theological authority, financial independence (Mahsouli), media infrastructure (MASAF),
+    and potential Basij sympathizers in a decentralized provincial structure.'
+  strategic_implication: 'Every scenario must be stress-tested against the question: "How does the Mirbagheri faction exploit
+    this outcome?" If the answer is "they can''t," the scenario assessment is probably wrong.'
   itb_anchors:
   - ITB-A10 (all subsections)
   cross_refs:
@@ -141,49 +156,55 @@ entries:
   session_added: 5
 - id: 10
   title: The Two Clocks Problem -- The Deal's Temporal Vulnerability
-  diagnosis: 'The deal track operates under two independent clocks that interact destructively. The Succession Clock (months to years) governs Khamenei''s decline
-    and the eschatological faction''s institutional capture trajectory. The Washington Patience Clock (weeks to months) governs the finite window for US-Iran diplomacy.
-    The shorter clock wins. The velocity gap: deal negotiations move faster than institutional capture, creating a window where a deal can be signed. But the deal''s
-    most vulnerable period is post-signing. The wrong interlocutor thesis: Washington is negotiating with Segment 3 (genuine pragmatists, ~15-25% of institutional
-    power) while deal survival depends on overcoming Segments 1+2 (~45-65% of institutional power). The negotiating counterparts lack the institutional weight to
-    deliver what they are promising.'
-  strategic_implication: 'Deal assessment must include a temporal stress test: "If this deal is signed today, what is the probability it survives (a) the next Supreme
-    Leader selection, (b) the next US political cycle, and (c) simultaneous eschatological sabotage and institutional friction?" If the answer to any is below 50%,
-    the deal''s expected value for the population is negative.'
+  diagnosis: 'The deal track operates under two independent clocks that interact destructively. The Succession Clock (months
+    to years) governs Khamenei''s decline and the eschatological faction''s institutional capture trajectory. The Washington
+    Patience Clock (weeks to months) governs the finite window for US-Iran diplomacy. The shorter clock wins. The velocity
+    gap: deal negotiations move faster than institutional capture, creating a window where a deal can be signed. But the deal''s
+    most vulnerable period is post-signing. The wrong interlocutor thesis: Washington is negotiating with Segment 3 (genuine
+    pragmatists, ~15-25% of institutional power) while deal survival depends on overcoming Segments 1+2 (~45-65% of institutional
+    power). The negotiating counterparts lack the institutional weight to deliver what they are promising.'
+  strategic_implication: 'Deal assessment must include a temporal stress test: "If this deal is signed today, what is the
+    probability it survives (a) the next Supreme Leader selection, (b) the next US political cycle, and (c) simultaneous eschatological
+    sabotage and institutional friction?" If the answer to any is below 50%, the deal''s expected value for the population
+    is negative.'
   itb_anchors:
   - A10.4a (all subsections)
   - A11.3.3-3.4
   - F1.2 (US position)
   leading_indicators:
   - US patience signals (Congressional statements, Witkoff timeline rhetoric, Israel unilateral action threats)
-  - Tehran institutional adaptation (SNSC restructuring, Araghchi authority expansion or contraction, IRGC public statements on deal)
+  - Tehran institutional adaptation (SNSC restructuring, Araghchi authority expansion or contraction, IRGC public statements
+    on deal)
   cross_refs:
   - 'A12 coupling: coercive-endurance model explains temporal mechanism behind wrong-interlocutor problem'
   version_added: v1.1
   session_added: 9
 - id: 11
   title: The 40-Day Mourning Cycle Is a Tested Escalation Mechanism
-  diagnosis: 'The chehelom (40-day mourning) for victims of the Jan 8-9 massacre became active Feb 17-18. This is the same mechanism that escalated the 1978-79 revolution.
-    The current situation reproduces this pattern: security forces fired on mourners in Abdanan (one killed); gunfire in Mashhad; mourning spread beyond cemeteries
-    into streets, hospitals, sites of violence; music/dance replacing traditional Shia mourning rituals; regime co-optation attempt rejected. The two-front problem:
-    mourning cycle creates an internal pressure clock running independently of the US-Iran diplomatic clock.'
-  strategic_implication: The 40-day cycle should be treated as a flow variable. Next critical inflection ~40 days from Feb 17-18 (late March 2026). If the cycle restarts,
-    it coincides with Nowruz (~Mar 20), historically a flashpoint.
+  diagnosis: 'The chehelom (40-day mourning) for victims of the Jan 8-9 massacre became active Feb 17-18. This is the same
+    mechanism that escalated the 1978-79 revolution. The current situation reproduces this pattern: security forces fired
+    on mourners in Abdanan (one killed); gunfire in Mashhad; mourning spread beyond cemeteries into streets, hospitals, sites
+    of violence; music/dance replacing traditional Shia mourning rituals; regime co-optation attempt rejected. The two-front
+    problem: mourning cycle creates an internal pressure clock running independently of the US-Iran diplomatic clock.'
+  strategic_implication: The 40-day cycle should be treated as a flow variable. Next critical inflection ~40 days from Feb
+    17-18 (late March 2026). If the cycle restarts, it coincides with Nowruz (~Mar 20), historically a flashpoint.
   itb_anchors:
   - B4 (repression infrastructure)
   - D (society -- protest dynamics)
   - ISA-CASES (1979 Iran parallel)
   scenario_impact:
     S2: Mourning unrest could provoke regime escalation providing US/Israel additional pretext.
-    S3: Mourning cycle is the primary internal escalation mechanism. If it self-reinforces, it can produce regime-threatening pressure independently.
+    S3: Mourning cycle is the primary internal escalation mechanism. If it self-reinforces, it can produce regime-threatening
+      pressure independently.
     S4: Mourning cycle disrupts decay equilibrium. Decay requires plateau; self-reinforcing mourning prevents plateau.
     S5: Sustained mourning pressure strengthens any IRGC pragmatist faction seeking to negotiate handover.
   corrections:
   - session: 13
     date: '2026-02-22'
-    content: The escalation mechanism is secular-opportunistic, not exclusively religious-liturgical. Students at Sharif, Amirkabir, Shahid Beheshti, and Mashhad
-      University staged protests on university reopening day (Feb 21-22) -- outside any chehelom cycle. The organizational mechanism is any moment of mass physical
-      co-location with institutional protection. The 1979 analogy overstates the religious mechanism. In 2026, the mosque network is depleted; escalation infrastructure
+    content: The escalation mechanism is secular-opportunistic, not exclusively religious-liturgical. Students at Sharif,
+      Amirkabir, Shahid Beheshti, and Mashhad University staged protests on university reopening day (Feb 21-22) -- outside
+      any chehelom cycle. The organizational mechanism is any moment of mass physical co-location with institutional protection.
+      The 1979 analogy overstates the religious mechanism. In 2026, the mosque network is depleted; escalation infrastructure
       is universities, social media, public gatherings, and the 40-day cycle as cultural rhythm rather than religious organization.
   sources:
   - Iran International
@@ -195,15 +216,16 @@ entries:
   session_added: 3
 - id: 12
   title: The Hollow Deal Is Worse Than No Deal for Transition Planning
-  diagnosis: 'The most diplomatically likely outcome -- a nuclear deal that lifts sanctions while leaving IRGC designation architecture intact -- is worse than the
-    status quo for transition planning because it enriches the IRGC (51% statutory oil revenue allocation), validates S1B (Pinochet Pivot), and forecloses Type B
-    normalization for the duration. The Type A/B distinction: Type A (regime-agnostic actors) is activated by sanctions removal alone; Type B (governance-sensitive
-    actors) requires IRGC economic divestiture. A hollow deal delivers Type A but not Type B. The South Pars corollary: Iran''s $35-50B reconstruction asset is exclusively
-    Type B; under hollow deal, Chinese companies capture it. The EU dimension: EU IRGC terrorist designation (Feb 2026) creates criminal liability independent of
-    US sanctions status.'
-  strategic_implication: Deal conditionality is not a moral add-on -- it is the economic mechanism that separates hollow deal from genuine reconstruction pathway.
-    Transition planning must treat conditionality design (NIOC restructuring, KAA competitive bidding, banking IRGC divestiture, commercial law framework) as Tier
-    1 priority.
+  diagnosis: 'The most diplomatically likely outcome -- a nuclear deal that lifts sanctions while leaving IRGC designation
+    architecture intact -- is worse than the status quo for transition planning because it enriches the IRGC (51% statutory
+    oil revenue allocation), validates S1B (Pinochet Pivot), and forecloses Type B normalization for the duration. The Type
+    A/B distinction: Type A (regime-agnostic actors) is activated by sanctions removal alone; Type B (governance-sensitive
+    actors) requires IRGC economic divestiture. A hollow deal delivers Type A but not Type B. The South Pars corollary: Iran''s
+    $35-50B reconstruction asset is exclusively Type B; under hollow deal, Chinese companies capture it. The EU dimension:
+    EU IRGC terrorist designation (Feb 2026) creates criminal liability independent of US sanctions status.'
+  strategic_implication: Deal conditionality is not a moral add-on -- it is the economic mechanism that separates hollow deal
+    from genuine reconstruction pathway. Transition planning must treat conditionality design (NIOC restructuring, KAA competitive
+    bidding, banking IRGC divestiture, commercial law framework) as Tier 1 priority.
   itb_anchors:
   - ITB-F12
   - ISA-TRAPS Trap 10
@@ -220,13 +242,15 @@ entries:
   session_added: 12
 - id: 13
   title: US Policy Operates Two Mutually Undermining Tracks
-  diagnosis: 'The US is simultaneously negotiating with the Iranian regime (Track A: Geneva) and planning for its replacement (Track B: Kushner-led Florida Group).
-    This two-track structure is not secret. The structural effect is mutual undermining: Track A requires commitment to regime preservation; Track B signals regime
-    replacement. Personnel overlap: Kushner operates in both tracks. Financial relationships (Trap 11) contaminate both. The ''wrong diaspora'' problem: Track B introduces
-    its own wrong-interlocutor problem. Palm Beach business elites are a self-selected subset whose access is mediated by Gulf state financial relationships; the
-    5-8 million diaspora may have different priorities.'
-  strategic_implication: Track B's existence makes Track A less likely to succeed, making Scenario 2 more likely -- the outcome preferred by the Graham coalition,
-    Israel, and the eschatological faction (for opposite reasons). The two-track structure is not neutral; it structurally favors actors who want the deal to fail.
+  diagnosis: 'The US is simultaneously negotiating with the Iranian regime (Track A: Geneva) and planning for its replacement
+    (Track B: Kushner-led Florida Group). This two-track structure is not secret. The structural effect is mutual undermining:
+    Track A requires commitment to regime preservation; Track B signals regime replacement. Personnel overlap: Kushner operates
+    in both tracks. Financial relationships (Trap 11) contaminate both. The ''wrong diaspora'' problem: Track B introduces
+    its own wrong-interlocutor problem. Palm Beach business elites are a self-selected subset whose access is mediated by
+    Gulf state financial relationships; the 5-8 million diaspora may have different priorities.'
+  strategic_implication: Track B's existence makes Track A less likely to succeed, making Scenario 2 more likely -- the outcome
+    preferred by the Graham coalition, Israel, and the eschatological faction (for opposite reasons). The two-track structure
+    is not neutral; it structurally favors actors who want the deal to fail.
   itb_anchors:
   - ISA-TRAPS Trap 12
   - Trap 11
@@ -242,14 +266,16 @@ entries:
   session_added: 13
 - id: 14
   title: The Senate Kill Switch Operates Independently of All Other Failure Mechanisms
-  diagnosis: 'The Graham-Cotton-Britt resolution (S.Res.212) establishes deal parameters that Iran has explicitly stated are non-starters (zero enrichment, total
-    dismantlement, missile elimination, terrorism cessation). Graham chairs Senate Appropriations Subcommittee on State, Foreign Operations. INARA guarantees Congressional
-    review. Even a deal surviving all other failure mechanisms must survive Congressional review under parameters set by actors with documented financial alignment
-    with the pro-strike coalition. The executive-legislative gap is widening: US officials signaled willingness to accept ''token enrichment'' contradicting S.Res.212.
-    The three-clock model: (1) Succession Clock (months-years), (2) Washington Patience Clock (weeks), (3) Congressional Clock (months, delayed-action kill mechanism
-    post-signing).'
-  strategic_implication: Deal assessment must now include Congressional survival probability as an independent variable. For any deal involving token enrichment,
-    the answer is almost certainly 'no' -- capping deal expected lifespan at INARA review timeline.
+  diagnosis: 'The Graham-Cotton-Britt resolution (S.Res.212) establishes deal parameters that Iran has explicitly stated are
+    non-starters (zero enrichment, total dismantlement, missile elimination, terrorism cessation). Graham chairs Senate Appropriations
+    Subcommittee on State, Foreign Operations. INARA guarantees Congressional review. Even a deal surviving all other failure
+    mechanisms must survive Congressional review under parameters set by actors with documented financial alignment with the
+    pro-strike coalition. The executive-legislative gap is widening: US officials signaled willingness to accept ''token enrichment''
+    contradicting S.Res.212. The three-clock model: (1) Succession Clock (months-years), (2) Washington Patience Clock (weeks),
+    (3) Congressional Clock (months, delayed-action kill mechanism post-signing).'
+  strategic_implication: Deal assessment must now include Congressional survival probability as an independent variable. For
+    any deal involving token enrichment, the answer is almost certainly 'no' -- capping deal expected lifespan at INARA review
+    timeline.
   itb_anchors:
   - ISA-TRAPS Trap 11 (v2.0)
   - ITB-F F1.2
@@ -262,12 +288,14 @@ entries:
   session_added: 13
 - id: 15
   title: The Saudi-UAE Rift Introduces a New Regional Instability Dimension
-  diagnosis: 'Saudi Arabia and the UAE are in open conflict across multiple theaters: Yemen, Sudan, and Israel normalization. The assumption underlying most Iran
-    scenarios is a united Gulf front. If alignment fractures: Saudi may defect from pro-strike coalition; post-regime energy pitch requires Gulf coordination the
-    rift undermines; divided Gulf enables China/Russia to exploit. Graham''s mediation is not neutral -- it''s coalition management for the pro-strike camp aligned
-    with UAE-Israel axis.'
-  strategic_implication: 'The Saudi-UAE rift should be tracked as a flow variable: it affects post-transition regional architecture viability, whether a united Gulf
-    front exists for or against US military action, and Graham''s mediation activity is a leading indicator of severity.'
+  diagnosis: 'Saudi Arabia and the UAE are in open conflict across multiple theaters: Yemen, Sudan, and Israel normalization.
+    The assumption underlying most Iran scenarios is a united Gulf front. If alignment fractures: Saudi may defect from pro-strike
+    coalition; post-regime energy pitch requires Gulf coordination the rift undermines; divided Gulf enables China/Russia
+    to exploit. Graham''s mediation is not neutral -- it''s coalition management for the pro-strike camp aligned with UAE-Israel
+    axis.'
+  strategic_implication: 'The Saudi-UAE rift should be tracked as a flow variable: it affects post-transition regional architecture
+    viability, whether a united Gulf front exists for or against US military action, and Graham''s mediation activity is a
+    leading indicator of severity.'
   itb_anchors:
   - ITB-F F4 (UAE)
   - F5 (Saudi Arabia)
@@ -279,13 +307,16 @@ entries:
   session_added: 13
 - id: 16
   title: Larijani as Shadow Governance -- The Authorization Chain Problem
-  diagnosis: 'Since early January 2026, Ali Larijani (SNSC Secretary, former IRGC commander, former Majlis Speaker) has effectively been running Iran, sidelining
-    President Pezeshkian. Key findings: Khamenei delegated governance to Larijani; Pezeshkian refers decisions to Larijani; Araghchi required Larijani authorization
-    to contact Witkoff; Larijani ran January protest crushing; new Defense Council under Shamkhani; four-layer succession ordered for every key position; all armed
-    forces at highest readiness. Five structural implications: (1) Wrong interlocutor CONFIRMED and DEEPENED; (2) Succession dynamics ACCELERATED; (3) Larijani vs.
-    Mirbagheri = post-Khamenei fight (documented opposition since 2011); (4) Presidential authority route invalid for current crisis; (5) War preparation is REAL.'
-  strategic_implication: The actual decision-maker is not at the negotiating table. Four-layer succession planning signals the regime itself expects instability.
-    Creates post-Khamenei fight between Larijani's institutional pragmatists and Mirbagheri's theological hardliners.
+  diagnosis: 'Since early January 2026, Ali Larijani (SNSC Secretary, former IRGC commander, former Majlis Speaker) has effectively
+    been running Iran, sidelining President Pezeshkian. Key findings: Khamenei delegated governance to Larijani; Pezeshkian
+    refers decisions to Larijani; Araghchi required Larijani authorization to contact Witkoff; Larijani ran January protest
+    crushing; new Defense Council under Shamkhani; four-layer succession ordered for every key position; all armed forces
+    at highest readiness. Five structural implications: (1) Wrong interlocutor CONFIRMED and DEEPENED; (2) Succession dynamics
+    ACCELERATED; (3) Larijani vs. Mirbagheri = post-Khamenei fight (documented opposition since 2011); (4) Presidential authority
+    route invalid for current crisis; (5) War preparation is REAL.'
+  strategic_implication: The actual decision-maker is not at the negotiating table. Four-layer succession planning signals
+    the regime itself expects instability. Creates post-Khamenei fight between Larijani's institutional pragmatists and Mirbagheri's
+    theological hardliners.
   itb_anchors:
   - ITB-A
   - ITB-B
@@ -299,11 +330,13 @@ entries:
   session_added: 14
 - id: 17
   title: The Enrichment Contradiction Cluster -- Taqiyyah Diagnostic in Real Time
-  diagnosis: 'Systematic contradiction between Iranian and US officials on what was said in Geneva Round 2. Araghchi claims US ''has not asked for zero enrichment''
-    (MSNBC); US official confirms Witkoff/Kushner told Araghchi ''zero enrichment'' (Axios). Same official signals willingness to study ''token enrichment.'' Applying
-    taqiyyah diagnostic (Obs 006): three non-distinguishable interpretations from open sources.'
-  strategic_implication: '''Token enrichment'' satisfies none of the three clocks fully and all partially -- making it the most likely compromise AND the most likely
-    to fail across all three: (1) Khamenei''s theological veto, (2) Congressional S.Res.212 demands, (3) eschatological faction sabotage capacity.'
+  diagnosis: 'Systematic contradiction between Iranian and US officials on what was said in Geneva Round 2. Araghchi claims
+    US ''has not asked for zero enrichment'' (MSNBC); US official confirms Witkoff/Kushner told Araghchi ''zero enrichment''
+    (Axios). Same official signals willingness to study ''token enrichment.'' Applying taqiyyah diagnostic (Obs 006): three
+    non-distinguishable interpretations from open sources.'
+  strategic_implication: '''Token enrichment'' satisfies none of the three clocks fully and all partially -- making it the
+    most likely compromise AND the most likely to fail across all three: (1) Khamenei''s theological veto, (2) Congressional
+    S.Res.212 demands, (3) eschatological faction sabotage capacity.'
   itb_anchors:
   - A8 (taqiyyah)
   - Obs 006
@@ -314,11 +347,13 @@ entries:
   session_added: 14
 - id: 18
   title: IRGC-Hezbollah Operational Takeover -- Multi-Front Regionalization
-  diagnosis: IRGC officers have effectively taken operational control of Hezbollah per Al-Arabiya. Officers recently arrived from Iran, rebuilding military capabilities,
-    personally briefing fighters, meeting missile units at Beqaa Valley site subsequently struck by Israel (3 sites, 12 killed including senior officer). Iran pressuring
-    Hezbollah to fight alongside Iran if US strikes.
-  strategic_implication: S2 expands from bilateral US-Iran to regional multi-front (Lebanon/Israel, Hormuz, Red Sea, Iraq). Israel's preemptive strikes indicate IDF
-    decided not to wait for US timeline. Lebanon front creates independent escalation pathway that could trigger wider war even during ongoing negotiations.
+  diagnosis: IRGC officers have effectively taken operational control of Hezbollah per Al-Arabiya. Officers recently arrived
+    from Iran, rebuilding military capabilities, personally briefing fighters, meeting missile units at Beqaa Valley site
+    subsequently struck by Israel (3 sites, 12 killed including senior officer). Iran pressuring Hezbollah to fight alongside
+    Iran if US strikes.
+  strategic_implication: S2 expands from bilateral US-Iran to regional multi-front (Lebanon/Israel, Hormuz, Red Sea, Iraq).
+    Israel's preemptive strikes indicate IDF decided not to wait for US timeline. Lebanon front creates independent escalation
+    pathway that could trigger wider war even during ongoing negotiations.
   itb_anchors:
   - ITB-B (proxy reconstitution, Hezbollah)
   - ITB-F (Israel/F2, Lebanon)
@@ -331,13 +366,14 @@ entries:
   session_added: 14
 - id: 19
   title: The Endurance-Leverage Cycle Predicts Negotiation Windows But Not Outcomes
-  diagnosis: The coercive-endurance model (ITB-A12) accurately predicts when the regime will treat diplomacy as genuine (Phase 4) but cannot predict whether Phase
-    4 engagement will produce durable outcomes. Outcome prediction requires layering the three-segment factional model (A10.4a.5), the taqiyyah diagnostic (A8.8),
-    and the Pinochet enrichment mechanism (A11/F12) onto the Phase 4-5 transition. The model's value is diagnostic (phase identification) rather than prognostic (outcome
+  diagnosis: The coercive-endurance model (ITB-A12) accurately predicts when the regime will treat diplomacy as genuine (Phase
+    4) but cannot predict whether Phase 4 engagement will produce durable outcomes. Outcome prediction requires layering the
+    three-segment factional model (A10.4a.5), the taqiyyah diagnostic (A8.8), and the Pinochet enrichment mechanism (A11/F12)
+    onto the Phase 4-5 transition. The model's value is diagnostic (phase identification) rather than prognostic (outcome
     prediction).
-  strategic_implication: External actors should use A12 to time engagement correctly (wait for Phase 4) but should NOT assume correctly-timed engagement guarantees
-    success. Phase 4 is necessary but not sufficient. The most dangerous analytical error is concluding 'the deal window is open' without asking 'can Phase 4 survive
-    the Phase 3->4 spoiler activation?'
+  strategic_implication: External actors should use A12 to time engagement correctly (wait for Phase 4) but should NOT assume
+    correctly-timed engagement guarantees success. Phase 4 is necessary but not sufficient. The most dangerous analytical
+    error is concluding 'the deal window is open' without asking 'can Phase 4 survive the Phase 3->4 spoiler activation?'
   itb_anchors:
   - A12 (all subsections)
   - A10.4a
@@ -349,13 +385,16 @@ entries:
   session_added: 15
 - id: 20
   title: The Independent Internal Resistance Clock
-  diagnosis: 'The coercive-endurance model (A12) describes external confrontation-to-diplomacy sequencing, but February 2026 student protest expansion reveals an
-    independent internal clock. The four clocks: (1) Washington Patience Clock, (2) Succession Clock, (3) Coercive-Endurance Clock, (4) Internal Resistance Clock
-    (governed by academic calendar, mourning cycles, Nowruz convergence). The coercive-endurance model assumes the regime can sustain Phase 2 as long as needed; the
-    internal resistance clock degrades this assumption. Internal strain may push pragmatists toward Phase 4 faster than external dynamics alone. The spoiler interaction:
-    eschatological faction reads internal resistance as argument for more repression, amplifying the Phase 3->4 fracture point.'
-  strategic_implication: Track student protest expansion, judicial pipeline throughput (8,843 indictments), and university shutdown scope as leading indicators of
-    regime internal strain that may accelerate or disrupt the external negotiation timeline independently of adversary behavior.
+  diagnosis: 'The coercive-endurance model (A12) describes external confrontation-to-diplomacy sequencing, but February 2026
+    student protest expansion reveals an independent internal clock. The four clocks: (1) Washington Patience Clock, (2) Succession
+    Clock, (3) Coercive-Endurance Clock, (4) Internal Resistance Clock (governed by academic calendar, mourning cycles, Nowruz
+    convergence). The coercive-endurance model assumes the regime can sustain Phase 2 as long as needed; the internal resistance
+    clock degrades this assumption. Internal strain may push pragmatists toward Phase 4 faster than external dynamics alone.
+    The spoiler interaction: eschatological faction reads internal resistance as argument for more repression, amplifying
+    the Phase 3->4 fracture point.'
+  strategic_implication: Track student protest expansion, judicial pipeline throughput (8,843 indictments), and university
+    shutdown scope as leading indicators of regime internal strain that may accelerate or disrupt the external negotiation
+    timeline independently of adversary behavior.
   itb_anchors:
   - A12.3.6
   - A12.6
@@ -375,13 +414,14 @@ entries:
   session_added: 15
 - id: 21
   title: The Puppet Cannot Enforce the Deal
-  diagnosis: 'Brief #8 establishes puppet successor as most likely outcome. Brief #5 establishes structurally sound deal requires IRGC economic divestiture. When
-    interacted: (1) Puppet is most likely (1989 precedent, factional landscape, clerical credential requirement); (2) Weak successors cannot enforce compliance against
-    institutional resisters controlling 25-40% of GDP; (3) The velocity gap becomes fatal under a puppet lacking personal authority; (4) Type B actors will not commit
-    when political risk assessment shows a leader who cannot guarantee enforcement.'
-  strategic_implication: 'Most likely succession outcome (puppet) structurally forecloses the only deal worth signing (Type B normalization). Three paths: (a) self-enforcing
-    deal mechanisms (automated snap-back, internationally administered benchmarks); (b) accept hollow deal with guardrails; (c) wait for puppet-to-autonomous transformation
-    (3-7 years).'
+  diagnosis: 'Brief #8 establishes puppet successor as most likely outcome. Brief #5 establishes structurally sound deal requires
+    IRGC economic divestiture. When interacted: (1) Puppet is most likely (1989 precedent, factional landscape, clerical credential
+    requirement); (2) Weak successors cannot enforce compliance against institutional resisters controlling 25-40% of GDP;
+    (3) The velocity gap becomes fatal under a puppet lacking personal authority; (4) Type B actors will not commit when political
+    risk assessment shows a leader who cannot guarantee enforcement.'
+  strategic_implication: 'Most likely succession outcome (puppet) structurally forecloses the only deal worth signing (Type
+    B normalization). Three paths: (a) self-enforcing deal mechanisms (automated snap-back, internationally administered benchmarks);
+    (b) accept hollow deal with guardrails; (c) wait for puppet-to-autonomous transformation (3-7 years).'
   itb_anchors:
   - 'Brief #8'
   - 'Brief #5'
@@ -411,11 +451,11 @@ entries:
   - Brief 4
   - Brief 5 Part III
   - Trap 13
-  diagnosis: 'Chinese weapons resupply creates hardware reinforcement of non-compliance: pragmatist concessions undermined by hardliner access to credible military
-    alternative. China upgraded from passive to active equilibrium beneficiary.'
-  strategic_implication: Deal conditionality must address Chinese supply pipeline. China upgraded from passive to active equilibrium beneficiary -- not just benefiting
-    from sanctions economy but actively providing military capability that sustains the regime. Post-strike deal windows narrower than assumed because Chinese resupply
-    accelerates recovery.
+  diagnosis: 'Chinese weapons resupply creates hardware reinforcement of non-compliance: pragmatist concessions undermined
+    by hardliner access to credible military alternative. China upgraded from passive to active equilibrium beneficiary.'
+  strategic_implication: Deal conditionality must address Chinese supply pipeline. China upgraded from passive to active equilibrium
+    beneficiary -- not just benefiting from sanctions economy but actively providing military capability that sustains the
+    regime. Post-strike deal windows narrower than assumed because Chinese resupply accelerates recovery.
   scenario_impact:
     S1: Deal conditionality must now address Chinese weapons pipeline -- additional failure mechanism.
     S2: Chinese systems raise costs of military confrontation; may extend campaign timeline.
@@ -423,13 +463,15 @@ entries:
     S4: Chinese resupply sustains regime military capability, supporting prolonged decay.
 - id: 23
   title: Mojtaba Selection Confirms Wartime Eschatological Capture
-  diagnosis: 'The Assembly of Experts selected Mojtaba Khamenei as Supreme Leader under IRGC pressure within ~4 days of his father''s assassination, bypassing normal
-    constitutional deliberation. The decision was made extra-constitutionally (full Assembly could not convene; building in Qom was struck). This confirms Obs 009
-    (eschatological faction benefits from every scenario) in its most direct form: a kinetic attack on the system produced dynastic succession controlled by the security
+  diagnosis: 'The Assembly of Experts selected Mojtaba Khamenei as Supreme Leader under IRGC pressure within ~4 days of his
+    father''s assassination, bypassing normal constitutional deliberation. The decision was made extra-constitutionally (full
+    Assembly could not convene; building in Qom was struck). This confirms Obs 009 (eschatological faction benefits from every
+    scenario) in its most direct form: a kinetic attack on the system produced dynastic succession controlled by the security
     apparatus.'
-  strategic_implication: 'The succession question is no longer "who" but "what kind of leader will Mojtaba be." He faces a binary decision fork: (a) use wartime mandate
-    to consolidate and fight (cements eschatological faction); or (b) use unique family legitimacy to authorize a survival deal (only path to W3). Monitoring which
-    IRGC commanders surround him is the leading indicator.'
+  strategic_implication: 'The succession question is no longer "who" but "what kind of leader will Mojtaba be." He faces a
+    binary decision fork: (a) use wartime mandate to consolidate and fight (cements eschatological faction); or (b) use unique
+    family legitimacy to authorize a survival deal (only path to W3). Monitoring which IRGC commanders surround him is the
+    leading indicator.'
   itb_anchors:
   - ITB-A10
   - ITB-A (succession)
@@ -451,13 +493,14 @@ entries:
   session_added: 20
 - id: 24
   title: Gulf Combatant Transformation Destroys the Equilibrium Beneficiary Framework
-  diagnosis: Iran has struck military and civilian targets in UAE, Qatar, Saudi Arabia, Bahrain, Kuwait, Jordan, Iraq, and Oman. This converts the entire regional
-    architecture modeled in ITB-F11 from "states profiting from sanctions arbitrage" to "combatant states with war damage, civilian casualties, and security demands."
-    Qatar's mediation role is destroyed (Ras Laffan struck, Al Udeid struck). Oman's neutrality breached. UAE shifted to active combatant posture. Saudi Aramco struck
-    at Ras Tanura.
-  strategic_implication: Post-war regional order fundamentally different from pre-war. Gulf states forced to choose sides. Creates post-war coalition for Iran containment
-    that did not exist before -- but also creates bitter enemies with post-war demands. F11 module needs complete reconceptualization. Trap 9 (Mediator's Interest)
-    destroyed.
+  diagnosis: Iran has struck military and civilian targets in UAE, Qatar, Saudi Arabia, Bahrain, Kuwait, Jordan, Iraq, and
+    Oman. This converts the entire regional architecture modeled in ITB-F11 from "states profiting from sanctions arbitrage"
+    to "combatant states with war damage, civilian casualties, and security demands." Qatar's mediation role is destroyed
+    (Ras Laffan struck, Al Udeid struck). Oman's neutrality breached. UAE shifted to active combatant posture. Saudi Aramco
+    struck at Ras Tanura.
+  strategic_implication: Post-war regional order fundamentally different from pre-war. Gulf states forced to choose sides.
+    Creates post-war coalition for Iran containment that did not exist before -- but also creates bitter enemies with post-war
+    demands. F11 module needs complete reconceptualization. Trap 9 (Mediator's Interest) destroyed.
   itb_anchors:
   - ITB-F11
   - ITB-F (F4 UAE, F5 Saudi)
@@ -477,12 +520,13 @@ entries:
   session_added: 20
 - id: 25
   title: The Information Vacuum Is Now Multi-Layered
-  diagnosis: 'Obs 003 identified internet blackout as binding constraint for transition planning. War made this worse in three ways: (1) war-related communications
-    degradation overlays pre-existing January blackout; (2) IRIB broadcasting HQ destroyed -- regime''s own propaganda channel disrupted; (3) international media
-    banned from Iran, now facing wartime access restrictions. Neither the population, the regime, the diaspora, nor external actors have reliable ground truth.'
-  strategic_implication: Every tactical assessment carries extraordinary uncertainty. Framework's epistemic discipline becomes MORE important, not less. Any claim
-    about "what is happening inside Iran" should default to [Uncertain] unless corroborated by satellite imagery, intercepted communications, or multiple independent
-    sources.
+  diagnosis: 'Obs 003 identified internet blackout as binding constraint for transition planning. War made this worse in three
+    ways: (1) war-related communications degradation overlays pre-existing January blackout; (2) IRIB broadcasting HQ destroyed
+    -- regime''s own propaganda channel disrupted; (3) international media banned from Iran, now facing wartime access restrictions.
+    Neither the population, the regime, the diaspora, nor external actors have reliable ground truth.'
+  strategic_implication: Every tactical assessment carries extraordinary uncertainty. Framework's epistemic discipline becomes
+    MORE important, not less. Any claim about "what is happening inside Iran" should default to [Uncertain] unless corroborated
+    by satellite imagery, intercepted communications, or multiple independent sources.
   itb_anchors:
   - ITB-H
   - Obs 003
@@ -499,12 +543,14 @@ entries:
   session_added: 20
 - id: 26
   title: The Khomeini Doctrine Fork -- System Preservation vs. Resistance
-  diagnosis: Khomeini's foundational ruling -- "hefz-e nezam owla-ye owlaviyat-hast" (preserving the system is the highest duty) -- creates a doctrinal fork under
-    current conditions. If interpreted as "preserve the Islamic Republic at all costs," it authorizes a survival deal. If interpreted as "preserve the Islamic Republic's
-    principles at all costs," it authorizes fight-to-the-death. These are mutually exclusive interpretations of the same text, and which one governs depends on who
+  diagnosis: Khomeini's foundational ruling -- "hefz-e nezam owla-ye owlaviyat-hast" (preserving the system is the highest
+    duty) -- creates a doctrinal fork under current conditions. If interpreted as "preserve the Islamic Republic at all costs,"
+    it authorizes a survival deal. If interpreted as "preserve the Islamic Republic's principles at all costs," it authorizes
+    fight-to-the-death. These are mutually exclusive interpretations of the same text, and which one governs depends on who
     has interpretive authority -- the Supreme Leader. Mojtaba inherits this.
-  strategic_implication: Western analysts framing post-Khamenei question in power-politics terms. Internal debate will be framed in theological terms. External actors
-    who cannot read this theological signaling will misinterpret regime intentions -- reprising taqiyyah analytical trap (Obs 006) at even higher stakes.
+  strategic_implication: Western analysts framing post-Khamenei question in power-politics terms. Internal debate will be
+    framed in theological terms. External actors who cannot read this theological signaling will misinterpret regime intentions
+    -- reprising taqiyyah analytical trap (Obs 006) at even higher stakes.
   itb_anchors:
   - ITB-A8
   - Obs 006
@@ -522,13 +568,15 @@ entries:
   session_added: 20
 - id: 27
   title: Basij Targeting Signals Transition Intent -- But Creates the De-Ba'athification Trap
-  diagnosis: 'US/Israeli targeting has shifted to include Basij infrastructure -- police stations, bases involved in January 2026 massacre. Strategic logic: degrade
-    regime''s ability to repress its own population, creating space for internal uprising. However, this simultaneously activates the de-Ba''athification failure
-    mode: destroying internal security infrastructure without replacement creates a security vacuum that armed militias, criminal networks, and ethnic/sectarian armed
-    groups fill.'
-  strategic_implication: The US appears to be targeting for regime change without a visible plan for what replaces the internal security function. This is the Iraq
-    2003 error in slow motion. The Basij, for all its brutality, is also the local-level governance mechanism in many areas. Transition planning community has a narrow
-    window to get security sector transition plans into the policy conversation before the vacuum becomes irreversible.
+  diagnosis: 'US/Israeli targeting has shifted to include Basij infrastructure -- police stations, bases involved in January
+    2026 massacre. Strategic logic: degrade regime''s ability to repress its own population, creating space for internal uprising.
+    However, this simultaneously activates the de-Ba''athification failure mode: destroying internal security infrastructure
+    without replacement creates a security vacuum that armed militias, criminal networks, and ethnic/sectarian armed groups
+    fill.'
+  strategic_implication: The US appears to be targeting for regime change without a visible plan for what replaces the internal
+    security function. This is the Iraq 2003 error in slow motion. The Basij, for all its brutality, is also the local-level
+    governance mechanism in many areas. Transition planning community has a narrow window to get security sector transition
+    plans into the policy conversation before the vacuum becomes irreversible.
   itb_anchors:
   - ITB-A9
   - Trap 1
@@ -547,13 +595,14 @@ entries:
   session_added: 20
 - id: 28
   title: China's Position Shifts From Convergent Spoiler to Strategic Arbiter
-  diagnosis: 'Obs 022 identified China upgrading from passive to active equilibrium beneficiary. War accelerates further. China is now the only major power with:
-    (a) economic leverage over Iran (80%+ oil exports to China); (b) diplomatic relationships with all parties; (c) strategic interest in reopening Hormuz (40% of
-    Chinese oil imports transit the strait); (d) no military involvement. Russia benefits from high oil prices and Western distraction but cannot broker peace. EU/E3
-    aligned with US/Israel.'
-  strategic_implication: 'Chinese-brokered ceasefire or post-war framework would come with Chinese conditions: protection of Chinese economic interests, weakened
-    Western influence in reconstruction, expanded Chinese military/intelligence presence. Hormuz closure creates urgency for China to act but also gives China maximum
-    leverage.'
+  diagnosis: 'Obs 022 identified China upgrading from passive to active equilibrium beneficiary. War accelerates further.
+    China is now the only major power with: (a) economic leverage over Iran (80%+ oil exports to China); (b) diplomatic relationships
+    with all parties; (c) strategic interest in reopening Hormuz (40% of Chinese oil imports transit the strait); (d) no military
+    involvement. Russia benefits from high oil prices and Western distraction but cannot broker peace. EU/E3 aligned with
+    US/Israel.'
+  strategic_implication: 'Chinese-brokered ceasefire or post-war framework would come with Chinese conditions: protection
+    of Chinese economic interests, weakened Western influence in reconstruction, expanded Chinese military/intelligence presence.
+    Hormuz closure creates urgency for China to act but also gives China maximum leverage.'
   itb_anchors:
   - ITB-F (F6 China)
   - ITB-F11
@@ -571,13 +620,15 @@ entries:
   session_added: 20
 - id: 29
   title: The Governance Inversion -- Basij Abandons Service Function and Weaponizes Humanitarian Infrastructure
-  diagnosis: 'Primary source witness reports (5 witnesses, 3 locations, total blackout conditions) describe: (a) Basij evacuating personnel/weapons from military
-    bases into hospitals, schools, private residences; (b) a healthcare worker at one facility reports selective medical discrimination -- full treatment for affiliated
-    families, deliberate denial for ordinary citizens; (c) shoot-to-kill orders against anyone showing protest signs, including former Basij constituencies. The governance
-    function the Basij provided has been entirely abandoned.'
-  strategic_implication: 'If representative, corrects Brief #16 central premise: vacuum not created by bombs but by Basij self-destructing its governance function.
-    The hollowness finding (A9.4) was deeper than modeled -- governance services were always instrumental and disposable camouflage. Medical taqiyyah finding (single-source,
-    Level 1 only) requires epidemiological pattern analysis if confirmed at scale.'
+  diagnosis: 'Primary source witness reports (5 witnesses, 3 locations, total blackout conditions) describe: (a) Basij evacuating
+    personnel/weapons from military bases into hospitals, schools, private residences; (b) a healthcare worker at one facility
+    reports selective medical discrimination -- full treatment for affiliated families, deliberate denial for ordinary citizens;
+    (c) shoot-to-kill orders against anyone showing protest signs, including former Basij constituencies. The governance function
+    the Basij provided has been entirely abandoned.'
+  strategic_implication: 'If representative, corrects Brief #16 central premise: vacuum not created by bombs but by Basij
+    self-destructing its governance function. The hollowness finding (A9.4) was deeper than modeled -- governance services
+    were always instrumental and disposable camouflage. Medical taqiyyah finding (single-source, Level 1 only) requires epidemiological
+    pattern analysis if confirmed at scale.'
   itb_anchors:
   - ITB-A8 (taqiyyah extension)
   - ITB-A9 (parallel society terminal phase)
@@ -594,19 +645,21 @@ entries:
   - Obs 007
   - Obs 027
   - Obs 030
-  confidence: '[Level 2 for evacuation/repositioning and shoot-to-kill (multiple witnesses, structurally consistent); Level 1 ONLY for medical discrimination (single
-    source, single facility)]'
+  confidence: '[Level 2 for evacuation/repositioning and shoot-to-kill (multiple witnesses, structurally consistent); Level
+    1 ONLY for medical discrimination (single source, single facility)]'
   version_added: v1.8
   session_added: 21
 - id: 30
   title: The Manufactured Complicity Trap -- Regime Converts Economic Captives into Non-Defectable Perpetrators
-  diagnosis: 'The regime has deployed what appears to be a deliberate strategy to prevent defection among dispersed Basij (Tier 2) by forcing them across the complicity
-    threshold. Three stages: (1) January 2026 massacres -- coerced shoot-to-kill orders against own neighborhoods; (2) Narrative lock-in -- "your neighbors know;
-    regime fall = your death"; (3) Wartime escalation ratchet -- each additional act deepens complicity. This is a third binding mechanism not previously modeled
+  diagnosis: 'The regime has deployed what appears to be a deliberate strategy to prevent defection among dispersed Basij
+    (Tier 2) by forcing them across the complicity threshold. Three stages: (1) January 2026 massacres -- coerced shoot-to-kill
+    orders against own neighborhoods; (2) Narrative lock-in -- "your neighbors know; regime fall = your death"; (3) Wartime
+    escalation ratchet -- each additional act deepens complicity. This is a third binding mechanism not previously modeled
     in A9, supplementing economic dependency.'
-  strategic_implication: 'Transition planning must now address THREE distinct binding mechanisms: economic dependency (Tier 1 compound), manufactured complicity (Tier
-    2 dispersed -- wartime-activated), and transactional patronage (Tier 3 periphery). Critical countermeasure: credible transitional justice off-ramp broadcast NOW
-    -- specific, announced mechanism (South African TRC model) distinguishing coerced participants from architects of atrocity.'
+  strategic_implication: 'Transition planning must now address THREE distinct binding mechanisms: economic dependency (Tier
+    1 compound), manufactured complicity (Tier 2 dispersed -- wartime-activated), and transactional patronage (Tier 3 periphery).
+    Critical countermeasure: credible transitional justice off-ramp broadcast NOW -- specific, announced mechanism (South
+    African TRC model) distinguishing coerced participants from architects of atrocity.'
   itb_anchors:
   - A9.4
   - A9.7 (Tier 2)
@@ -625,7 +678,134 @@ entries:
   - 'Brief #2'
   - 'Brief #16'
   - Emergency Brief
-  confidence: '[Fact -- Med for coercion strategy (5 witnesses + January pattern); Inference -- Med-High for mechanism (structural analysis); Inference -- Med for
-    countermeasure design (Argentina/South Africa precedent)]'
+  confidence: '[Fact -- Med for coercion strategy (5 witnesses + January pattern); Inference -- Med-High for mechanism (structural
+    analysis); Inference -- Med for countermeasure design (Argentina/South Africa precedent)]'
   version_added: v1.8
   session_added: 21
+- id: 31
+  title: The Pipeline Gambit — Iran Extends Energy Warfare to Third-Country Infrastructure
+  diagnosis: 'Iran has publicly identified the Baku-Tbilisi-Ceyhan (BTC) oil pipeline as a legitimate target, framing it as
+    an "enemy oil supply line" because it carries ~30% of Israel crude oil. On March 5, Iranian drones struck Nakhchivan International
+    Airport and a school — Nakhchivan sits on the BTC route, ~10km from the Iranian border. The IRGC Sepah Pasdaran Telegram
+    channel claimed responsibility while official military denied it. Azerbaijan ordered military retaliatory measures. Turkey
+    condemned the strike and invoked solidarity under the 2021 Shusha Declaration. Iran long opposed the Zangezur/Trump Route
+    corridor and has accused Azerbaijan of being an Israeli intelligence base. The pipeline gambit represents a strategic
+    extension of the Hormuz closure logic: if Iran cannot win the direct military confrontation, it can impose costs on the
+    coalition by threatening energy infrastructure in third countries. [Fact — Med-High for threat and strike; Inference —
+    Med for strategic intent linking BTC targeting to Nakhchivan strike]'
+  strategic_implication: 'Pipeline targeting opens an entirely new escalation dimension. BTC runs 1,700km across three countries
+    (Azerbaijan, Georgia, Turkey — the last a NATO member). Any successful disruption would spike global energy prices beyond
+    the Hormuz effect, drag Turkey further into the conflict (Article 5 implications if Turkey is attacked), and force Azerbaijan
+    to choose between its Israeli ties and its Iranian neighbor (with millions of ethnic Azerbaijanis in Iran). For planning:
+    pipeline security is a coalition vulnerability that cannot be addressed by air superiority over Iran. The IRGC claim/deny
+    pattern on Nakhchivan matches the command fragmentation pattern (Obs 032) — this may be autonomous escalation, not centrally
+    directed strategy.'
+  itb_anchors:
+  - ITB-B
+  - ITB-F
+  - ISA-TRAPS Trap 13 (regional escalation)
+  leading_indicators:
+  - Additional drone or missile activity near BTC route (Georgia, eastern Turkey)
+  - Azerbaijan military mobilization scope
+  - Turkey NATO consultations or Article 4/5 invocation
+  - IRGC targeting of energy infrastructure in Gulf states (parallel pattern)
+  - Insurance rate spikes on BTC shipments
+  sources:
+  - Georgia Today (IRGC adviser statement)
+  - Middle East Eye (BTC-Israel oil connection)
+  - Euronews, Reuters, Axios, Al Jazeera (Nakhchivan strike reporting)
+  - RFE/RL (Aliyev Security Council statements)
+  cross_refs:
+  - Obs 028
+  - FV-31
+  - G22-02
+  - G22-03
+  confidence: '[Fact — Med-High for events; Inference — Med for strategic linkage between BTC threat and Nakhchivan strike]'
+  version_added: v1.9
+  session_added: 22
+- id: 32
+  title: Command Fragmentation Confirmed — IRGC Operating as Autonomous Units Under Wartime Stress
+  diagnosis: 'Day 6 evidence now confirms what Session 21 inferred: IRGC command structure is fragmenting into semi-autonomous
+    units making independent operational decisions. Evidence chain: (1) Nakhchivan — IRGC Telegram channel claimed responsibility,
+    official military denied; same claim/deny pattern as Hormuz closure announcements. (2) Crews abandoning launchers after
+    single shots (Day 5 reporting). (3) Iran Foreign Ministry admitted military "lost control over several units operating
+    according to old general instructions." (4) Fars News calling for 1988-style executions while Larijani signals pragmatism
+    — narrative fragmentation reflects command fragmentation. (5) Women soccer team coercion shows security apparatus functional
+    for symbolic control but disconnected from military command. The A9 hollowness thesis (economic-dependency binding agent)
+    is now visible at the operational level: units whose commanders can no longer receive orders from a dead supreme leader
+    are falling back on pre-programmed doctrine or local initiative. [Fact — Med-High for fragmentation pattern; Inference
+    — Med for A9 mechanism]'
+  strategic_implication: 'Command fragmentation creates a ceasefire paradox: there may be no single authority capable of ordering
+    all units to stop firing. Any ceasefire agreement negotiated with Larijani/Pezeshkian may not be executable by autonomous
+    IRGC units, especially those under hardliner commanders aligned with Mirbagheri/Paydari faction. This directly compounds
+    the puppet problem (Brief #8) — the puppet may issue orders that no one follows. For planning: ceasefire verification
+    requires unit-level monitoring, not just leadership agreements. The Nakhchivan incident is the clearest example — an attack
+    on a third country that no one in the official chain of command admits ordering.'
+  itb_anchors:
+  - ITB-B
+  - ITB-A9
+  - ISA-CORE
+  - 'Brief #8 (Puppet Problem)'
+  leading_indicators:
+  - Additional incidents where IRGC social media claims attacks that official military denies
+  - Unit-level surrender or ceasefire breaks (if any reporting available)
+  - Divergence between SNSC directives and field actions
+  - Whether Vahidi can demonstrate operational command (orders followed)
+  sources:
+  - Iran Foreign Ministry statement on lost control
+  - Reuters, Euronews (Nakhchivan claim/deny)
+  - Session 21 findings (autonomous firing)
+  - CTP-ISW daily updates
+  cross_refs:
+  - Obs 027
+  - TV-17
+  - G22-05
+  confidence: '[Fact — Med-High for fragmentation evidence; Inference — Med for ceasefire paradox implication]'
+  version_added: v1.9
+  session_added: 22
+- id: 33
+  title: The Coerced Succession — IRGC Converts Constitutional Process into Military Appointment
+  diagnosis: 'The Assembly of Experts succession process has been captured by IRGC pressure. Evidence: (1) IRGC commanders
+    made "repeated contacts and psychological and political pressure" on Assembly members to vote for Mojtaba Khamenei (Iran
+    International, citing sources). (2) First online session (March 3): dissenters given "limited time," discussion cut off,
+    vote forced. (3) Eight members announced boycott of second session citing "heavy pressure." (4) Second session relocated
+    to Fatima Masumeh shrine in Qom — deliberate use of religious site as strike shield. (5) Israel bombed earlier Assembly
+    location; Katz threatened to assassinate any successor. (6) Trump declared Mojtaba "unacceptable" and "a lightweight,"
+    comparing situation to Venezuela. The constitutional mechanism exists but is being operated under military coercion during
+    wartime, with external assassination threats compounding internal pressure. This is not an election — it is a military
+    appointment with constitutional window-dressing. [Fact — Med for IRGC pressure (Iran International sources); Inference
+    — Med-High for constitutional capture assessment]'
+  strategic_implication: 'A Mojtaba succession under these conditions produces a leader with: (a) no independent legitimacy
+    (IRGC-coerced, boycotted, contested); (b) assassination target status (Israeli explicit threat); (c) international non-recognition
+    (Trump rejection); (d) dynastic stigma (revolution founded on rejecting hereditary rule). This compounds every existing
+    transition trap. The wrong interlocutor thesis (Obs 010) now applies to the succession itself — Washington will not negotiate
+    with a leader it publicly rejected, but that leader may be the only one the IRGC will accept. The shrine-as-shield gambit
+    is a taqiyyah-adjacent institutional survival move — using sacred space for military-political protection. The Hojjatiyeh-Mirbagheri
+    faction position on Mojtaba is unknown and analytically critical: does the eschatological faction support or oppose dynastic
+    succession?'
+  itb_anchors:
+  - ITB-A
+  - ITB-A10
+  - ISA-TRAPS Trap 8
+  - 'Brief #12 (Succession Contest)'
+  - 'Brief #8 (Puppet Problem)'
+  leading_indicators:
+  - Whether second session produces a formal announcement
+  - Mojtaba first public appearance (TV-19) — content and framing
+  - Mirbagheri/Paydari faction public position on Mojtaba
+  - Whether boycotting Assembly members face consequences
+  - International recognition or non-recognition statements
+  sources:
+  - Iran International (Assembly session reporting)
+  - Axios (Trump Mojtaba statement)
+  - Al Jazeera (succession overview)
+  - Asia Times (contested election analysis)
+  - Wikipedia 2026 Supreme Leader election (aggregated)
+  cross_refs:
+  - Obs 010
+  - TV-19
+  - G22-01
+  confidence: '[Fact — Med for IRGC pressure and boycott; Inference — Med-High for constitutional capture assessment; Uncertain
+    for Hojjatiyeh position]'
+  version_added: v1.9
+  session_added: 22

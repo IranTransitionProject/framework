@@ -58,7 +58,8 @@ entries:
   - APP-G
 - number: 9
   date: '2026-02-19'
-  summary: A10/A11 interaction analysis integration (velocity gap, two clocks, wrong interlocutor, institutional inertia, three-segment factional model)
+  summary: A10/A11 interaction analysis integration (velocity gap, two clocks, wrong interlocutor, institutional inertia,
+    three-segment factional model)
   modules_affected:
   - ITB-A10
   - ITB-A11
@@ -69,7 +70,8 @@ entries:
   - APP-G
 - number: 10
   date: '2026-02-20'
-  summary: 'Pre-session infrastructure: Parliament deep-dive (A6 + A6.10 ratchet mechanism), Judiciary module (D16), ITB-D v5.0, Master Index v2.1'
+  summary: 'Pre-session infrastructure: Parliament deep-dive (A6 + A6.10 ratchet mechanism), Judiciary module (D16), ITB-D
+    v5.0, Master Index v2.1'
   modules_affected:
   - ITB-A6
   - ITB-D16
@@ -79,7 +81,8 @@ entries:
   - INDEX
 - number: 11-12
   date: '2026-02-21'
-  summary: F11 equilibrium beneficiaries + F12 Normalization Quality Framework. Traps 9+10. Obs 012. Scenario 1B/5 reframes. Per-module integration spec.
+  summary: F11 equilibrium beneficiaries + F12 Normalization Quality Framework. Traps 9+10. Obs 012. Scenario 1B/5 reframes.
+    Per-module integration spec.
   modules_affected:
   - ITB-F11
   - ITB-F12
@@ -98,8 +101,8 @@ entries:
   - ISA-SCENARIOS
   - APP-G
   - ITB-F
-  summary: Identified two-track policy incoherence (Trap 12), Congressional kill switch as independent deal failure mechanism, and expanded mourning cycle assessment.
-    Five new gaps registered.
+  summary: Identified two-track policy incoherence (Trap 12), Congressional kill switch as independent deal failure mechanism,
+    and expanded mourning cycle assessment. Five new gaps registered.
 - number: 14
   date: '2026-02-23'
   modules_affected:
@@ -108,12 +111,12 @@ entries:
   - APP-G
   - APP-V
   - ITB-F
-  summary: Comprehensive reassessment triggered by Larijani revelation, Trump 48-hour deadline, and enrichment contradiction cluster. Produced Obs 016-018, updated
-    scenario probabilities to v1.5, ten new gaps.
+  summary: Comprehensive reassessment triggered by Larijani revelation, Trump 48-hour deadline, and enrichment contradiction
+    cluster. Produced Obs 016-018, updated scenario probabilities to v1.5, ten new gaps.
 - number: 15
   date: '2026-02-23'
-  summary: 'A12 Coercive-Endurance Interaction Doctrine: 5-phase behavioral model, factional reconciliation, taqiyyah coupling, Pinochet/F12 enrichment coupling,
-    current events mapping (Phase 2->3), Obs 019 proposed'
+  summary: 'A12 Coercive-Endurance Interaction Doctrine: 5-phase behavioral model, factional reconciliation, taqiyyah coupling,
+    Pinochet/F12 enrichment coupling, current events mapping (Phase 2->3), Obs 019 proposed'
   modules_affected:
   - ITB-A12
   - ISA-SCENARIOS
@@ -123,8 +126,8 @@ entries:
   - INDEX
 - number: 16
   date: '2026-02-24'
-  summary: 'News monitoring + integration: Geneva Round 3 confirmed Feb 26; IAEA March 2 convergence; student protests 12+ universities; 26+ death sentences; Independent
-    Internal Resistance Clock (A12.3.6, Obs 020)'
+  summary: 'News monitoring + integration: Geneva Round 3 confirmed Feb 26; IAEA March 2 convergence; student protests 12+
+    universities; 26+ death sentences; Independent Internal Resistance Clock (A12.3.6, Obs 020)'
   modules_affected:
   - ITB-A12
   - ISA-SCENARIOS
@@ -137,8 +140,8 @@ entries:
   - 00_INSTRUCTIONS
   - ISA-SCENARIOS
   - INDEX
-  summary: Integration specification session. Produced multi-session starter for 17A-D, regime primary sources methodology, instructions v4 patch. Pre-session planning
-    for Geneva Round 3 analysis and diaspora security architecture.
+  summary: Integration specification session. Produced multi-session starter for 17A-D, regime primary sources methodology,
+    instructions v4 patch. Pre-session planning for Geneva Round 3 analysis and diaspora security architecture.
 - number: 18
   date: '2026-03-01'
   modules_affected:
@@ -146,8 +149,8 @@ entries:
   - ISA-SCENARIOS
   - ITB-A10
   - ITB-F
-  summary: 'Reverse-timeline analysis of Operation Epic Fury. Produced Briefs #11 (Clock Was Already Running), #12 (Succession Contest), #13 (Mediator Problem), Brief
-    #5 v4.0 update with convergent spoiler finding.'
+  summary: 'Reverse-timeline analysis of Operation Epic Fury. Produced Briefs #11 (Clock Was Already Running), #12 (Succession
+    Contest), #13 (Mediator Problem), Brief #5 v4.0 update with convergent spoiler finding.'
 - number: 19
   date: '2026-03-02'
   modules_affected:
@@ -155,11 +158,13 @@ entries:
   - ITB-F
   - ITB-D
   - ITB-A10
-  summary: Tier 1 analytical deep-dive on Bayt-e Rahbari architecture, shadow fleet integration, social reproduction mechanisms, and Terman analogy insertion.
+  summary: Tier 1 analytical deep-dive on Bayt-e Rahbari architecture, shadow fleet integration, social reproduction mechanisms,
+    and Terman analogy insertion.
 - number: 20
   date: '2026-03-04'
-  summary: 'Wartime comprehensive reassessment (Day 5 Epic Fury). Framework validation (11 confirmed, 7 gaps). Scenario matrix rebuilt (W1-W5 replace S1-S5). 6 new
-    observations (023-028). 4 new threshold variables (TV-16 to TV-19). 10 new gaps (G20-01 to G20-10). 13 trap status updates + Trap 14. Brief #16 draft.'
+  summary: 'Wartime comprehensive reassessment (Day 5 Epic Fury). Framework validation (11 confirmed, 7 gaps). Scenario matrix
+    rebuilt (W1-W5 replace S1-S5). 6 new observations (023-028). 4 new threshold variables (TV-16 to TV-19). 10 new gaps (G20-01
+    to G20-10). 13 trap status updates + Trap 14. Brief #16 draft.'
   modules_affected:
   - ISA-SCENARIOS
   - ISA-TRAPS
@@ -171,12 +176,24 @@ entries:
   - ITB-F11
 - number: 21
   date: '2026-03-04'
-  summary: 'Governance inversion addendum (Obs 029: Basij self-destructing governance function, medical taqiyyah finding). Population complicity addendum (Obs 030:
-    manufactured complicity trap, A9.7 three-tier population revision). IPP Feedback letter v2 (5 structural observations for Iran Prosperity Project). Wartime DB
-    integration.'
+  summary: 'Governance inversion addendum (Obs 029: Basij self-destructing governance function, medical taqiyyah finding).
+    Population complicity addendum (Obs 030: manufactured complicity trap, A9.7 three-tier population revision). IPP Feedback
+    letter v2 (5 structural observations for Iran Prosperity Project). Wartime DB integration.'
   modules_affected:
   - ITB-A8
   - ITB-A9
   - ISA-TRAPS
   - ISA-SCENARIOS
   - 'Brief #16'
+- number: 22
+  date: '2026-03-05'
+  summary: Day 6 multilingual sweep. Nakhchivan drone strike analysis, BTC pipeline threat, command fragmentation confirmation,
+    Assembly of Experts coerced succession, Iranian naval combat power collapse, regime narrative fragmentation. 5 new variables
+    (FV-30 to FV-34), 8 variable updates, 5 new gaps (G22-01 to G22-05), 7 gap status updates, 3 new observations (Obs 031-033).
+  modules_affected:
+  - ITB-B
+  - ITB-F
+  - ISA-CORE
+  - ISA-SCENARIOS
+  - APP-V
+  - APP-G
