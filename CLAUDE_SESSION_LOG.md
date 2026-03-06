@@ -364,4 +364,68 @@ gaps, and observations.
 **Validation:** 261 entries PASS; 17 briefs PASS.
 **Staging consumed:** `staging/session_22/` deleted.
 
+### 2026-03-05 — Chat — Integration Request
+
+**Session:** 22 follow-up (targeted gap research)
+**Summary:** Searched three highest-priority researchable gaps (G22-01
+succession status, backchannel substance, G20-09 US domestic). Produced
+partial fills on 5 gaps total plus one new cross-cutting observation.
+
+**Gap status updates (5):**
+- G22-01 → PARTIALLY_FILLED: Mojtaba voted under coercion (March 3),
+  not formally announced, 8+ boycotting, opponents may declare process
+  "invalid," Iran ambassador to India denied selection occurred
+- gap-backchannel-substance → PARTIALLY_FILLED: MOIS reached CIA via
+  third-country intel; Trump rejected ("Too Late!"); Araghchi denied;
+  Tasnim called it psyops; Witkoff no contact; channel dead
+- G20-09 → PARTIALLY_FILLED: Senate 47-53, House 212-219 (both failed);
+  Hegseth: 8 weeks; WPA 60-day clock; 49% public support for strikes;
+  only 39% for ground troops; Congress not a constraint through late April
+- G20-04 → PARTIALLY_FILLED: China denied CM-302; pressuring Iran on
+  Hormuz/Qatar gas; passive-active hybrid posture confirmed; no material
+  military support but intelligence harvesting from combat testing
+- G14-10 → PARTIALLY_FILLED: Araghchi confirmed transmitting hardliner
+  line ("no ceasefire, no negotiation"); MOIS backchannel bypassed him
+  entirely — not even primary diplomatic conduit under wartime conditions
+
+**New observation:**
+- Obs 034: The Ceasefire Paradox — three independent evidence chains
+  (dead diplomatic channel + wrong interlocutor operational + command
+  fragmentation) converge on structural finding: no mechanism exists to
+  execute a ceasefire even if both sides wanted one. War duration
+  determined by military exhaustion or external forcing function, not
+  diplomacy. Trump's "Too Late!" may be single most consequential
+  statement of the conflict.
+
+**Staging files:**
+- staging/session_22_followup/gaps_patch.yaml — patch — data/gaps.yaml
+- staging/session_22_followup/observations_patch.yaml — patch — data/observations.yaml
+
+**PDF publication note:** Obs 034 (Ceasefire Paradox) is the cross-cutting
+finding from this session. It connects Brief #5 (Deal Cannot Hold), Brief #8
+(Puppet Problem), and Brief #10 (Table After Bombs). Should be prominent in
+release framing — possibly as introductory or concluding analytical note.
+
+**Ambiguities:** None — all findings sourced to named outlets with dates.
+
+### 2026-03-05 — Code — Integration Complete
+
+**Session 22 follow-up integrated.** Targeted gap research.
+
+**Gaps** (62 total, unchanged count):
+- 5 updated to PARTIALLY_FILLED: G22-01 (Mojtaba succession — coerced vote,
+  boycott, legitimacy crisis), gap-backchannel-substance (MOIS-CIA channel
+  dead — Trump rejected, Araghchi denied, Tasnim denied), G20-09 (US domestic
+  — Senate 47-53, House 212-219, WPA 60-day clock), G20-04 (China posture —
+  passive-active hybrid confirmed), G14-10 (Araghchi transmitting hardliner
+  line, MOIS bypassed him). Version bumped to 2.9.
+
+**Observations** (34 total, was 33):
+- 1 new: Obs 034 (Ceasefire Paradox — three chains converge: dead diplomatic
+  channel + wrong interlocutor operational + command fragmentation = no
+  mechanism to execute ceasefire). Version bumped to 2.0.
+
+**Validation:** 262 entries PASS; 17 briefs PASS.
+**Staging consumed:** `staging/session_22_followup/` deleted.
+
 <!-- END LOG -->

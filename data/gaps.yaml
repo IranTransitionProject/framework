@@ -1,6 +1,6 @@
-version: '2.8'
+version: '2.9'
 date: '2026-03-05'
-source: v2.7 + Session 22 (Day 6 sweep — new gaps G22-01 to G22-05, status updates)
+source: v2.8 + Session 22 follow-up (targeted gap research on G22-01, backchannel, G20-09)
 summary:
   priority_1_active: 26
   priority_2_total: 29
@@ -27,9 +27,9 @@ entries:
   modules:
   - ITB-B
   - ISA-CORE
-  why_critical: NOW CRITICAL — Nakhchivan claim/deny pattern, autonomous firing decisions, Vahidi appointment with unclear
-    authorization, IRGC pressure on Assembly of Experts all confirm command fragmentation. Need verified mapping of who controls
-    what.
+  why_critical: >-
+    NOW CRITICAL — Nakhchivan claim/deny pattern, autonomous firing decisions, Vahidi appointment with unclear authorization,
+    IRGC pressure on Assembly of Experts all confirm command fragmentation. Need verified mapping of who controls what.
   blocking_for:
   - ISA-SCENARIOS succession analysis
   session_identified: 8
@@ -102,13 +102,22 @@ entries:
 - id: gap-backchannel-substance
   description: Backchannel substance (not atmospherics)
   priority: 1
-  status: OPEN
+  status: PARTIALLY_FILLED
   modules:
   - ITB-A12
   why_critical: Determines whether diplomatic track has real content.
   session_identified: 15
   cross_refs:
   - ITB-A12 A12.9
+  fill_note: >-
+    NYT confirmed (March 4): MOIS operatives reached CIA indirectly through a third country's intelligence service. But: (1)
+    Trump publicly rejected — "They want to talk. I said 'Too Late!'" (2) Araghchi on NBC (March 5) denied seeking ceasefire:
+    "We don't see any reason why we should negotiate." (3) Tasnim (IRGC-affiliated) called NYT report "absolute lies and psychological
+    warfare." (4) CNN: US officials insist no talks since nuclear negotiations collapsed. (5) Witkoff has not contacted Araghchi
+    since strikes began. (6) Nearly a dozen countries have offered to mediate; none have produced "robust exchange of messages."
+    Assessment: channel exists but is substantively dead. Wrong interlocutor thesis (Obs 010) confirmed in real time — MOIS
+    pragmatist channel cannot commit IRGC; US won't engage anyway. Combined with command fragmentation (Obs 032), this produces
+    the ceasefire paradox: even if both sides wanted to stop, no mechanism exists to execute it.
 - id: G14-01
   description: Larijani factional positioning vs. Mirbagheri/Paydari
   priority: 1
@@ -133,9 +142,10 @@ entries:
   why_critical: May become post-strike power center. Composition unknown.
   session_identified: 14
   cross_refs: []
-  fill_note: Shamkhani confirmed killed Feb 28. Larijani running SNSC as real operational authority. Vahidi appointed IRGC
-    commander (authorization unclear). Pezeshkian nominal in interim trio. Defense Council composition partially known but
-    command authority contested.
+  fill_note: >-
+    Shamkhani confirmed killed Feb 28. Larijani running SNSC as real operational authority. Vahidi appointed IRGC commander
+    (authorization unclear). Pezeshkian nominal in interim trio. Defense Council composition partially known but command authority
+    contested.
 - id: G14-03
   description: IRGC retaliation capacity post-June 2025
   priority: 1
@@ -145,9 +155,10 @@ entries:
   why_critical: Determines regime response options if strikes occur.
   session_identified: 14
   cross_refs: []
-  fill_note: 'Retaliation capacity now observable: 500+ ballistic missiles, ~2,000 drones fired through Day 6. Launches down
-    90% from Day 1. Navy combat ineffective (30+ ships sunk). Missile production targeted in Phase 2. Capacity severely degraded
-    but not zero — Khorramshahr-4 still firing per Tasnim.'
+  fill_note: >-
+    Retaliation capacity now observable: 500+ ballistic missiles, ~2,000 drones fired through Day 6. Launches down 90% from
+    Day 1. Navy combat ineffective (30+ ships sunk). Missile production targeted in Phase 2. Capacity severely degraded but
+    not zero — Khorramshahr-4 still firing per Tasnim.
 - id: G14-04
   description: Artesh unit-level loyalty (upgraded from existing)
   priority: 1
@@ -211,13 +222,19 @@ entries:
 - id: G14-10
   description: Araghchi actual authority scope -- does he negotiate or transmit?
   priority: 3
-  status: OPEN
+  status: PARTIALLY_FILLED
   modules:
   - ITB-A
   - ITB-F
   why_critical: Larijani authorization chain means Araghchi may have zero independent negotiating authority.
   session_identified: 14
   cross_refs: []
+  fill_note: >-
+    Araghchi on NBC (March 5): "We are not asking for a ceasefire, and we don't see any reason why we should negotiate." Earlier
+    wrote that a "unique deal" was lost due to an "'America Last' cabal." This is direct evidence of messaging authority —
+    Araghchi is transmitting the hardliner line, not negotiating independently. Consistent with Larijani authorization chain
+    hypothesis. However, MOIS backchannel bypassed Araghchi entirely, going through intelligence channels to CIA, suggesting
+    Araghchi is not even the regime's primary diplomatic conduit under wartime conditions.
 - id: G12-01
   description: Current NIOC board composition -- IRGC vs. civilian leadership
   priority: 1
@@ -354,8 +371,9 @@ entries:
   modules:
   - ITB-D
   - ITB-G
-  why_critical: 12+ universities in 4 days suggests coordination capacity beyond spontaneous action. Nature and resilience
-    of organizing networks determines whether internal resistance clock sustains or collapses.
+  why_critical: >-
+    12+ universities in 4 days suggests coordination capacity beyond spontaneous action. Nature and resilience of organizing
+    networks determines whether internal resistance clock sustains or collapses.
   session_identified: 16
   upgrades: G14-09
   cross_refs:
@@ -446,8 +464,9 @@ entries:
   modules:
   - ISA-TRAPS
   - ITB-F
-  why_critical: Resolves Qatar paradox (Obs 015 / Trap 9 interaction); Qatar benefits from process continuation but may calculate
-    weakened-Iran-but-not-collapsed is optimal
+  why_critical: >-
+    Resolves Qatar paradox (Obs 015 / Trap 9 interaction); Qatar benefits from process continuation but may calculate weakened-Iran-but-not-collapsed
+    is optimal
   blocking_for:
   - ISA-TRAPS Trap 9
   session_identified: 13
@@ -459,35 +478,40 @@ entries:
   status: DEPRIORITIZED
   modules:
   - ITB-A12
-  why_critical: Determines whether regime reads JCS warning as genuine opponent strain (advancing Phase 3) or deliberate leak
-    (counter-signal). Not accessible under blackout. Feeds A12.6 phase assessment.
+  why_critical: >-
+    Determines whether regime reads JCS warning as genuine opponent strain (advancing Phase 3) or deliberate leak (counter-signal).
+    Not accessible under blackout. Feeds A12.6 phase assessment.
   blocking_for:
   - ITB-A12 Phase assessment
   session_identified: 16
   cross_refs: []
-  fill_note: Events overtaken — Caine warning materialized as Operation Epic Fury. Regime assessment of US strain now moot;
-    refocus to regime survivability self-assessment (captured in new gap G22-06 if needed).
+  fill_note: >-
+    Events overtaken — Caine warning materialized as Operation Epic Fury. Regime assessment of US strain now moot; refocus
+    to regime survivability self-assessment (captured in new gap G22-06 if needed).
 - id: G16-02
   description: IAEA March 2 vote trajectory
   priority: 1
   status: DEPRIORITIZED
   modules:
   - ITB-F
-  why_critical: Whether IAEA Board pursues censure, UNSC referral, or deferral. Determines whether third clock triggers independently
+  why_critical: >-
+    Whether IAEA Board pursues censure, UNSC referral, or deferral. Determines whether third clock triggers independently
     of Geneva Round 3 outcome.
   blocking_for:
   - ISA-SCENARIOS
   session_identified: 16
   cross_refs: []
-  fill_note: Events overtaken — Grossi confirmed no structured weapons program. Strikes hit nuclear sites anyway (Natanz,
-    March 2). IAEA vote track now moot under active war.
+  fill_note: >-
+    Events overtaken — Grossi confirmed no structured weapons program. Strikes hit nuclear sites anyway (Natanz, March 2).
+    IAEA vote track now moot under active war.
 - id: G17-01
   description: HQ-9B integration status -- operational vs. delivered
   priority: 1
   status: PARTIALLY_FILLED
   modules:
   - ITB-B
-  why_critical: Determines whether Iran air defense improvement is real or aspirational right now. Integration timeline, sensor-sharing
+  why_critical: >-
+    Determines whether Iran air defense improvement is real or aspirational right now. Integration timeline, sensor-sharing
     protocols, operator training unknown.
   blocking_for:
   - ISA-SCENARIOS
@@ -495,17 +519,19 @@ entries:
   session_identified: 17
   cross_refs:
   - ITB-B B9
-  fill_note: HQ-9B confirmed in-theater (pre-war delivery documented). But Day 6 performance data inconclusive — 90% missile
-    launch reduction reflects launcher destruction, not air defense intercept success. Integration status, sensor-sharing,
-    operator proficiency still unknown. US has air superiority over western Iran and Tehran despite Chinese systems.
+  fill_note: >-
+    HQ-9B confirmed in-theater (pre-war delivery documented). But Day 6 performance data inconclusive — 90% missile launch
+    reduction reflects launcher destruction, not air defense intercept success. Integration status, sensor-sharing, operator
+    proficiency still unknown. US has air superiority over western Iran and Tehran despite Chinese systems.
 - id: G17-02
   description: CM-302 delivery timeline and quantity
   priority: 1
   status: OPEN
   modules:
   - ITB-B
-  why_critical: Reuters says near-final but no delivery date. If delivered before strike window, fundamentally changes carrier
-    risk calculus. Number of missiles determines demonstration vs. operational capability.
+  why_critical: >-
+    Reuters says near-final but no delivery date. If delivered before strike window, fundamentally changes carrier risk calculus.
+    Number of missiles determines demonstration vs. operational capability.
   blocking_for:
   - ITB-B B9
   - Brief 6
@@ -519,8 +545,9 @@ entries:
   status: OPEN
   modules:
   - ITB-B
-  why_critical: Would be single most escalatory finding if confirmed. Need to distinguish technical advisors (likely) from
-    operational manning (unlikely but transformative).
+  why_critical: >-
+    Would be single most escalatory finding if confirmed. Need to distinguish technical advisors (likely) from operational
+    manning (unlikely but transformative).
   blocking_for:
   - ISA-TRAPS Trap 13
   session_identified: 17
@@ -533,15 +560,17 @@ entries:
   status: PARTIALLY_FILLED
   modules:
   - ITB-B
-  why_critical: Determines whether Chinese systems raise costs significantly or fold quickly under US electronic attack. Pakistan
-    Operation Sindoor provides one data point.
+  why_critical: >-
+    Determines whether Chinese systems raise costs significantly or fold quickly under US electronic attack. Pakistan Operation
+    Sindoor provides one data point.
   blocking_for: []
   session_identified: 17
   cross_refs:
   - ITB-B B9
-  fill_note: 'Indirect evidence: US established air superiority over western Iran within days despite Chinese HQ-9B presence.
-    B-2s operating deep inside Iran. Phase 2 (stand-in munitions) underway. Suggests US EW effective against export-grade
-    Chinese systems. But cannot isolate HQ-9B performance from general launcher/radar attrition.'
+  fill_note: >-
+    Indirect evidence: US established air superiority over western Iran within days despite Chinese HQ-9B presence. B-2s operating
+    deep inside Iran. Phase 2 (stand-in munitions) underway. Suggests US EW effective against export-grade Chinese systems.
+    But cannot isolate HQ-9B performance from general launcher/radar attrition.
 - id: G17-05
   description: Chinese commercial/military satellite intelligence sharing scope with Iran
   priority: 2
@@ -549,8 +578,9 @@ entries:
   modules:
   - ITB-B
   - ITB-F
-  why_critical: MizarVision publishes some imagery publicly. Private state-channel sharing assumed but unquantifiable. Determines
-    Iran battlefield awareness improvement.
+  why_critical: >-
+    MizarVision publishes some imagery publicly. Private state-channel sharing assumed but unquantifiable. Determines Iran
+    battlefield awareness improvement.
   blocking_for: []
   session_identified: 17
   cross_refs:
@@ -583,11 +613,19 @@ entries:
 - id: G20-04
   description: Chinese government strategic calculus and potential broker role
   priority: 1
-  status: OPEN
+  status: PARTIALLY_FILLED
   session_added: 20
   modules:
   - ITB-F
   why_critical: W3 feasibility, Obs 028, Hormuz resolution timeline
+  fill_note: >-
+    China MFA denied CM-302 deal ("not true"). Wang Yi affirmed Iran sovereignty in calls with Araghchi but provided zero
+    material military support. Bloomberg: China pressuring Iran to avoid disrupting Qatari gas through Hormuz — protecting
+    Chinese energy imports. CNN: "strategic partnership falls far short of military alliance." China rare earth export ban
+    on military use constrains US weapon replenishment but is indirect. He Lifeng-Bessent meeting planned in Paris. Assessment:
+    China posture is passive-active hybrid — deny arms publicly, harvest intelligence from combat testing of pre-war deliveries
+    (HQ-9B, radar, EW), pressure Iran on Hormuz to protect Chinese interests. Not intervening militarily but extracting maximum
+    intelligence value for Taiwan contingencies. Convergent spoiler (Obs 022) confirmed but with hard limits.
 - id: G20-05
   description: Ground truth inside Iran -- population sentiment and behavior under blackout + war
   priority: 1
@@ -623,11 +661,19 @@ entries:
 - id: G20-09
   description: US domestic political dynamics -- Congressional war powers, public opinion
   priority: 2
-  status: OPEN
+  status: PARTIALLY_FILLED
   session_added: 20
   modules:
   - ITB-F
   why_critical: Campaign duration estimate, W1/W2 fork timing
+  fill_note: >-
+    Senate war powers resolution failed 47-53 (March 4). Paul only R yes; Fetterman only D no. House resolution also failed
+    212-219 (March 5). Eighth consecutive war powers vote to fail since June 2025. Hegseth: war could extend 8 weeks. WPA
+    60-day clock started Feb 28 (expires late April). Chicago Council-Ipsos poll (Feb 27-Mar 1): 56% say Congressional approval
+    needed; 49% support airstrikes on nuclear facilities; only 39% support ground troops. Trump goals shifting across statements
+    (regime change → nuclear → missile → naval). Admin "did not rule out" boots on the ground. Congress is NOT a constraint
+    for at least 60 days. Two Clocks thesis now has specific numbers: Washington Clock = ~60 days WPA + ~8 weeks stated campaign.
+    Succession Clock running faster (Mojtaba announcement imminent). Public support thin but irrelevant short-term.
 - id: G20-10
   description: Status of political prisoners, especially January 2026 protesters -- Evin Prison administrative collapse reported
   priority: 2
@@ -639,13 +685,14 @@ entries:
 - id: G22-01
   description: Mojtaba Khamenei formal election status and legitimacy
   priority: 1
-  status: OPEN
+  status: PARTIALLY_FILLED
   modules:
   - ITB-A
   - ISA-SCENARIOS
-  why_critical: IRGC coercion + 8-member boycott + Israeli assassination threat + Trump rejection creates deeply contested
-    succession. Even if formally elected, legitimacy crisis undermines command authority. Determines whether puppet problem
-    compounds or resolves.
+  why_critical: >-
+    IRGC coercion + 8-member boycott + Israeli assassination threat + Trump rejection creates deeply contested succession.
+    Even if formally elected, legitimacy crisis undermines command authority. Determines whether puppet problem compounds
+    or resolves.
   blocking_for:
   - ISA-SCENARIOS (all W-paths)
   - Brief 12 (Succession Contest)
@@ -653,6 +700,13 @@ entries:
   cross_refs:
   - TV-19
   - Obs 033
+  fill_note: >-
+    Mojtaba received majority in coerced online vote (March 3) per Iran International. Members informed by phone after Israeli
+    strike cut communications during count. Second formal session planned March 5 at Fatima Masumeh shrine (strike shield).
+    8+ members boycotting. Opponents warned selection is "invalid" — may deepen establishment divisions. Iran ambassador to
+    India flatly denied any selection. Conservative commentator Mohajeri warned appointment during war is "divisive." Khamenei's
+    own three nominees were Mohseni-Ejei, Hijazi, Hassan Khomeini — NOT Mojtaba. Assessment: voted but not formally announced;
+    legitimacy crisis already active before announcement. Puppet problem now operates at succession level.
 - id: G22-02
   description: BTC pipeline physical security measures and vulnerability assessment
   priority: 1
@@ -660,9 +714,10 @@ entries:
   modules:
   - ITB-B
   - ITB-F
-  why_critical: 1,700km exposed infrastructure across 3 countries. IRGC publicly identified as target. Nakhchivan strike on
-    the route. Pipeline carries ~30% of Israel oil. Attack would escalate conflict to NATO member (Turkey) and disrupt global
-    energy markets.
+  why_critical: >-
+    1,700km exposed infrastructure across 3 countries. IRGC publicly identified as target. Nakhchivan strike on the route.
+    Pipeline carries ~30% of Israel oil. Attack would escalate conflict to NATO member (Turkey) and disrupt global energy
+    markets.
   blocking_for:
   - ISA-SCENARIOS (escalation pathways)
   session_identified: 22
@@ -676,9 +731,10 @@ entries:
   modules:
   - ITB-F
   - ISA-SCENARIOS
-  why_critical: Aliyev ordered armed forces to prepare retaliatory measures. Shusha Declaration with Turkey invoked. Azerbaijan
-    closed southern airspace and border crossings with Iran. Military response would open new front. Diplomatic response still
-    escalatory (Iran has millions of ethnic Azerbaijanis).
+  why_critical: >-
+    Aliyev ordered armed forces to prepare retaliatory measures. Shusha Declaration with Turkey invoked. Azerbaijan closed
+    southern airspace and border crossings with Iran. Military response would open new front. Diplomatic response still escalatory
+    (Iran has millions of ethnic Azerbaijanis).
   blocking_for:
   - ISA-SCENARIOS (conflict expansion)
   session_identified: 22
@@ -690,8 +746,9 @@ entries:
   status: OPEN
   modules:
   - ITB-D
-  why_critical: Red Crescent says 787+ as of Day 4 but independent verification impossible under blackout. Minab school incident
-    (85+ children). Hospital damage. Actual count determines international political trajectory and post-war accountability.
+  why_critical: >-
+    Red Crescent says 787+ as of Day 4 but independent verification impossible under blackout. Minab school incident (85+
+    children). Hospital damage. Actual count determines international political trajectory and post-war accountability.
   session_identified: 22
   cross_refs:
   - TV-18
@@ -702,10 +759,11 @@ entries:
   modules:
   - ITB-B
   - ISA-CORE
-  why_critical: Nakhchivan (IRGC Telegram claimed, military denied), Hormuz tanker strikes, Gulf state targeting — which are
-    centrally ordered, which are autonomous? Determines whether IRGC is executing a coherent strategy or fragmenting into
-    independent commands. Critical for ceasefire negotiability — cannot negotiate a ceasefire with an entity that does not
-    control its own forces.
+  why_critical: >-
+    Nakhchivan (IRGC Telegram claimed, military denied), Hormuz tanker strikes, Gulf state targeting — which are centrally
+    ordered, which are autonomous? Determines whether IRGC is executing a coherent strategy or fragmenting into independent
+    commands. Critical for ceasefire negotiability — cannot negotiate a ceasefire with an entity that does not control its
+    own forces.
   blocking_for:
   - ISA-SCENARIOS (ceasefire feasibility)
   - Brief 8 (Puppet Problem)
