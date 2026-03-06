@@ -270,86 +270,75 @@ Integration Complete). Git history preserves full record.
 
 ### 2026-03-05 — Chat — Integration Request
 
-**Session:** Doc review (clarity/accuracy pass)
-**Summary:** Fix accuracy errors and stale terminology across 4 public-facing docs.
+**Session:** 22 (Day 6 multilingual sweep + framework update)
+**Summary:** Comprehensive news sweep (English, Farsi, Arabic sources) covering
+Day 6 of Operation Epic Fury. Three YAML patch files in staging for variables,
+gaps, and observations.
 
-**Changes (applied directly to files, no staging needed):**
+**New observations:**
+- Obs 031: Pipeline Gambit — Iran extends energy warfare to BTC corridor via
+  third-country infrastructure (Nakhchivan drone strike + IRGC public threat)
+- Obs 032: Command Fragmentation Confirmed — IRGC operating as autonomous
+  units (Nakhchivan claim/deny, Foreign Ministry admits lost control)
+- Obs 033: Coerced Succession — IRGC converting constitutional Assembly of
+  Experts process into military appointment under wartime pressure
 
-1. `docs/WORKING_WITH_LLMS.md`:
-   - Removed non-existent "CRITICAL" stakes level (framework uses LOW/MED/HIGH only)
-   - Replaced outdated "Session Distillation" terminology with current protocol
-     (compaction, session starters, Integration Requests via session log)
-   - Added Chat-to-Code coordination as a context decay mitigation
-   - Replaced hardcoded "post-2024" date with model-agnostic "after the model's
-     training cutoff"
+**Updated variables (8):**
+- TV-16 (Hormuz Day 6), TV-17 (command fragmenting — confirmed), TV-18
+  (casualties 787+), TV-19 (succession in progress), FV-26 (air defense
+  tested), FV-27 (CM-302 no combat use), FV-28 (munitions transition),
+  FV-29 (BATNA moot under war)
 
-2. `docs/GUIDE_ENGINEERS.md`:
-   - Removed erroneous `cd pipeline/` from Quick Start (commands run from repo root)
-   - Added "All commands run from the repository root" note
+**New variables (5):**
+- FV-30: Iranian naval combat power (destroyed)
+- FV-31: BTC pipeline threat status (active)
+- FV-32: Regime narrative coherence (4-thread fragmentation)
+- FV-33: Assembly of Experts election status (contested)
+- FV-34: Coercive compliance reach — women's soccer anthem reversal
 
-3. `README.md`:
-   - Replaced broken link to non-existent `GUIDE_ANALYSTS.md` with "forthcoming" note
+**Gap updates (7 existing):**
+- G14-02 → PARTIALLY_FILLED (Shamkhani dead, Larijani running SNSC)
+- G17-01 → PARTIALLY_FILLED (HQ-9B in-theater, performance inconclusive)
+- G17-04 → PARTIALLY_FILLED (US air superiority despite Chinese systems)
+- G16-01 → DEPRIORITIZED (events overtaken)
+- G16-02 → DEPRIORITIZED (events overtaken)
+- gap-irgc-command-cohort → NOW CRITICAL (fragmentation confirmed)
+- G14-03 → PARTIALLY_FILLED (retaliation capacity observed, degrading)
 
-4. `docs/ARCHITECTURE.md`:
-   - Clarified sessions.yaml comment: "sessions 1-21; 11-12 merged" instead of
-     ambiguous "20 session log entries (sessions 1-21)"
+**New gaps (5):**
+- G22-01: Mojtaba election status and legitimacy (P1)
+- G22-02: BTC pipeline security assessment (P1)
+- G22-03: Azerbaijan retaliation scope (P1)
+- G22-04: Iranian civilian casualty count — verified (P2)
+- G22-05: IRGC unit-level autonomous action mapping (P1)
 
-**Entity counts verified against YAML:** All numbers in README, ARCHITECTURE, and
-METHODOLOGY match actual data (86 vars, 57 gaps, 14 traps, 30 obs, 12 scenarios,
-22 content modules, 17 briefs, 20 session entries).
+**Staging files:**
+- staging/session_22/variables_patch.yaml — patch — data/variables.yaml
+- staging/session_22/gaps_patch.yaml — patch — data/gaps.yaml
+- staging/session_22/observations_patch.yaml — patch — data/observations.yaml
 
-**No other accuracy or clarity issues found** in GOVERNANCE.md, CONTRIBUTING.md,
-SUBMISSIONS.md, or METHODOLOGY.md.
+**Key analytical findings for PDF publication:**
+- A9 hollowness now operational-level visible (not just structural inference)
+- Command fragmentation creates ceasefire paradox (no single stop-fire authority)
+- BTC pipeline opens new escalation dimension beyond Hormuz
+- Coerced succession produces leader with zero independent legitimacy
+- China posture: passive-active hybrid (deny publicly, harvest intelligence)
+- Women's soccer anthem incident: coercive mechanism reaches another continent
+  even with Khamenei dead — constrains A9 hollowness thesis (symbolic
+  compliance apparatus still functional while military command fragments)
 
-**Action for Code:** All files are already edited on disk. Just commit.
+**Ambiguities for human review:**
+- Nakhchivan: autonomous unit error vs. deliberate BTC warning shot vs.
+  anti-Azerbaijan retaliation — cannot determine from available evidence
+- CM-302: China denied deal; is this taqiyyah-equivalent diplomatic cover
+  or did delivery not occur? No combat use is evidence against but not proof
+- Mojtaba: is Hojjatiyeh/Mirbagheri faction for or against dynastic succession?
+  Analytically critical but no reporting found
 
-**Ambiguities:** None.
+<!-- END LOG -->
 
-### 2026-03-05 — Code — Integration Complete
+### 2026-03-05 — Code — Cleanup
 
-**Doc accuracy pass committed** (34d4953). All four files updated as described
-in Chat's IR. Also committed this session:
-
-- `scripts/watch_session_log.sh` + `scripts/install_watcher.sh`: replaced
-  hardcoded `/Volumes/SanDiskSSD/Developer/Repositories/framework` with
-  `$HOME/Developer/Repositories/framework` (stable symlink path)
-- `CLAUDE.md` added at repo root: bootstrap pointer for fresh Code sessions
-  (reads `docs/CLAUDE_CODE_INSTRUCTIONS.md`)
-
-### 2026-03-05 — Chat — Integration Request
-
-**Session:** GUIDE_ANALYSTS.md creation
-**Summary:** Created `docs/GUIDE_ANALYSTS.md` (deferred from repo reorg Phase 4)
-and updated README link from "forthcoming" to live.
-
-**New files:**
-- `docs/GUIDE_ANALYSTS.md` — audience guide for policy professionals, journalists,
-  and researchers. Covers: framework navigation (ITB/ISA/briefs layers), reading
-  epistemic tags and cross-references, using findings in own work (citation format,
-  scope limits), challenging the framework (5 productive critique types),
-  contributing without code (Farsi sources, SME review, case analysis, gap fills).
-
-**Updated files:**
-- `README.md`: replaced "A Guide for Analysts is forthcoming" with live link
-  to `docs/GUIDE_ANALYSTS.md`
-
-**Entity counts:** No YAML changes. All entity counts in public docs remain accurate.
-
-**Action for Code:** Both files are already edited on disk. Just commit.
-
-**Ambiguities:** None.
-
-### 2026-03-05 — Code — Integration Complete
-
-**GUIDE_ANALYSTS.md committed.** Applied Chat's IR:
-
-- `docs/GUIDE_ANALYSTS.md`: new file — analyst guide for policy professionals,
-  journalists, and researchers (framework navigation, epistemic tags,
-  cross-references, citation format, challenging the framework, contributing
-  without code). Completes deferred Phase 4 deliverable from repo reorg.
-- `README.md`: replaced "forthcoming" placeholder with live link to
-  `docs/GUIDE_ANALYSTS.md`.
-
-**Validation:** 247 entries PASS; 17 briefs PASS. No YAML changes in this IR.
+**Log rotation.** Pruned 2 resolved pair(s) (Chat Integration Request + Code Integration Complete). Git history preserves full record.
 
 <!-- END LOG -->
