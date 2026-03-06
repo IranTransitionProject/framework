@@ -18,132 +18,288 @@ itb_anchors:
 - ITB-A10
 - ITB-A8
 update_notes: []
-preamble: |-
-  ---
+preamble: '---
 
-  **Update note (Feb 22, 2026):** The factional opponent of the Paydari/Mirbagheri network now has a name and a documented institutional base. On February 22, the New York Times confirmed that Ali Larijani \-- the same figure from whom the Paydari Front split in 2011 \-- has been effectively running Iran since January. The succession contest this brief describes is now a documented, named rivalry: Larijani's pragmatic-institutionalist network against the Mirbagheri/Paydari eschatological faction. See Brief \#7, "Who Is Actually Running Iran?" for the full analysis.
 
-  ---
+  **Update note (Feb 22, 2026):** The factional opponent of the Paydari/Mirbagheri network now has a name and a documented
+  institutional base. On February 22, the New York Times confirmed that Ali Larijani \-- the same figure from whom the Paydari
+  Front split in 2011 \-- has been effectively running Iran since January. The succession contest this brief describes is
+  now a documented, named rivalry: Larijani''s pragmatic-institutionalist network against the Mirbagheri/Paydari eschatological
+  faction. See Brief \#7, "Who Is Actually Running Iran?" for the full analysis.
+
+
+  ---'
 separator: '---'
 section_separators: false
 sections:
 - title: The Assumption Nobody Tests
   level: 2
-  content: |
-    Every Western framework for evaluating Iran negotiations contains an unexamined assumption: that all major factions within the regime share a survival-rational calculus. Hawks and doves may disagree on tactics, but everyone ultimately prefers regime survival over catastrophic confrontation. This is the foundation of deterrence theory as applied to Iran.
+  content: 'Every Western framework for evaluating Iran negotiations contains an unexamined assumption: that all major factions
+    within the regime share a survival-rational calculus. Hawks and doves may disagree on tactics, but everyone ultimately
+    prefers regime survival over catastrophic confrontation. This is the foundation of deterrence theory as applied to Iran.
+
 
     This assumption is potentially wrong for one specific faction.
 
-    A network of clerics, politicians, media operators, and financiers exists within the Islamic Republic whose theological framework does not merely tolerate war \-- it requires it. For this faction, large-scale confrontation is a necessary precondition for the return of the Twelfth Imam (the Mahdi). A peaceful resolution of the nuclear crisis is not just a policy failure \-- it is a threat to the cosmic timeline their entire worldview depends on.
 
-    This is not a fringe. The faction has seats in parliament, a member on the 88-person body that will select the next Supreme Leader, control over segments of state broadcasting, an independent financial base, a social media army targeting young Basij members, and a political front man who, as Iran's chief nuclear negotiator from 2007 to 2013, personally engineered the diplomatic failures that produced the UN sanctions regime.
+    A network of clerics, politicians, media operators, and financiers exists within the Islamic Republic whose theological
+    framework does not merely tolerate war \-- it requires it. For this faction, large-scale confrontation is a necessary
+    precondition for the return of the Twelfth Imam (the Mahdi). A peaceful resolution of the nuclear crisis is not just a
+    policy failure \-- it is a threat to the cosmic timeline their entire worldview depends on.
 
-    His name is Saeed Jalili. And his record is not inference \-- it is documented history that his own allies and rivals confirm.
 
-    The claim is not that theology mechanically determines policy outcomes, but that it shapes incentive structures for a faction whose institutional position allows it to obstruct agreements even when other regime actors favor them.
+    This is not a fringe. The faction has seats in parliament, a member on the 88-person body that will select the next Supreme
+    Leader, control over segments of state broadcasting, an independent financial base, a social media army targeting young
+    Basij members, and a political front man who, as Iran''s chief nuclear negotiator from 2007 to 2013, personally engineered
+    the diplomatic failures that produced the UN sanctions regime.
+
+
+    His name is Saeed Jalili. And his record is not inference \-- it is documented history that his own allies and rivals
+    confirm.
+
+
+    The claim is not that theology mechanically determines policy outcomes, but that it shapes incentive structures for a
+    faction whose institutional position allows it to obstruct agreements even when other regime actors favor them.
+
+    '
 - title: The Track Record
   level: 2
-  content: |
-    Before understanding the theology, understand the operational record. Jalili's sabotage of nuclear diplomacy spans nearly two decades:
+  content: 'Before understanding the theology, understand the operational record. Jalili''s sabotage of nuclear diplomacy
+    spans nearly two decades:
 
-    **2007-2013 (Chief Nuclear Negotiator).** Jalili replaced the pragmatic Ali Larijani at the Supreme National Security Council. Under his tenure, Iran's diplomatic posture shifted so dramatically that Russia and China \-- who had previously shielded Iran \-- voted for UN Security Council sanctions. The Atlantic Council described his approach as "procrastinations and hardline postures" that alienated even sympathetic interlocutors. CIA Director William Burns called him "stupefyingly opaque."
 
-    **2015-2021 (JCPOA opposition).** After the nuclear deal was concluded under his successor, Jalili worked to undermine compliance. In a televised 2024 presidential debate, rival candidate Mostafa Pourmohammadi revealed that Jalili had told other officials that concessions on FATF financial compliance could only be accepted under a hardline government \-- effectively admitting he blocked reforms under Rouhani for factional advantage, not national interest.
+    **2007-2013 (Chief Nuclear Negotiator).** Jalili replaced the pragmatic Ali Larijani at the Supreme National Security
+    Council. Under his tenure, Iran''s diplomatic posture shifted so dramatically that Russia and China \-- who had previously
+    shielded Iran \-- voted for UN Security Council sanctions. The Atlantic Council described his approach as "procrastinations
+    and hardline postures" that alienated even sympathetic interlocutors. CIA Director William Burns called him "stupefyingly
+    opaque."
 
-    **January 2022 (The 200-page letter).** Jalili wrote directly to Supreme Leader Khamenei urging withdrawal from the JCPOA and an increase to 90% uranium enrichment \-- weapons grade. The letter was reported by the reformist newspaper Sharq and not denied by the foreign ministry.
 
-    **2021-2024 (Raisi era).** Multiple factions accused Jalili's supporters of preventing even the Raisi government \-- itself hardline \-- from reaching a nuclear agreement. The accusation came not from reformists but from rival conservatives.
+    **2015-2021 (JCPOA opposition).** After the nuclear deal was concluded under his successor, Jalili worked to undermine
+    compliance. In a televised 2024 presidential debate, rival candidate Mostafa Pourmohammadi revealed that Jalili had told
+    other officials that concessions on FATF financial compliance could only be accepted under a hardline government \-- effectively
+    admitting he blocked reforms under Rouhani for factional advantage, not national interest.
 
-    **August 2025 (Post-war sabotage).** After the June 2025 Twelve-Day War, with Iran's negotiating position at its weakest, Jalili posted a cryptic social media message denigrating nuclear talks. The response was extraordinary: Tasnim News Agency \-- affiliated with the IRGC itself \-- publicly rebuked him, calling the post "wrong and radical." When the IRGC's own media outlet tells you to stop undermining negotiations, the sabotage has become undeniable.
 
-    **January 2026 (Parliamentary action).** The faction impeached President Pezeshkian's Economy Minister and forced the resignation of his Vice President for Strategic Affairs, Javad Zarif \-- the architect of the original JCPOA. They are systematically removing the officials most capable of reaching a deal.
+    **January 2022 (The 200-page letter).** Jalili wrote directly to Supreme Leader Khamenei urging withdrawal from the JCPOA
+    and an increase to 90% uranium enrichment \-- weapons grade. The letter was reported by the reformist newspaper Sharq
+    and not denied by the foreign ministry.
+
+
+    **2021-2024 (Raisi era).** Multiple factions accused Jalili''s supporters of preventing even the Raisi government \--
+    itself hardline \-- from reaching a nuclear agreement. The accusation came not from reformists but from rival conservatives.
+
+
+    **August 2025 (Post-war sabotage).** After the June 2025 Twelve-Day War, with Iran''s negotiating position at its weakest,
+    Jalili posted a cryptic social media message denigrating nuclear talks. The response was extraordinary: Tasnim News Agency
+    \-- affiliated with the IRGC itself \-- publicly rebuked him, calling the post "wrong and radical." When the IRGC''s own
+    media outlet tells you to stop undermining negotiations, the sabotage has become undeniable.
+
+
+    **January 2026 (Parliamentary action).** The faction impeached President Pezeshkian''s Economy Minister and forced the
+    resignation of his Vice President for Strategic Affairs, Javad Zarif \-- the architect of the original JCPOA. They are
+    systematically removing the officials most capable of reaching a deal.
+
+    '
 - title: Why He Does It
   level: 2
-  content: |
-    Jalili is the political front man, but the theological engine is Ayatollah Mohammad-Mahdi Mirbagheri.
+  content: 'Jalili is the political front man, but the theological engine is Ayatollah Mohammad-Mahdi Mirbagheri.
 
-    Mirbagheri, born in 1961, runs the Islamic Sciences and Culture Academy in Qom. He is a member of the Assembly of Experts \-- the body that selects the Supreme Leader. He is the ideological successor to Ayatollah Mesbah-Yazdi, the spiritual father of Iran's ultraconservative movement and mentor to former president Ahmadinejad.
 
-    Where Mesbah-Yazdi used apocalyptic themes instrumentally, Mirbagheri has made eschatology central. His publicly stated framework:
+    Mirbagheri, born in 1961, runs the Islamic Sciences and Culture Academy in Qom. He is a member of the Assembly of Experts
+    \-- the body that selects the Supreme Leader. He is the ideological successor to Ayatollah Mesbah-Yazdi, the spiritual
+    father of Iran''s ultraconservative movement and mentor to former president Ahmadinejad.
 
-    We are in the End Times. This is not metaphorical. The current confrontation between Iran and the West is the prophesied final battle between the "Front of Truth" and the "Front of Falsehood."
 
-    War is a prerequisite for salvation. In a 2017 speech at a Qom religious gathering, Mirbagheri stated: "We believe in peace, but lasting peace comes only after lasting war and jihad. Until you endure this lasting jihad and eliminate the Front of Falsehood, lasting peace will not be established in the world."
+    Where Mesbah-Yazdi used apocalyptic themes instrumentally, Mirbagheri has made eschatology central. His publicly stated
+    framework:
 
-    Mass casualties are acceptable. In October 2024, on Iranian state television, Mirbagheri stated that even if half the world's population were killed in pursuit of divine purpose, it would be worth it \-- and that the 42,000 killed in Gaza are insignificant compared to the larger goal. This prompted public backlash from other clerics, including Ayatollah Iyazi and former parliamentary security committee chair Falahatpisheh.
 
-    Any deal with the West is theological betrayal. Mirbagheri frames negotiation as "integrating Iran into the current world order" and weakening it "like Japan and Germany" through "accepting disarmament."
+    We are in the End Times. This is not metaphorical. The current confrontation between Iran and the West is the prophesied
+    final battle between the "Front of Truth" and the "Front of Falsehood."
 
-    This means Jalili's 19-year sabotage record cannot be explained by negotiating leverage alone and is consistent with a factional worldview in which confrontation carries theological as well as political value.
+
+    War is a prerequisite for salvation. In a 2017 speech at a Qom religious gathering, Mirbagheri stated: "We believe in
+    peace, but lasting peace comes only after lasting war and jihad. Until you endure this lasting jihad and eliminate the
+    Front of Falsehood, lasting peace will not be established in the world."
+
+
+    Mass casualties are acceptable. In October 2024, on Iranian state television, Mirbagheri stated that even if half the
+    world''s population were killed in pursuit of divine purpose, it would be worth it \-- and that the 42,000 killed in Gaza
+    are insignificant compared to the larger goal. This prompted public backlash from other clerics, including Ayatollah Iyazi
+    and former parliamentary security committee chair Falahatpisheh.
+
+
+    Any deal with the West is theological betrayal. Mirbagheri frames negotiation as "integrating Iran into the current world
+    order" and weakening it "like Japan and Germany" through "accepting disarmament."
+
+
+    This means Jalili''s 19-year sabotage record cannot be explained by negotiating leverage alone and is consistent with
+    a factional worldview in which confrontation carries theological as well as political value.
+
+    '
 - title: What They Have
   level: 2
-  content: |
-    This is not a charismatic cleric with followers. It is an integrated system with three organizational pillars:
+  content: 'This is not a charismatic cleric with followers. It is an integrated system with three organizational pillars:
 
-    **Theological production (Mirbagheri).** The Qom Academy publishes over 1,600 volumes and houses a state-funded "Research Center for Mahdiism and Future Studies." Mirbagheri controls networks of mourning groups that have become significant political mobilization infrastructure.
 
-    **Political machinery (the Paydari Party).** Formally registered in 2020, funded by Sadegh Mahsouli \-- a former IRGC officer turned business tycoon who admitted to a net worth of $160 million in 2005, starting from nothing after the Iran-Iraq War. A cleric publicly stated that the party would not have survived without Mahsouli's financial backing. Paydari drove the draconian Hijab and Chastity Law, pushed the Internet Protection Bill, and has systematically taken over positions in state organizations since 2020\. In the 2024 parliamentary election, Paydari's candidates topped the Tehran vote \-- outperforming Speaker Ghalibaf.
+    **Theological production (Mirbagheri).** The Qom Academy publishes over 1,600 volumes and houses a state-funded "Research
+    Center for Mahdiism and Future Studies." Mirbagheri controls networks of mourning groups that have become significant
+    political mobilization infrastructure.
 
-    **Media and youth radicalization (MASAF Institute).** Run by Ali-Akbar Raefipour, targeting young Basij members with conspiracy-laden apocalyptic content. Stanford's Internet Observatory has documented its coordinated online campaigns. New Lines Magazine has linked it to doxxing operations against dissidents alongside IRGC psychological warfare units.
 
-    **The ratchet effect.** Iran's managed electoral system contains a self-tightening feedback loop: declining turnout concentrates power in the most disciplined voter base \-- Paydari's heyat networks, Basij families, IRGC dependents. Each cycle of repression drives more voters away, making the next election more lopsided. Post-massacre turnout in the next parliamentary election (projected 2028\) could fall below 25%. At that floor, Paydari approaches a working majority. The January 2026 massacre accelerated this ratchet by a full cycle.
+    **Political machinery (the Paydari Party).** Formally registered in 2020, funded by Sadegh Mahsouli \-- a former IRGC
+    officer turned business tycoon who admitted to a net worth of $160 million in 2005, starting from nothing after the Iran-Iraq
+    War. A cleric publicly stated that the party would not have survived without Mahsouli''s financial backing. Paydari drove
+    the draconian Hijab and Chastity Law, pushed the Internet Protection Bill, and has systematically taken over positions
+    in state organizations since 2020\. In the 2024 parliamentary election, Paydari''s candidates topped the Tehran vote \--
+    outperforming Speaker Ghalibaf.
+
+
+    **Media and youth radicalization (MASAF Institute).** Run by Ali-Akbar Raefipour, targeting young Basij members with conspiracy-laden
+    apocalyptic content. Stanford''s Internet Observatory has documented its coordinated online campaigns. New Lines Magazine
+    has linked it to doxxing operations against dissidents alongside IRGC psychological warfare units.
+
+
+    **The ratchet effect.** Iran''s managed electoral system contains a self-tightening feedback loop: declining turnout concentrates
+    power in the most disciplined voter base \-- Paydari''s heyat networks, Basij families, IRGC dependents. Each cycle of
+    repression drives more voters away, making the next election more lopsided. Post-massacre turnout in the next parliamentary
+    election (projected 2028\) could fall below 25%. At that floor, Paydari approaches a working majority. The January 2026
+    massacre accelerated this ratchet by a full cycle.
+
+    '
 - title: What They Cannot Do
   level: 2
-  content: |
-    Intellectual honesty requires stating what the evidence does not support.
+  content: 'Intellectual honesty requires stating what the evidence does not support.
 
-    They cannot launch a war independently. The IRGC top brass backed Ghalibaf, not Jalili, in the 2024 presidential election. The Tasnim rebuke confirms the split at command level.
 
-    Khamenei is the ceiling. The faction professes absolute loyalty to velayat-e faqih. If Khamenei explicitly orders a deal, open defiance would fracture their own theological legitimacy.
+    They cannot launch a war independently. The IRGC top brass backed Ghalibaf, not Jalili, in the 2024 presidential election.
+    The Tasnim rebuke confirms the split at command level.
 
-    They are deeply unpopular. Even among voters in a low-turnout election, Jalili lost the 2024 presidential runoff. Their base is narrow: regime insiders, Basij youth, mourning-group networks.
 
-    Other hardliners oppose them. Abdolreza Davari, himself a hardliner, compared the faction to assassins from the early Islamic Republic. Falahatpisheh called on the government to "declare disavowal of Hojjatiyeh-style theories." When hardliners compare you to assassins, the criticism is coming from inside the house.
+    Khamenei is the ceiling. The faction professes absolute loyalty to velayat-e faqih. If Khamenei explicitly orders a deal,
+    open defiance would fracture their own theological legitimacy.
 
-    But none of these constraints changes the central finding: the faction is a veto player. They cannot govern, but they can sabotage. They cannot launch a war unilaterally, but they can foreclose every alternative to war.
+
+    They are deeply unpopular. Even among voters in a low-turnout election, Jalili lost the 2024 presidential runoff. Their
+    base is narrow: regime insiders, Basij youth, mourning-group networks.
+
+
+    Other hardliners oppose them. Abdolreza Davari, himself a hardliner, compared the faction to assassins from the early
+    Islamic Republic. Falahatpisheh called on the government to "declare disavowal of Hojjatiyeh-style theories." When hardliners
+    compare you to assassins, the criticism is coming from inside the house.
+
+
+    But none of these constraints changes the central finding: the faction is a veto player. They cannot govern, but they
+    can sabotage. They cannot launch a war unilaterally, but they can foreclose every alternative to war.
+
+    '
 - title: The Succession Window
   level: 2
-  content: |
-    Everything above becomes dramatically more dangerous when Khamenei dies.
+  content: 'Everything above becomes dramatically more dangerous when Khamenei dies.
 
-    Khamenei is 86\. Reports since the June 2025 war describe him as diminished, in hiding, guarded by special forces. The Stimson Center's anonymous Tehran-based analyst wrote in November 2025 that Khamenei's absence has "unleashed intensification of Iran's chronic factional infighting, transforming what was once a controlled rivalry orchestrated by the Supreme Leader into raw, unchecked partisan warfare." President Pezeshkian himself warned parliament that harm to Khamenei could cause internal factions to turn on each other.
 
-    The succession is not hypothetical \-- it is underway. Khamenei has appointed a three-man committee from the Assembly of Experts to identify his replacement, and Reuters reports the committee "accelerated its planning significantly" after the war.
+    Khamenei is 86\. Reports since the June 2025 war describe him as diminished, in hiding, guarded by special forces. The
+    Stimson Center''s anonymous Tehran-based analyst wrote in November 2025 that Khamenei''s absence has "unleashed intensification
+    of Iran''s chronic factional infighting, transforming what was once a controlled rivalry orchestrated by the Supreme Leader
+    into raw, unchecked partisan warfare." President Pezeshkian himself warned parliament that harm to Khamenei could cause
+    internal factions to turn on each other.
 
-    Mirbagheri sits on the Assembly of Experts. Multiple sources name him on the candidate shortlist. The NPR assessment from Johns Hopkins scholar Vali Nasr is stark: if Khamenei dies naturally, a moderate could emerge; if he is assassinated, a hardliner almost certainly takes power.
 
-    The succession contest is now concretely defined. As of February 2026, the pragmatic pole is led by Ali Larijani \-- the same figure the Paydari was founded to oppose in 2011\. Larijani controls the SNSC apparatus, has been consolidating cross-factional relationships since January, and according to IranWire, models his strategy explicitly on Deng Xiaoping: crush dissent, then open the economy for regime survival. But his power derives entirely from Khamenei's personal delegation. He cannot become Supreme Leader himself \-- he lacks the clerical credentials. The moment Khamenei is gone, Larijani's delegation evaporates. Whether his institutional network can outmaneuver the Paydari's organized theological, parliamentary, and Basij infrastructure in a succession fight is the most consequential factional question in Iranian politics.
+    The succession is not hypothetical \-- it is underway. Khamenei has appointed a three-man committee from the Assembly
+    of Experts to identify his replacement, and Reuters reports the committee "accelerated its planning significantly" after
+    the war.
 
-    The faction's entire strategy may be optimized not for today but for the succession window \-- the period of maximum vulnerability when the constraint Khamenei represents disappears.
+
+    Mirbagheri sits on the Assembly of Experts. Multiple sources name him on the candidate shortlist. The NPR assessment from
+    Johns Hopkins scholar Vali Nasr is stark: if Khamenei dies naturally, a moderate could emerge; if he is assassinated,
+    a hardliner almost certainly takes power.
+
+
+    The succession contest is now concretely defined. As of February 2026, the pragmatic pole is led by Ali Larijani \-- the
+    same figure the Paydari was founded to oppose in 2011\. Larijani controls the SNSC apparatus, has been consolidating cross-factional
+    relationships since January, and according to IranWire, models his strategy explicitly on Deng Xiaoping: crush dissent,
+    then open the economy for regime survival. But his power derives entirely from Khamenei''s personal delegation. He cannot
+    become Supreme Leader himself \-- he lacks the clerical credentials. The moment Khamenei is gone, Larijani''s delegation
+    evaporates. Whether his institutional network can outmaneuver the Paydari''s organized theological, parliamentary, and
+    Basij infrastructure in a succession fight is the most consequential factional question in Iranian politics.
+
+
+    The faction''s entire strategy may be optimized not for today but for the succession window \-- the period of maximum
+    vulnerability when the constraint Khamenei represents disappears.
+
+    '
 - title: The Dugin Bridge
   level: 2
-  content: |
-    The evidence for ideological convergence described below is suggestive rather than conclusive, but it introduces an external alignment risk that policymakers should not ignore.
+  content: 'The evidence for ideological convergence described below is suggestive rather than conclusive, but it introduces
+    an external alignment risk that policymakers should not ignore.
 
-    In February 2016, Russian neo-Eurasianist ideologue Alexander Dugin visited Qom and met directly with Mirbagheri at the Islamic Sciences Academy. Dugin called modernity "Satan," the West "the hereditary house of Satan," and Iran "the main base of war against modernity." He proposed a "bridge" between Iranian religious thinkers and Russian traditionalists. Dugin has visited Iran repeatedly, hosted by IRGC-linked entities.
 
-    A December 2025 peer-reviewed article in Studies in East European Thought (Springer) identifies this convergence as "eschatological internationalism" \-- a fusion of Shia messianism, Russian Orthodox traditionalism, and anti-modern fundamentalism.
+    In February 2016, Russian neo-Eurasianist ideologue Alexander Dugin visited Qom and met directly with Mirbagheri at the
+    Islamic Sciences Academy. Dugin called modernity "Satan," the West "the hereditary house of Satan," and Iran "the main
+    base of war against modernity." He proposed a "bridge" between Iranian religious thinkers and Russian traditionalists.
+    Dugin has visited Iran repeatedly, hosted by IRGC-linked entities.
 
-    Any scenario involving Russia as a mediator or guarantor of an Iran deal must account for the fact that Dugin's network has direct personal relationships with the faction's theological leadership. Russia's "multipolar world" framework and this faction's "Front of Truth vs. Front of Falsehood" framework are mutually reinforcing.
+
+    A December 2025 peer-reviewed article in Studies in East European Thought (Springer) identifies this convergence as "eschatological
+    internationalism" \-- a fusion of Shia messianism, Russian Orthodox traditionalism, and anti-modern fundamentalism.
+
+
+    Any scenario involving Russia as a mediator or guarantor of an Iran deal must account for the fact that Dugin''s network
+    has direct personal relationships with the faction''s theological leadership. Russia''s "multipolar world" framework and
+    this faction''s "Front of Truth vs. Front of Falsehood" framework are mutually reinforcing.
+
+    '
 - title: What This Means
   level: 2
-  content: |
-    **For anyone evaluating Geneva outcomes:** The Iranian negotiating team may reach agreements that are then systematically sabotaged from within. A deal is not a deal until it survives the spoiler faction's parliamentary obstruction, media warfare, theological delegitimization, and potential escalatory provocations. Any agreement that does not include robust snap-back provisions and continuous verification is designed to fail \-- because someone on the other side is working full-time to make it fail.
+  content: '**For anyone evaluating Geneva outcomes:** The Iranian negotiating team may reach agreements that are then systematically
+    sabotaged from within. A deal is not a deal until it survives the spoiler faction''s parliamentary obstruction, media
+    warfare, theological delegitimization, and potential escalatory provocations. Any agreement that does not include robust
+    snap-back provisions and continuous verification is designed to fail \-- because someone on the other side is working
+    full-time to make it fail.
 
-    **For transition planners:** This faction represents the strongest argument for ensuring that any future governance framework includes mechanisms for containing armed ideological minorities. The Iraq analogy is instructive: de-Ba'athification assumed the old regime's true believers would simply accept defeat. They did not \-- they became ISIS. The eschatological hardliners cannot be negotiated with using material incentives because their utility function includes theological payoffs. But they can be contained if the transition framework anticipates them.
 
-    **For the Iranian diaspora:** The faction's narrow base and deep unpopularity among Iranians means they are a problem to be managed, not a force to be feared. Their power derives from institutional position, not popular support. Remove the institutional scaffolding and what remains is a small, unpopular theology with no army.
+    **For transition planners:** This faction represents the strongest argument for ensuring that any future governance framework
+    includes mechanisms for containing armed ideological minorities. The Iraq analogy is instructive: de-Ba''athification
+    assumed the old regime''s true believers would simply accept defeat. They did not \-- they became ISIS. The eschatological
+    hardliners cannot be negotiated with using material incentives because their utility function includes theological payoffs.
+    But they can be contained if the transition framework anticipates them.
 
-    **A note on framing:** This brief names a specific faction within a specific regime. It does not describe Islam, Shia Islam, or even Iranian hardliners as a category. The eschatological interpretation documented here is criticized publicly by other Shia clerics, other hardliners, and other regime insiders. The term "Iranian Eschatologists" (akhir-e zamaniha-ye Irani) was coined not by Western analysts but by Iranian reformist critics. Acknowledging this is not Islamophobia. Ignoring it is analytical malpractice.
+
+    **For the Iranian diaspora:** The faction''s narrow base and deep unpopularity among Iranians means they are a problem
+    to be managed, not a force to be feared. Their power derives from institutional position, not popular support. Remove
+    the institutional scaffolding and what remains is a small, unpopular theology with no army.
+
+
+    **A note on framing:** This brief names a specific faction within a specific regime. It does not describe Islam, Shia
+    Islam, or even Iranian hardliners as a category. The eschatological interpretation documented here is criticized publicly
+    by other Shia clerics, other hardliners, and other regime insiders. The term "Iranian Eschatologists" (akhir-e zamaniha-ye
+    Irani) was coined not by Western analysts but by Iranian reformist critics. Acknowledging this is not Islamophobia. Ignoring
+    it is analytical malpractice.
+
+    '
 source_summary: null
-footer_raw: |-
-  ---
+footer_raw: '---
 
-  *Brief \#4 in the Iran Transition Project, by Hooman Mehr. AI-assisted research (Claude/Anthropic). \~85 English and Farsi sources. No factional allegiance; no policy agenda beyond analytical accuracy.*
 
-  *Companion briefs: (1) "[The Blind Spot in Every Iran Deal](https://hmehr.substack.com/p/the-blind-spot-in-every-iran-deal)" -- the taqiyyah verification gap. (2) "[The Country Inside the Country](https://hmehr.substack.com/p/the-country-inside-the-country)" -- IRGC parallel civilization. (3) "[Iran Is Not Iraq](https://hmehr.substack.com/p/iran-is-not-iraq)" -- why the comparison fails. (5) "[The Deal That Cannot Hold](https://hmehr.substack.com/p/the-deal-that-cannot-hold)" -- the Pinochet Pivot and three failure fronts. (6) "[The Day After](https://hmehr.substack.com/p/the-day-after)" -- what determines regime survival after the next strike. (7) "[Who Is Actually Running Iran?](https://hmehr.substack.com/p/who-is-actually-running-iran)" -- the Larijani revelation. (8) "[The Puppet Problem](https://hmehr.substack.com/p/the-puppet-problem)" -- why the next Supreme Leader may not matter. (9) "[The Doctrine Behind the Escalation](https://hmehr.substack.com/p/the-doctrine-behind-the-escalation)" -- the coercive-endurance cycle. (10) "[The Table After the Bombs](https://hmehr.substack.com/p/the-table-after-the-bombs)" -- what post-strike negotiations actually look like.*
+  *Brief \#4 in the Iran Transition Project, by Hooman Mehr. AI-assisted research (Claude/Anthropic). \~85 English and Farsi
+  sources. No factional allegiance; no policy agenda beyond analytical accuracy.*
 
-  *Hooman Mehr is an independent analyst based in Kirkland, Washington. The Iran Transition Project publishes on [Substack](https://hmehr.substack.com) and [LinkedIn](https://www.linkedin.com/in/hoomanmehr). Contact: [hooman@mac.com](mailto:hooman@mac.com)*
+
+  *Companion briefs: (1) "[The Blind Spot in Every Iran Deal](https://hmehr.substack.com/p/the-blind-spot-in-every-iran-deal)"
+  -- the taqiyyah verification gap. (2) "[The Country Inside the Country](https://hmehr.substack.com/p/the-country-inside-the-country)"
+  -- IRGC parallel civilization. (3) "[Iran Is Not Iraq](https://hmehr.substack.com/p/iran-is-not-iraq)" -- why the comparison
+  fails. (5) "[The Deal That Cannot Hold](https://hmehr.substack.com/p/the-deal-that-cannot-hold)" -- the Pinochet Pivot and
+  three failure fronts. (6) "[The Day After](https://hmehr.substack.com/p/the-day-after)" -- what determines regime survival
+  after the next strike. (7) "[Who Is Actually Running Iran?](https://hmehr.substack.com/p/who-is-actually-running-iran)"
+  -- the Larijani revelation. (8) "[The Puppet Problem](https://hmehr.substack.com/p/the-puppet-problem)" -- why the next
+  Supreme Leader may not matter. (9) "[The Doctrine Behind the Escalation](https://hmehr.substack.com/p/the-doctrine-behind-the-escalation)"
+  -- the coercive-endurance cycle. (10) "[The Table After the Bombs](https://hmehr.substack.com/p/the-table-after-the-bombs)"
+  -- what post-strike negotiations actually look like.*
+
+
+  *Hooman Mehr is an independent analyst based in Kirkland, Washington. The Iran Transition Project publishes on [Substack](https://hmehr.substack.com)
+  and [LinkedIn](https://www.linkedin.com/in/hoomanmehr). Contact: [hooman@mac.com](mailto:hooman@mac.com)*'
 footer_attribution: '*Brief \#4 in the Iran Transition Project, by Hooman Mehr. AI-assisted research (Claude/Anthropic). \~85
   English and Farsi sources. No factional allegiance; no policy agenda beyond analytical accuracy.*'
 companion_briefs:
@@ -192,6 +348,14 @@ governance:
   shelf_life: LONG
   pending_updates: Optional TRIPP validation.
   vulnerability: null
+  outcome_status: CONFIRMED
+  outcome_note: 'Written February 21, 2026. Core thesis: the Mirbagheri/Paydari/MASAF faction has the motivation and capacity
+    to sabotage any deal. Outcome: The deal collapsed via military action on February 28, preempting the internal sabotage
+    mechanisms. But the faction''s position in the succession contest — Mirbagheri''s Assembly of Experts seat, IRGC pressure
+    for Mojtaba — is now the critical variable. The faction''s 19-year sabotage record culminated not in blocking a deal but
+    in a context where no deal was possible. Their position on Mojtaba''s dynastic succession is analytically critical and
+    currently unknown.'
+  archive_status: ACTIVE
 date_display: February 2026
 byline_override: '**By Hooman Mehr | [hooman@mac.com](mailto:hooman@mac.com)** **| Brief \#4 | Iran Transition Project | February
   2026**'

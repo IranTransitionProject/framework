@@ -180,7 +180,21 @@
           "enum": ["LONG", "MEDIUM", "SHORT", null]
         },
         "pending_updates": { "type": ["string", "null"] },
-        "vulnerability": { "type": ["string", "null"] }
+        "vulnerability": { "type": ["string", "null"] },
+        "outcome_status": {
+          "type": ["string", "null"],
+          "enum": [null, "CONFIRMED", "PARTIALLY_CONFIRMED", "OVERTAKEN", "PENDING"],
+          "description": "How events validated or invalidated the brief's core thesis"
+        },
+        "outcome_note": {
+          "type": ["string", "null"],
+          "description": "Reader-facing note on what happened and how the brief performed. Rendered as boxed insert at top of brief in PDF."
+        },
+        "archive_status": {
+          "type": ["string", "null"],
+          "enum": [null, "ACTIVE", "ARCHIVE_CANDIDATE", "ARCHIVED"],
+          "description": "Whether brief remains in main release body"
+        }
       },
       "additionalProperties": false,
       "description": "Governance metadata from BRIEF_GOVERNANCE Part 5"

@@ -20,180 +20,476 @@ itb_anchors:
 - ITB-F12
 - ISA-TRAPS
 update_notes: []
-preamble: |-
-  ---
+preamble: '---
 
-  *This brief argues that the most likely diplomatic outcome \-- a nuclear deal between the United States and Iran \-- has a structural failure architecture that operates on three independent fronts simultaneously. Each front is independently sufficient to collapse the deal. Together, they make failure near-certain absent specific conditionality requirements that no current proposal includes.*
 
-  *This is not an argument against diplomacy. It is an argument for deal design that addresses the structural forces arrayed against it.*
+  *This brief argues that the most likely diplomatic outcome \-- a nuclear deal between the United States and Iran \-- has
+  a structural failure architecture that operates on three independent fronts simultaneously. Each front is independently
+  sufficient to collapse the deal. Together, they make failure near-certain absent specific conditionality requirements that
+  no current proposal includes.*
 
-  ---
+
+  *This is not an argument against diplomacy. It is an argument for deal design that addresses the structural forces arrayed
+  against it.*
+
+
+  ---'
 separator: '---'
 section_separators: true
 sections:
 - title: 'Part I: The Pinochet Pivot \-- What Iran Is Actually Proposing'
   level: 2
-  content: |
-    On February 15, 2026, Iran's Deputy Foreign Minister for Economic Diplomacy, Hamid Ghanbari, told Fars News Agency something remarkable: Iran wants American companies embedded in Iran's oil, gas, and mining sectors \-- specifically so that a future US president would face economic costs for walking away from the deal.
+  content: 'On February 15, 2026, Iran''s Deputy Foreign Minister for Economic Diplomacy, Hamid Ghanbari, told Fars News Agency
+    something remarkable: Iran wants American companies embedded in Iran''s oil, gas, and mining sectors \-- specifically
+    so that a future US president would face economic costs for walking away from the deal.
 
-    Ghanbari was explicit about the logic. The 2015 JCPOA failed, he said, because it gave the United States no economic skin in the game. This time, Tehran wants US firms operating in Iranian oil fields, investing in Iranian copper and lithium deposits, and purchasing Iranian commodities \-- creating a constituency inside the American economy that depends on the deal's survival.
 
-    This is the Pinochet Pivot: an authoritarian regime switches its external patron and economic orientation while preserving domestic control. The name comes from Chile, where General Pinochet maintained a military dictatorship while opening the economy to American investment under Cold War logic. The analogy is Iran's, not ours \-- it is embedded in the structure of their offer.
+    Ghanbari was explicit about the logic. The 2015 JCPOA failed, he said, because it gave the United States no economic skin
+    in the game. This time, Tehran wants US firms operating in Iranian oil fields, investing in Iranian copper and lithium
+    deposits, and purchasing Iranian commodities \-- creating a constituency inside the American economy that depends on the
+    deal''s survival.
 
-    The Pinochet framing is now confirmed from the Iranian side. IranWire reported on January 18 that according to a former official in contact with Larijani's team, Ali Larijani \-- who has been effectively running Iran since January (see Part II) \-- sees his approach as modeled on Deng Xiaoping's China: crush dissent first, then open the economy, preserving regime control while generating enough growth to buy quiescence. The January 2026 massacre was, per this source, consciously modeled on the 1989 Tiananmen Square crackdown. The Deng model is a variant of the Pinochet Pivot, not a contradiction \-- both combine authoritarian violence with economic pragmatism. The critical difference: Deng's model produced actual growth because China could access global markets. Iran under sanctions cannot. Without massive sanctions relief and IRGC economic divestiture, the "Deng model" collapses into the Pinochet model \-- repression without prosperity, enrichment without development.
 
-    The moral dimension must be stated clearly before proceeding with structural analysis: a deal that preserves the current regime after the January 2026 massacres \-- 7,000+ confirmed dead per HRANA, with investigative estimates for January 8-9 alone reaching 30,000-36,000 \-- rewards mass atrocity with international legitimacy. It tells every future protest movement that killing thousands of your own citizens is a viable survival strategy if you have natural resources to trade. This is not a morally neutral outcome.
+    This is the Pinochet Pivot: an authoritarian regime switches its external patron and economic orientation while preserving
+    domestic control. The name comes from Chile, where General Pinochet maintained a military dictatorship while opening the
+    economy to American investment under Cold War logic. The analogy is Iran''s, not ours \-- it is embedded in the structure
+    of their offer.
 
-    The structural analysis that follows is not offered because the moral dimension is secondary. It is offered because demonstrating that the deal *also fails on its own terms* reaches audiences who may not be moved by moral arguments but do respond to stability analysis. The deal fails in three ways.
+
+    The Pinochet framing is now confirmed from the Iranian side. IranWire reported on January 18 that according to a former
+    official in contact with Larijani''s team, Ali Larijani \-- who has been effectively running Iran since January (see Part
+    II) \-- sees his approach as modeled on Deng Xiaoping''s China: crush dissent first, then open the economy, preserving
+    regime control while generating enough growth to buy quiescence. The January 2026 massacre was, per this source, consciously
+    modeled on the 1989 Tiananmen Square crackdown. The Deng model is a variant of the Pinochet Pivot, not a contradiction
+    \-- both combine authoritarian violence with economic pragmatism. The critical difference: Deng''s model produced actual
+    growth because China could access global markets. Iran under sanctions cannot. Without massive sanctions relief and IRGC
+    economic divestiture, the "Deng model" collapses into the Pinochet model \-- repression without prosperity, enrichment
+    without development.
+
+
+    The moral dimension must be stated clearly before proceeding with structural analysis: a deal that preserves the current
+    regime after the January 2026 massacres \-- 7,000+ confirmed dead per HRANA, with investigative estimates for January
+    8-9 alone reaching 30,000-36,000 \-- rewards mass atrocity with international legitimacy. It tells every future protest
+    movement that killing thousands of your own citizens is a viable survival strategy if you have natural resources to trade.
+    This is not a morally neutral outcome.
+
+
+    The structural analysis that follows is not offered because the moral dimension is secondary. It is offered because demonstrating
+    that the deal *also fails on its own terms* reaches audiences who may not be moved by moral arguments but do respond to
+    stability analysis. The deal fails in three ways.
+
+    '
 - title: 'Part II: The Internal Failure Architecture'
   level: 2
-  content: |
-    The first failure front is inside Iran. Four mechanisms operate simultaneously to undermine any deal from within.
+  content: 'The first failure front is inside Iran. Four mechanisms operate simultaneously to undermine any deal from within.
 
-    **The Wrong Interlocutor.** On February 22, the New York Times reported what six senior Iranian officials and three IRGC members confirmed: Ali Larijani \-- not President Pezeshkian, not Foreign Minister Araghchi \-- has been effectively running Iran since early January. Larijani runs the January massacre response, manages the Russia/Qatar/Oman diplomatic channels, oversees nuclear negotiations, and devises war contingency plans. Pezeshkian publicly admits: "I'm a doctor, not a politician." When Araghchi wanted to contact US envoy Witkoff, Pezeshkian told him to call Larijani for authorization.
 
-    This means Washington's negotiation chain is: US envoy to Araghchi (messenger, cannot decide) to Larijani (actual decision-maker, never at the table) to Khamenei (ultimate authority, delegating to Larijani). The US is negotiating with a messenger who requires authorization from a man American negotiators have never sat across from.
+    **The Wrong Interlocutor.** On February 22, the New York Times reported what six senior Iranian officials and three IRGC
+    members confirmed: Ali Larijani \-- not President Pezeshkian, not Foreign Minister Araghchi \-- has been effectively running
+    Iran since early January. Larijani runs the January massacre response, manages the Russia/Qatar/Oman diplomatic channels,
+    oversees nuclear negotiations, and devises war contingency plans. Pezeshkian publicly admits: "I''m a doctor, not a politician."
+    When Araghchi wanted to contact US envoy Witkoff, Pezeshkian told him to call Larijani for authorization.
 
-    The Iranian system segments into four groups on the deal question. Theological opponents \-- the Mirbagheri/Paydari faction \-- hold roughly 5-15% of elite institutional power but have disproportionate veto capability through the Assembly of Experts, parliamentary obstruction, media infrastructure, and Basij networks. Institutional actors divide into two sub-segments: organized pragmatists under Larijani's direction (\~15-20%, concentrated in the SNSC apparatus, pragmatic IRGC factions, and some technocrats) who are actively attempting to implement a deal on terms that preserve their power; and passive institutional resisters (\~35-45%, spread across the IRGC economic structure, judiciary, and bureaucracy) who will sign a deal but structurally resist any implementation threatening their positions. Genuine reformist pragmatists \-- Araghchi, Zarif's network, some diaspora-facing technocrats \-- hold roughly 10-15% and are the negotiating face but not the decision-making center.
 
-    Washington is negotiating with the reformist face. Larijani's organized pragmatists control the actual decision. And the combined weight of theological opponents plus passive institutional resisters \-- 50-60% of institutional power \-- constitutes the friction the deal must overcome. The Paydari was literally founded in 2011 from a factional split with Larijani. The rivalry between Larijani's institutionalists and the eschatological faction is structural, not tactical \-- it is the central contest that will determine whether any deal survives implementation.
+    This means Washington''s negotiation chain is: US envoy to Araghchi (messenger, cannot decide) to Larijani (actual decision-maker,
+    never at the table) to Khamenei (ultimate authority, delegating to Larijani). The US is negotiating with a messenger who
+    requires authorization from a man American negotiators have never sat across from.
 
-    Larijani's power derives entirely from Khamenei's delegation. It is not constitutional, not institutional, and evaporates the moment Khamenei dies or is incapacitated. A deal signed with Larijani's backing has a shelf life measured by Khamenei's remaining lifespan \-- and Khamenei is 86, diminished, and has ordered four layers of succession contingency for every key position.
 
-    There are four implementation chokepoints, and each one is controlled by deal opponents. IRGC economic reform requires the Supreme Leader's cooperation. Foreign investment law requires Parliamentary legislation that the Guardian Council can veto and Paydari-aligned MPs will filibuster. Displacing Chinese contracts creates a sequencing paradox \-- each step requires the other to have happened first. And any sanctions relief depends on either executive action (reversible by the next president, exactly the JCPOA problem) or Congressional legislation requiring 60 Senate votes that do not exist. The deal Ghanbari is proposing solves the "US economic stake" problem but not the "US domestic political durability" problem.
+    The Iranian system segments into four groups on the deal question. Theological opponents \-- the Mirbagheri/Paydari faction
+    \-- hold roughly 5-15% of elite institutional power but have disproportionate veto capability through the Assembly of
+    Experts, parliamentary obstruction, media infrastructure, and Basij networks. Institutional actors divide into two sub-segments:
+    organized pragmatists under Larijani''s direction (\~15-20%, concentrated in the SNSC apparatus, pragmatic IRGC factions,
+    and some technocrats) who are actively attempting to implement a deal on terms that preserve their power; and passive
+    institutional resisters (\~35-45%, spread across the IRGC economic structure, judiciary, and bureaucracy) who will sign
+    a deal but structurally resist any implementation threatening their positions. Genuine reformist pragmatists \-- Araghchi,
+    Zarif''s network, some diaspora-facing technocrats \-- hold roughly 10-15% and are the negotiating face but not the decision-making
+    center.
 
-    The 2022 Vienna JCPOA near-miss demonstrated this structural failure mode: the deal reached near-completion before collapsing against IRGC resistance to its own FTO designation status. The authorization chain is now even longer and more fragile than in 2022\.
 
-    **The Eschatological Spoiler.** A specific faction \-- centered on Ayatollah Mohammad-Mehdi Mirbagheri, the Paydari Front, and the MASAF media network \-- holds institutional positions (Assembly of Experts seats, parliamentary bloc, Basij network overlap) and a theological framework that treats any deal with the United States as cooperation with the Dajjal (Islamic eschatological deceiver). This faction has a documented 19-year track record of deal sabotage: every nuclear agreement since 2007 has been actively undermined by actors within this network. The faction is simultaneously positioned in the Supreme Leader succession competition.
+    Washington is negotiating with the reformist face. Larijani''s organized pragmatists control the actual decision. And
+    the combined weight of theological opponents plus passive institutional resisters \-- 50-60% of institutional power \--
+    constitutes the friction the deal must overcome. The Paydari was literally founded in 2011 from a factional split with
+    Larijani. The rivalry between Larijani''s institutionalists and the eschatological faction is structural, not tactical
+    \-- it is the central contest that will determine whether any deal survives implementation.
 
-    The Larijani-Paydari rivalry described above is not a surface disagreement. Larijani publicly accused them of running a "political purification campaign" to monopolize power. Jalili's faction engineered Larijani's disqualification from presidential races in both 2021 and 2024\. The contest is for post-Khamenei control, with incompatible visions of Iran's future: Larijani's pragmatic authoritarianism versus Mirbagheri's eschatological maximalism. Larijani's elevation has intensified, not resolved, the contest. Post-massacre, the next parliamentary election (projected 2028\) could deliver Paydari a working majority \-- at which point nuclear weapons advocacy becomes a legislative program, not a fringe position.
 
-    **The Velocity Gap.** Deal negotiations move faster than institutional capture, creating a window where a deal *can* be signed. But the deal's most vulnerable period is post-signing, not pre-signing. Implementation requires sustained compliance from institutions controlled by actors who benefit from non-compliance. Sabotage mechanisms \-- bureaucratic obstruction, selective enforcement failures, provocative actions designed to trigger counterparty responses \-- operate faster than implementation timelines. The architecture is asymmetric: building compliance requires coordinated institutional action across dozens of agencies over months; breaking compliance requires a single provocation at a single point.
+    Larijani''s power derives entirely from Khamenei''s delegation. It is not constitutional, not institutional, and evaporates
+    the moment Khamenei dies or is incapacitated. A deal signed with Larijani''s backing has a shelf life measured by Khamenei''s
+    remaining lifespan \-- and Khamenei is 86, diminished, and has ordered four layers of succession contingency for every
+    key position.
 
-    **The Two Clocks.** The Succession Clock (months to years, governed by Khamenei's declining health, Larijani's consolidation trajectory, and the eschatological faction's institutional capture efforts) and the Washington Patience Clock (now measured in hours, not weeks) create a temporal pincer. On February 22, Axios reported that the US expects Iran to deliver a written nuclear proposal by Tuesday, February 24 \-- a 48-hour deadline. Geneva Round 3 is conditionally set for Friday, February 27, only if the proposal arrives. Meanwhile, Araghchi told CBS that the proposal still awaits "political leadership sign-off" in Tehran \-- meaning Larijani's authorization. A US senior official confirmed openness to an "interim agreement" before a full deal \-- suggesting Washington is already downgrading expectations to match the compressed timeline.
 
-    A deal signed under 48-hour pressure may not survive the succession. A deal delayed for succession clarity will not survive Washington's patience. The shorter clock wins \-- and the shorter clock is now measured in hours.
+    There are four implementation chokepoints, and each one is controlled by deal opponents. IRGC economic reform requires
+    the Supreme Leader''s cooperation. Foreign investment law requires Parliamentary legislation that the Guardian Council
+    can veto and Paydari-aligned MPs will filibuster. Displacing Chinese contracts creates a sequencing paradox \-- each step
+    requires the other to have happened first. And any sanctions relief depends on either executive action (reversible by
+    the next president, exactly the JCPOA problem) or Congressional legislation requiring 60 Senate votes that do not exist.
+    The deal Ghanbari is proposing solves the "US economic stake" problem but not the "US domestic political durability" problem.
 
-    The worst-case timing: a deal is signed just before Washington's patience expires, providing temporary diplomatic relief, but the Succession Clock subsequently delivers the Supreme Leadership to the eschatological faction within 2-5 years. The deal has foreclosed the military option, exhausted diplomatic credibility, and legitimized a regime now controlled by its most extreme faction.
 
-    Each of these four mechanisms is independently documented. Together, they form a structural argument: even if the deal's terms were perfect, the internal political architecture of the Islamic Republic would prevent durable implementation.
+    The 2022 Vienna JCPOA near-miss demonstrated this structural failure mode: the deal reached near-completion before collapsing
+    against IRGC resistance to its own FTO designation status. The authorization chain is now even longer and more fragile
+    than in 2022\.
 
-    But the deal's terms are not perfect. They face two additional failure fronts that operate entirely outside Iran's borders.
+
+    **The Eschatological Spoiler.** A specific faction \-- centered on Ayatollah Mohammad-Mehdi Mirbagheri, the Paydari Front,
+    and the MASAF media network \-- holds institutional positions (Assembly of Experts seats, parliamentary bloc, Basij network
+    overlap) and a theological framework that treats any deal with the United States as cooperation with the Dajjal (Islamic
+    eschatological deceiver). This faction has a documented 19-year track record of deal sabotage: every nuclear agreement
+    since 2007 has been actively undermined by actors within this network. The faction is simultaneously positioned in the
+    Supreme Leader succession competition.
+
+
+    The Larijani-Paydari rivalry described above is not a surface disagreement. Larijani publicly accused them of running
+    a "political purification campaign" to monopolize power. Jalili''s faction engineered Larijani''s disqualification from
+    presidential races in both 2021 and 2024\. The contest is for post-Khamenei control, with incompatible visions of Iran''s
+    future: Larijani''s pragmatic authoritarianism versus Mirbagheri''s eschatological maximalism. Larijani''s elevation has
+    intensified, not resolved, the contest. Post-massacre, the next parliamentary election (projected 2028\) could deliver
+    Paydari a working majority \-- at which point nuclear weapons advocacy becomes a legislative program, not a fringe position.
+
+
+    **The Velocity Gap.** Deal negotiations move faster than institutional capture, creating a window where a deal *can* be
+    signed. But the deal''s most vulnerable period is post-signing, not pre-signing. Implementation requires sustained compliance
+    from institutions controlled by actors who benefit from non-compliance. Sabotage mechanisms \-- bureaucratic obstruction,
+    selective enforcement failures, provocative actions designed to trigger counterparty responses \-- operate faster than
+    implementation timelines. The architecture is asymmetric: building compliance requires coordinated institutional action
+    across dozens of agencies over months; breaking compliance requires a single provocation at a single point.
+
+
+    **The Two Clocks.** The Succession Clock (months to years, governed by Khamenei''s declining health, Larijani''s consolidation
+    trajectory, and the eschatological faction''s institutional capture efforts) and the Washington Patience Clock (now measured
+    in hours, not weeks) create a temporal pincer. On February 22, Axios reported that the US expects Iran to deliver a written
+    nuclear proposal by Tuesday, February 24 \-- a 48-hour deadline. Geneva Round 3 is conditionally set for Friday, February
+    27, only if the proposal arrives. Meanwhile, Araghchi told CBS that the proposal still awaits "political leadership sign-off"
+    in Tehran \-- meaning Larijani''s authorization. A US senior official confirmed openness to an "interim agreement" before
+    a full deal \-- suggesting Washington is already downgrading expectations to match the compressed timeline.
+
+
+    A deal signed under 48-hour pressure may not survive the succession. A deal delayed for succession clarity will not survive
+    Washington''s patience. The shorter clock wins \-- and the shorter clock is now measured in hours.
+
+
+    The worst-case timing: a deal is signed just before Washington''s patience expires, providing temporary diplomatic relief,
+    but the Succession Clock subsequently delivers the Supreme Leadership to the eschatological faction within 2-5 years.
+    The deal has foreclosed the military option, exhausted diplomatic credibility, and legitimized a regime now controlled
+    by its most extreme faction.
+
+
+    Each of these four mechanisms is independently documented. Together, they form a structural argument: even if the deal''s
+    terms were perfect, the internal political architecture of the Islamic Republic would prevent durable implementation.
+
+
+    But the deal''s terms are not perfect. They face two additional failure fronts that operate entirely outside Iran''s borders.
+
+    '
 - title: 'Part III: The External Failure Architecture'
   level: 2
-  content: |
-    The second failure front is the regional system. At least five major actors have documented, quantifiable stakes in the deal's *process* continuing without producing *genuine resolution* \-- because resolution threatens their economic position more than the status quo does.
+  content: 'The second failure front is the regional system. At least five major actors have documented, quantifiable stakes
+    in the deal''s *process* continuing without producing *genuine resolution* \-- because resolution threatens their economic
+    position more than the status quo does.
 
-    **Qatar** is the primary operational mediator for US-Iran talks. Qatar is also Iran's most significant re-export arbitrage partner and the country whose natural gas production (from the shared North Dome/South Pars field) is protected from competition precisely because Western oil majors cannot develop Iran's side under current sanctions architecture. Qatar's 2017 lobbying strategy explicitly identified Steve Witkoff as a leverage target for its broader influence campaign \-- years before he became the Iran negotiator. A genuine deal that opens Iran's gas sector to Western development is Qatar's worst competitive nightmare: it would unlock Iran's side of the world's largest gas field and threaten Qatar's global LNG dominance. Qatar's optimal outcome is process that never reaches this point.
 
-    **The UAE** profits from Iran's economic isolation through re-export arbitrage, financial intermediation, and its role as the regional hub for trade that "happens to reach" Iran through third-party channels. The UAE also holds a 49% stake in WLFI, the Trump/Witkoff stablecoin venture, through Sheikh Tahnoon's Aryam Investment 1 \-- creating a direct financial link between the UAE's preferred deal outcome and the US negotiating team's family interests.
+    **Qatar** is the primary operational mediator for US-Iran talks. Qatar is also Iran''s most significant re-export arbitrage
+    partner and the country whose natural gas production (from the shared North Dome/South Pars field) is protected from competition
+    precisely because Western oil majors cannot develop Iran''s side under current sanctions architecture. Qatar''s 2017 lobbying
+    strategy explicitly identified Steve Witkoff as a leverage target for its broader influence campaign \-- years before
+    he became the Iran negotiator. A genuine deal that opens Iran''s gas sector to Western development is Qatar''s worst competitive
+    nightmare: it would unlock Iran''s side of the world''s largest gas field and threaten Qatar''s global LNG dominance.
+    Qatar''s optimal outcome is process that never reaches this point.
 
-    **Turkey** runs a documented re-export channel to Iran (the 2012 Zarrab/Halkbank sanctions-evasion scheme was the previous iteration; current channels are more sophisticated but structurally identical). Turkish-Iranian trade is geography-determined and sanctions-agnostic \-- it flows regardless of deal status. But Turkey's arbitrage premium is highest under sanctions.
 
-    **China** buys over 80% of Iran's oil exports at sanctions-discounted prices. A genuine deal that opens Iran to Western oil majors would displace Chinese companies from Iran's most valuable energy assets \-- including South Pars development, currently accessible only to Chinese firms because Western majors face IRGC designation barriers. China's optimal outcome is a hollow deal: nuclear sanctions lifted (improving China's commercial terms) but IRGC designation architecture intact (keeping Western competitors locked out). China is the primary beneficiary of exactly the deal scope the current negotiations are converging toward.
+    **The UAE** profits from Iran''s economic isolation through re-export arbitrage, financial intermediation, and its role
+    as the regional hub for trade that "happens to reach" Iran through third-party channels. The UAE also holds a 49% stake
+    in WLFI, the Trump/Witkoff stablecoin venture, through Sheikh Tahnoon''s Aryam Investment 1 \-- creating a direct financial
+    link between the UAE''s preferred deal outcome and the US negotiating team''s family interests.
 
-    **Russia** benefits from Iran's international isolation as both a sanctions-evasion partner and a UNSC ally. Russia's optimal outcome, like China's, is continued Iranian dependency on non-Western economic channels.
 
-    These five actors \-- all of whom participate in or adjacent to the negotiations process \-- have structural interests that converge on the same outcome: a deal that lifts nuclear-specific sanctions while preserving IRGC economic control. This is not conspiracy; it is structural incentive alignment that requires no coordination to operate.
+    **Turkey** runs a documented re-export channel to Iran (the 2012 Zarrab/Halkbank sanctions-evasion scheme was the previous
+    iteration; current channels are more sophisticated but structurally identical). Turkish-Iranian trade is geography-determined
+    and sanctions-agnostic \-- it flows regardless of deal status. But Turkey''s arbitrage premium is highest under sanctions.
 
-    **The mediator problem compounds this.** Oman, the primary facilitator, earns its geopolitical value \-- and its $803 million annual re-export arbitrage with Iran \-- from being the indispensable diplomatic conduit. A concluded deal eliminates both the arbitrage and the mediation function. Oman's optimal outcome is indefinite negotiation with occasional tactical breakthroughs \-- never concluding, never fully collapsing.
+
+    **China** buys over 80% of Iran''s oil exports at sanctions-discounted prices. A genuine deal that opens Iran to Western
+    oil majors would displace Chinese companies from Iran''s most valuable energy assets \-- including South Pars development,
+    currently accessible only to Chinese firms because Western majors face IRGC designation barriers. China''s optimal outcome
+    is a hollow deal: nuclear sanctions lifted (improving China''s commercial terms) but IRGC designation architecture intact
+    (keeping Western competitors locked out). China is the primary beneficiary of exactly the deal scope the current negotiations
+    are converging toward.
+
+
+    **Russia** benefits from Iran''s international isolation as both a sanctions-evasion partner and a UNSC ally. Russia''s
+    optimal outcome, like China''s, is continued Iranian dependency on non-Western economic channels.
+
+
+    These five actors \-- all of whom participate in or adjacent to the negotiations process \-- have structural interests
+    that converge on the same outcome: a deal that lifts nuclear-specific sanctions while preserving IRGC economic control.
+    This is not conspiracy; it is structural incentive alignment that requires no coordination to operate.
+
+
+    **The mediator problem compounds this.** Oman, the primary facilitator, earns its geopolitical value \-- and its $803
+    million annual re-export arbitrage with Iran \-- from being the indispensable diplomatic conduit. A concluded deal eliminates
+    both the arbitrage and the mediation function. Oman''s optimal outcome is indefinite negotiation with occasional tactical
+    breakthroughs \-- never concluding, never fully collapsing.
+
+    '
 - title: 'Part IV: The Economic Mechanism \-- How a Hollow Deal Enriches the IRGC'
   level: 2
-  content: |
-    The third failure front is the deal's own economic architecture. The most likely diplomatic outcome \-- a nuclear deal that lifts sanctions while leaving IRGC designation architecture intact \-- does not merely fail to improve conditions. It *actively enriches* the IRGC and *forecloses* the investment, capital, and technology that any genuine reconstruction requires.
+  content: 'The third failure front is the deal''s own economic architecture. The most likely diplomatic outcome \-- a nuclear
+    deal that lifts sanctions while leaving IRGC designation architecture intact \-- does not merely fail to improve conditions.
+    It *actively enriches* the IRGC and *forecloses* the investment, capital, and technology that any genuine reconstruction
+    requires.
+
 
     The mechanism is specific and statutory.
 
-    **The 51% pipeline.** Iran's 2025 budget explicitly allocates 51% of oil and gas export revenues to the IRGC and Law Enforcement Command. This is not informal capture \-- it is written into law. Sanctions relief that restores oil export volumes is, by Iranian statute, a 51% revenue transfer to the IRGC. Any deal that does not include conditionality to change this allocation is a direct IRGC funding mechanism. The estimated incremental income: $10-20 billion per year in additional oil revenue, more than half flowing directly to IRGC-controlled entities.
 
-    **The Type A/Type B distinction.** Not all normalization is created equal. Actors who benefit from normalization divide into two structurally distinct categories:
+    **The 51% pipeline.** Iran''s 2025 budget explicitly allocates 51% of oil and gas export revenues to the IRGC and Law
+    Enforcement Command. This is not informal capture \-- it is written into law. Sanctions relief that restores oil export
+    volumes is, by Iranian statute, a 51% revenue transfer to the IRGC. Any deal that does not include conditionality to change
+    this allocation is a direct IRGC funding mechanism. The estimated incremental income: $10-20 billion per year in additional
+    oil revenue, more than half flowing directly to IRGC-controlled entities.
 
-    *Type A actors* \-- Pakistan (gas pipeline), India (Chabahar port), global shipping (Hormuz risk premium), China (oil at better terms), humanitarian trade \-- benefit from sanctions removal alone, regardless of who controls Iranian institutions. A hollow deal fully activates Type A benefits.
 
-    *Type B actors* \-- Western oil majors (TotalEnergies, Shell, BP), Western banks, EU companies, the Iranian diaspora, Iran's private sector \-- require, as a *legal or practical precondition*, that IRGC economic control be reduced. They cannot enter while NIOC (Iran's national oil company) is designated as an IRGC affiliate by OFAC, while Khatam al-Anbiya (IRGC's construction arm) holds sanctioned no-bid contracts, and while the Iranian banking system is penetrated by IRGC ownership structures that make compliance verification impossible.
+    **The Type A/Type B distinction.** Not all normalization is created equal. Actors who benefit from normalization divide
+    into two structurally distinct categories:
 
-    A deal that delivers Type A but not Type B normalization is a hollow deal. It enriches regime-connected intermediaries. It does not rebuild Iran's economy.
 
-    **South Pars \-- the $35-50 billion asset.** Iran's most important economic reconstruction asset is the South Pars gas field \-- the Iranian side of the world's largest gas field, shared with Qatar. Developing South Pars to its potential requires $35-50 billion in Western deepwater LNG technology that no Chinese company possesses. But Western oil majors cannot sign contracts with NIOC while it carries an OFAC IRGC-affiliate designation (since 2012\) \-- a designation that *survives any nuclear deal* because it is entity-specific, not nuclear-sanctions-specific. Under a hollow deal, Chinese companies capture South Pars development by default. The United States, by accepting a deal without NIOC conditionality, hands the most valuable energy asset in the Middle East to China \-- without having formally ceded it.
+    *Type A actors* \-- Pakistan (gas pipeline), India (Chabahar port), global shipping (Hormuz risk premium), China (oil
+    at better terms), humanitarian trade \-- benefit from sanctions removal alone, regardless of who controls Iranian institutions.
+    A hollow deal fully activates Type A benefits.
 
-    **The EU lock.** In January-February 2026, the European Union designated the IRGC as a terrorist organization. This creates criminal liability \-- not merely regulatory fines \-- for European companies transacting with IRGC-affiliated entities under EU law. This designation is a separate EU Council decision requiring unanimous reversal. It survives any nuclear deal. European commercial re-engagement with Iran's key economic sectors is now blocked by EU domestic law independent of US sanctions status. A hollow deal does not unlock EU investment.
 
-    **The diaspora capital that never arrives.** The Iranian diaspora \-- 5-8 million people, disproportionately engineers, physicians, entrepreneurs, and finance professionals concentrated in high-income countries \-- represents an estimated $1-3 trillion in accumulated capital. This is the most powerful reconstruction accelerant available to any Iranian transition, with historical parallels in South Korean and Taiwanese economic development. But diaspora capital is exclusively Type B: it deploys only under governance conditions that include functioning property rights, IRGC divestiture from banking, personal security guarantees for returning investors, and judicial systems capable of contract enforcement. None of these conditions is met under a hollow deal. None is even being discussed.
+    *Type B actors* \-- Western oil majors (TotalEnergies, Shell, BP), Western banks, EU companies, the Iranian diaspora,
+    Iran''s private sector \-- require, as a *legal or practical precondition*, that IRGC economic control be reduced. They
+    cannot enter while NIOC (Iran''s national oil company) is designated as an IRGC affiliate by OFAC, while Khatam al-Anbiya
+    (IRGC''s construction arm) holds sanctioned no-bid contracts, and while the Iranian banking system is penetrated by IRGC
+    ownership structures that make compliance verification impossible.
 
-    The hollow deal's economic outcome, in sum: IRGC income increases by tens of billions. Western investment remains legally blocked. Chinese companies capture Iran's most valuable assets. Diaspora capital stays abroad. Iran's private sector faces *intensified* IRGC predation as sanctions relief increases the value of economic assets that the IRGC then moves to capture. The deal "succeeds" on nuclear compliance while accelerating IRGC consolidation.
 
-    This is not Scenario 1 (deal \+ regime preservation). This is Scenario 1B (deal \+ IRGC enrichment \+ transition conditions worsened). The economic mechanism is the engine that powers the Pinochet Pivot.
+    A deal that delivers Type A but not Type B normalization is a hollow deal. It enriches regime-connected intermediaries.
+    It does not rebuild Iran''s economy.
+
+
+    **South Pars \-- the $35-50 billion asset.** Iran''s most important economic reconstruction asset is the South Pars gas
+    field \-- the Iranian side of the world''s largest gas field, shared with Qatar. Developing South Pars to its potential
+    requires $35-50 billion in Western deepwater LNG technology that no Chinese company possesses. But Western oil majors
+    cannot sign contracts with NIOC while it carries an OFAC IRGC-affiliate designation (since 2012\) \-- a designation that
+    *survives any nuclear deal* because it is entity-specific, not nuclear-sanctions-specific. Under a hollow deal, Chinese
+    companies capture South Pars development by default. The United States, by accepting a deal without NIOC conditionality,
+    hands the most valuable energy asset in the Middle East to China \-- without having formally ceded it.
+
+
+    **The EU lock.** In January-February 2026, the European Union designated the IRGC as a terrorist organization. This creates
+    criminal liability \-- not merely regulatory fines \-- for European companies transacting with IRGC-affiliated entities
+    under EU law. This designation is a separate EU Council decision requiring unanimous reversal. It survives any nuclear
+    deal. European commercial re-engagement with Iran''s key economic sectors is now blocked by EU domestic law independent
+    of US sanctions status. A hollow deal does not unlock EU investment.
+
+
+    **The diaspora capital that never arrives.** The Iranian diaspora \-- 5-8 million people, disproportionately engineers,
+    physicians, entrepreneurs, and finance professionals concentrated in high-income countries \-- represents an estimated
+    $1-3 trillion in accumulated capital. This is the most powerful reconstruction accelerant available to any Iranian transition,
+    with historical parallels in South Korean and Taiwanese economic development. But diaspora capital is exclusively Type
+    B: it deploys only under governance conditions that include functioning property rights, IRGC divestiture from banking,
+    personal security guarantees for returning investors, and judicial systems capable of contract enforcement. None of these
+    conditions is met under a hollow deal. None is even being discussed.
+
+
+    The hollow deal''s economic outcome, in sum: IRGC income increases by tens of billions. Western investment remains legally
+    blocked. Chinese companies capture Iran''s most valuable assets. Diaspora capital stays abroad. Iran''s private sector
+    faces *intensified* IRGC predation as sanctions relief increases the value of economic assets that the IRGC then moves
+    to capture. The deal "succeeds" on nuclear compliance while accelerating IRGC consolidation.
+
+
+    This is not Scenario 1 (deal \+ regime preservation). This is Scenario 1B (deal \+ IRGC enrichment \+ transition conditions
+    worsened). The economic mechanism is the engine that powers the Pinochet Pivot.
+
+    '
 - title: 'Part V: The Negotiator''s Interest'
   level: 2
-  content: |
-    There is a structural reason the deal is converging on hollow-deal scope. The US negotiating team holds direct financial relationships with the primary mediating countries \-- countries that are simultaneously the documented equilibrium beneficiaries described in Part III. This alignment operates without requiring conscious coordination: financial relationships shape perception of what constitutes an "achievable" deal.
+  content: 'There is a structural reason the deal is converging on hollow-deal scope. The US negotiating team holds direct
+    financial relationships with the primary mediating countries \-- countries that are simultaneously the documented equilibrium
+    beneficiaries described in Part III. This alignment operates without requiring conscious coordination: financial relationships
+    shape perception of what constitutes an "achievable" deal.
+
 
     The documented relationships:
 
-    **Steve Witkoff (primary US negotiator) and Qatar:** Qatar's 2017 lobbying strategy explicitly identified Witkoff as a leverage target. Qatar purchased the Park Lane Hotel in 2023 for $623 million \-- widely understood as a bailout of Witkoff's distressed position. A Qatar-linked Apollo Trust invested $100 million in Witkoff properties in May 2025, concurrent with the start of Iran negotiations. Witkoff's son Alex solicited Qatar, the UAE, and Kuwait for a $4 billion real estate fund while his father was negotiating with Iranian counterparts. Qatar's Prime Minister attended Alex Witkoff's wedding; he later negotiated with Steve Witkoff in Doha. Qatar is the primary operational mediator for the Iran talks.
 
-    **Witkoff and the UAE:** Sheikh Tahnoon's Aryam Investment 1 owns 49% of WLFI (the Trump/Witkoff stablecoin venture), a deal signed four days before inauguration. $31 million flowed to Witkoff family entities. As of Witkoff's August 2025 ethics disclosure, he had not divested from WLFI or related crypto holdings.
+    **Steve Witkoff (primary US negotiator) and Qatar:** Qatar''s 2017 lobbying strategy explicitly identified Witkoff as
+    a leverage target. Qatar purchased the Park Lane Hotel in 2023 for $623 million \-- widely understood as a bailout of
+    Witkoff''s distressed position. A Qatar-linked Apollo Trust invested $100 million in Witkoff properties in May 2025, concurrent
+    with the start of Iran negotiations. Witkoff''s son Alex solicited Qatar, the UAE, and Kuwait for a $4 billion real estate
+    fund while his father was negotiating with Iranian counterparts. Qatar''s Prime Minister attended Alex Witkoff''s wedding;
+    he later negotiated with Steve Witkoff in Doha. Qatar is the primary operational mediator for the Iran talks.
 
-    **Jared Kushner (added to Geneva Round 2\) and Saudi Arabia:** The Saudi Public Investment Fund invested $2 billion in Kushner's Affinity Partners fund \-- personally overruled by MBS over his advisory board's objections. Kushner has collected $157 million in management fees on zero investment returns. The Senate Finance Committee explicitly flagged this as a potential channel for foreign government money. Saudi Arabia participates in the negotiations ecosystem.
 
-    **David Sacks (AI/Crypto Czar) and the UAE:** Sacks manages Craft Ventures, backed by Emirati capital. He invests in USD1 infrastructure, met directly with Sheikh Tahnoon in March 2025, and jointly with Witkoff facilitated relaxation of AI chip export restrictions to the UAE \-- without disclosing the Tahnoon financial relationship.
+    **Witkoff and the UAE:** Sheikh Tahnoon''s Aryam Investment 1 owns 49% of WLFI (the Trump/Witkoff stablecoin venture),
+    a deal signed four days before inauguration. $31 million flowed to Witkoff family entities. As of Witkoff''s August 2025
+    ethics disclosure, he had not divested from WLFI or related crypto holdings.
 
-    **Trump family and the UAE:** The 49% WLFI stake held by Tahnoon's vehicle. The $TRUMP meme coin, which absorbed Saudi, Qatari, and UAE sovereign capital through anonymous BVI entities that bypass campaign finance law by design.
 
-    The structural effect: every mediating country with documented financial relationships to the US negotiating team is also a country whose preferred deal outcome is a hollow deal \-- nuclear-only scope, no IRGC economic conditionality, no governance requirements. The negotiator's perception of what is "achievable" converges with the mediator's preferred outcome, not through corruption but through ordinary financial interest alignment.
+    **Jared Kushner (added to Geneva Round 2\) and Saudi Arabia:** The Saudi Public Investment Fund invested $2 billion in
+    Kushner''s Affinity Partners fund \-- personally overruled by MBS over his advisory board''s objections. Kushner has collected
+    $157 million in management fees on zero investment returns. The Senate Finance Committee explicitly flagged this as a
+    potential channel for foreign government money. Saudi Arabia participates in the negotiations ecosystem.
 
-    **The observable outcome is consistent with this structure.** Geneva Round 2 (February 17\) produced reports that Witkoff agreed to a framework outside the Trump-Rubio pillars construct \-- narrowing to nuclear-only scope, dropping missiles, proxies, and IRGC behavior. Iran claims "broad agreement on guiding principles" centered on the nuclear issue. On February 20, Araghchi told MSNBC that the US "has not asked for zero enrichment" \-- directly contradicting the administration's public stance. Every excluded pillar is a pillar whose inclusion would most threaten the Gulf state financial relationships.
 
-    This is not proof of causation. It is structural consistency between financial incentive architecture and negotiating outcome. The burden of explanation falls on those who would argue the convergence is coincidental.
+    **David Sacks (AI/Crypto Czar) and the UAE:** Sacks manages Craft Ventures, backed by Emirati capital. He invests in USD1
+    infrastructure, met directly with Sheikh Tahnoon in March 2025, and jointly with Witkoff facilitated relaxation of AI
+    chip export restrictions to the UAE \-- without disclosing the Tahnoon financial relationship.
+
+
+    **Trump family and the UAE:** The 49% WLFI stake held by Tahnoon''s vehicle. The $TRUMP meme coin, which absorbed Saudi,
+    Qatari, and UAE sovereign capital through anonymous BVI entities that bypass campaign finance law by design.
+
+
+    The structural effect: every mediating country with documented financial relationships to the US negotiating team is also
+    a country whose preferred deal outcome is a hollow deal \-- nuclear-only scope, no IRGC economic conditionality, no governance
+    requirements. The negotiator''s perception of what is "achievable" converges with the mediator''s preferred outcome, not
+    through corruption but through ordinary financial interest alignment.
+
+
+    **The observable outcome is consistent with this structure.** Geneva Round 2 (February 17\) produced reports that Witkoff
+    agreed to a framework outside the Trump-Rubio pillars construct \-- narrowing to nuclear-only scope, dropping missiles,
+    proxies, and IRGC behavior. Iran claims "broad agreement on guiding principles" centered on the nuclear issue. On February
+    20, Araghchi told MSNBC that the US "has not asked for zero enrichment" \-- directly contradicting the administration''s
+    public stance. Every excluded pillar is a pillar whose inclusion would most threaten the Gulf state financial relationships.
+
+
+    This is not proof of causation. It is structural consistency between financial incentive architecture and negotiating
+    outcome. The burden of explanation falls on those who would argue the convergence is coincidental.
+
+    '
 - title: 'Part VI: Conditionality as the Only Off-Ramp'
   level: 2
-  content: |
-    The three failure fronts \-- internal spoilers, external equilibrium beneficiaries, and the IRGC enrichment mechanism \-- converge on a single conclusion: the deal fails unless its design includes structural conditions that change the economic incentive architecture.
+  content: 'The three failure fronts \-- internal spoilers, external equilibrium beneficiaries, and the IRGC enrichment mechanism
+    \-- converge on a single conclusion: the deal fails unless its design includes structural conditions that change the economic
+    incentive architecture.
 
-    The conditions that would separate a hollow deal from a genuine reconstruction pathway are specific, verifiable, and commercially legible:
 
-    **1\. NIOC governance restructuring.** Remove IRGC commanders from NIOC's board and governance structure. Make OFAC de-designation contingent on verified restructuring. This single condition unlocks Western oil major investment in South Pars \-- $35-50 billion that is currently captured by China by default.
+    The conditions that would separate a hollow deal from a genuine reconstruction pathway are specific, verifiable, and commercially
+    legible:
 
-    **2\. Khatam al-Anbiya competitive bidding.** Open IRGC construction contracts to competitive bidding with international observers. Suspend specific KAA-designated entity activities. This unlocks Western construction and engineering investment.
 
-    **3\. Banking system transparency.** Establish FATF compliance milestones with verified IRGC divestiture from bank ownership as the condition for correspondent banking restoration. This unlocks the Western financial sector.
+    **1\. NIOC governance restructuring.** Remove IRGC commanders from NIOC''s board and governance structure. Make OFAC de-designation
+    contingent on verified restructuring. This single condition unlocks Western oil major investment in South Pars \-- $35-50
+    billion that is currently captured by China by default.
 
-    **4\. Commercial law framework.** Establish independent commercial courts \-- not the Haqqani-pipeline judiciary that currently serves as the IRGC's enforcement arm \-- as the condition for diaspora capital investment guarantees. This unlocks the single largest pool of reconstruction capital available.
 
-    **5\. Telecoms sector reform.** Require IRGC divestiture from MCI (Iran's largest telecom, \~50 million subscribers) as a condition for Western technology market access. This unlocks Iran's consumer market.
+    **2\. Khatam al-Anbiya competitive bidding.** Open IRGC construction contracts to competitive bidding with international
+    observers. Suspend specific KAA-designated entity activities. This unlocks Western construction and engineering investment.
 
-    **6\. Authorization chain verification.** Any deal commitment must be tested against the actual decision-making center \-- currently Larijani and the SNSC \-- not merely the negotiating team. Implementation benchmarks and compliance assessments should be calibrated to verify that the power center authorizing the deal is the same power center controlling the institutions that must implement it. A commitment from a foreign minister without institutional backing is a promissory note from someone who cannot sign checks.
 
-    These six requirements are not abstract human rights demands. They are structural economic conditions with clear verification mechanisms and specific commercial beneficiaries. They can be framed in the transactional language the current US negotiating environment understands: "If the IRGC doesn't divest from NIOC, TotalEnergies can't enter, and Iran's gas field produces at 40% capacity for China at 20% discount while Qatar captures the global LNG market."
+    **3\. Banking system transparency.** Establish FATF compliance milestones with verified IRGC divestiture from bank ownership
+    as the condition for correspondent banking restoration. This unlocks the Western financial sector.
 
-    The economic argument may be more effective than the moral argument in the current environment. It should not have to be. But it is available.
 
-    **The sequencing matters.** External military pressure and conditionality demands interact in ways that can be self-defeating. Demanding IRGC economic divestiture while two carrier strike groups sit off Iran's coast gives the eschatological faction an empirically validated resistance narrative: "they are demanding we disarm while their forces surround us." The most viable sequence is: de-escalation first, negotiate conditionality under reduced threat posture, with snap-back mechanisms if conditions are violated. Maximum pressure plus maximum demands activates the internal spoiler (Part II) and hands the resistance narrative to the faction best positioned to exploit it.
+    **4\. Commercial law framework.** Establish independent commercial courts \-- not the Haqqani-pipeline judiciary that
+    currently serves as the IRGC''s enforcement arm \-- as the condition for diaspora capital investment guarantees. This
+    unlocks the single largest pool of reconstruction capital available.
+
+
+    **5\. Telecoms sector reform.** Require IRGC divestiture from MCI (Iran''s largest telecom, \~50 million subscribers)
+    as a condition for Western technology market access. This unlocks Iran''s consumer market.
+
+
+    **6\. Authorization chain verification.** Any deal commitment must be tested against the actual decision-making center
+    \-- currently Larijani and the SNSC \-- not merely the negotiating team. Implementation benchmarks and compliance assessments
+    should be calibrated to verify that the power center authorizing the deal is the same power center controlling the institutions
+    that must implement it. A commitment from a foreign minister without institutional backing is a promissory note from someone
+    who cannot sign checks.
+
+
+    These six requirements are not abstract human rights demands. They are structural economic conditions with clear verification
+    mechanisms and specific commercial beneficiaries. They can be framed in the transactional language the current US negotiating
+    environment understands: "If the IRGC doesn''t divest from NIOC, TotalEnergies can''t enter, and Iran''s gas field produces
+    at 40% capacity for China at 20% discount while Qatar captures the global LNG market."
+
+
+    The economic argument may be more effective than the moral argument in the current environment. It should not have to
+    be. But it is available.
+
+
+    **The sequencing matters.** External military pressure and conditionality demands interact in ways that can be self-defeating.
+    Demanding IRGC economic divestiture while two carrier strike groups sit off Iran''s coast gives the eschatological faction
+    an empirically validated resistance narrative: "they are demanding we disarm while their forces surround us." The most
+    viable sequence is: de-escalation first, negotiate conditionality under reduced threat posture, with snap-back mechanisms
+    if conditions are violated. Maximum pressure plus maximum demands activates the internal spoiler (Part II) and hands the
+    resistance narrative to the faction best positioned to exploit it.
+
+    '
 - title: 'Part VII: Conclusion'
   level: 2
-  content: |
-    The deal that is being constructed in Geneva will not hold. It will not hold because of internal spoilers who have theological motivation and institutional capacity to sabotage it. It will not hold because the countries mediating it profit more from the process than from the outcome. It will not hold because its economic architecture enriches the IRGC rather than weakening it. And the scope of the deal is converging on a hollow outcome because the financial interests of the negotiating team are structurally aligned with the mediators' preferred result.
+  content: 'The deal that is being constructed in Geneva will not hold. It will not hold because of internal spoilers who
+    have theological motivation and institutional capacity to sabotage it. It will not hold because the countries mediating
+    it profit more from the process than from the outcome. It will not hold because its economic architecture enriches the
+    IRGC rather than weakening it. And the scope of the deal is converging on a hollow outcome because the financial interests
+    of the negotiating team are structurally aligned with the mediators'' preferred result.
 
-    These are not speculative risks. They are documented structural forces operating simultaneously, each independently sufficient to produce failure.
 
-    A deal can be designed that addresses these forces. It requires conditionality \-- specific, verifiable, commercially legible conditions that unlock the $50-100 billion in Western investment, diaspora capital, and reconstruction resources currently locked behind IRGC economic control. Without these conditions, the deal is not merely ineffective. It is worse than no deal: it enriches the IRGC, forecloses genuine reconstruction, hands Iran's most valuable economic assets to China, and provides international legitimacy to a regime that murdered thousands of its own citizens weeks ago.
+    These are not speculative risks. They are documented structural forces operating simultaneously, each independently sufficient
+    to produce failure.
 
-    The question is not whether to negotiate. The question is whether to negotiate a deal that can hold \-- or to accept a hollow deal that funds the next crackdown.
+
+    A deal can be designed that addresses these forces. It requires conditionality \-- specific, verifiable, commercially
+    legible conditions that unlock the $50-100 billion in Western investment, diaspora capital, and reconstruction resources
+    currently locked behind IRGC economic control. Without these conditions, the deal is not merely ineffective. It is worse
+    than no deal: it enriches the IRGC, forecloses genuine reconstruction, hands Iran''s most valuable economic assets to
+    China, and provides international legitimacy to a regime that murdered thousands of its own citizens weeks ago.
+
+
+    The question is not whether to negotiate. The question is whether to negotiate a deal that can hold \-- or to accept a
+    hollow deal that funds the next crackdown.
+
+    '
 source_summary: null
-footer_raw: |-
+footer_raw: '---
+
+
+  *Brief \#5 in the Iran Transition Project, by Hooman Mehr. AI-assisted research (Claude/Anthropic). No factional allegiance;
+  no policy agenda beyond analytical accuracy.*
+
+
+  *Companion briefs: (1) "[The Blind Spot in Every Iran Deal](https://hmehr.substack.com/p/the-blind-spot-in-every-iran-deal)"
+  -- the taqiyyah verification gap. (2) "[The Country Inside the Country](https://hmehr.substack.com/p/the-country-inside-the-country)"
+  -- IRGC parallel civilization. (3) "[Iran Is Not Iraq](https://hmehr.substack.com/p/iran-is-not-iraq)" -- why the comparison
+  fails. (4) "[The Spoiler](https://hmehr.substack.com/p/the-spoiler)" -- the faction blocking every deal. (6) "[The Day After](https://hmehr.substack.com/p/the-day-after)"
+  -- what determines regime survival after the next strike. (7) "[Who Is Actually Running Iran?](https://hmehr.substack.com/p/who-is-actually-running-iran)"
+  -- the Larijani revelation. (8) "[The Puppet Problem](https://hmehr.substack.com/p/the-puppet-problem)" -- why the next
+  Supreme Leader may not matter. (9) "[The Doctrine Behind the Escalation](https://hmehr.substack.com/p/the-doctrine-behind-the-escalation)"
+  -- the coercive-endurance cycle. (10) "[The Table After the Bombs](https://hmehr.substack.com/p/the-table-after-the-bombs)"
+  -- what post-strike negotiations actually look like.*
+
+
   ---
 
-  *Brief \#5 in the Iran Transition Project, by Hooman Mehr. AI-assisted research (Claude/Anthropic). No factional allegiance; no policy agenda beyond analytical accuracy.*
 
-  *Companion briefs: (1) "[The Blind Spot in Every Iran Deal](https://hmehr.substack.com/p/the-blind-spot-in-every-iran-deal)" -- the taqiyyah verification gap. (2) "[The Country Inside the Country](https://hmehr.substack.com/p/the-country-inside-the-country)" -- IRGC parallel civilization. (3) "[Iran Is Not Iraq](https://hmehr.substack.com/p/iran-is-not-iraq)" -- why the comparison fails. (4) "[The Spoiler](https://hmehr.substack.com/p/the-spoiler)" -- the faction blocking every deal. (6) "[The Day After](https://hmehr.substack.com/p/the-day-after)" -- what determines regime survival after the next strike. (7) "[Who Is Actually Running Iran?](https://hmehr.substack.com/p/who-is-actually-running-iran)" -- the Larijani revelation. (8) "[The Puppet Problem](https://hmehr.substack.com/p/the-puppet-problem)" -- why the next Supreme Leader may not matter. (9) "[The Doctrine Behind the Escalation](https://hmehr.substack.com/p/the-doctrine-behind-the-escalation)" -- the coercive-endurance cycle. (10) "[The Table After the Bombs](https://hmehr.substack.com/p/the-table-after-the-bombs)" -- what post-strike negotiations actually look like.*
+  **Key Sources:** Geneva Round 2 reporting (Axios, WaPo, Al Jazeera, NPR, Feb 17-20, 2026); 48-hour deadline (Axios, Feb
+  22, 2026); Larijani governance revelation (NYT, Farnaz Fassihi, Feb 22, 2026); Araghchi CBS interview (Feb 22, 2026); Larijani
+  Deng Xiaoping model (IranWire, Jan 18, 2026); Larijani SNSC appointment and Jalili rivalry (Iran International, Aug 2025);
+  Ghanbari economic offer (Fars, Reuters, CNBC, Feb 15, 2026); HRANA casualty documentation; PBS death toll reporting (Feb
+  12, 2026); Iran International factional analysis; Soufan Center assessment (Feb 19, 2026); Senate Finance Committee Kushner/Affinity
+  reporting; Warren/Slotkin letter on Sacks-UAE; Qatar 2017 lobbying strategy documentation; OFAC NIOC designation (2012);
+  EU IRGC terrorist designation (Jan-Feb 2026); Iranian 2025 budget allocation data; South Pars development estimates (industry
+  sources); Witkoff ethics disclosure (Aug 2025). Multilingual sourcing: Farsi (Khabaronline, Fararu, Donyaye-Eqtesad, Irdiplomacy.ir);
+  Hebrew (Israel Hayom).
 
-  ---
 
-  **Key Sources:** Geneva Round 2 reporting (Axios, WaPo, Al Jazeera, NPR, Feb 17-20, 2026); 48-hour deadline (Axios, Feb 22, 2026); Larijani governance revelation (NYT, Farnaz Fassihi, Feb 22, 2026); Araghchi CBS interview (Feb 22, 2026); Larijani Deng Xiaoping model (IranWire, Jan 18, 2026); Larijani SNSC appointment and Jalili rivalry (Iran International, Aug 2025); Ghanbari economic offer (Fars, Reuters, CNBC, Feb 15, 2026); HRANA casualty documentation; PBS death toll reporting (Feb 12, 2026); Iran International factional analysis; Soufan Center assessment (Feb 19, 2026); Senate Finance Committee Kushner/Affinity reporting; Warren/Slotkin letter on Sacks-UAE; Qatar 2017 lobbying strategy documentation; OFAC NIOC designation (2012); EU IRGC terrorist designation (Jan-Feb 2026); Iranian 2025 budget allocation data; South Pars development estimates (industry sources); Witkoff ethics disclosure (Aug 2025). Multilingual sourcing: Farsi (Khabaronline, Fararu, Donyaye-Eqtesad, Irdiplomacy.ir); Hebrew (Israel Hayom).
+  **Epistemic note:** Internal failure mechanisms (Part II) at Medium-High confidence based on documented institutional positions
+  and 19-year behavioral track record. Larijani governance finding at Medium-High \-- sourced to NYT with six senior Iranian
+  officials plus three IRGC members. Larijani-Paydari factional rivalry at High confidence \-- documented across multiple
+  sources with 15-year history. Deng Xiaoping self-model at Medium \-- single source (IranWire), consistent with observable
+  pattern. External equilibrium beneficiaries (Part III) at High confidence for structural incentives, Medium for attribution
+  of specific deal-shaping effects. IRGC enrichment mechanism (Part IV) at High confidence \-- statutory allocation is documented
+  fact. Negotiator financial relationships (Part V) at High confidence for documented relationships; structural correlation
+  with Geneva outcome is documented, causation is inference. Conditionality architecture (Part VI) at High confidence for
+  structural design; Medium for political achievability.
 
-  **Epistemic note:** Internal failure mechanisms (Part II) at Medium-High confidence based on documented institutional positions and 19-year behavioral track record. Larijani governance finding at Medium-High \-- sourced to NYT with six senior Iranian officials plus three IRGC members. Larijani-Paydari factional rivalry at High confidence \-- documented across multiple sources with 15-year history. Deng Xiaoping self-model at Medium \-- single source (IranWire), consistent with observable pattern. External equilibrium beneficiaries (Part III) at High confidence for structural incentives, Medium for attribution of specific deal-shaping effects. IRGC enrichment mechanism (Part IV) at High confidence \-- statutory allocation is documented fact. Negotiator financial relationships (Part V) at High confidence for documented relationships; structural correlation with Geneva outcome is documented, causation is inference. Conditionality architecture (Part VI) at High confidence for structural design; Medium for political achievability.
 
-  *Hooman Mehr is an independent analyst based in Kirkland, Washington. The Iran Transition Project publishes on [Substack](https://hmehr.substack.com) and [LinkedIn](https://www.linkedin.com/in/hoomanmehr). Contact: [hooman@mac.com](mailto:hooman@mac.com)*
+  *Hooman Mehr is an independent analyst based in Kirkland, Washington. The Iran Transition Project publishes on [Substack](https://hmehr.substack.com)
+  and [LinkedIn](https://www.linkedin.com/in/hoomanmehr). Contact: [hooman@mac.com](mailto:hooman@mac.com)*'
 footer_attribution: '*Brief \#5 in the Iran Transition Project, by Hooman Mehr. AI-assisted research (Claude/Anthropic). No
   factional allegiance; no policy agenda beyond analytical accuracy.*'
 companion_briefs:
@@ -257,7 +553,20 @@ author_bio: 'Hooman Mehr is an independent analyst based in Kirkland, Washington
 changelog: []
 governance:
   routing_decision: null
-  shelf_life: MEDIUM
-  pending_updates: None unless Geneva Round 3 changes scope.
-  vulnerability: null
+  shelf_life: LONG
+  pending_updates: null
+  vulnerability: Pre-war framing ("the deal being constructed in Geneva") is dated. Core structural analysis transcends the
+    specific deal and applies to any future negotiation. Conditionality architecture (Part VI) remains the most forward-looking
+    section.
+  outcome_status: CONFIRMED
+  outcome_note: 'Written February 21, 2026. Core thesis: the Iran nuclear deal fails on three independent fronts — internal
+    spoilers, external equilibrium beneficiaries, and IRGC enrichment mechanism. Outcome: The deal collapsed on February 28
+    when the US and Israel struck Iran during Geneva negotiations. The three failure mechanisms were never tested because
+    military action preempted the deal entirely. However, Katz''s admission that the operation was moved forward partly due
+    to the Chinese arms pipeline (creating a ticking clock) and the Omani mediator''s statement that a "breakthrough" had
+    been reached suggest the deal was approaching the hollow-deal outcome this brief predicted. The structural analysis —
+    particularly the Pinochet Pivot, wrong interlocutor thesis, and conditionality architecture — remains directly relevant
+    for any future negotiation attempt. The ceasefire paradox (Obs 034) is the wartime confirmation of the deal-cannot-hold
+    thesis: the same structural forces that would have collapsed a deal now prevent a ceasefire.'
+  archive_status: ACTIVE
 date_display: February 2026
