@@ -268,4 +268,41 @@ path is correct.
 **Log rotation.** Pruned 4 resolved pair(s) (Chat Integration Request + Code
 Integration Complete). Git history preserves full record.
 
+### 2026-03-05 — Chat — Integration Request
+
+**Session:** Doc review (clarity/accuracy pass)
+**Summary:** Fix accuracy errors and stale terminology across 4 public-facing docs.
+
+**Changes (applied directly to files, no staging needed):**
+
+1. `docs/WORKING_WITH_LLMS.md`:
+   - Removed non-existent "CRITICAL" stakes level (framework uses LOW/MED/HIGH only)
+   - Replaced outdated "Session Distillation" terminology with current protocol
+     (compaction, session starters, Integration Requests via session log)
+   - Added Chat-to-Code coordination as a context decay mitigation
+   - Replaced hardcoded "post-2024" date with model-agnostic "after the model's
+     training cutoff"
+
+2. `docs/GUIDE_ENGINEERS.md`:
+   - Removed erroneous `cd pipeline/` from Quick Start (commands run from repo root)
+   - Added "All commands run from the repository root" note
+
+3. `README.md`:
+   - Replaced broken link to non-existent `GUIDE_ANALYSTS.md` with "forthcoming" note
+
+4. `docs/ARCHITECTURE.md`:
+   - Clarified sessions.yaml comment: "sessions 1-21; 11-12 merged" instead of
+     ambiguous "20 session log entries (sessions 1-21)"
+
+**Entity counts verified against YAML:** All numbers in README, ARCHITECTURE, and
+METHODOLOGY match actual data (86 vars, 57 gaps, 14 traps, 30 obs, 12 scenarios,
+22 content modules, 17 briefs, 20 session entries).
+
+**No other accuracy or clarity issues found** in GOVERNANCE.md, CONTRIBUTING.md,
+SUBMISSIONS.md, or METHODOLOGY.md.
+
+**Action for Code:** All files are already edited on disk. Just commit.
+
+**Ambiguities:** None.
+
 <!-- END LOG -->

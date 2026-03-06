@@ -48,7 +48,8 @@ Iran analysis — a region where the structural picture can shift rapidly.
 
 **This project's response:**
 - All time-sensitive analytical claims are explicitly date-stamped.
-- Web search tools are required for any claim about events post-2024.
+- Web search tools are required for any claim about events after the model's
+  training cutoff.
 - Human verification is mandatory for all current-state assertions.
 - Standing rule: LLM "knowledge" about Iran after the model's training cutoff
   is treated as hypothesis, not fact, until independently sourced.
@@ -66,7 +67,7 @@ evidence is underweighted.
   before conclusions are drawn.
 - **Module 2 (Truth Engine):** Sophisticated Actor Default — assumes the regime
   is acting rationally within its own logic, not performing for Western audiences.
-- **Adversarial mode:** At HIGH or CRITICAL stakes, the LLM is explicitly
+- **Adversarial mode:** At HIGH stakes, the LLM is explicitly
   instructed to argue against its own previous conclusions.
 - **Established-prior reconciliation:** Any new analytical claim must be
   explicitly reconciled with existing ITB/ISA entries, not treated in isolation.
@@ -129,11 +130,17 @@ may be silently violated by session end.
 **This project's response:**
 - **Long-Session Instruction Decay rule:** Explicit instruction to re-read and
   re-apply core epistemic standards periodically within long sessions.
-- **Session compaction protocol:** When context limits approach, the LLM
-  produces a structured summary (Session Distillation) before the session ends,
-  preserving continuity for the next session.
-- **Session starters:** Each new session begins by reading the prior session's
-  distillation rather than reconstructing context from memory.
+- **Session compaction protocol:** When context limits approach, the
+  conversation is compacted — prior turns are compressed into a structured
+  summary while preserving decisions, findings, and key context. The full
+  transcript remains available for detail recovery.
+- **Session starters:** Each new session begins by reading a session starter
+  document that captures prior findings, rather than reconstructing context
+  from memory.
+- **Chat-to-Code coordination:** Session outputs are delivered as structured
+  Integration Requests via a session log, not as prose summaries. This
+  forces the LLM to produce concrete, verifiable deliverables rather than
+  vague recaps.
 
 ---
 
@@ -182,8 +189,9 @@ ITB module produces more reliable output than a session ranging across the entir
 framework. Smaller scope = less context decay = more consistent application of
 standards.
 
-**Maintain session starters for continuity.** The project's session distillation
-protocol exists because fresh sessions outperform degraded long sessions. Use it.
+**Maintain session starters for continuity.** Fresh sessions with a good
+session starter outperform degraded long sessions. The project's compaction
+and session starter protocol exists for this reason. Use it.
 
 **Know when to restart.** If you notice the LLM is contradicting earlier
 conclusions without explanation, ignoring epistemic tags, or producing

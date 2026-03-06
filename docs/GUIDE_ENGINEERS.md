@@ -131,13 +131,14 @@ Add this to your LLM project configuration:
 ### Quick Start
 
 ```bash
-cd pipeline/
 pip install pyyaml jsonschema jinja2 ftfy weasyprint markdown
 
 python pipeline/validate.py && python pipeline/validate_briefs.py   # validate all
 python pipeline/build.py && python pipeline/build_briefs.py          # build markdown
-python pipeline/build_pdf.py                                # build PDF releases
+python pipeline/build_pdf.py                                        # build PDF releases
 ```
+
+All commands run from the repository root.
 
 ### What Each Script Does
 

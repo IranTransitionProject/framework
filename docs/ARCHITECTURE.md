@@ -54,7 +54,7 @@ data/
 ├── traps.yaml           # 14 analytical traps with session extensions
 ├── observations.yaml    # 30 observations with status tracking
 ├── scenarios.yaml       # 12 scenarios (wartime W1-W5 + legacy)
-├── sessions.yaml        # 20 session log entries (sessions 1-21)
+├── sessions.yaml        # Session log entries (sessions 1-21; 11-12 merged)
 ├── modules.yaml         # Module registry (code, file, version, level)
 ├── index_meta.yaml      # Static content for master index template
 ├── content/             # ITB/ISA module prose (22 files)

@@ -122,7 +122,7 @@ See [Contributing](docs/CONTRIBUTING.md).
 build their own analytical projects using the same pipeline.
 See [Guide for Engineers](docs/GUIDE_ENGINEERS.md).
 Traditional analysts can engage with the methodology without touching code.
-See [Guide for Analysts](docs/GUIDE_ANALYSTS.md).
+A Guide for Analysts is forthcoming.
 
 ---
 
