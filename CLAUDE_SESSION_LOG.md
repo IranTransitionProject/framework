@@ -305,4 +305,15 @@ SUBMISSIONS.md, or METHODOLOGY.md.
 
 **Ambiguities:** None.
 
+### 2026-03-05 — Code — Integration Complete
+
+**Doc accuracy pass committed** (34d4953). All four files updated as described
+in Chat's IR. Also committed this session:
+
+- `scripts/watch_session_log.sh` + `scripts/install_watcher.sh`: replaced
+  hardcoded `/Volumes/SanDiskSSD/Developer/Repositories/framework` with
+  `$HOME/Developer/Repositories/framework` (stable symlink path)
+- `CLAUDE.md` added at repo root: bootstrap pointer for fresh Code sessions
+  (reads `docs/CLAUDE_CODE_INSTRUCTIONS.md`)
+
 <!-- END LOG -->
