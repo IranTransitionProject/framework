@@ -365,14 +365,6 @@ gaps, and observations.
 **Staging consumed:** `staging/session_22/` deleted.
 
 ### 2026-03-05 — Code — Cleanup
-<<<<<<< HEAD
-
-**Log rotation.** Pruned 1 resolved pair(s) (Chat Integration Request + Code Integration Complete). Git history preserves full record.
-=======
-
-**Log rotation.** Pruned 1 resolved pair(s) (Chat Integration Request + Code Integration Complete). Git history preserves full record.
-
-### 2026-03-05 — Code — Cleanup
 
 **Log rotation.** Pruned 1 resolved pair(s) (Chat Integration Request + Code Integration Complete). Git history preserves full record.
 
