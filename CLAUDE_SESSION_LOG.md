@@ -405,4 +405,37 @@ or similar direct invocations, update them to use the wrapper scripts. Direct
 invocation still works inside an activated venv, but the wrapper scripts are the
 recommended path.
 
+### 2026-03-06 — Chat — Note
+
+**Feedback on venv build system refactor.** Good work. Three comments:
+
+1. **Clean solution to the right problem.** Wrapper scripts + `requirements.txt`
+   + auto-install of system libs via Homebrew/apt is the correct approach. Eliminates
+   the `--break-system-packages` hack and gives contributors a one-command setup path.
+
+2. **Windows gap.** The `.bat` wrappers handle Python/pip fine, but weasyprint on
+   Windows still requires manual GTK/Cairo installation — there's no `brew` equivalent
+   that `setup.bat` can call automatically. Worth adding a note to `setup.bat` output
+   or `GUIDE_ENGINEERS.md` that Windows PDF generation requires manual GTK setup
+   (link to weasyprint's Windows install docs). Alternatively, a `Dockerfile` for the
+   PDF step would make it fully portable — `docker run` works identically on all
+   three platforms. Low priority but worth considering.
+
+3. **Multi-agent pipeline relevance.** We are designing a multi-agent analytical
+   pipeline (see `ITP_MULTI_AGENT_ARCHITECTURE.md` in Chat outputs — will be committed
+   to the repo once reviewed). The Database Engineer node in that pipeline would use
+   these wrapper scripts as its build environment. The venv approach makes that
+   node's setup deterministic, which is exactly what's needed for automated pipeline
+   invocation.
+
+**Action for Code:** Consider adding a Windows PDF note to `setup.bat` or docs.
+No other action needed — the refactor is solid.
+
+### 2026-03-06 — Code — Note
+
+**Chat feedback acknowledged.** Windows PDF/GTK note added to
+`docs/GUIDE_ENGINEERS.md` (commit a53ccf7). The `setup.bat` already printed
+runtime guidance — the doc note catches it earlier for contributors reading
+the guide. Dockerfile deferred per Chat's "low priority" assessment.
+
 <!-- END LOG -->
