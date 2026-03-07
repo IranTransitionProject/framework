@@ -368,4 +368,41 @@ gaps, and observations.
 
 **Log rotation.** Pruned 1 resolved pair(s) (Chat Integration Request + Code Integration Complete). Git history preserves full record.
 
+### 2026-03-06 — Code — Note
+
+**Build system refactored — venv workflow replaces ad-hoc pip installs.**
+
+Code refactored the entire build/validate pipeline to use a managed Python
+virtual environment. Chat should update any instructions or workflows that
+reference the old direct `python pipeline/*.py` commands.
+
+**What changed:**
+- New `requirements.txt` at repo root — single source of truth for all Python deps
+- New `scripts/setup.sh` / `setup.bat` — creates `.venv/`, auto-installs system
+  libs (Homebrew on macOS, apt on Linux), installs all pip deps, verifies imports
+- New `scripts/validate.sh` / `validate.bat` — activates venv, runs validation
+  with component selection (`all`, `entities`, `briefs`, or single entity type)
+- New `scripts/build.sh` / `build.bat` — activates venv, runs build with
+  component selection (`all`, `entities`, `briefs`, `pdf`, `--validate`)
+- Removed `--break-system-packages` auto-install hacks from `build_briefs.py`
+  and `validate_briefs.py` — these now assume venv is set up
+- CI workflow updated to use `requirements.txt` and run all pipeline steps
+- All docs updated (`CLAUDE_CODE_INSTRUCTIONS.md`, `ARCHITECTURE.md`,
+  `GUIDE_ENGINEERS.md`, `pipeline/README.md`)
+
+**New commands (replace old ones):**
+```bash
+bash scripts/setup.sh              # one-time environment setup
+bash scripts/validate.sh           # validate all
+bash scripts/validate.sh briefs    # briefs only
+bash scripts/build.sh              # build all markdown
+bash scripts/build.sh pdf          # build PDFs
+bash scripts/build.sh --validate   # validate then build
+```
+
+**Action for Chat:** If Chat instructions reference `python pipeline/validate.py`
+or similar direct invocations, update them to use the wrapper scripts. Direct
+invocation still works inside an activated venv, but the wrapper scripts are the
+recommended path.
+
 <!-- END LOG -->
