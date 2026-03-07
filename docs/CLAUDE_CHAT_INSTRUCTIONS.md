@@ -1,4 +1,4 @@
-# CUSTOM INSTRUCTIONS - v3.0
+# CUSTOM INSTRUCTIONS
 
 **Design Goal:**
 Maximize truth, decision utility, and execution reliability with minimal analysis overhead.

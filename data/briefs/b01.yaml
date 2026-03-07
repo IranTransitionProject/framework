@@ -315,10 +315,13 @@ governance:
   pending_updates: Optional v2.1 adding taqiyyah compliance theater.
   vulnerability: null
   outcome_status: CONFIRMED
-  outcome_note: 'Written February 21, 2026. Core thesis: Western analysts miss taqiyyah as institutional doctrine, not individual
-    deception. Outcome: The regime''s wartime behavior confirms the thesis at every level — Araghchi publicly denying ceasefire
-    interest while MOIS privately contacted CIA; IRGC Telegram channels claiming attacks that official military denies; Assembly
-    of Experts election conducted under coercion while ambassadors deny it occurred. The four failure modes documented here
-    are now observable in real time.'
+  outcome_note: >-
+    Written February 21, 2026. Core thesis: Western analysts miss taqiyyah as
+    institutional doctrine, not individual deception. Outcome: The regime's
+    wartime behavior confirms the thesis at every level — Araghchi publicly
+    denying ceasefire interest while MOIS privately contacted CIA; IRGC Telegram
+    channels claiming attacks that official military denies; Assembly of Experts
+    election conducted under coercion while ambassadors deny it occurred. The
+    four failure modes documented here are now observable in real time.
   archive_status: ACTIVE
 date_display: February 2026
