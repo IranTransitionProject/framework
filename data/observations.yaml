@@ -1,6 +1,6 @@
-version: '2.2'
+version: '2.3'
 date: '2026-03-15'
-source: v2.1 + Session 25 (Day 16 multilingual sweep — Kharg, Hormuz, Chinese ISR, Mosaic Command)
+source: v2.2 + Session 26 (Day 11 Leadership Landscape formalization — Obs 045-046)
 section_title: Analytic Annotations (The 'So-What' Log)
 entries:
 - id: 1
@@ -1424,3 +1424,102 @@ entries:
   confidence: "[Fact — Med-High; single Israeli security source, structurally consistent with observed fire rates]"
   version_added: v2.2
   session_added: 25
+- id: 45
+  title: "Intelligence Paranoia Spiral — Israeli Penetration Creates Structural Escalation Trap"
+  diagnosis: >-
+    Israeli deep penetration of Iranian command networks (demonstrated by Khamenei compound
+    strike accuracy, pager attacks, Haniyeh assassination) has triggered a counterintelligence
+    paranoia spiral that functions as a structural escalation trap independent of any leader's
+    intentions. Mechanism: Israeli penetration → counterintelligence paranoia → analog fallback
+    (abandonment of digital communications) → slower decision cycles → field units making
+    autonomous firing decisions → loyalty demands from command → violent/risky actions to
+    demonstrate loyalty → further escalation. This mechanism likely explains the Nakhchivan
+    strike, Turkish airspace incursions, and continued missile launches despite Pezeshkian's
+    apology — these are not necessarily policy but autonomous actions by units in
+    loyalty-demonstration mode, unable or unwilling to receive orders through compromised
+    channels. The spiral operates as a ratchet: each demonstration of Israeli penetration
+    intensifies paranoia, which degrades command coherence, which produces more autonomous
+    escalation, which invites more Israeli targeting. Even if Mojtaba wanted to de-escalate,
+    the institutional dynamics push toward escalation. Even if Larijani wanted to negotiate,
+    his ability to deliver IRGC compliance is degraded by the same communication breakdown.
+    This is the command-delivery gap (B07 v2.0) expressed as an intelligence-driven feedback
+    loop.
+  strategic_implication: >-
+    Any ceasefire or negotiated pause requires addressing the communication breakdown, not
+    just the political will. A leader who agrees to stop firing cannot deliver compliance
+    from units operating in analog loyalty-demonstration mode. Verification mechanisms must
+    account for the gap between central agreement and field execution. The spiral also means
+    that further Israeli intelligence successes (additional decapitation strikes) paradoxically
+    make de-escalation harder by deepening the paranoia that drives autonomous action.
+  itb_anchors:
+  - "A12"
+  - "A9"
+  cross_refs:
+  - "B07 v2.0 (command-delivery gap)"
+  - "Obs 027 (Basij targeting)"
+  - "Obs 032 (command fragmentation confirmed)"
+  - "Obs 043 (mosaic command as designed fragility)"
+  - "TV-10 (IRGC command coherence)"
+  - "Trap 8 (intelligence trap)"
+  leading_indicators:
+  - "Frequency of autonomous IRGC firing decisions without central authorization"
+  - "Analog vs digital communication patterns in intercepted IRGC traffic"
+  - "Loyalty purge reports within IRGC units"
+  - "Nakhchivan-type incidents (strikes on targets outside declared theater)"
+  - "Gap between Pezeshkian/Larijani statements and IRGC field actions"
+  sources:
+  - "ORF intelligence analysis (cited in Day 11 supplement)"
+  - "Structural inference from documented Israeli penetration events"
+  confidence: >-
+    Inference — Med-High for mechanism (logically derived from documented penetration
+    events + observed command incoherence; consistent with autonomous firing patterns
+    and Nakhchivan-type incidents); Inference — Med for specific incident attribution
+    (cannot confirm individual incidents are loyalty-demonstration vs policy without
+    command-level intercepts)
+  version_added: v2.3
+  session_added: 26
+- id: 46
+  title: "War Selects for Invisibility — Targeting Logic Inverts Pre-War Power Hierarchy"
+  diagnosis: >-
+    Israeli targeting logic creates a survivorship bias toward low-profile figures,
+    potentially inverting the pre-war power hierarchy. Leadership survival probability
+    matrix (Day 11 assessment): figures most likely to survive are those with lowest
+    public profiles (Mirbagheri, Mohseni-Ejei) and those in deep bunkers (Larijani).
+    Figures most exposed — Radan (street-level command), Ghalibaf (mobile between known
+    buildings), Arafi (shuttling Qom-Tehran under guard) — are the ones performing visible
+    leadership functions. The war is selecting for invisibility over authority. Post-war
+    power may accrue to whoever stayed deepest underground, not whoever exercised the most
+    visible leadership during the war. Corollary: actors capable of brief video appearances
+    would provide them; text-only statements (Mojtaba) are analytically suspicious — they
+    signal either incapacity, compromised communications, or deliberate invisibility strategy.
+  strategic_implication: >-
+    Post-war power landscape may be dominated by figures currently invisible to Western
+    analysts. Pre-war factional maps (which weight visible authority) may be poor predictors
+    of post-war influence. Policy planning that assumes current visible leaders will be the
+    interlocutors may be targeting the wrong people. This compounds the wrong-interlocutor
+    problem (Obs 010): not only are we negotiating with the wrong faction, we may be
+    watching the wrong individuals within every faction.
+  itb_anchors:
+  - "A10"
+  - "A9"
+  cross_refs:
+  - "Obs 010 (wrong interlocutor)"
+  - "Obs 038 (war selects for invisibility — related Day 16 finding)"
+  - "B07 v2.0 (six-node power map)"
+  - "B08 (puppet problem)"
+  - "Obs 045 (paranoia spiral — drives invisibility behavior)"
+  leading_indicators:
+  - "Which leaders produce video vs text-only statements"
+  - "Confirmed eliminations of visible leaders"
+  - "Post-war emergence pattern — who surfaces first and from where"
+  - "Intelligence community assessments of surviving command structure"
+  sources:
+  - "Day 11 Leadership Landscape supplement — survival probability matrix"
+  - "Structural inference from Israeli targeting doctrine and observed strike patterns"
+  confidence: >-
+    Inference — Med-High for survivorship bias mechanism (logically derived from targeting
+    patterns + observed behavior); Inference — Med for specific survival probability
+    estimates (high uncertainty given fog of war); Inference — Med for post-war power
+    inversion (conditional on war duration and targeting success rate)
+  version_added: v2.3
+  session_added: 26

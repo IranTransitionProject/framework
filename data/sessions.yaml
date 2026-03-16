@@ -1,6 +1,6 @@
-version: '2.5'
+version: '2.6'
 date: '2026-03-15'
-source: v2.4 + Session 25 (Day 16 multilingual sweep — Kharg, Hormuz, Chinese ISR, Mosaic Command)
+source: v2.5 + Session 26 (Day 11 Leadership Landscape formalization)
 entries:
 - number: 1
   date: '2026-02-16'
@@ -251,3 +251,18 @@ entries:
   - data/observations.yaml
   - data/gaps.yaml
   - data/variables.yaml
+- number: 26
+  date: '2026-03-15'
+  summary: >-
+    Day 11 Leadership Landscape formalization + project file housekeeping. Two new
+    observations: Obs 045 (Intelligence Paranoia Spiral — Israeli penetration creates
+    structural escalation trap via loyalty-demonstration feedback loop), Obs 046 (War
+    Selects for Invisibility — targeting logic inverts pre-war power hierarchy).
+    G23-05 (Mirbagheri/Paydari position on Mojtaba succession) and G23-06 (Mojtaba
+    physical/psychological capacity to govern) already integrated in prior session.
+  modules_affected:
+  - ISA-TRAPS
+  - ITB-A9
+  - ITB-A10
+  - ITB-A12
+  - APP-G

@@ -1103,5 +1103,74 @@ consolidated S20 backlog + Day 14 Integration Request and Addendum.
 **Validation:** 289 entries PASS; 18 briefs PASS.
 **Staging consumed:** `staging/session_s20_backlog/` deleted.
 
+### 2026-03-15 — Chat — Integration Request
+
+**Session:** 26 (Day 11 Leadership Landscape formalization)
+**Summary:** 2 new observations (045-046), 2 new gaps (G23-05, G23-06).
+Small cleanup integration — all other backlog items already integrated
+by Code in Sessions 23 and 25.
+
+**Database state at start:** 287 entities, 44 observations (v2.2), 71 gaps
+(v3.1), 95 variables (v2.1), 23 sessions (v2.5). Per Code IC for Sessions
+23 and 25.
+
+---
+
+**New observations (data/observations.yaml):**
+- Obs 045: Intelligence Paranoia Spiral — Israeli penetration creates
+  structural escalation trap via loyalty-demonstration feedback loop.
+  Related to but distinct from Obs 032 (observed fragmentation) and
+  Obs 043 (mosaic command); this observation describes the causal mechanism.
+- Obs 046: War Selects for Invisibility — targeting logic creates
+  survivorship bias toward low-profile figures, inverting pre-war power
+  hierarchy. Compounds wrong-interlocutor problem (Obs 010).
+
+**New gaps (data/gaps.yaml):**
+- G23-05: Mirbagheri/Paydari definitive position on Mojtaba succession [P1]
+- G23-06: Mojtaba physical and psychological capacity to govern [P1]
+
+**Staging files:**
+- `staging/session_26/observations_045_046_patch.yaml` — append — data/observations.yaml
+- `staging/session_26/gaps_patch.yaml` — append — data/gaps.yaml
+
+**Version bumps:**
+- observations.yaml: v2.2 → v2.3 (44 → 46)
+- gaps.yaml: v3.1 → v3.2 (71 → 73)
+
+**Session entry (data/sessions.yaml):**
+- Session 26: Day 11 Leadership Landscape formalization + project file
+  housekeeping. March 15, 2026.
+
+**B16 decision (no staging action):**
+B16 ("The Vacuum") never published. Central premise corrected by Obs 029.
+Chat will produce b16_v2.yaml in a future session with inverted causal
+model. No action for Code at this time.
+
+**Ambiguities:** None.
+
+### 2026-03-15 — Code — Integration Complete
+
+**Session 26 integrated.** Day 11 Leadership Landscape formalization.
+
+**Observations** (46 total, was 44):
+- 2 new: Obs 045 (Intelligence Paranoia Spiral — Israeli penetration creates
+  structural escalation trap via loyalty-demonstration feedback loop), Obs 046
+  (War Selects for Invisibility — targeting logic inverts pre-war power hierarchy).
+  Version bumped to v2.3.
+
+**Gaps** (73 total, unchanged):
+- G23-05 and G23-06 already present from S20 backlog integration (v3.2). No
+  changes needed — staging gap content matched existing entries.
+
+**Sessions** (24 entries total, was 23): Session 26 added. Version bumped to v2.6.
+
+**Validation:** 292 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_26/` deleted.
+
+**Note for Chat:** The Session 26 IR listed G23-05/G23-06 as new gaps, but these
+were already integrated during the S20 backlog session (v3.2). The staging file
+content matched the existing entries, so no action was needed on gaps. Only the
+2 new observations and session entry were newly integrated.
+
 <!-- END LOG -->
 
