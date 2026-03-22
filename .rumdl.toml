@@ -1,17 +1,9 @@
-exclude = [".venv", "node_modules", "_build"]
-disable = [
-    "MD013",  # line-length — docs use natural line breaks, not hard-wrapped at 80
-    "MD024",  # duplicate-heading — repeated section headers across briefs
-    "MD025",  # single-title — some output files have multiple H1s
-    "MD034",  # no-bare-urls — bare URLs in references
-    "MD036",  # no-emphasis-as-heading — bold text as pseudo-headings in briefs
-    "MD041",  # first-line-heading — some files don't start with H1
-    "MD042",  # no-empty-links — status badges use empty link targets
-    "MD057",  # table-pipe — some brief tables have formatting variations
-]
+# rumdl configuration — Framework
 
-[MD004]
-style = "dash"
-
-[MD029]
-style = "ordered"
+[global]
+# MD013: Line length — 80 chars is too restrictive for prose documentation
+# MD036: Emphasis as heading — false positive on subtitle lines
+# MD042: Empty link — used for status badges with no target URL
+# MD057: Cross-repo relative links unresolvable in CI (repos checked out in isolation)
+# MD024: Duplicate heading — session log uses repeated date-based headings
+disable = ["MD013", "MD024", "MD036", "MD042", "MD057"]
