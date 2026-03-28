@@ -1,6 +1,6 @@
-version: '3.2'
-date: '2026-03-15'
-source: v3.1 + S20 backlog (Day 11 Leadership Landscape gaps G23-05, G23-06)
+version: '3.3'
+date: '2026-03-28'
+source: v3.2 + Session 27 (Day 28 — gaps batch G27-01 to G27-05)
 summary:
   priority_1_active: 34
   priority_2_total: 32
@@ -245,9 +245,17 @@ entries:
   session_identified: 14
   cross_refs: []
 - id: G14-10
-  description: Araghchi actual authority scope -- does he negotiate or transmit?
-  priority: 3
-  status: PARTIALLY_FILLED
+  description: >-
+    Araghchi actual authority scope -- does he negotiate or transmit?
+    Day 28 WARTIME UPDATE: Larijani killed ~Day 22. The authorization chain
+    (Araghchi → Larijani → SNSC) is broken. Araghchi's authority scope is now
+    a first-order question: does he report to Zolghadr? Does Zolghadr have
+    any interest in diplomatic engagement? Iran denied negotiations after
+    Trump's 48-hour ultimatum on power plants. If Araghchi has no authorizing
+    principal for diplomacy, the diplomatic channel is functionally dead
+    regardless of Araghchi's personal inclinations.
+  priority: 1
+  status: ELEVATED
   modules:
   - ITB-A
   - ITB-F
@@ -931,6 +939,15 @@ entries:
     language suggests reservations. Most dangerous scenario is not opposition but
     support-as-accelerant: grieving, cornered, theologically radicalized Supreme Leader
     with nominal authority but no enforcement capacity is maximally dangerous configuration.
+    Day 28 context shift: If Mojtaba is dead or permanently incapacitated
+    (G23-06 ELEVATED), this gap transforms from "Mirbagheri position on Mojtaba
+    succession" to "Mirbagheri position on post-Mojtaba succession" — a
+    fundamentally different question. With Mojtaba gone and Larijani dead,
+    the pragmatist counterweight is eliminated. Mirbagheri/Paydari may face
+    an open field. The Hojjatiyeh theological contradiction (original anti-
+    velayat-e-faqih quietism vs current faction's inversion) may resolve
+    itself if the faction can bypass dynastic succession entirely and pursue
+    direct capture through the Assembly of Experts.
   priority: 1
   status: OPEN
   modules:
@@ -948,16 +965,26 @@ entries:
   - ITP Leadership Landscape Deep Supplement (Day 11 session)
 - id: G23-06
   description: >-
-    Mojtaba Khamenei physical and psychological capacity to govern. Wound severity
-    unknown. Family losses (wife, child, mother killed Feb 28) create psychological
-    variable with no precedent in Islamic Republic succession history. Text-only
-    statement (no video) as of Day 14 is consistent with either debilitating injury,
-    compromised communications, or deliberate invisibility strategy (Obs 034). Each
-    additional day of silence increases probability that wound is debilitating or bunker
-    communications are compromised. Directly affects puppet problem dynamics (B08) and
-    all W1/W2 scenario branching.
+    Mojtaba Khamenei physical and psychological capacity to govern — possible
+    death. Original gap (Session 23): wound severity unknown, family losses
+    (wife, child, mother killed Feb 28) create psychological variable. Day 28
+    update: DNI Gabbard testified to Congress that Mojtaba is "very seriously
+    wounded." No Nowruz appearance (March 20 — first time a Khamenei family
+    member has missed Nowruz). Text-only statements continue (no video, no
+    audio since Feb 28). Opposition sources claim ventilator dependency, lung
+    failure, and possible coma. CIA and Mossad still unable to confirm location.
+    The gap has expanded from "capacity to govern" to "alive or dead." Regime
+    will not acknowledge death during wartime for theological and constitutional
+    reasons — loss of the designated successor during active conflict would
+    create a constitutional crisis with no precedent and no mechanism for
+    resolution. If Mojtaba is dead: (a) Zolghadr's appointment may represent
+    IRGC factional capture of a succession process happening in real time,
+    (b) Assembly of Experts emergency session becomes constitutionally required
+    but may be physically impossible to convene under wartime conditions,
+    (c) G23-05 (Mirbagheri position) transforms from succession-influencing
+    to succession-determining.
   priority: 1
-  status: OPEN
+  status: ELEVATED
   modules:
   - ITB-A
   - ITB-B
@@ -1103,3 +1130,166 @@ entries:
   - "SpecialEurasia (March 5): terrain and axis analysis"
   - "Al Jazeera (March 5): Kurdish group profiles and force estimates"
   - "i24NEWS (March 4): CPFIK official claims"
+- id: G27-01
+  description: >-
+    Zolghadr operational intent, IRGC factional alignment, and authority scope.
+    Career IRGC hardliner: former IRGC deputy commander, IRGC Joint Staff chief,
+    founder of Ansar-e Hezbollah, Ahmadinejad-era deputy interior minister for
+    security affairs. Confirmed as SNSC Secretary by Mojtaba/Pezeshkian, replacing
+    Larijani (~Day 22). Key unknowns: (a) whether Zolghadr has independent
+    operational authority or is executing instructions from a surviving principal
+    (Mojtaba? IRGC corporate leadership?), (b) his relationship with the
+    Mirbagheri/Paydari faction (Ansar-e Hezbollah founding suggests proximity but
+    not necessarily alignment), (c) whether his appointment signals a shift from
+    clock-running to active escalation as SNSC strategy, (d) his operational
+    priorities — internal security consolidation vs external military operations
+    vs ceasefire negotiation, (e) his relationship with Araghchi and the
+    diplomatic apparatus.
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-A2.4
+  - ITB-B
+  - ITB-A9
+  why_critical: >-
+    Zolghadr is now the single most consequential decision-maker in the Iranian
+    wartime apparatus. His intent determines whether the regime pursues endurance,
+    escalation, or (unlikely) negotiation. Every W-scenario probability estimate
+    is affected by his operational posture. His appointment is the strongest signal
+    of regime posture since Khamenei's death.
+  blocking_for:
+  - W-scenario probability updates
+  - Ceasefire pathway assessment
+  session_identified: 27
+  cross_refs:
+  - Obs 048 (posture collapse)
+  - Obs 034 (ceasefire paradox)
+  - G23-05 (Mirbagheri faction positioning)
+- id: G27-02
+  description: >-
+    Interceptor depletion timeline — US/Israeli ballistic missile defense stock
+    assessment. The war's binding hidden clock. Systems at risk of depletion:
+    THAAD (limited interceptor inventory, ~48 per battery, 2 batteries deployed),
+    Arrow-2/Arrow-3 (Israeli strategic defense, production rate classified),
+    David's Sling (Stunner interceptors, production scaling unknown). Iranian
+    strategy of cluster warheads (20-24 submunitions per RV, optimized for BMD
+    radar suppression) is specifically designed to accelerate interceptor depletion.
+    Key unknowns: (a) current interceptor stock levels across all three systems,
+    (b) production/resupply rate vs consumption rate, (c) whether the ~92% launch
+    rate reduction has sufficiently slowed depletion, (d) at what stock level
+    commanders shift from intercept-all to selective-intercept doctrine,
+    (e) whether emergency production surge is underway (Raytheon THAAD line,
+    IAI Arrow production).
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-F
+  - ITB-B
+  why_critical: >-
+    Interceptor depletion is the constraint that determines war duration
+    independently of political will. If stocks approach critical thresholds,
+    either the war must end or population centers become undefended. This is
+    the most consequential variable not visible in public reporting. It governs
+    the Israel Window Clock (Obs 010 wartime extension).
+  blocking_for:
+  - War duration assessment
+  - Israel Window Clock calibration
+  session_identified: 27
+  cross_refs:
+  - Obs 010 (Three Clocks — wartime extension)
+  - Obs 044 (launcher inventory)
+- id: G27-03
+  description: >-
+    Diego Garcia IRBM vehicle identification. Day 22 strike: two missiles at
+    ~4,000km range, both failed to hit. Two candidate platforms: (a) modified
+    Khorramshahr-4 with reduced payload to extend range (liquid-fueled MRBM
+    stretched to IRBM range — technically feasible but performance-degrading),
+    (b) space-program-derived two-stage vehicle using Simorgh/Qased first-stage
+    technology (higher performance ceiling but untested in military application).
+    Targeting intelligence likely from Russia (satellite imagery) and China
+    (BeiDou navigation). Iran denied responsibility. Key unknowns: (a) vehicle
+    type from debris/trajectory analysis, (b) whether this represents a
+    previously undisclosed IRBM capability or a one-off adaptation,
+    (c) accuracy of targeting (misses may reflect guidance limitations or
+    deliberate miss as signaling), (d) warhead configuration (conventional HE
+    or submunition).
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-B
+  - ITB-F
+  why_critical: >-
+    A demonstrated 4,000km-range Iranian missile capability changes the strategic
+    calculus for every US installation in the CENTCOM AOR and beyond. If space-
+    program-derived, it suggests a parallel military application track that was
+    not captured in pre-war intelligence estimates. The Russia/China targeting
+    intelligence dimension makes this a trilateral proliferation event.
+  session_identified: 27
+  cross_refs:
+  - Obs 049 (maritime insurance — Diego Garcia as strategic asset)
+  - G25-04 (nuclear rubble — missile program resilience)
+  sources:
+  - "Diego Garcia strike reporting (Day 22)"
+  - "Iran denial statement"
+  - "BeiDou/Russian satellite targeting intelligence reporting"
+- id: G27-04
+  description: >-
+    Hashd al-Shaabi deployment scale and operational role inside Iran. Reports
+    of Iraqi Hashd al-Shaabi (PMF) convoy movements into southern Iran for
+    internal suppression functions. Key unknowns: (a) scale of deployment
+    (battalion-level? brigade-level?), (b) which Hashd factions specifically
+    (Iran-aligned groups like Kata'ib Hezbollah, Asa'ib Ahl al-Haq, or broader
+    PMF units?), (c) operational mandate (border security, internal policing,
+    anti-protest, or reserve force for Hormuz defense), (d) Iraqi government
+    awareness/authorization vs autonomous Hashd action, (e) population response
+    to foreign Shia militia presence on Iranian soil — this is unprecedented and
+    may generate nationalist backlash even among regime supporters.
+  priority: 1
+  status: OPEN
+  modules:
+  - ITB-B
+  - ITB-A9
+  - ITB-D
+  why_critical: >-
+    If confirmed at scale, this is the first time the Islamic Republic has
+    imported foreign forces for domestic operations. It represents a fundamental
+    admission of internal security force inadequacy — the regime's own coercive
+    apparatus cannot hold the population. This directly validates A9 hollowness
+    under stress and creates a potential nationalist backlash variable. The
+    organized crime parallel (Obs 047 extension — importing enforcers from a
+    partner cartel) is analytically significant.
+  session_identified: 27
+  cross_refs:
+  - Obs 047 (dual-use infrastructure — A9/A12 organized crime extension)
+  - Obs 030 (manufactured complicity)
+  - A9 (parallel society hollowness)
+- id: G27-05
+  description: >-
+    DFC maritime reinsurance facility operational architecture and post-war
+    persistence. $20B facility with Chubb as lead underwriter, created after P&I
+    clubs pulled war risk coverage March 5. Key unknowns: (a) eligibility criteria
+    (which flags, which cargoes, which routes?), (b) pricing structure (subsidized
+    vs market-rate — subsidy implies strategic intent), (c) exclusion provisions
+    (can the US exclude specific countries or companies?), (d) sunset clause or
+    permanent authorization, (e) interaction with Iran yuan-denominated toll scheme
+    ($2M per transit), (f) whether European vessels must use US-backed insurance
+    or can use alternative coverage, (g) post-war withdrawal conditions and
+    leverage implications.
+  priority: 2
+  status: OPEN
+  modules:
+  - ITB-F
+  - ITB-C
+  - ITB-C3.1
+  why_critical: >-
+    The DFC facility may outlast the war as a permanent US underwriting authority
+    over Hormuz transit — the maritime equivalent of SWIFT. Its operational terms
+    determine whether it functions as neutral market-maker or strategic lever.
+    The yuan toll / dollar insurance competition may become a permanent feature
+    of Hormuz governance. Post-war maritime architecture is a first-order variable
+    for Iran's economic reconstruction capacity.
+  session_identified: 27
+  cross_refs:
+  - Obs 049 (maritime insurance as strategic weapon)
+  - Obs 022 (China as active spoiler)
+  - C3.1 (shadow fleet)

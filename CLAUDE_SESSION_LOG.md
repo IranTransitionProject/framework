@@ -1357,4 +1357,69 @@ content matched the existing entries, so no action was needed on gaps. Only the
   placed before sources sections, cross-references added to theoretical anchoring
   sections.
 
+#### 2026-03-28 — Chat — Integration Request (Gaps batch)
+
+**Session:** 27 (Day 28 — Gaps batch)
+**Summary:** 5 new gaps (G27-01 through G27-05), 3 status updates to existing gaps (G23-06, G23-05, G14-10).
+
+**Database state at start:** 297 entities, 73 gaps (v3.2). Per Code IC for Session 27 observations batch.
+
+---
+
+**New gaps (data/gaps.yaml):**
+
+- G27-01: Zolghadr operational intent and IRGC factional positioning [P1]. Career IRGC hardliner replacing Larijani at SNSC. Authority scope, relationship with Mirbagheri faction, operational priorities unknown.
+- G27-02: Interceptor depletion timeline [P1]. THAAD/Arrow/David's Sling stock assessment. The war's binding hidden clock. Governs Israel Window Clock.
+- G27-03: Diego Garcia IRBM vehicle identification [P1]. Khorramshahr-4 mod vs space-program-derived two-stage. ~4,000km range, Russia/China targeting intelligence.
+- G27-04: Hashd al-Shaabi deployment scale inside Iran [P1]. Imported proxy enforcement for internal suppression — unprecedented. Validates A9 hollowness, creates nationalist backlash variable.
+- G27-05: DFC maritime reinsurance facility architecture [P2]. $20B facility operational terms, post-war persistence, yuan toll interaction.
+
+**Status updates to existing gaps:**
+
+- G23-06: Description replaced — expanded from "capacity to govern" to "alive or dead." DNI Gabbard testimony, no Nowruz, opposition claims of coma. Status → ELEVATED. Priority unchanged (P1).
+- G23-05: Context appended — Mojtaba death/incapacitation transforms gap from succession-influencing to succession-determining. Status/priority unchanged (P1, OPEN).
+- G14-10: Wartime update appended — Larijani dead, Araghchi authorization chain broken. Priority elevated 3 → 1. Status → ELEVATED.
+
+**Staging files:**
+
+- `staging/session_27/gaps_027_patch.yaml` — append (new entries) + updates (existing entries) — data/gaps.yaml
+
+**Version bumps:**
+
+- gaps.yaml: v3.2 → v3.3 (73 → 78)
+
+**Note for Code:** The staging file has two sections: `new_entries` (append to entries list) and `updates` (modify existing entries by target ID). For G23-06 the entire description field is replaced. For G23-05 and G14-10, text is appended to existing descriptions. G14-10 also has priority and status changes.
+
+**Ambiguities:** None.
+
+<!-- END LOG -->
+
+#### 2026-03-28 — Code — Integration Complete
+
+**Session 27 Gaps batch integrated.**
+
+**Gaps** (78 total, was 73):
+
+- 5 new: G27-01 (Zolghadr intent/authority, P1), G27-02 (interceptor depletion
+  timeline — binding hidden clock, P1), G27-03 (Diego Garcia IRBM vehicle ID, P1),
+  G27-04 (Hashd al-Shaabi deployment inside Iran, P1), G27-05 (DFC reinsurance
+  architecture, P2). Version bumped to v3.3.
+
+**Status updates to existing gaps:**
+
+- G14-10: Description expanded with Day 28 WARTIME UPDATE (Larijani killed,
+  authorization chain broken, diplomatic channel functionally dead). Priority
+  elevated 3 → 1. Status → ELEVATED.
+- G23-05: Description appended with Day 28 context shift (gap transforms from
+  succession-influencing to succession-determining if Mojtaba dead/incapacitated).
+  Priority and status unchanged (P1, OPEN).
+- G23-06: Description fully replaced — expanded from "capacity to govern" to
+  "alive or dead." DNI Gabbard testimony, no Nowruz, opposition coma claims,
+  CIA/Mossad unable to confirm location. Status → ELEVATED. Priority unchanged (P1).
+
+**Validation:** 302 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_27/gaps_027_patch.yaml` deleted; `staging/session_27/` directory removed.
+
+**Ambiguities:** None per Chat IR.
+
 <!-- END LOG -->
