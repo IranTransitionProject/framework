@@ -1,6 +1,6 @@
-version: '2.8'
+version: '2.9'
 date: '2026-03-28'
-source: "v2.7 + Session 27 full (Day 28 — observations, gaps, variables)"
+source: v2.8 + Session 28
 entries:
 - number: 1
   date: '2026-02-16'
@@ -199,22 +199,16 @@ entries:
   - APP-G
 - number: 23
   date: '2026-03-15'
-  summary: >-
-    Wartime OSINT and soft power integration session. Sources: Factnameh Telegram
-    channel export (112 messages, Feb 27–Mar 11 2026, 112 wartime posts) and Lord
-    Walney "Undue Influence" report (109pp, March 2026, UK charity sector). New
-    observations: Obs 035 (Soft Power Infrastructure Inertia — post-decapitation
-    civil society network trajectories), Obs 036 (Fabrication Economy as Demand-Signal
-    Intelligence — AI disinformation typology maps factional narrative demand).
-    Corroboration upgrades: A9 Hollowness (Obs 007) → Corroborated via 77K-post
-    quantitative data; MASAF (Obs 009) → Corroborated via EU Jan 2026 designation;
-    Wrong Interlocutor (Obs 010) scope extended to civil society layer. New gaps:
-    G23-01 (military-civilian overlap mapping, P1), G23-02 (Pars Air/IL-76 IRGC
-    covert airlift reconstruction, P1), G23-03 (fighter airframe survival rate, P2),
-    G23-04 (UK charity network trajectory, P2). Gap fill note additions: command
-    cohort fragmentation quantified via media coordination failure; underground
-    capacity partial signal via internet anomaly. New brief candidate queued:
-    "The Infrastructure That Outlasted the Regime."
+  summary: 'Wartime OSINT and soft power integration session. Sources: Factnameh Telegram channel export (112 messages, Feb
+    27–Mar 11 2026, 112 wartime posts) and Lord Walney "Undue Influence" report (109pp, March 2026, UK charity sector). New
+    observations: Obs 035 (Soft Power Infrastructure Inertia — post-decapitation civil society network trajectories), Obs
+    036 (Fabrication Economy as Demand-Signal Intelligence — AI disinformation typology maps factional narrative demand).
+    Corroboration upgrades: A9 Hollowness (Obs 007) → Corroborated via 77K-post quantitative data; MASAF (Obs 009) → Corroborated
+    via EU Jan 2026 designation; Wrong Interlocutor (Obs 010) scope extended to civil society layer. New gaps: G23-01 (military-civilian
+    overlap mapping, P1), G23-02 (Pars Air/IL-76 IRGC covert airlift reconstruction, P1), G23-03 (fighter airframe survival
+    rate, P2), G23-04 (UK charity network trajectory, P2). Gap fill note additions: command cohort fragmentation quantified
+    via media coordination failure; underground capacity partial signal via internet anomaly. New brief candidate queued:
+    "The Infrastructure That Outlasted the Regime."'
   modules_affected:
   - ITB-A9
   - ITB-A10
@@ -224,20 +218,15 @@ entries:
   - data/observations.yaml
 - number: 25
   date: '2026-03-15'
-  summary: >-
-    Day 16 multilingual sweep (English, Hebrew, Turkish, Farsi, Arabic). Major findings:
-    (1) Kharg Island pre-assault strike pattern + MEU deployment creates seizure scenario
-    not in current W-matrix. (2) Hormuz evolving from total blockade to selective tollgate
-    fragmenting US coalition. (3) Chinese Liaowang-1 ISR ship deployed to Hormuz — first
-    Chinese military intelligence presence in active US combat theater (invisible in
-    English coverage). (4) IRGC deliberately decentralized command ("mosaic" structure)
-    post-June 2025; Turkish airspace breach likely product of autonomous field decisions.
-    (5) Araghchi CBS interview as textbook Larijani pragmatist Phase 3-4 signaling.
-    (6) Israeli launcher count: 200 destroyed / 150 disabled / 100+ functional.
-    (7) Emergency NIS 2.6B procurement confirms interceptor depletion clock active.
-    (8) Araghchi: enriched uranium "under the rubble" — Schrodinger asset.
-    8 new observations (Obs 037-044), 5 new gaps (G25-01 through G25-05),
-    4 new variables (FV-35 through FV-38), 4 variable updates, 3 cross-ref upgrades.
+  summary: 'Day 16 multilingual sweep (English, Hebrew, Turkish, Farsi, Arabic). Major findings: (1) Kharg Island pre-assault
+    strike pattern + MEU deployment creates seizure scenario not in current W-matrix. (2) Hormuz evolving from total blockade
+    to selective tollgate fragmenting US coalition. (3) Chinese Liaowang-1 ISR ship deployed to Hormuz — first Chinese military
+    intelligence presence in active US combat theater (invisible in English coverage). (4) IRGC deliberately decentralized
+    command ("mosaic" structure) post-June 2025; Turkish airspace breach likely product of autonomous field decisions. (5)
+    Araghchi CBS interview as textbook Larijani pragmatist Phase 3-4 signaling. (6) Israeli launcher count: 200 destroyed
+    / 150 disabled / 100+ functional. (7) Emergency NIS 2.6B procurement confirms interceptor depletion clock active. (8)
+    Araghchi: enriched uranium "under the rubble" — Schrodinger asset. 8 new observations (Obs 037-044), 5 new gaps (G25-01
+    through G25-05), 4 new variables (FV-35 through FV-38), 4 variable updates, 3 cross-ref upgrades.'
   modules_affected:
   - ITB-B
   - ITB-F
@@ -253,13 +242,10 @@ entries:
   - data/variables.yaml
 - number: 26
   date: '2026-03-15'
-  summary: >-
-    Day 11 Leadership Landscape formalization + project file housekeeping. Two new
-    observations: Obs 045 (Intelligence Paranoia Spiral — Israeli penetration creates
-    structural escalation trap via loyalty-demonstration feedback loop), Obs 046 (War
-    Selects for Invisibility — targeting logic inverts pre-war power hierarchy).
-    G23-05 (Mirbagheri/Paydari position on Mojtaba succession) and G23-06 (Mojtaba
-    physical/psychological capacity to govern) already integrated in prior session.
+  summary: 'Day 11 Leadership Landscape formalization + project file housekeeping. Two new observations: Obs 045 (Intelligence
+    Paranoia Spiral — Israeli penetration creates structural escalation trap via loyalty-demonstration feedback loop), Obs
+    046 (War Selects for Invisibility — targeting logic inverts pre-war power hierarchy). G23-05 (Mirbagheri/Paydari position
+    on Mojtaba succession) and G23-06 (Mojtaba physical/psychological capacity to govern) already integrated in prior session.'
   modules_affected:
   - ISA-TRAPS
   - ITB-A9
@@ -268,24 +254,16 @@ entries:
   - APP-G
 - number: 27
   date: '2026-03-28'
-  summary: >-
-    Day 28 comprehensive update — observations, gaps, and variables.
-    Four new observations: Obs 047 (Dual-Use Infrastructure Inversion),
-    Obs 048 (Posture Collapse — Larijani killed, Zolghadr replaces),
-    Obs 049 (Maritime Insurance as Strategic Weapon), Obs 050 (Hezbollah
-    Latin America Reconstruction). Wartime scope extensions to Obs 010
-    (Three Clocks → three-body) and Obs 034 (Ceasefire Paradox absolute).
-    Module extensions: A8.8.8 (pragmatist category error), A11.X (China
-    reconstruction dependency), A9.X (organized crime framing), A9.7
-    (Aarabi hard base ~10%/8.5M). Five new gaps: G27-01 (Zolghadr intent),
-    G27-02 (interceptor depletion), G27-03 (Diego Garcia IRBM), G27-04
-    (Hashd al-Shaabi in Iran), G27-05 (DFC reinsurance). Three gap status
-    updates: G23-06 ELEVATED (Mojtaba possibly dead), G14-10 ELEVATED P1
-    (Araghchi auth chain broken), G23-05 context shift. Five new variables:
-    FV-39 (oil market fracture), FV-40 (DFC facility), FV-41 (Diego Garcia
-    IRBM), FV-42 (Chinese casualties), FV-43 (cluster warhead BMD
-    suppression). Twelve variable updates across leadership, military,
-    economic, and maritime dimensions.
+  summary: 'Day 28 comprehensive update — observations, gaps, and variables. Four new observations: Obs 047 (Dual-Use Infrastructure
+    Inversion), Obs 048 (Posture Collapse — Larijani killed, Zolghadr replaces), Obs 049 (Maritime Insurance as Strategic
+    Weapon), Obs 050 (Hezbollah Latin America Reconstruction). Wartime scope extensions to Obs 010 (Three Clocks → three-body)
+    and Obs 034 (Ceasefire Paradox absolute). Module extensions: A8.8.8 (pragmatist category error), A11.X (China reconstruction
+    dependency), A9.X (organized crime framing), A9.7 (Aarabi hard base ~10%/8.5M). Five new gaps: G27-01 (Zolghadr intent),
+    G27-02 (interceptor depletion), G27-03 (Diego Garcia IRBM), G27-04 (Hashd al-Shaabi in Iran), G27-05 (DFC reinsurance).
+    Three gap status updates: G23-06 ELEVATED (Mojtaba possibly dead), G14-10 ELEVATED P1 (Araghchi auth chain broken), G23-05
+    context shift. Five new variables: FV-39 (oil market fracture), FV-40 (DFC facility), FV-41 (Diego Garcia IRBM), FV-42
+    (Chinese casualties), FV-43 (cluster warhead BMD suppression). Twelve variable updates across leadership, military, economic,
+    and maritime dimensions.'
   modules_affected:
   - ITB-A8
   - ITB-A9
@@ -294,6 +272,23 @@ entries:
   - ITB-A12
   - ITB-B
   - ITB-C
+  - ITB-F
+  - APP-V
+  - APP-G
+  - data/observations.yaml
+  - data/gaps.yaml
+  - data/variables.yaml
+- number: 28
+  date: '2026-03-28'
+  summary: 'Session 28: Research sweep (Day 12-28 gap), trend reassessment, multilingual primary-source verification. Four
+    new observations (Obs 051-054: interceptor depletion, nuclear targeting bilateralization, institutional zombification,
+    ground force coercive positioning). Four new gaps (G28-01 through G28-04). Three new variables (FV-44 through FV-46).
+    Extensions to Obs 010/034/048. Three gap status updates. Five variable updates.'
+  modules_affected:
+  - ITB-A
+  - ITB-B
+  - ITB-C
+  - ITB-D
   - ITB-F
   - APP-V
   - APP-G

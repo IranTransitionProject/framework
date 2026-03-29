@@ -1,6 +1,6 @@
-version: '2.2'
+version: '2.3'
 date: '2026-03-28'
-source: "v2.1 + Session 27 (Day 28 — 12 updates, 5 new variables FV-39 through FV-43)"
+source: v2.2 + Session 28 (Day 12-28 gap — 3 new variables FV-44 through FV-46, 5 updates)
 monitoring_notes:
 - Variables require weekly recheck on flow and threshold tables. Stock variables recheck monthly or on significant event.
 - 'v1.2 NOTE (still active): Given active mourning cycle, Hormuz exercise tempo, and campaign-ready US force posture, flow
@@ -15,31 +15,23 @@ monitoring_notes:
   This is the tightest multi-clock convergence documented in the project. Student protest expansion (12+ universities) now
   modeled as independent internal resistance clock (A12.3.6). Caine/Cooper dynamics create new variable in Washington Patience
   Clock. All three factors require monitoring through at least March 6.'
-- >-
-  v2.2 NOTE (Session 27, Day 28): War is now in sustained degradation phase.
-  Western Iranian missile infrastructure functionally destroyed; remaining
-  capacity eastern/southeastern only. Key monitoring priorities: (1) interceptor
-  depletion rate (G27-02) — the hidden clock governing war duration; (2) Mojtaba
-  alive/dead confirmation (G23-06 ELEVATED); (3) Zolghadr operational directives
-  (G27-01) — determines whether regime pursues endurance or escalation; (4) DFC
-  reinsurance facility terms — determines post-war Hormuz governance architecture;
-  (5) cluster warhead BMD suppression effectiveness — determines interceptor
-  consumption rate. Oil market fracture ($100 WTI vs $150 Brent) and 3,200 ships
-  trapped west of Hormuz are daily-monitoring variables. Larijani dead — no
-  pragmatist diplomatic channel exists. All pre-war negotiation variables (TV-01,
-  FV-21, FV-22, FV-23, FV-24) are moot under active combat.
+- 'v2.2 NOTE (Session 27, Day 28): War is now in sustained degradation phase. Western Iranian missile infrastructure functionally
+  destroyed; remaining capacity eastern/southeastern only. Key monitoring priorities: (1) interceptor depletion rate (G27-02)
+  — the hidden clock governing war duration; (2) Mojtaba alive/dead confirmation (G23-06 ELEVATED); (3) Zolghadr operational
+  directives (G27-01) — determines whether regime pursues endurance or escalation; (4) DFC reinsurance facility terms — determines
+  post-war Hormuz governance architecture; (5) cluster warhead BMD suppression effectiveness — determines interceptor consumption
+  rate. Oil market fracture ($100 WTI vs $150 Brent) and 3,200 ships trapped west of Hormuz are daily-monitoring variables.
+  Larijani dead — no pragmatist diplomatic channel exists. All pre-war negotiation variables (TV-01, FV-21, FV-22, FV-23,
+  FV-24) are moot under active combat.'
 entries:
 - id: SV-01
   name: Supreme Leader Age
   table: stock
-  current_value: "KILLED — Khamenei confirmed dead Feb 28 (Day 1 strikes, with wife, daughter, Shamkhani, Nasirzadeh, Pakpour)"
-  trend: "N/A — deceased"
-  insight: >-
-    Supreme Leader position constitutionally vacant. Mojtaba selected as
-    successor by Assembly of Experts under IRGC coercion (March 8) but
-    possibly dead or incapacitated as of Day 28 (G23-06 ELEVATED).
-    Constitutional mechanism for selecting a second successor under wartime
-    conditions is untested and may be impossible to execute.
+  current_value: KILLED — Khamenei confirmed dead Feb 28 (Day 1 strikes, with wife, daughter, Shamkhani, Nasirzadeh, Pakpour)
+  trend: N/A — deceased
+  insight: Supreme Leader position constitutionally vacant. Mojtaba selected as successor by Assembly of Experts under IRGC
+    coercion (March 8) but possibly dead or incapacitated as of Day 28 (G23-06 ELEVATED). Constitutional mechanism for selecting
+    a second successor under wartime conditions is untested and may be impossible to execute.
   confidence: High
   version_added: v1.0
   session_added: null
@@ -59,9 +51,10 @@ entries:
 - id: SV-03
   name: HEU Inventory
   table: stock
-  current_value: "~440 kg 60% HEU — declared 'under the rubbles' by FM Araghchi (March 15); recovery timeline uncertain"
-  trend: "Schrodinger state — exists but accessibility uncertain; Iran controls recovery decision"
-  insight: "Nuclear breakout: Timeline uncertain post-Midnight Hammer. Araghchi CBS March 15: 'under the rubbles... no plan to recover.' DIA vs CIA assessments diverge."
+  current_value: ~440 kg 60% HEU — declared 'under the rubbles' by FM Araghchi (March 15); recovery timeline uncertain
+  trend: Schrodinger state — exists but accessibility uncertain; Iran controls recovery decision
+  insight: 'Nuclear breakout: Timeline uncertain post-Midnight Hammer. Araghchi CBS March 15: ''under the rubbles... no plan
+    to recover.'' DIA vs CIA assessments diverge.'
   confidence: Low
   version_added: v1.0
   session_added: null
@@ -547,13 +540,10 @@ entries:
   table: threshold
   current_value: “MOOT — active combat since Feb 28; no negotiations”
   trend: “No diplomatic track active”
-  insight: >-
-    All pre-war negotiation variables (Geneva rounds, Iran proposal delivery,
-    BATNA quality as diplomatic leverage) are suspended. Iran denied any
-    negotiations after Trump 48-hour ultimatum on power plants. Larijani (the
-    only figure with ceasefire-making capacity) killed ~Day 22. Zolghadr
-    replacement has no diplomatic capability. Obs 034 + Obs 048: no ceasefire
-    mechanism exists.
+  insight: 'All pre-war negotiation variables (Geneva rounds, Iran proposal delivery, BATNA quality as diplomatic leverage)
+    are suspended. Iran denied any negotiations after Trump 48-hour ultimatum on power plants. Larijani (the only figure with
+    ceasefire-making capacity) killed ~Day 22. Zolghadr replacement has no diplomatic capability. Obs 034 + Obs 048: no ceasefire
+    mechanism exists.'
   confidence: Med
   version_added: v1.0
   session_added: null
@@ -562,14 +552,11 @@ entries:
 - id: TV-02
   name: Second US Strike
   table: threshold
-  current_value: "ACTIVE — Day 28 of sustained campaign (Operation Epic Fury)"
-  trend: "Campaign continuing; missile launch rate down ~92% from Day 1 peak"
-  insight: >-
-    Day 28: Western Iranian missile infrastructure functionally destroyed.
-    Remaining launches from eastern/southeastern facilities only (Shahroud,
-    Hormozgan, Qeshm). Trump 48-hour power plant ultimatum → backed down to
-    5-day postponement. Campaign scope expanding beyond original military
-    targets. Interceptor depletion remains the hidden clock (G27-02).
+  current_value: ACTIVE — Day 28 of sustained campaign (Operation Epic Fury)
+  trend: Campaign continuing; missile launch rate down ~92% from Day 1 peak
+  insight: 'Day 28: Western Iranian missile infrastructure functionally destroyed. Remaining launches from eastern/southeastern
+    facilities only (Shahroud, Hormozgan, Qeshm). Trump 48-hour power plant ultimatum → backed down to 5-day postponement.
+    Campaign scope expanding beyond original military targets. Interceptor depletion remains the hidden clock (G27-02).'
   confidence: Med
   version_added: v1.0
   session_added: null
@@ -578,15 +565,12 @@ entries:
 - id: TV-03
   name: Khamenei Succession
   table: threshold
-  current_value: "TRIGGERED then POSSIBLY COLLAPSED — Mojtaba selected March 8 but possibly dead/incapacitated by Day 28"
-  trend: "Constitutional crisis if Mojtaba confirmed dead"
-  insight: >-
-    DNI Gabbard testified "very seriously wounded." No Nowruz appearance
-    (March 20). Text-only statements only. Opposition claims ventilator/lung
-    failure/coma. CIA and Mossad unable to confirm location. If dead, regime
-    must select third Supreme Leader under wartime bombardment with Assembly
-    of Experts unable to safely convene — no constitutional precedent or
-    mechanism. G23-05 (Mirbagheri position) becomes succession-determining.
+  current_value: 'ALIVE, SEVERELY INJURED, FUNCTIONALLY INCAPACITATED. Janbaz designation by state TV. No public appearance,
+    no audio/video. Written statements only (read by TV presenters). CIA/Mossad actively searching. $10M US bounty. Sole personnel
+    action: Rezaei appointment. Leaked audio claims narrow survival. Clerical criticism of inability to communicate reported.'
+  trend: Incapacitation confirmed; recovery possible but undemonstrated
+  insight: Puppet problem confirmed in extreme variant. Constitutional powers of supreme leader office exist on paper but
+    cannot be exercised. Zombie governance — office occupied but not functional. See Obs 053.
   confidence: Med
   version_added: v1.0
   session_added: null
@@ -1050,25 +1034,20 @@ entries:
 - id: FV-29
   name: Iran negotiation BATNA quality
   table: flow
-  current_value: "Missile launches down ~92% from Day 1 peak; western Iranian infrastructure functionally destroyed; remaining launches from eastern/southeastern facilities (Shahroud, Hormozgan, Qeshm)"
-  trend: "Degradation continuing but asymptotic — remaining capacity harder to eliminate"
-  insight: >-
-    Pre-war BATNA improvement thesis confirmed by Katz admission that operation moved forward partly due to Chinese
+  current_value: 'Day 28: ~92% decline from peak sustained. Cluster warhead adaptation (20-24 submunitions/RV) compensates
+    for volume decline. Houthi entry (Day 28) adds new launch axis from Yemen. Total missiles reaching Israel: ~380 ballistic
+    (INSS estimate). Dimona area interception failure Day 21 demonstrates penetration capability despite reduced volume.'
+  trend: Volume declining but effectiveness per launch increasing through warhead adaptation and multi-axis coordination
+  insight: 'Pre-war BATNA improvement thesis confirmed by Katz admission that operation moved forward partly due to Chinese
     arms pipeline creating a ticking clock. But BATNA is now a post-war variable — relevant only if ceasefire negotiations
-    resume.
-    Day 16 update: Walla reports 200 destroyed + 150 disabled + 100+ functional.
-    IRGC deliberately decentralized command post-June 2025. Mobile truck-mounted
-    launchers and retractable-roof underground silos. Israeli NIS 2.6B emergency
-    procurement approved (interceptor depletion concern). Semafor: Israel informed
-    US of critical shortage in Arrow-class interceptors. IDF denied but material
-    evidence (procurement) contradicts.
-    Day 28 update: ~92% reduction (was ~86% at Day 16). Western launch
-    infrastructure functionally destroyed. Geographic shift eastward indicates
-    targeting campaign successfully eliminated accessible western assets.
-    Eastern/southeastern facilities at greater range from Israeli air power,
-    potentially better hardened. Cluster warheads (20-24 submunitions/RV)
-    optimized for BMD radar suppression — quality compensating for quantity
-    reduction. Shoot-and-abandon tactics continue.
+    resume. Day 16 update: Walla reports 200 destroyed + 150 disabled + 100+ functional. IRGC deliberately decentralized command
+    post-June 2025. Mobile truck-mounted launchers and retractable-roof underground silos. Israeli NIS 2.6B emergency procurement
+    approved (interceptor depletion concern). Semafor: Israel informed US of critical shortage in Arrow-class interceptors.
+    IDF denied but material evidence (procurement) contradicts. Day 28 update: ~92% reduction (was ~86% at Day 16). Western
+    launch infrastructure functionally destroyed. Geographic shift eastward indicates targeting campaign successfully eliminated
+    accessible western assets. Eastern/southeastern facilities at greater range from Israeli air power, potentially better
+    hardened. Cluster warheads (20-24 submunitions/RV) optimized for BMD radar suppression — quality compensating for quantity
+    reduction. Shoot-and-abandon tactics continue.'
   confidence: Med-High
   version_added: v1.8
   session_added: 17
@@ -1081,15 +1060,13 @@ entries:
 - id: TV-16
   name: Hormuz Closure Duration
   table: threshold
-  current_value: "ACTIVE — Day 28; yuan-denominated $2M toll scheme; 2 tankers/day; $100 WTI vs $150 Brent Asia; 3,200 ships trapped west"
-  trend: "Evolved from closure to competing control architectures (Iran toll vs US insurance)"
-  insight: >-
-    P&I clubs pulled war risk coverage March 5. US created $20B DFC maritime
-    reinsurance facility (Chubb lead). Iran imposed yuan-denominated toll
-    ($2M/transit, excluding US/Israeli vessels). Oil market fractured: $100
-    WTI vs $150 Brent in Asian markets. 3,200 ships trapped west of Hormuz.
-    Insurance-based control may outlast the war (Obs 049). Competing financial
-    architectures: dollar-denominated insurance vs yuan-denominated toll.
+  current_value: ACTIVE — Day 28; yuan-denominated $2M toll scheme; 2 tankers/day; $100 WTI vs $150 Brent Asia; 3,200 ships
+    trapped west
+  trend: Evolved from closure to competing control architectures (Iran toll vs US insurance)
+  insight: 'P&I clubs pulled war risk coverage March 5. US created $20B DFC maritime reinsurance facility (Chubb lead). Iran
+    imposed yuan-denominated toll ($2M/transit, excluding US/Israeli vessels). Oil market fractured: $100 WTI vs $150 Brent
+    in Asian markets. 3,200 ships trapped west of Hormuz. Insurance-based control may outlast the war (Obs 049). Competing
+    financial architectures: dollar-denominated insurance vs yuan-denominated toll.'
   confidence: Fact -- High
   version_added: v1.9
   session_added: 20
@@ -1098,18 +1075,12 @@ entries:
 - id: TV-17
   name: IRGC Command Coherence
   table: threshold
-  current_value: "POSTURE COLLAPSE — Larijani killed ~Day 22; Zolghadr (career IRGC hardliner) replaces at SNSC"
-  trend: "Simplified to unidirectional escalation; no pragmatist counterweight"
-  insight: >-
-    Larijani was simultaneously: operational authority, clock-runner, dual-
-    audience communicator, ceasefire architect. Killed alongside Basij
-    commander Gholamreza Soleimani. Replaced by Zolghadr — former IRGC deputy
-    commander, IRGC Joint Staff chief, Ansar-e Hezbollah founder. This is
-    not succession but posture collapse from strategic ambiguity into
-    unidirectional escalation (Obs 048). Zolghadr has no ceasefire-making
-    capability. IRGC command chain now runs through a hardliner with no
-    diplomatic capacity or international credibility. Effective military
-    junta wearing civilian clothing.
+  current_value: 'ZOLGHADR INSTALLED March 24. Profile: Ramezan Garrison founder, IRGC deputy CINC 1997-2005, UNSC/EU/Canada/UK
+    sanctioned (nuclear proliferation + protest crackdown). Operating silently — no public statements. Warfighter, not negotiator.'
+  trend: IRGC institutional capture of SNSC complete
+  insight: Ceasefire Paradox (Obs 034) now structural. Zolghadr profile is warfighting/suppression, not diplomacy. SNSC converted
+    from policy coordination to warfighting command node. No institutional mechanism for negotiation remains. See Obs 048
+    strengthened.
   confidence: Uncertain
   version_added: v1.9
   session_added: 20
@@ -1131,16 +1102,13 @@ entries:
 - id: TV-19
   name: Mojtaba Public Emergence
   table: threshold
-  current_value: "NO EMERGENCE — text-only statements; no video/audio; DNI says 'very seriously wounded'; possible death"
-  trend: "Each additional day of silence increases probability of death or severe incapacitation"
-  insight: >-
-    Day 28 = 28 days since Feb 28 with no video, no audio, no public
-    appearance. Missed Nowruz (March 20) — first Khamenei family member to
-    miss in Islamic Republic history. Opposition claims: ventilator, lung
-    failure, coma. CIA and Mossad unable to confirm location. Araghchi's
-    earlier claim of "complete health" now contradicted by DNI testimony.
-    Regime has theological and constitutional incentive to conceal death
-    during wartime — would trigger succession crisis they cannot manage.
+  current_value: NO EMERGENCE — text-only statements; no video/audio; DNI says 'very seriously wounded'; possible death
+  trend: Each additional day of silence increases probability of death or severe incapacitation
+  insight: 'Day 28 = 28 days since Feb 28 with no video, no audio, no public appearance. Missed Nowruz (March 20) — first
+    Khamenei family member to miss in Islamic Republic history. Opposition claims: ventilator, lung failure, coma. CIA and
+    Mossad unable to confirm location. Araghchi''s earlier claim of "complete health" now contradicted by DNI testimony. Regime
+    has theological and constitutional incentive to conceal death during wartime — would trigger succession crisis they cannot
+    manage.'
   confidence: Fact -- High for pending status
   version_added: v1.9
   session_added: 20
@@ -1180,26 +1148,20 @@ entries:
 - id: FV-32
   name: Regime narrative coherence
   table: flow
-  current_value: "Collapsed to two competing threads: IRGC hardliner (Zolghadr/Fars) vs independent marja decrees; pragmatist thread eliminated with Larijani"
-  trend: "Simplified but more dangerous — no sophisticated dual-audience voice remains"
-  insight: >-
-    IRIB HQ destroyed March 3; satellite feed hacked to air Trump/Netanyahu/Pahlavi messages. Broadcasting from backup
+  current_value: 'Collapsed to two competing threads: IRGC hardliner (Zolghadr/Fars) vs independent marja decrees; pragmatist
+    thread eliminated with Larijani'
+  trend: Simplified but more dangerous — no sophisticated dual-audience voice remains
+  insight: 'IRIB HQ destroyed March 3; satellite feed hacked to air Trump/Netanyahu/Pahlavi messages. Broadcasting from backup
     studios. Regime threatening citizens using international internet with judicial action. Islam Times explicitly conceptualizing
     media war as battle for "narrative superiority." Four narrative threads now competing without central coordinator (Khamenei.ir
-    frozen).
-    Day 16 update: Araghchi CBS interview is textbook Larijani pragmatist-faction
-    messaging. IRGC mosaic command model produces autonomous field-level messaging
-    that may not align with government diplomatic line. Fararu reports war room
-    nominally under Mojtaba but regime dispute over returning power to Leadership
-    Council due to his inability to perform duties. Army issued loyalty pledge to
-    Mojtaba — Artesh-IRGC unified front at declaratory level.
-    Day 28 update: Larijani's death eliminates the pragmatist narrative
-    thread that was managing dual-audience signaling (domestic + international).
-    Fars News invoking 1988-style execution rhetoric (hardliner thread).
-    Independent marja decrees filling theological vacuum left by Khamenei's
-    death and Mojtaba's silence. Zolghadr has no public communication
-    capability comparable to Larijani. Regime narrative is now fragmented
-    between an IRGC warfighting posture and uncoordinated clerical voices.
+    frozen). Day 16 update: Araghchi CBS interview is textbook Larijani pragmatist-faction messaging. IRGC mosaic command
+    model produces autonomous field-level messaging that may not align with government diplomatic line. Fararu reports war
+    room nominally under Mojtaba but regime dispute over returning power to Leadership Council due to his inability to perform
+    duties. Army issued loyalty pledge to Mojtaba — Artesh-IRGC unified front at declaratory level. Day 28 update: Larijani''s
+    death eliminates the pragmatist narrative thread that was managing dual-audience signaling (domestic + international).
+    Fars News invoking 1988-style execution rhetoric (hardliner thread). Independent marja decrees filling theological vacuum
+    left by Khamenei''s death and Mojtaba''s silence. Zolghadr has no public communication capability comparable to Larijani.
+    Regime narrative is now fragmented between an IRGC warfighting posture and uncoordinated clerical voices.'
   confidence: Med
   version_added: v2.0
   session_added: 22
@@ -1212,28 +1174,22 @@ entries:
 - id: FV-33
   name: Assembly of Experts election status
   table: flow
-  current_value: "Mojtaba selected March 8; DNI Gabbard: 'very seriously wounded'; no Nowruz; text-only; possible death; CIA/Mossad unable to confirm location"
-  trend: "Deteriorating — gap between official claims and observable evidence widening"
-  insight: >-
-    First online session (March 3) held under IRGC pressure. Discussion cut off, limited speaking time for dissenters.
+  current_value: 'Mojtaba selected March 8; DNI Gabbard: ''very seriously wounded''; no Nowruz; text-only; possible death;
+    CIA/Mossad unable to confirm location'
+  trend: Deteriorating — gap between official claims and observable evidence widening
+  insight: 'First online session (March 3) held under IRGC pressure. Discussion cut off, limited speaking time for dissenters.
     Second session relocated to Fatima Masumeh shrine as strike shield. Israel bombed earlier Assembly location. Katz threatened
     to assassinate successor. Trump declared Mojtaba "unacceptable." Even formal election under these conditions produces
-    a contested leader.
-    Day 16 update: Hegseth claims "wounded and likely disfigured." Araghchi says
-    "complete health." CNN source: fractured foot + bruised eye + facial cuts.
-    Euronews: Hossein Taeb pushed appointment through Assembly of Experts under
-    IRGC pressure, Larijani opposed. Farsi diaspora analysis (Tribune Zamaneh):
-    "scarecrow leader" — no public speech exists, puppet figure whose function
-    is to ratify IRGC decisions. Puppet Problem thesis (core anchor) directly
-    confirmed. Fararu: dispute over returning power to Leadership Council.
-    Day 28 update: DNI Gabbard congressional testimony (authoritative source)
-    says "very seriously wounded." No Nowruz appearance — unprecedented for
-    Khamenei family. Opposition sources claim ventilator/lung failure/coma.
-    Text-only statements (no audio, no video for 28 days) now cannot be
-    explained by communications security alone — even minimal video would
-    strengthen regime narrative. Absence of any audiovisual evidence of life
-    is analytically suspicious (Obs 046). Puppet problem (B08) may have
-    resolved itself in the worst possible way: the puppet may be dead.
+    a contested leader. Day 16 update: Hegseth claims "wounded and likely disfigured." Araghchi says "complete health." CNN
+    source: fractured foot + bruised eye + facial cuts. Euronews: Hossein Taeb pushed appointment through Assembly of Experts
+    under IRGC pressure, Larijani opposed. Farsi diaspora analysis (Tribune Zamaneh): "scarecrow leader" — no public speech
+    exists, puppet figure whose function is to ratify IRGC decisions. Puppet Problem thesis (core anchor) directly confirmed.
+    Fararu: dispute over returning power to Leadership Council. Day 28 update: DNI Gabbard congressional testimony (authoritative
+    source) says "very seriously wounded." No Nowruz appearance — unprecedented for Khamenei family. Opposition sources claim
+    ventilator/lung failure/coma. Text-only statements (no audio, no video for 28 days) now cannot be explained by communications
+    security alone — even minimal video would strengthen regime narrative. Absence of any audiovisual evidence of life is
+    analytically suspicious (Obs 046). Puppet problem (B08) may have resolved itself in the worst possible way: the puppet
+    may be dead.'
   confidence: Med
   version_added: v2.0
   session_added: 22
@@ -1261,13 +1217,11 @@ entries:
 - id: FV-35
   name: Kharg Island military status
   table: flow
-  current_value: "Military infrastructure destroyed (runway, naval base, mine storage, air defense); oil infrastructure intact"
-  trend: "Pre-assault pattern complete; seizure scenario operationally plausible"
-  insight: >-
-    CENTCOM struck 90+ targets on Kharg (Day 14-15). Oil infrastructure deliberately
-    preserved — Trump framed as Hormuz leverage. 31st MEU + Tripoli ARG deploying.
-    Island's oil terminal handles 90% of Iran's crude exports. Bushehr deputy governor
-    claimed exports continue normally — unverified.
+  current_value: Military infrastructure destroyed (runway, naval base, mine storage, air defense); oil infrastructure intact
+  trend: Pre-assault pattern complete; seizure scenario operationally plausible
+  insight: CENTCOM struck 90+ targets on Kharg (Day 14-15). Oil infrastructure deliberately preserved — Trump framed as Hormuz
+    leverage. 31st MEU + Tripoli ARG deploying. Island's oil terminal handles 90% of Iran's crude exports. Bushehr deputy
+    governor claimed exports continue normally — unverified.
   confidence: High
   version_added: v2.1
   session_added: 25
@@ -1278,20 +1232,16 @@ entries:
 - id: FV-36
   name: Hormuz blockade modality
   table: flow
-  current_value: "Yuan-denominated toll scheme ($2M/transit, excluding US/Israeli vessels) + competing US DFC reinsurance facility ($20B, Chubb lead)"
-  trend: "Evolved from bilateral passage negotiations to formal competing financial architectures"
-  insight: >-
-    Araghchi confirmed (March 15 CBS) multiple countries approached for bilateral passage.
-    Turkey confirmed one ship transited with permission. France and Italy reportedly
-    negotiating. Fragments US coalition by offering individual off-ramps. De facto
-    Iranian control of strait as political lever, not purely military closure.
-    Day 28 update: Hormuz governance now a three-layer system: (1) Iranian
-    physical control (IRGC naval forces, mines), (2) Iranian financial
-    extraction (yuan toll), (3) US financial control (DFC insurance as
-    on/off switch). P&I withdrawal created the vacuum; DFC and yuan toll
-    filled it with competing architectures. This may become permanent
-    post-war Hormuz governance structure (Obs 049). Coalition fracture
-    continues — individual nations negotiating bilateral passage.
+  current_value: Yuan-denominated toll scheme ($2M/transit, excluding US/Israeli vessels) + competing US DFC reinsurance facility
+    ($20B, Chubb lead)
+  trend: Evolved from bilateral passage negotiations to formal competing financial architectures
+  insight: 'Araghchi confirmed (March 15 CBS) multiple countries approached for bilateral passage. Turkey confirmed one ship
+    transited with permission. France and Italy reportedly negotiating. Fragments US coalition by offering individual off-ramps.
+    De facto Iranian control of strait as political lever, not purely military closure. Day 28 update: Hormuz governance now
+    a three-layer system: (1) Iranian physical control (IRGC naval forces, mines), (2) Iranian financial extraction (yuan
+    toll), (3) US financial control (DFC insurance as on/off switch). P&I withdrawal created the vacuum; DFC and yuan toll
+    filled it with competing architectures. This may become permanent post-war Hormuz governance structure (Obs 049). Coalition
+    fracture continues — individual nations negotiating bilateral passage.'
   confidence: Med-High
   version_added: v2.1
   session_added: 25
@@ -1302,13 +1252,11 @@ entries:
 - id: FV-37
   name: Chinese military presence at Hormuz
   table: flow
-  current_value: "Liaowang-1 ISR ship + 2 PLA Navy destroyers anchored Sea of Oman near Hormuz"
-  trend: "First Chinese military intelligence deployment to active US combat theater"
-  insight: >-
-    Satellite imagery confirmed (Yetkin Report, March 15). Liaowang-1 is SIGINT/ELINT
-    platform commissioned 2025. Not naval escort — intelligence collection on both US
-    and Iranian operations. Signals Chinese transition from passive to active spoiler.
-    Invisible in English-language reporting; surfaced only in Turkish analysis.
+  current_value: Liaowang-1 ISR ship + 2 PLA Navy destroyers anchored Sea of Oman near Hormuz
+  trend: First Chinese military intelligence deployment to active US combat theater
+  insight: Satellite imagery confirmed (Yetkin Report, March 15). Liaowang-1 is SIGINT/ELINT platform commissioned 2025. Not
+    naval escort — intelligence collection on both US and Iranian operations. Signals Chinese transition from passive to active
+    spoiler. Invisible in English-language reporting; surfaced only in Turkish analysis.
   confidence: Med-High
   version_added: v2.1
   session_added: 25
@@ -1320,20 +1268,17 @@ entries:
 - id: FV-38
   name: IRGC launcher inventory (operational)
   table: flow
-  current_value: "Day 28 trajectory: western launchers destroyed; eastern/southeastern residual; launch rate ~92% below peak"
-  trend: "Functionally degraded but not eliminated; geographic consolidation eastward"
-  insight: >-
-    Israeli security source via Walla (March 15). Mobile/underground launchers
-    progressively harder to find. Shoot-and-abandon tactics standard. Underground
-    retractable-roof silos confirmed. Contradicts 100% destruction claims from
-    Trump/Hegseth. 100+ functional launchers = weeks of continued fire.
-    Day 28 update: Western Iranian launch infrastructure (Kermanshah, Ilam,
-    Lorestan, Hamadan corridors) functionally destroyed. Remaining operational
-    capacity concentrated in Shahroud (northeastern), Hormozgan, and Qeshm
-    Island (southeastern). Geographic shift creates longer flight paths to
-    Israel but shorter paths to Gulf targets (Hormuz, Saudi, UAE). Crew
-    abandonment after single shot continues. Cluster warhead adaptation
-    suggests tactical learning even as quantity degrades.
+  current_value: Western infrastructure largely destroyed. Eastern residual still functional. Day 21 Dimona strikes demonstrate
+    continued capability from surviving launch sites. A-10s now hunting fast boats in Hormuz (southern flank), suggesting
+    naval launch threat also being addressed.
+  trend: Functionally degraded but not eliminated; geographic consolidation eastward
+  insight: 'Israeli security source via Walla (March 15). Mobile/underground launchers progressively harder to find. Shoot-and-abandon
+    tactics standard. Underground retractable-roof silos confirmed. Contradicts 100% destruction claims from Trump/Hegseth.
+    100+ functional launchers = weeks of continued fire. Day 28 update: Western Iranian launch infrastructure (Kermanshah,
+    Ilam, Lorestan, Hamadan corridors) functionally destroyed. Remaining operational capacity concentrated in Shahroud (northeastern),
+    Hormozgan, and Qeshm Island (southeastern). Geographic shift creates longer flight paths to Israel but shorter paths to
+    Gulf targets (Hormuz, Saudi, UAE). Crew abandonment after single shot continues. Cluster warhead adaptation suggests tactical
+    learning even as quantity degrades.'
   confidence: Med-High
   version_added: v2.1
   session_added: 25
@@ -1345,18 +1290,14 @@ entries:
 - id: FV-39
   name: Oil market fracture
   table: flow
-  current_value: "$100 WTI vs $150 Brent in Asian markets; 3,200 ships trapped west of Hormuz"
-  trend: "Widening spread driven by insurance architecture and physical blockade"
-  insight: >-
-    The oil market has fractured into two pricing regimes. WTI (US benchmark) at
-    ~$100 reflects US energy independence and SPR availability. Asian Brent at
-    ~$150 reflects physical supply disruption through Hormuz plus insurance
-    unavailability. The $50 spread is a direct measure of the insurance/blockade
-    effect on Asian energy security. 3,200 ships trapped west of Hormuz creates
-    a physical bottleneck independent of pricing. This fracture gives the US
-    leverage over Asian energy-dependent economies (Japan, South Korea, India)
-    through the DFC reinsurance facility — whoever controls insurance controls
-    which ships transit.
+  current_value: $100 WTI vs $150 Brent in Asian markets; 3,200 ships trapped west of Hormuz
+  trend: Widening spread driven by insurance architecture and physical blockade
+  insight: The oil market has fractured into two pricing regimes. WTI (US benchmark) at ~$100 reflects US energy independence
+    and SPR availability. Asian Brent at ~$150 reflects physical supply disruption through Hormuz plus insurance unavailability.
+    The $50 spread is a direct measure of the insurance/blockade effect on Asian energy security. 3,200 ships trapped west
+    of Hormuz creates a physical bottleneck independent of pricing. This fracture gives the US leverage over Asian energy-dependent
+    economies (Japan, South Korea, India) through the DFC reinsurance facility — whoever controls insurance controls which
+    ships transit.
   confidence: Fact for prices and ship count; Inference -- Med for leverage mechanism
   version_added: v2.2
   session_added: 27
@@ -1368,17 +1309,16 @@ entries:
 - id: FV-40
   name: DFC maritime reinsurance facility
   table: flow
-  current_value: "$20B facility established; Chubb as lead underwriter; operational after P&I withdrawal March 5"
-  trend: "Active — may become permanent post-war Hormuz governance instrument"
-  insight: >-
-    Created as emergency response to P&I clubs pulling war risk coverage.
-    Gives US administrative control over Hormuz transit through underwriting
-    rather than naval power. Eligibility criteria, pricing, and exclusion
-    provisions determine whether it functions as neutral market-maker or
-    strategic lever. Post-war withdrawal conditions unknown. Competing with
-    Iran's yuan-denominated toll scheme for financial control of strait
-    transit. The maritime equivalent of SWIFT — whoever controls the insurance
-    controls the shipping.
+  current_value: $20B facility operational. India entering as Iranian crude buyer under US waiver (Reliance purchased 5M barrels
+    at $7 premium to Brent), disrupting China's near-monopsony. DFC + India waiver + yuan toll = three competing Hormuz governance
+    architectures emerging simultaneously. US expects operations to conclude "within weeks" per Witkoff — DFC may outlast
+    the war.
+  trend: Structural architecture hardening — post-war persistence likely
+  insight: Created as emergency response to P&I clubs pulling war risk coverage. Gives US administrative control over Hormuz
+    transit through underwriting rather than naval power. Eligibility criteria, pricing, and exclusion provisions determine
+    whether it functions as neutral market-maker or strategic lever. Post-war withdrawal conditions unknown. Competing with
+    Iran's yuan-denominated toll scheme for financial control of strait transit. The maritime equivalent of SWIFT — whoever
+    controls the insurance controls the shipping.
   confidence: Fact for facility creation; Inference -- Med for strategic lever thesis
   version_added: v2.2
   session_added: 27
@@ -1390,18 +1330,13 @@ entries:
 - id: FV-41
   name: Diego Garcia IRBM capability
   table: flow
-  current_value: "Two missiles launched Day 22; ~4,000km range; both failed to hit; vehicle type unconfirmed"
-  trend: "First demonstrated Iranian IRBM-range strike attempt"
-  insight: >-
-    Extends Iranian demonstrated strike range from ~2,000km (Khorramshahr-4
-    against Israel) to ~4,000km (Diego Garcia). Two candidate platforms:
-    modified Khorramshahr-4 with reduced payload or space-program-derived
-    two-stage vehicle. Targeting intelligence from Russia (satellite imagery)
-    and China (BeiDou navigation). Iran denied responsibility. Both missiles
-    missed — guidance limitations or deliberate signaling unclear. If space-
-    program-derived, suggests parallel military application track not captured
-    in pre-war intelligence. Changes strategic calculus for every US
-    installation in CENTCOM AOR and beyond.
+  current_value: Two missiles launched Day 22; ~4,000km range; both failed to hit; vehicle type unconfirmed
+  trend: First demonstrated Iranian IRBM-range strike attempt
+  insight: 'Extends Iranian demonstrated strike range from ~2,000km (Khorramshahr-4 against Israel) to ~4,000km (Diego Garcia).
+    Two candidate platforms: modified Khorramshahr-4 with reduced payload or space-program-derived two-stage vehicle. Targeting
+    intelligence from Russia (satellite imagery) and China (BeiDou navigation). Iran denied responsibility. Both missiles
+    missed — guidance limitations or deliberate signaling unclear. If space- program-derived, suggests parallel military application
+    track not captured in pre-war intelligence. Changes strategic calculus for every US installation in CENTCOM AOR and beyond.'
   confidence: Fact for launch event; Inference -- Med for vehicle identification
   version_added: v2.2
   session_added: 27
@@ -1412,20 +1347,16 @@ entries:
 - id: FV-42
   name: Chinese personnel casualties in Iran
   table: flow
-  current_value: "3 confirmed CETC 14th Institute killed (anti-stealth radar operators); claims of 7 DJI technicians dead, 300-400 trapped in bunkers"
-  trend: "Confirmed Chinese military-industrial personnel in Iranian combat zone"
-  insight: >-
-    CETC 14th Institute is China's premier radar research institute — its
-    personnel were operating anti-stealth radar systems in Iran during Day 1
-    strikes. This is the first confirmed Chinese military-industrial combat
-    deployment outside PLA exercises. Claims of 7 DJI technicians killed and
-    300-400 Chinese trapped in bunkers are single-source chain (low confidence).
-    Combined with NSCC Tianjin breach, Academy purges (Yang Wei J-20, Wu Manqing
-    CETC/radar, others), and sequential system failures across three theaters
-    (Venezuela, Pakistan, Iran) — picture of real-time collapse of Chinese
-    military-industrial credibility emerging. Xi purge pattern maps precisely
-    onto failed systems.
-  confidence: "Reported -- Med-High for 3 CETC deaths; Single-source -- Low for DJI/bunker claims"
+  current_value: 3 confirmed CETC 14th Institute killed (anti-stealth radar operators); claims of 7 DJI technicians dead,
+    300-400 trapped in bunkers
+  trend: Confirmed Chinese military-industrial personnel in Iranian combat zone
+  insight: CETC 14th Institute is China's premier radar research institute — its personnel were operating anti-stealth radar
+    systems in Iran during Day 1 strikes. This is the first confirmed Chinese military-industrial combat deployment outside
+    PLA exercises. Claims of 7 DJI technicians killed and 300-400 Chinese trapped in bunkers are single-source chain (low
+    confidence). Combined with NSCC Tianjin breach, Academy purges (Yang Wei J-20, Wu Manqing CETC/radar, others), and sequential
+    system failures across three theaters (Venezuela, Pakistan, Iran) — picture of real-time collapse of Chinese military-industrial
+    credibility emerging. Xi purge pattern maps precisely onto failed systems.
+  confidence: Reported -- Med-High for 3 CETC deaths; Single-source -- Low for DJI/bunker claims
   version_added: v2.2
   session_added: 27
   cross_refs:
@@ -1437,18 +1368,14 @@ entries:
 - id: FV-43
   name: Cluster warhead BMD suppression
   table: flow
-  current_value: "20-24 submunitions per RV observed; optimized for radar track saturation"
-  trend: "Tactical adaptation — quality compensating for quantity reduction"
-  insight: >-
-    Iranian cluster warhead adaptation creates multiple radar tracks per RV,
-    forcing BMD systems to allocate interceptors against submunitions rather
-    than single warheads. At 20-24 submunitions per RV, even a small salvo
-    creates 60-72+ individual tracks. This directly accelerates interceptor
-    depletion (G27-02) — each RV consumes multiple interceptors instead of
-    one. The adaptation suggests deliberate Iranian response to observed BMD
-    effectiveness: unable to overwhelm through volume (launch rate down 92%),
-    they are attempting to overwhelm through track multiplication per launch.
-    Tactical learning under fire.
+  current_value: 20-24 submunitions per RV observed; optimized for radar track saturation
+  trend: Tactical adaptation — quality compensating for quantity reduction
+  insight: 'Iranian cluster warhead adaptation creates multiple radar tracks per RV, forcing BMD systems to allocate interceptors
+    against submunitions rather than single warheads. At 20-24 submunitions per RV, even a small salvo creates 60-72+ individual
+    tracks. This directly accelerates interceptor depletion (G27-02) — each RV consumes multiple interceptors instead of one.
+    The adaptation suggests deliberate Iranian response to observed BMD effectiveness: unable to overwhelm through volume
+    (launch rate down 92%), they are attempting to overwhelm through track multiplication per launch. Tactical learning under
+    fire.'
   confidence: Fact for cluster warhead observation; Inference -- Med for deliberate BMD suppression intent
   version_added: v2.2
   session_added: 27
@@ -1457,3 +1384,66 @@ entries:
   - FV-29
   - FV-38
   epistemic_tag: Mixed
+- id: FV-44
+  name: Civilian casualty trajectory
+  current_value: 'Day 28: ~1,937 killed in Iran (Al Jazeera tracker), ~1,500 civilians (Washington Post), 12,000-20,000 wounded
+    (IFRC). 200+ children killed (Iran Deputy Health Minister). 29 clinical facilities damaged, 10 shut. 52 health centers,
+    18 emergency locations, 15 ambulances damaged/destroyed. Specific incidents: Minab school (180 dead), Niloofar Square
+    Tehran (20+). Over 200 cities hit. 70,000+ residential units, 20,000+ businesses damaged (Iran authorities per France24).
+    Hengaw (Day 10): 4,300 total including 390 civilians. Regime figures appear to undercount; Hengaw more comprehensive but
+    access-constrained.'
+  trend: Accelerating — Day 10 to Day 28 trajectory suggests ongoing civilian toll
+  insight: Casualty figures remain contested and fog-of-war constrained. The Hengaw figures (including military casualties)
+    suggest total killed may be 4,300-6,000+ when military deaths are included. The gap between regime figures (~1,255 at
+    Day 10) and Hengaw (~4,300 at Day 10) reflects deliberate underreporting policy. Communications blackout severely limits
+    independent verification.
+  confidence: Multiple sources with significant variance. Al Jazeera tracker and IFRC figures most reliable for civilian toll
+    lower bound. Hengaw most comprehensive but still access-constrained.
+  version_added: v2.3
+  session_added: 28
+  cross_refs:
+  - D (society)
+  epistemic_tag: Fact
+  table: flow
+- id: FV-45
+  name: US ground force buildup and Kharg Island contingency
+  current_value: '~7,000 additional ground troops deploying: 82nd Airborne IRF (~2,000 including MG Tegtmeier), 31st MEU on
+    Tripoli (~2,200, at Diego Garcia by March 23), 11th MEU on Boxer (~2,200, arrival mid-April). Total with existing 50,000
+    in-theater: ~57,000. Force sized for island seizure or special ops, not mainland invasion. Kharg Island (90% of Iran''s
+    oil exports) and nuclear material seizure (Rubio) are stated objectives. Iran fortifying Kharg with air defenses, mines,
+    troops. Ford at Crete for repairs; Bush transiting from Norfolk. Carrier gap during critical decision window.'
+  trend: Escalatory — ground option materializing
+  insight: 'Classic coercive diplomacy: credible force positioning simultaneous with ceasefire proposal delivery. Whether
+    this is coercive signaling or genuine operational preparation is genuinely ambiguous — Trump''s contradictory statements
+    are the data, not noise. The carrier gap (Ford in Crete, Bush in transit) creates a vulnerability window that may either
+    delay ground action or pressure faster decision.'
+  confidence: Fact for deployments; Speculation — Med for execution intent
+  version_added: v2.3
+  session_added: 28
+  cross_refs:
+  - Obs 054
+  - FV-39
+  epistemic_tag: Mixed
+  table: flow
+- id: FV-46
+  name: CPAC domestic political fracture over war
+  current_value: 'CPAC 2026 (March 26-28, Grapevine TX). Trump absent for first time in decade. Reza Pahlavi keynote — "make
+    Iran great again," urged regime change, received Lion and Sun flags, "Long live the king" chants. Matt Gaetz warned ground
+    invasion makes US "poorer and less safe." Politico: young MAGA men angry over broken anti-war promises. Pew: 71% Republicans
+    support war but 59% overall oppose. CPAC straw poll showed "pronounced splits." Tucker Carlson and Steve Bannon vocal
+    critics. Iranian diaspora demonstrators rallied near CPAC to thank Trump.'
+  trend: Fracturing — war dividing Trump's base along generational and ideological lines
+  insight: 'Washington Patience Clock calibration input. The MAGA base split maps onto the war''s fundamental tension: hawks
+    (Graham, Pahlavi constituency) want regime change; populist base wants "America First" non-intervention. Trump''s absence
+    from CPAC signals he''s avoiding commitment to either camp. Pahlavi''s CPAC positioning as US-backed alternative creates
+    a regime-change constituency that complicates any negotiated exit — if Trump cuts a deal that leaves the regime standing,
+    the Pahlavi constituency becomes a domestic opposition force. This is structurally analogous to the Cuban exile dynamic
+    in US politics.'
+  confidence: Fact for CPAC events; Inference — Med for political trajectory
+  version_added: v2.3
+  session_added: 28
+  cross_refs:
+  - Obs 010 (Washington Patience Clock)
+  - G (diaspora)
+  epistemic_tag: Mixed
+  table: flow

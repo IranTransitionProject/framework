@@ -1548,4 +1548,85 @@ content matched the existing entries, so no action was needed on gaps. Only the
 3. Variables (this commit)
 4. Housekeeping (this commit)
 
+### 2026-03-28 — Chat — Integration Request
+
+**Session:** 28
+**Summary:** Research sweep (Day 12-28 gap), trend reassessment, new observations, gap updates, variable updates. Multilingual primary-source verification of war developments.
+
+**New entities:**
+- Obs 051: Interceptor Depletion as Binding Clock — industrial capacity governs war endurance
+- Obs 052: Nuclear Targeting Bilateralization — Day 21 Natanz-Dimona exchange
+- Obs 053: Institutional Zombification — regime persists without governance capacity
+- Obs 054: Ground Force Coercive Positioning — Kharg Island and nuclear material seizure
+- G28-01: Houthi re-entry calculus and coordination (P1)
+- G28-02: PSAB targeting pattern — C2/ISR architecture targeting (P1)
+- G28-03: Pakistan-Saudi-Turkey-Egypt quadrilateral mechanism (P2)
+- G28-04: UAE civilian severance from Iran — scope and A9 implications (P2)
+- FV-44: Civilian casualty trajectory
+- FV-45: US ground force buildup and Kharg Island contingency
+- FV-46: CPAC domestic political fracture over war
+
+**Updated entities:**
+- G23-06: Mojtaba status → PARTIALLY FILLED (alive, incapacitated, janbaz)
+- G27-01: Zolghadr profile → PARTIALLY FILLED (full bio, operating silently)
+- G27-02: Interceptor depletion → PARTIALLY FILLED (quantified, elevated to Obs 051)
+- G27-03: Diego Garcia IRBM → context update (nuclear targeting context)
+- TV-03: Mojtaba status → ALIVE, INCAPACITATED, janbaz designation
+- TV-17: SNSC leadership → ZOLGHADR INSTALLED, operating silently
+- FV-29: Iranian missile launch rate → Day 28 update with Houthi entry
+- FV-38: Launch infrastructure shift → update with Dimona context
+- FV-40: DFC reinsurance → update with India crude waiver disruption
+- Obs 010 extension: Three Clocks → Four Clocks (Interceptor Clock)
+- Obs 034 extension: Ceasefire Paradox + Houthi entry + quad mechanism
+- Obs 048 extension: Posture Collapse + Zolghadr profile confirmation
+
+**Filled gaps:**
+- G23-06: PARTIALLY FILLED — Mojtaba alive, incapacitated, janbaz (remaining: medical specifics, location)
+- G27-01: PARTIALLY FILLED — Zolghadr full profile (remaining: current SNSC directives, negotiating mandate)
+- G27-02: PARTIALLY FILLED — Interceptor depletion quantified, elevated to Obs 051 (remaining: classified inventory levels)
+
+**New/updated briefs:**
+- None this batch. B16 v2.0 deferred to next session.
+
+**Staging files:**
+- staging/session_28/observations_028.yaml — full — target data/observations.yaml (append Obs 051-054)
+- staging/session_28/gaps_028_patch.yaml — patch — target data/gaps.yaml (update G23-06, G27-01, G27-02, G27-03; append G28-01 through G28-04)
+- staging/session_28/variables_028_patch.yaml — patch — target data/variables.yaml (update TV-03, TV-17, FV-29, FV-38, FV-40; append FV-44 through FV-46)
+- staging/session_28/obs_extensions_028.yaml — patch — target data/observations.yaml (field-level appends on Obs 010, 034, 048)
+
+**Version bumps:**
+- observations.yaml: v2.4 → v2.5
+- gaps.yaml: v3.3 → v3.4
+- variables.yaml: v2.2 → v2.3
+
+**Expected entity count after integration:** 307 + 4 obs + 4 gaps + 3 variables = 318
+
+**Note for Code:** The observations staging file contains four complete new entries (Obs 051-054) to append. The obs_extensions file contains field-level appends to existing entries (Obs 010, 034, 048) — these are diagnosis_append and cross_refs_append, meaning new text should be appended to existing diagnosis and cross_refs fields, not replace them. Gap and variable patches follow standard ID-based merge. Header version/date bumps on all three data files.
+
+**Ambiguities for human review:**
+- W2.5/W6 scenario designation: Phase 2 assessment identified "institutional zombification" as a condition not cleanly captured by existing W2-W5 scenarios. Owner decision needed on whether to create W6 (IRGC junta without constitutional cover) as a formal scenario or redefine existing W2/W3 boundaries.
+- Obs 010 title: Currently "Two Clocks" (extended to "Three Clocks" in S27). S28 adds "Four Clocks." The title is getting unwieldy. Consider renaming to "War Clocks" with version history in the diagnosis.
+
+### 2026-03-28 — Code — Integration Complete
+
+**Session:** 28
+**Integration summary:**
+
+- **Observations:** 4 new (Obs 051-054), 3 extensions (Obs 010/034/048) — 54 total
+- **Gaps:** 4 new (G28-01 through G28-04), 3 status updates (G23-06, G27-01, G27-02 → PARTIALLY_FILLED), 1 context update (G27-03) — 82 total
+- **Variables:** 3 new (FV-44 through FV-46), 5 updates (TV-03, TV-17, FV-29, FV-38, FV-40) — 103 total
+- **Sessions:** Session 28 added — 26 total
+- **Version bumps:** observations v2.5, gaps v3.4, variables v2.3, sessions v2.9
+
+**Validation:** 319 entries PASS; 18 briefs PASS.
+**Staging consumed:** `staging/session_28/` directory removed.
+
+**Fixes applied during integration:**
+- Gap status values normalized: staging used "PARTIALLY FILLED" (space), corrected to "PARTIALLY_FILLED" (underscore) per schema enum
+- FV-44 epistemic_tag: staging used "Reported" (not a valid enum value), corrected to "Fact" per schema
+
+**Ambiguities forwarded to owner (from Chat IR):**
+- W2.5/W6 scenario designation — institutional zombification not captured by W2-W5
+- Obs 010 title unwieldiness — "Two Clocks" → "Three Clocks" → "Four Clocks"; consider rename to "War Clocks"
+
 <!-- END LOG -->
